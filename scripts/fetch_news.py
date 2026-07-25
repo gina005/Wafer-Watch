@@ -8,6 +8,7 @@ Runs automatically via .github/workflows/update-data.yml
 """
 import hashlib
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -15,6 +16,7 @@ import feedparser
 
 OUT_PATH = Path(__file__).resolve().parent.parent / "public" / "data" / "news.json"
 MAX_ARTICLES = 60  # keep the dataset small and fast to load
+MIN_SUMMARY_CHARS = 40  # below this, a "summary" is usually just a stray link/tag
 
 # Add or remove feeds here. Any publication with an RSS feed works.
 FEEDS = {
@@ -27,6 +29,29 @@ FEEDS = {
         "+when:2d&hl=en-US&gl=US&ceid=US:en"
     ),
 }
+
+# An article must contain at least one of these to be considered
+# semiconductor-industry news at all. This is what keeps consumer PC-build,
+# gaming-deal, and "which laptop should I buy" posts out of the feed, even
+# when they happen to mention a chip company by name.
+INDUSTRY_KEYWORDS = [
+    "semiconductor", "chipmaker", "chip maker", "foundry", "fab ", "fabs ",
+    "wafer", "process node", "nanometer", "nm process", "euv", "lithography",
+    "yield", "capex", "packaging capacity", "cowos", "die shrink", "transistor",
+    "gate-all-around", "finfet", "hbm", "chip design", "chip manufacturing",
+    "export control", "chips act", "tape-out", "tape out", "fab expansion",
+    "chip shortage", "chip supply", "silicon wafer", "eda tool", "ic design",
+]
+
+# If any of these show up, the article is almost certainly a consumer deal,
+# giveaway, or review rather than industry news — drop it even if an
+# industry keyword also matched.
+NOISE_KEYWORDS = [
+    "giveaway", "sweepstakes", "leaving a comment", "% off", "deal alert",
+    "best deal", "coupon", "prime day", "black friday", "cyber monday",
+    "unboxing", "buying guide", "which laptop", "best laptops", "best gpus",
+    "gaming pc build", "review:", "hands-on",
+]
 
 # Keyword -> category. Checked against title + summary, first match wins.
 CATEGORY_KEYWORDS = {
@@ -58,6 +83,24 @@ COMPANY_KEYWORDS = {
     "Analog Devices": ["analog devices"],
 }
 
+TAG_RE = re.compile(r"<[^>]+>")
+WHITESPACE_RE = re.compile(r"\s+")
+URL_ONLY_RE = re.compile(r"^https?://\S+$")
+
+
+def clean_summary(raw: str) -> str:
+    """Strip HTML and collapse whitespace so junk markup never reaches the UI."""
+    text = TAG_RE.sub(" ", raw)
+    text = WHITESPACE_RE.sub(" ", text).strip()
+    return text
+
+
+def is_relevant(text: str) -> bool:
+    text = text.lower()
+    if any(n in text for n in NOISE_KEYWORDS):
+        return False
+    return any(k in text for k in INDUSTRY_KEYWORDS)
+
 
 def categorize(text: str) -> str:
     text = text.lower()
@@ -82,17 +125,24 @@ def fetch_all() -> list[dict]:
         parsed = feedparser.parse(url)
         for entry in parsed.entries:
             title = entry.get("title", "").strip()
-            summary = entry.get("summary", "").strip()
+            summary = clean_summary(entry.get("summary", ""))
             link = entry.get("link", "")
             if not title or not link:
                 continue
+
+            combined_text = f"{title} {summary}"
+            if not is_relevant(combined_text):
+                continue
+            if len(summary) < MIN_SUMMARY_CHARS or URL_ONLY_RE.match(summary):
+                # No usable summary — skip rather than show a bare link or junk
+                continue
+
             published = entry.get("published_parsed") or entry.get("updated_parsed")
             date = (
                 datetime(*published[:6], tzinfo=timezone.utc).strftime("%Y-%m-%d")
                 if published
                 else datetime.now(timezone.utc).strftime("%Y-%m-%d")
             )
-            combined_text = f"{title} {summary}"
             articles.append(
                 {
                     "id": make_id(link),
@@ -115,9 +165,18 @@ def main():
     if OUT_PATH.exists():
         existing = json.loads(OUT_PATH.read_text())
 
+    # Re-check previously stored articles against the current relevance
+    # rules too, so already-committed noise gets cleaned out over time
+    # instead of sitting in the dataset until it ages past MAX_ARTICLES.
+    still_valid_existing = [
+        a for a in existing.get("articles", [])
+        if is_relevant(f"{a['title']} {a.get('summary', '')}")
+        and len(a.get("summary", "")) >= MIN_SUMMARY_CHARS
+    ]
+
     seen_ids = set()
     merged = []
-    for article in fetched + existing.get("articles", []):
+    for article in fetched + still_valid_existing:
         if article["id"] in seen_ids:
             continue
         seen_ids.add(article["id"])

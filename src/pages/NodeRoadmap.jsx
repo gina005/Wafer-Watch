@@ -23,7 +23,7 @@ const glossary = [
 
 export default function NodeRoadmap() {
   return (
-    <div className="space-y-10">
+    <div className="space-y-10 fade-in">
       <div>
         <h1 className="font-display text-2xl font-semibold">Process node roadmap</h1>
         <p className="text-muted text-sm mt-1">

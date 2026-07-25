@@ -2,7 +2,7 @@ import { Card, SectionLabel } from '../components/ui.jsx'
 
 export default function About() {
   return (
-    <div className="space-y-10 max-w-2xl">
+    <div className="space-y-10 max-w-2xl fade-in">
       <div>
         <h1 className="font-display text-2xl font-semibold">About waferwatch</h1>
         <p className="text-muted text-sm mt-1">

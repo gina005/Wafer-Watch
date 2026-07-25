@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { BarChart, Bar, XAxis, ResponsiveContainer, Tooltip, Cell } from 'recharts'
 import useJsonData from '../hooks/useJsonData.js'
-import { Card, SectionLabel, CategoryTag, LoadingState, ErrorState } from '../components/ui.jsx'
+import { Card, SectionLabel, CategoryTag, SkeletonCard, SkeletonList, ErrorState } from '../components/ui.jsx'
 
 export default function Dashboard() {
   const { data: newsData, loading: newsLoading, error: newsError } = useJsonData('data/news.json')
@@ -9,7 +9,7 @@ export default function Dashboard() {
   const { data: digestData, loading: digestLoading } = useJsonData('data/digest.json')
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-10 fade-in">
       <div>
         <h1 className="font-display text-3xl font-semibold tracking-tight">
           Semiconductor industry, at a glance
@@ -23,11 +23,15 @@ export default function Dashboard() {
       <section>
         <SectionLabel>Movers — last 30 days</SectionLabel>
         {companyLoading ? (
-          <LoadingState />
-        ) : (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {Array.from({ length: 4 }).map((_, i) => (
+              <SkeletonCard key={i} lines={1} />
+            ))}
+          </div>
+        ) : (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 fade-in-stagger">
             {companyData.companies.slice(0, 4).map((c) => (
-              <Card key={c.ticker} className="p-4">
+              <Card key={c.ticker} className="p-4 hover:border-copper/40 transition-colors">
                 <div className="flex items-baseline justify-between">
                   <span className="font-mono text-xs text-muted">{c.ticker}</span>
                   <span
@@ -56,10 +60,10 @@ export default function Dashboard() {
               view all →
             </Link>
           </div>
-          {newsLoading && <LoadingState />}
+          {newsLoading && <SkeletonList count={5} />}
           {newsError && <ErrorState />}
           {newsData && (
-            <div className="space-y-2.5">
+            <div className="space-y-2.5 fade-in-stagger">
               {newsData.articles.slice(0, 6).map((a) => (
                 <Card key={a.id} className="p-4 hover:border-copper/40 transition-colors">
                   <div className="flex items-start justify-between gap-3">
@@ -81,7 +85,7 @@ export default function Dashboard() {
         <section>
           <SectionLabel>Coverage by category (7d)</SectionLabel>
           {digestLoading ? (
-            <LoadingState />
+            <SkeletonCard lines={5} />
           ) : (
             <Card className="p-4">
               <ResponsiveContainer width="100%" height={220}>
@@ -96,7 +100,7 @@ export default function Dashboard() {
                     }}
                     labelStyle={{ color: '#E8E6E1' }}
                   />
-                  <Bar dataKey="count" radius={[0, 3, 3, 0]}>
+                  <Bar dataKey="count" radius={[0, 3, 3, 0]} animationDuration={600}>
                     {digestData.category_counts.map((entry, i) => (
                       <Cell key={entry.category} fill={i === 0 ? '#C4753A' : '#5B8FA8'} fillOpacity={i === 0 ? 1 : 0.55} />
                     ))}
@@ -119,7 +123,11 @@ export default function Dashboard() {
             <SectionLabel>This week's read</SectionLabel>
             <Card className="p-4">
               {digestLoading ? (
-                <LoadingState />
+                <div className="space-y-1.5">
+                  <div className="skeleton h-2.5 rounded w-full" />
+                  <div className="skeleton h-2.5 rounded w-5/6" />
+                  <div className="skeleton h-2.5 rounded w-2/3" />
+                </div>
               ) : (
                 <p className="text-sm text-muted leading-relaxed">
                   {digestData.weekly_summary.split('. ').slice(0, 2).join('. ')}.

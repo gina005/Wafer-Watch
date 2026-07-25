@@ -1,15 +1,25 @@
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Bar } from 'recharts'
 import useJsonData from '../hooks/useJsonData.js'
-import { Card, SectionLabel, LoadingState, ErrorState } from '../components/ui.jsx'
+import { Card, SectionLabel, SkeletonCard, ErrorState } from '../components/ui.jsx'
 
 export default function Analysis() {
   const { data, loading, error } = useJsonData('data/digest.json')
 
-  if (loading) return <LoadingState />
+  if (loading) {
+    return (
+      <div className="space-y-6">
+        <SkeletonCard lines={3} />
+        <div className="grid md:grid-cols-2 gap-6">
+          <SkeletonCard lines={4} />
+          <SkeletonCard lines={4} />
+        </div>
+      </div>
+    )
+  }
   if (error) return <ErrorState />
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-10 fade-in">
       <div>
         <h1 className="font-display text-2xl font-semibold">Analysis & insights</h1>
         <p className="text-muted text-sm mt-1">
