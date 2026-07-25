@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-07-25T06:00:00Z",
+  "note": "Sample seed data. scripts/build_digest.py regenerates this from the week's articles.",
+  "weekly_summary": "This week's coverage skewed heavily toward advanced packaging and leading-edge logic. TSMC, Samsung, and Intel all published updates on next-node progress (2nm-class and 18A), while packaging capacity — particularly CoWoS — remained the recurring bottleneck theme linking Nvidia, AMD, and TSMC coverage. Policy coverage centered on export-control refinements for advanced packaging and deposition tools rather than new sweeping restrictions.",
+  "category_counts": [
+    { "category": "Fabrication", "count": 7 },
+    { "category": "Chip Design", "count": 4 },
+    { "category": "Supply Chain", "count": 3 },
+    { "category": "Policy", "count": 3 },
+    { "category": "EDA", "count": 2 },
+    { "category": "M&A", "count": 1 }
+  ],
+  "company_mentions": [
+    { "company": "TSMC", "count": 5 },
+    { "company": "Nvidia", "count": 3 },
+    { "company": "Samsung", "count": 2 },
+    { "company": "Intel", "count": 2 },
+    { "company": "ASML", "count": 2 },
+    { "company": "AMD", "count": 2 },
+    { "company": "Applied Materials", "count": 2 }
+  ],
+  "sentiment_trend": [
+    { "week": "Jun 29", "score": 0.12 },
+    { "week": "Jul 06", "score": 0.18 },
+    { "week": "Jul 13", "score": 0.09 },
+    { "week": "Jul 20", "score": 0.24 }
+  ]
+}

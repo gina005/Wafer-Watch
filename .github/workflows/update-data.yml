@@ -1,0 +1,37 @@
+name: Update semiconductor news data
+
+on:
+  schedule:
+    # Runs at minute 0 of every 6th hour (UTC)
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}  # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch latest news
+        run: python scripts/fetch_news.py
+
+      - name: Rebuild digest
+        run: python scripts/build_digest.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/news.json public/data/digest.json
+          git diff --staged --quiet || git commit -m "chore: refresh semiconductor news data"
+          git push

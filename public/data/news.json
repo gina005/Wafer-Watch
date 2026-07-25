@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-07-25T06:00:00Z",
+  "note": "Sample seed data. Replace by running scripts/fetch_news.py, which overwrites this file from live RSS sources.",
+  "articles": [
+    {
+      "id": "n001",
+      "title": "TSMC reports strong 2nm yield ramp ahead of 2027 volume production",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com",
+      "date": "2026-07-24",
+      "category": "Fabrication",
+      "companies": ["TSMC"],
+      "summary": "TSMC signaled its N2 node is tracking ahead of prior yield curves, with risk production expanding across Fab 20 in Hsinchu."
+    },
+    {
+      "id": "n002",
+      "title": "Nvidia unveils next-gen Rubin architecture roadmap details",
+      "source": "AnandTech",
+      "url": "https://anandtech.com",
+      "date": "2026-07-23",
+      "category": "Chip Design",
+      "companies": ["Nvidia"],
+      "summary": "Nvidia outlined packaging and memory bandwidth targets for its post-Blackwell Rubin platform, aimed at 2027 data center deployment."
+    },
+    {
+      "id": "n003",
+      "title": "ASML High-NA EUV tool shipments accelerate into second half",
+      "source": "EE Times",
+      "url": "https://eetimes.com",
+      "date": "2026-07-23",
+      "category": "Fabrication",
+      "companies": ["ASML"],
+      "summary": "ASML confirmed additional High-NA EUV units shipped to logic customers, a key enabler for sub-2nm patterning."
+    },
+    {
+      "id": "n004",
+      "title": "US Commerce Department updates export control list for advanced packaging tools",
+      "source": "Reuters",
+      "url": "https://reuters.com",
+      "date": "2026-07-22",
+      "category": "Policy",
+      "companies": ["ASML", "Applied Materials"],
+      "summary": "New guidance narrows which advanced packaging and deposition tools can be shipped to certain markets without a license."
+    },
+    {
+      "id": "n005",
+      "title": "Samsung Foundry courts new customers with 2nm GAA process pitch",
+      "source": "Korea Economic Daily",
+      "url": "https://kedglobal.com",
+      "date": "2026-07-22",
+      "category": "Fabrication",
+      "companies": ["Samsung"],
+      "summary": "Samsung is positioning its gate-all-around 2nm node as a differentiator to win back foundry customers from TSMC."
+    },
+    {
+      "id": "n006",
+      "title": "Intel Foundry secures external customer commitment for 18A capacity",
+      "source": "Tom's Hardware",
+      "url": "https://tomshardware.com",
+      "date": "2026-07-21",
+      "category": "Fabrication",
+      "companies": ["Intel"],
+      "summary": "Intel Foundry announced a multi-year capacity agreement, a milestone in its push to become a credible external foundry."
+    },
+    {
+      "id": "n007",
+      "title": "AMD expands chiplet strategy with new interposer packaging partner",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "date": "2026-07-21",
+      "category": "Chip Design",
+      "companies": ["AMD"],
+      "summary": "AMD's next MI-series accelerators will use a new interposer supplier to diversify advanced packaging capacity."
+    },
+    {
+      "id": "n008",
+      "title": "Synopsys and Cadence both report AI-driven EDA revenue growth",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com",
+      "date": "2026-07-20",
+      "category": "EDA",
+      "companies": ["Synopsys", "Cadence"],
+      "summary": "Both major EDA vendors cited AI-assisted verification and place-and-route tools as a growing share of licensing revenue."
+    },
+    {
+      "id": "n009",
+      "title": "SK Hynix HBM4 samples ship to key AI accelerator customers",
+      "source": "Korea Economic Daily",
+      "url": "https://kedglobal.com",
+      "date": "2026-07-20",
+      "category": "Supply Chain",
+      "companies": ["SK Hynix"],
+      "summary": "SK Hynix began sampling next-generation HBM4 memory stacks, targeting qualification for 2027 AI accelerator platforms."
+    },
+    {
+      "id": "n010",
+      "title": "Qualcomm expands automotive chip design wins with two new OEMs",
+      "source": "Reuters",
+      "url": "https://reuters.com",
+      "date": "2026-07-19",
+      "category": "Chip Design",
+      "companies": ["Qualcomm"],
+      "summary": "Qualcomm's Snapdragon Digital Chassis platform picked up new automaker design wins for ADAS and infotainment."
+    },
+    {
+      "id": "n011",
+      "title": "Applied Materials sees deposition equipment demand tied to gate-all-around transition",
+      "source": "EE Times",
+      "url": "https://eetimes.com",
+      "date": "2026-07-18",
+      "category": "Fabrication",
+      "companies": ["Applied Materials"],
+      "summary": "Demand for atomic-layer deposition tools is rising as foundries transition from FinFET to gate-all-around transistors."
+    },
+    {
+      "id": "n012",
+      "title": "SMIC reportedly making incremental gains on mature-node yields amid equipment constraints",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com",
+      "date": "2026-07-17",
+      "category": "Policy",
+      "companies": ["SMIC"],
+      "summary": "Industry analysts note steady but constrained progress at SMIC's mature nodes given continued equipment export limits."
+    },
+    {
+      "id": "n013",
+      "title": "Arm reports record licensing quarter on strength of compute subsystems",
+      "source": "AnandTech",
+      "url": "https://anandtech.com",
+      "date": "2026-07-16",
+      "category": "Chip Design",
+      "companies": ["Arm"],
+      "summary": "Arm's pre-built compute subsystem offering continues to gain traction with data center and mobile customers alike."
+    },
+    {
+      "id": "n014",
+      "title": "Micron raises capex guidance on HBM and DDR5 demand",
+      "source": "Reuters",
+      "url": "https://reuters.com",
+      "date": "2026-07-15",
+      "category": "Supply Chain",
+      "companies": ["Micron"],
+      "summary": "Micron increased its fiscal-year capital expenditure outlook, citing sustained AI-driven memory demand."
+    },
+    {
+      "id": "n015",
+      "title": "Analog Devices completes acquisition of niche RF component maker",
+      "source": "EE Times",
+      "url": "https://eetimes.com",
+      "date": "2026-07-14",
+      "category": "M&A",
+      "companies": ["Analog Devices"],
+      "summary": "The deal adds specialized RF front-end IP to ADI's portfolio, aimed at defense and telecom customers."
+    },
+    {
+      "id": "n016",
+      "title": "TSMC Arizona fab reaches volume production milestone for 4nm",
+      "source": "Reuters",
+      "url": "https://reuters.com",
+      "date": "2026-07-13",
+      "category": "Fabrication",
+      "companies": ["TSMC"],
+      "summary": "TSMC's first US fab reached commercial volume production, part of a broader push to diversify manufacturing geography."
+    },
+    {
+      "id": "n017",
+      "title": "Nvidia and TSMC deepen CoWoS advanced packaging capacity agreement",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com",
+      "date": "2026-07-12",
+      "category": "Supply Chain",
+      "companies": ["Nvidia", "TSMC"],
+      "summary": "The expanded agreement addresses a persistent bottleneck in CoWoS packaging capacity for AI accelerators."
+    },
+    {
+      "id": "n018",
+      "title": "EU Chips Act second phase funding allocated to pilot lines",
+      "source": "Reuters",
+      "url": "https://reuters.com",
+      "date": "2026-07-11",
+      "category": "Policy",
+      "companies": [],
+      "summary": "The European Commission allocated additional funding to pilot production lines for next-generation chip packaging."
+    },
+    {
+      "id": "n019",
+      "title": "Cadence launches new AI-assisted verification platform",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com",
+      "date": "2026-07-10",
+      "category": "EDA",
+      "companies": ["Cadence"],
+      "summary": "The new platform aims to cut verification cycle times for large SoC designs using generative AI assistance."
+    },
+    {
+      "id": "n020",
+      "title": "Texas Instruments expands 300mm analog fab capacity in Texas",
+      "source": "Tom's Hardware",
+      "url": "https://tomshardware.com",
+      "date": "2026-07-09",
+      "category": "Fabrication",
+      "companies": ["Texas Instruments"],
+      "summary": "TI's new 300mm facility is aimed at expanding domestic analog and power chip capacity over the next several years."
+    }
+  ]
+}
