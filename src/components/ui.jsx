@@ -70,7 +70,7 @@ export function SkeletonList({ count = 4, lines = 2 }) {
   )
 }
 
-export function EmptyState({ title = 'Nothing here yet', hint, action }) {
+export function EmptyState({ title = 'Nothing Here Yet', hint, action }) {
   return (
     <div className="text-center py-14 px-4">
       <div className="w-8 h-8 mx-auto mb-3 border border-border rounded grid grid-cols-2 grid-rows-2 gap-0.5 p-0.5 opacity-50">

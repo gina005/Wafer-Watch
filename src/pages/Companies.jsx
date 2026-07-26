@@ -16,7 +16,7 @@ export default function Companies() {
     return (
       <div className="space-y-6">
         <div>
-          <h1 className="font-display text-2xl font-semibold">Company tracker</h1>
+          <h1 className="font-display text-2xl font-semibold">Company Tracker</h1>
         </div>
         <SkeletonList count={1} lines={4} />
       </div>
@@ -28,7 +28,7 @@ export default function Companies() {
     <div className="space-y-6 fade-in">
       <div className="flex items-start justify-between gap-4 flex-wrap">
         <div>
-          <h1 className="font-display text-2xl font-semibold">Company tracker</h1>
+          <h1 className="font-display text-2xl font-semibold">Company Tracker</h1>
           <p className="text-muted text-sm mt-1">
             Price trend and recent coverage for major players across the supply chain.
           </p>
@@ -65,6 +65,15 @@ function SingleView({ companies, selected, setSelected, newsData }) {
   const relatedNews = newsData
     ? newsData.articles.filter((a) => a.companies.includes(company.name)).slice(0, 5)
     : []
+
+  const high = Math.max(...company.priceHistory)
+  const low = Math.min(...company.priceHistory)
+  const latest = company.priceHistory[company.priceHistory.length - 1]
+  const pctFromHigh = (((latest - high) / high) * 100).toFixed(1)
+  const trendBlurb =
+    Math.abs(Number(pctFromHigh)) < 1
+      ? `Trading at its 30-day high of ${high.toLocaleString()}.`
+      : `Currently ${Math.abs(pctFromHigh)}% below its 30-day high of ${high.toLocaleString()}, and ${(((latest - low) / low) * 100).toFixed(1)}% above its 30-day low of ${low.toLocaleString()}.`
 
   return (
     <>
@@ -110,11 +119,16 @@ function SingleView({ companies, selected, setSelected, newsData }) {
               </LineChart>
             </ResponsiveContainer>
           </div>
-          <p className="text-sm text-muted mt-3">{company.focus}</p>
+          <div className="flex items-center gap-4 mt-3 text-xs font-mono text-muted">
+            <span>30d low: {low.toLocaleString()}</span>
+            <span>30d high: {high.toLocaleString()}</span>
+          </div>
+          <p className="text-sm text-muted mt-3 leading-relaxed">{trendBlurb}</p>
+          <p className="text-sm text-muted mt-2">{company.focus}</p>
         </Card>
 
         <div>
-          <SectionLabel>Recent coverage</SectionLabel>
+          <SectionLabel>Recent Coverage</SectionLabel>
           <div className="space-y-2.5">
             {relatedNews.length === 0 && (
               <p className="text-muted text-sm">No recent articles tagged to this company.</p>
@@ -139,7 +153,7 @@ function CompareView({ companies, compareSet, setCompareSet }) {
     )
   }
 
-  // Normalize each series to % change from its first value so tickers with
+  // Normalise each series to % change from its first value so tickers with
   // very different price scales (e.g. $26 Intel vs $77,500 Samsung) can be
   // compared meaningfully on one chart.
   const chartData = useMemo(() => {
@@ -156,10 +170,16 @@ function CompareView({ companies, compareSet, setCompareSet }) {
     })
   }, [companies, compareSet])
 
+  const leader = useMemo(() => {
+    if (chartData.length === 0 || compareSet.length === 0) return null
+    const last = chartData[chartData.length - 1]
+    return compareSet.reduce((best, t) => (last[t] > (last[best] ?? -Infinity) ? t : best), compareSet[0])
+  }, [chartData, compareSet])
+
   return (
     <>
       <div>
-        <SectionLabel>Select up to 5 to compare (% change)</SectionLabel>
+        <SectionLabel>Select up to 5 to Compare (% Change)</SectionLabel>
         <div className="flex gap-1.5 flex-wrap">
           {companies.map((c) => (
             <button
@@ -181,37 +201,44 @@ function CompareView({ companies, compareSet, setCompareSet }) {
         {compareSet.length === 0 ? (
           <p className="text-muted text-sm text-center py-16">Select at least one company above.</p>
         ) : (
-          <div className="h-72">
-            <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={chartData}>
-                <XAxis dataKey="day" hide />
-                <YAxis
-                  tick={{ fill: '#8B9296', fontSize: 11 }}
-                  axisLine={{ stroke: '#2A3338' }}
-                  tickLine={false}
-                  tickFormatter={(v) => `${v}%`}
-                />
-                <Tooltip
-                  contentStyle={{ background: '#1E262B', border: '1px solid #2A3338', borderRadius: 6, fontSize: 12 }}
-                  formatter={(v) => [`${v}%`, '']}
-                  labelFormatter={() => ''}
-                />
-                <Legend wrapperStyle={{ fontSize: 12, fontFamily: 'JetBrains Mono, monospace' }} />
-                {compareSet.map((ticker, i) => (
-                  <Line
-                    key={ticker}
-                    type="monotone"
-                    dataKey={ticker}
-                    stroke={LINE_COLORS[i % LINE_COLORS.length]}
-                    strokeWidth={2}
-                    dot={false}
-                    animationDuration={500}
-                    connectNulls
+          <>
+            {leader && compareSet.length > 1 && (
+              <p className="text-xs font-mono text-muted mb-3">
+                Best performer over this period: <span className="text-copper-bright">{leader}</span>
+              </p>
+            )}
+            <div className="h-72">
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart data={chartData}>
+                  <XAxis dataKey="day" hide />
+                  <YAxis
+                    tick={{ fill: '#8B9296', fontSize: 11 }}
+                    axisLine={{ stroke: '#2A3338' }}
+                    tickLine={false}
+                    tickFormatter={(v) => `${v}%`}
                   />
-                ))}
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
+                  <Tooltip
+                    contentStyle={{ background: '#1E262B', border: '1px solid #2A3338', borderRadius: 6, fontSize: 12 }}
+                    formatter={(v) => [`${v}%`, '']}
+                    labelFormatter={() => ''}
+                  />
+                  <Legend wrapperStyle={{ fontSize: 12, fontFamily: 'JetBrains Mono, monospace' }} />
+                  {compareSet.map((ticker, i) => (
+                    <Line
+                      key={ticker}
+                      type="monotone"
+                      dataKey={ticker}
+                      stroke={LINE_COLORS[i % LINE_COLORS.length]}
+                      strokeWidth={2}
+                      dot={false}
+                      animationDuration={500}
+                      connectNulls
+                    />
+                  ))}
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+          </>
         )}
       </Card>
     </>

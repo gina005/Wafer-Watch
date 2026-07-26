@@ -18,23 +18,42 @@ export default function Analysis() {
   }
   if (error) return <ErrorState />
 
+  const topCategory = data.category_counts[0]
+  const topCompany = data.company_mentions[0]
+  const latestSentiment = data.sentiment_trend[data.sentiment_trend.length - 1]
+  const sentimentLabel =
+    latestSentiment.score > 0.15 ? 'cautiously positive' : latestSentiment.score < -0.15 ? 'cautiously negative' : 'broadly neutral'
+
   return (
     <div className="space-y-10 fade-in">
       <div>
-        <h1 className="font-display text-2xl font-semibold">Analysis & insights</h1>
+        <h1 className="font-display text-2xl font-semibold">Analysis & Insights</h1>
         <p className="text-muted text-sm mt-1">
           A weekly synthesis of the raw news feed — what's actually moving, not just what's published.
         </p>
       </div>
 
       <Card className="p-5">
-        <SectionLabel>Week of Jul 20 — summary</SectionLabel>
+        <SectionLabel>Weekly Summary</SectionLabel>
         <p className="text-sm leading-relaxed text-ink/90">{data.weekly_summary}</p>
       </Card>
 
+      {topCategory && topCompany && (
+        <Card className="p-5 border-copper/30 bg-copper/5">
+          <SectionLabel>Key Insight</SectionLabel>
+          <p className="text-sm leading-relaxed text-ink/90">
+            <span className="text-copper-bright font-medium">{topCategory.category}</span> was the most
+            active category this week ({topCategory.count} articles), with{' '}
+            <span className="text-silicon font-medium">{topCompany.company}</span> the most-mentioned
+            company ({topCompany.count} mentions). Overall coverage sentiment reads as{' '}
+            <span className="font-medium">{sentimentLabel}</span>, based on the keyword estimate below.
+          </p>
+        </Card>
+      )}
+
       <div className="grid md:grid-cols-2 gap-6">
         <section>
-          <SectionLabel>Coverage sentiment trend</SectionLabel>
+          <SectionLabel>Coverage Sentiment Trend</SectionLabel>
           <Card className="p-4">
             <div className="h-52">
               <ResponsiveContainer width="100%" height="100%">
@@ -55,7 +74,7 @@ export default function Analysis() {
         </section>
 
         <section>
-          <SectionLabel>Most-mentioned companies (7d)</SectionLabel>
+          <SectionLabel>Most-Mentioned Companies (7d)</SectionLabel>
           <Card className="p-4">
             <div className="h-52">
               <ResponsiveContainer width="100%" height="100%">

@@ -38,10 +38,18 @@ export default function NewsFeed() {
 
   const visible = filtered.slice(0, visibleCount)
 
+  const topCategory = useMemo(() => {
+    if (filtered.length === 0) return null
+    const counts = {}
+    filtered.forEach((a) => { counts[a.category] = (counts[a.category] || 0) + 1 })
+    const [name, count] = Object.entries(counts).sort((a, b) => b[1] - a[1])[0]
+    return { name, count }
+  }, [filtered])
+
   return (
     <div className="space-y-6 fade-in">
       <div>
-        <h1 className="font-display text-2xl font-semibold">News feed</h1>
+        <h1 className="font-display text-2xl font-semibold">News Feed</h1>
         <p className="text-muted text-sm mt-1">
           Aggregated from industry RSS sources, refreshed automatically.
         </p>
@@ -88,11 +96,14 @@ export default function NewsFeed() {
 
       {data && (
         <>
-          <p className="text-xs font-mono text-muted">{filtered.length} articles</p>
+          <p className="text-xs font-mono text-muted">
+            {filtered.length} articles
+            {topCategory && filtered.length > 1 ? ` · mostly ${topCategory.name} (${topCategory.count})` : ''}
+          </p>
 
           {filtered.length === 0 ? (
             <EmptyState
-              title={savedOnly ? 'No saved articles yet' : 'No articles match that filter'}
+              title={savedOnly ? 'No Saved Articles Yet' : 'No Articles Match That Filter'}
               hint={savedOnly ? 'Tap the bookmark icon on any article to save it here.' : 'Try a different search term or category.'}
             />
           ) : (

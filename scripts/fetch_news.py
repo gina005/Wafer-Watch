@@ -2,7 +2,7 @@
 Pulls semiconductor-related articles from a set of public RSS feeds,
 tags each one by category and company, de-duplicates against the
 existing dataset, and writes the result to public/data/news.json.
- 
+
 Run manually with:  python scripts/fetch_news.py
 Runs automatically via .github/workflows/update-data.yml
 """
@@ -12,13 +12,14 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
- 
+
 import feedparser
- 
+
 OUT_PATH = Path(__file__).resolve().parent.parent / "public" / "data" / "news.json"
 MAX_ARTICLES = 60  # keep the dataset small and fast to load
-MIN_SUMMARY_CHARS = 40  # below this, a "summary" is usually just a stray link/tag
- 
+MIN_SUMMARY_CHARS = 60  # below this, a "summary" is too thin to be useful
+SUMMARY_MAX_CHARS = 420  # roughly 2-3 sentences — enough to be informative without a wall of text
+
 # Add or remove feeds here. Any publication with an RSS feed works.
 FEEDS = {
     "SemiEngineering": "https://semiengineering.com/feed/",
@@ -30,7 +31,7 @@ FEEDS = {
         "+when:2d&hl=en-US&gl=US&ceid=US:en"
     ),
 }
- 
+
 # An article must contain at least one of these to be considered
 # semiconductor-industry news at all. This is what keeps consumer PC-build,
 # gaming-deal, and "which laptop should I buy" posts out of the feed, even
@@ -43,7 +44,7 @@ INDUSTRY_KEYWORDS = [
     "export control", "chips act", "tape-out", "tape out", "fab expansion",
     "chip shortage", "chip supply", "silicon wafer", "eda tool", "ic design",
 ]
- 
+
 # If any of these show up, the article is almost certainly a consumer deal,
 # giveaway, or review rather than industry news — drop it even if an
 # industry keyword also matched.
@@ -53,7 +54,7 @@ NOISE_KEYWORDS = [
     "unboxing", "buying guide", "which laptop", "best laptops", "best gpus",
     "gaming pc build", "review:", "hands-on",
 ]
- 
+
 # Keyword -> category. Checked against title + summary, first match wins.
 CATEGORY_KEYWORDS = {
     "Policy": ["export control", "commerce department", "tariff", "sanction", "chips act", "regulation"],
@@ -63,7 +64,7 @@ CATEGORY_KEYWORDS = {
     "Chip Design": ["architecture", "chiplet", "gpu", "accelerator", "processor design", "soc"],
     "Fabrication": ["fab", "foundry", "euv", "lithography", "yield", "nm process", "wafer", "gate-all-around", "finfet"],
 }
- 
+
 # Keyword -> canonical company name. Checked against title + summary.
 COMPANY_KEYWORDS = {
     "TSMC": ["tsmc", "taiwan semiconductor"],
@@ -83,20 +84,33 @@ COMPANY_KEYWORDS = {
     "Texas Instruments": ["texas instruments"],
     "Analog Devices": ["analog devices"],
 }
- 
+
 TAG_RE = re.compile(r"<[^>]+>")
 WHITESPACE_RE = re.compile(r"\s+")
 URL_ONLY_RE = re.compile(r"^https?://\S+$")
- 
- 
+
+
 def clean_summary(raw: str) -> str:
     """Strip HTML and decode entities so junk markup never reaches the UI."""
     text = html.unescape(raw)
     text = TAG_RE.sub(" ", text)
     text = WHITESPACE_RE.sub(" ", text).strip()
     return text
- 
- 
+
+
+def truncate_summary(text: str, limit: int = SUMMARY_MAX_CHARS) -> str:
+    """Trim to a sentence boundary where possible, otherwise a word boundary,
+    so summaries never end mid-word with an abrupt cut."""
+    if len(text) <= limit:
+        return text
+    clipped = text[:limit]
+    last_period = clipped.rfind(". ")
+    if last_period > limit * 0.4:  # only use it if it doesn't cut too much away
+        return clipped[: last_period + 1]
+    last_space = clipped.rfind(" ")
+    return (clipped[:last_space] if last_space > 0 else clipped).rstrip(",;: ") + "…"
+
+
 def has_real_content(title: str, summary: str) -> bool:
     """
     Some aggregators (Google News in particular) don't provide a real
@@ -110,32 +124,32 @@ def has_real_content(title: str, summary: str) -> bool:
         s = s[len(t):]
     remainder = s.strip(" -\u2013\u2014|.")
     return len(remainder) >= MIN_SUMMARY_CHARS
- 
- 
+
+
 def is_relevant(text: str) -> bool:
     text = text.lower()
     if any(n in text for n in NOISE_KEYWORDS):
         return False
     return any(k in text for k in INDUSTRY_KEYWORDS)
- 
- 
+
+
 def categorize(text: str) -> str:
     text = text.lower()
     for category, keywords in CATEGORY_KEYWORDS.items():
         if any(k in text for k in keywords):
             return category
     return "Fabrication"  # sensible default for this beat
- 
- 
+
+
 def tag_companies(text: str) -> list[str]:
     text = text.lower()
     return [name for name, keywords in COMPANY_KEYWORDS.items() if any(k in text for k in keywords)]
- 
- 
+
+
 def make_id(link: str) -> str:
     return hashlib.sha1(link.encode("utf-8")).hexdigest()[:10]
- 
- 
+
+
 def fetch_all() -> list[dict]:
     articles = []
     for source, url in FEEDS.items():
@@ -146,14 +160,14 @@ def fetch_all() -> list[dict]:
             link = entry.get("link", "")
             if not title or not link:
                 continue
- 
+
             combined_text = f"{title} {summary}"
             if not is_relevant(combined_text):
                 continue
             if not has_real_content(title, summary) or URL_ONLY_RE.match(summary):
                 # No usable summary — skip rather than show a bare link or junk
                 continue
- 
+
             published = entry.get("published_parsed") or entry.get("updated_parsed")
             date = (
                 datetime(*published[:6], tzinfo=timezone.utc).strftime("%Y-%m-%d")
@@ -169,19 +183,19 @@ def fetch_all() -> list[dict]:
                     "date": date,
                     "category": categorize(combined_text),
                     "companies": tag_companies(combined_text),
-                    "summary": summary[:280],
+                    "summary": truncate_summary(summary),
                 }
             )
     return articles
- 
- 
+
+
 def main():
     fetched = fetch_all()
- 
+
     existing = {"articles": []}
     if OUT_PATH.exists():
         existing = json.loads(OUT_PATH.read_text())
- 
+
     # Re-check previously stored articles against the current relevance
     # rules too, so already-committed noise gets cleaned out over time
     # instead of sitting in the dataset until it ages past MAX_ARTICLES.
@@ -190,7 +204,7 @@ def main():
         if is_relevant(f"{a['title']} {a.get('summary', '')}")
         and has_real_content(a["title"], a.get("summary", ""))
     ]
- 
+
     seen_ids = set()
     merged = []
     for article in fetched + still_valid_existing:
@@ -198,10 +212,10 @@ def main():
             continue
         seen_ids.add(article["id"])
         merged.append(article)
- 
+
     merged.sort(key=lambda a: a["date"], reverse=True)
     merged = merged[:MAX_ARTICLES]
- 
+
     OUT_PATH.write_text(
         json.dumps(
             {
@@ -213,7 +227,7 @@ def main():
         )
     )
     print(f"Wrote {len(merged)} articles to {OUT_PATH}")
- 
- 
+
+
 if __name__ == "__main__":
     main()

@@ -11,7 +11,7 @@ export default function About() {
       </div>
 
       <section>
-        <SectionLabel>What this is</SectionLabel>
+        <SectionLabel>What This Is</SectionLabel>
         <p className="text-sm text-muted leading-relaxed">
           waferwatch aggregates semiconductor industry news from trade publications and layers
           basic analysis on top — category trends, company mentions, and a lightweight sentiment
@@ -20,7 +20,7 @@ export default function About() {
       </section>
 
       <section>
-        <SectionLabel>Data sources</SectionLabel>
+        <SectionLabel>Data Sources</SectionLabel>
         <p className="text-sm text-muted leading-relaxed">
           Articles are pulled from public RSS feeds of industry publications (e.g. SemiEngineering,
           EE Times, Tom's Hardware, IEEE Spectrum) plus keyword-filtered Google News RSS. Company
@@ -44,7 +44,7 @@ export default function About() {
       <section>
         <SectionLabel>Stack</SectionLabel>
         <p className="text-sm text-muted leading-relaxed">
-          React + Vite + Tailwind CSS for the frontend, Recharts for data visualization, Python
+          React + Vite + Tailwind CSS for the frontend, Recharts for data visualisation, Python
           (feedparser) for the ingestion pipeline, GitHub Actions for scheduling, and Vercel for
           hosting.
         </p>

@@ -8,20 +8,54 @@ export default function Dashboard() {
   const { data: companyData, loading: companyLoading } = useJsonData('data/companies.json')
   const { data: digestData, loading: digestLoading } = useJsonData('data/digest.json')
 
+  const topCategory = digestData?.category_counts?.[0]
+  const topCompany = digestData?.company_mentions?.[0]
+  const gainers = companyData?.companies?.filter((c) => c.change30d >= 0).length
+
   return (
     <div className="space-y-10 fade-in">
       <div>
         <h1 className="font-display text-3xl font-semibold tracking-tight">
-          Semiconductor industry, at a glance
+          Semiconductor Industry, at a Glance
         </h1>
         <p className="text-muted mt-1.5 text-sm">
           Aggregated news, company movement, and process-node trends — updated automatically.
         </p>
       </div>
 
+      {/* This week's snapshot — a quick, scannable insight strip above the raw feed */}
+      <section>
+        <SectionLabel>This Week's Snapshot</SectionLabel>
+        {digestLoading || companyLoading ? (
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {Array.from({ length: 3 }).map((_, i) => (
+              <SkeletonCard key={i} lines={1} />
+            ))}
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 fade-in-stagger">
+            <Card className="p-4">
+              <p className="text-xs font-mono text-muted">Leading category</p>
+              <p className="font-display text-lg mt-1">{topCategory?.category ?? '—'}</p>
+              <p className="text-xs text-muted mt-0.5">{topCategory?.count ?? 0} articles this week</p>
+            </Card>
+            <Card className="p-4">
+              <p className="text-xs font-mono text-muted">Most active company</p>
+              <p className="font-display text-lg mt-1">{topCompany?.company ?? '—'}</p>
+              <p className="text-xs text-muted mt-0.5">{topCompany?.count ?? 0} mentions this week</p>
+            </Card>
+            <Card className="p-4">
+              <p className="text-xs font-mono text-muted">Tracked companies up</p>
+              <p className="font-display text-lg mt-1">{gainers ?? 0} of {companyData?.companies?.length ?? 0}</p>
+              <p className="text-xs text-muted mt-0.5">over the last 30 days</p>
+            </Card>
+          </div>
+        )}
+      </section>
+
       {/* Key metric strip */}
       <section>
-        <SectionLabel>Movers — last 30 days</SectionLabel>
+        <SectionLabel>Movers — Last 30 Days</SectionLabel>
         {companyLoading ? (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {Array.from({ length: 4 }).map((_, i) => (
@@ -55,7 +89,7 @@ export default function Dashboard() {
         {/* Headlines */}
         <section className="md:col-span-2">
           <div className="flex items-center justify-between mb-3">
-            <SectionLabel>Latest headlines</SectionLabel>
+            <SectionLabel>Latest Headlines</SectionLabel>
             <Link to="/news" className="text-xs font-mono text-copper-bright hover:underline">
               view all →
             </Link>
@@ -83,7 +117,7 @@ export default function Dashboard() {
 
         {/* Trending topics */}
         <section>
-          <SectionLabel>Coverage by category (7d)</SectionLabel>
+          <SectionLabel>Coverage by Category (7d)</SectionLabel>
           {digestLoading ? (
             <SkeletonCard lines={5} />
           ) : (
@@ -120,7 +154,7 @@ export default function Dashboard() {
           )}
 
           <div className="mt-6">
-            <SectionLabel>This week's read</SectionLabel>
+            <SectionLabel>This Week's Read</SectionLabel>
             <Card className="p-4">
               {digestLoading ? (
                 <div className="space-y-1.5">

@@ -5,8 +5,8 @@ const nodes = [
   { node: '14nm', year: '2014', tech: 'FinFET', note: 'FinFET transistors become mainstream, improving leakage control.' },
   { node: '7nm', year: '2018', tech: 'FinFET', note: 'EUV lithography begins entering high-volume manufacturing.' },
   { node: '5nm', year: '2020', tech: 'FinFET', note: 'Widespread EUV adoption; mobile and HPC chips converge on this node.' },
-  { node: '3nm', year: '2022', tech: 'FinFET / early GAA', note: 'Samsung introduces GAA (MBCFET); TSMC stays on optimized FinFET.' },
-  { node: '2nm', year: '2025', tech: 'GAA', note: 'Gate-all-around nanosheet transistors become the industry standard.' },
+  { node: '3nm', year: '2022', tech: 'FinFET / early GAA', note: 'Samsung introduces GAA (MBCFET); TSMC stays on optimised FinFET.' },
+  { node: '2nm', year: '2025', tech: 'GAA', current: true, note: 'Gate-all-around nanosheet transistors become the industry standard — this is where leading-edge production sits today.' },
   { node: '1.4nm (A14/14A class)', year: '2027-28', tech: 'GAA + Backside Power', note: 'Backside power delivery separates power and signal routing layers.' },
 ]
 
@@ -25,7 +25,7 @@ export default function NodeRoadmap() {
   return (
     <div className="space-y-10 fade-in">
       <div>
-        <h1 className="font-display text-2xl font-semibold">Process node roadmap</h1>
+        <h1 className="font-display text-2xl font-semibold">Process Node Roadmap</h1>
         <p className="text-muted text-sm mt-1">
           How leading-edge logic manufacturing has progressed — and where it's headed.
         </p>
@@ -38,13 +38,18 @@ export default function NodeRoadmap() {
             <div key={n.node} className="relative">
               <span
                 className="absolute -left-[21px] top-1 w-2.5 h-2.5 rounded-full border-2 border-graphite"
-                style={{ background: i === nodes.length - 1 ? '#5B8FA8' : '#C4753A' }}
+                style={{ background: n.current ? '#6FA97A' : i === nodes.length - 1 ? '#5B8FA8' : '#C4753A' }}
               />
-              <Card className="p-4">
+              <Card className={`p-4 ${n.current ? 'border-positive/40' : ''}`}>
                 <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                   <span className="font-display text-lg font-semibold">{n.node}</span>
                   <span className="font-mono text-xs text-muted">{n.year}</span>
                   <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-raised text-silicon">{n.tech}</span>
+                  {n.current && (
+                    <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-positive/10 text-positive border border-positive/30">
+                      Current Standard
+                    </span>
+                  )}
                 </div>
                 <p className="text-sm text-muted mt-2 leading-relaxed">{n.note}</p>
               </Card>
