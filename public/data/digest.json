@@ -1,48 +1,36 @@
 {
-  "generated_at": "2026-07-25T20:37:20.596490+00:00",
+  "generated_at": "2026-07-26T08:22:57.255407+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with Samsung, TSMC, Intel appearing most frequently across 60 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Samsung, Intel appearing most frequently across 60 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 58
+      "count": 59
     },
     {
-      "category": "Policy",
-      "count": 1
-    },
-    {
-      "category": "Supply Chain",
+      "category": "M&A",
       "count": 1
     }
   ],
   "company_mentions": [
     {
-      "company": "Samsung",
-      "count": 11
+      "company": "TSMC",
+      "count": 12
     },
     {
-      "company": "TSMC",
+      "company": "Samsung",
       "count": 9
     },
     {
       "company": "Intel",
-      "count": 5
-    },
-    {
-      "company": "SK Hynix",
       "count": 3
     },
     {
-      "company": "Texas Instruments",
-      "count": 1
+      "company": "Nvidia",
+      "count": 2
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Jul 25",
-      "score": 0.03
-    },
     {
       "week": "Jul 25",
       "score": 0.0
@@ -54,6 +42,10 @@
     {
       "week": "Jul 25",
       "score": 0.08
+    },
+    {
+      "week": "Jul 26",
+      "score": 0.13
     }
   ]
 }
