@@ -1,4 +1,4 @@
-import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Bar } from 'recharts'
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Bar, Cell, ReferenceLine } from 'recharts'
 import useJsonData from '../hooks/useJsonData.js'
 import { Card, SectionLabel, SkeletonCard, ErrorState } from '../components/ui.jsx'
 
@@ -63,7 +63,7 @@ export default function Analysis() {
                   <Tooltip
                     contentStyle={{ background: '#1E262B', border: '1px solid #2A3338', borderRadius: 6, fontSize: 12 }}
                   />
-                  <Line type="monotone" dataKey="score" stroke="#6FA97A" strokeWidth={2} dot={{ r: 3 }} />
+                  <Line type="monotone" dataKey="score" stroke="#6FA97A" strokeWidth={2} dot={{ r: 3 }} isAnimationActive={false} />
                 </LineChart>
               </ResponsiveContainer>
             </div>
@@ -84,7 +84,7 @@ export default function Analysis() {
                   <Tooltip
                     contentStyle={{ background: '#1E262B', border: '1px solid #2A3338', borderRadius: 6, fontSize: 12 }}
                   />
-                  <Bar dataKey="count" fill="#C4753A" radius={[3, 3, 0, 0]} />
+                  <Bar dataKey="count" fill="#C4753A" radius={[3, 3, 0, 0]} isAnimationActive={false} />
                 </BarChart>
               </ResponsiveContainer>
             </div>
@@ -92,13 +92,44 @@ export default function Analysis() {
         </section>
       </div>
 
+      {data.sentiment_by_category?.length > 0 && (
+        <section>
+          <SectionLabel>Sentiment by Category (7d)</SectionLabel>
+          <Card className="p-4">
+            <div className="h-56">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={data.sentiment_by_category} margin={{ top: 8 }}>
+                  <XAxis dataKey="category" tick={{ fill: '#8B9296', fontSize: 10 }} axisLine={{ stroke: '#2A3338' }} tickLine={false} interval={0} angle={-25} textAnchor="end" height={50} />
+                  <YAxis hide domain={[-1, 1]} />
+                  <ReferenceLine y={0} stroke="#2A3338" />
+                  <Tooltip
+                    contentStyle={{ background: '#1E262B', border: '1px solid #2A3338', borderRadius: 6, fontSize: 12 }}
+                    formatter={(v, _n, item) => [`score ${v} · ${item.payload.count} articles`, item.payload.category]}
+                    labelFormatter={() => ''}
+                  />
+                  <Bar dataKey="score" radius={[3, 3, 3, 3]} isAnimationActive={false}>
+                    {data.sentiment_by_category.map((entry) => (
+                      <Cell key={entry.category} fill={entry.score >= 0 ? '#6FA97A' : '#C4574A'} />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+            <p className="text-xs text-muted mt-2 leading-relaxed">
+              Same keyword-based sentiment estimate as above, broken out per category over the past 7 days — this is
+              where the aggregate trend line hides the real spread.
+            </p>
+          </Card>
+        </section>
+      )}
+
       <section>
         <SectionLabel>Methodology</SectionLabel>
         <Card className="p-5">
           <ul className="text-sm text-muted space-y-2 leading-relaxed list-disc pl-4">
             <li>Category counts are tag frequencies across the past 7 days of ingested articles.</li>
             <li>Company mentions count how often each company appears in an article's tag list, not full-text mentions.</li>
-            <li>Sentiment is a lightweight keyword-weighted estimate over headlines and summaries — intended as a directional signal, not a precise measure.</li>
+            <li>Sentiment is a lightweight keyword-weighted estimate over headlines and summaries — intended as a directional signal, not a precise measure. The per-category breakdown uses the same method, scoped to that category's articles.</li>
             <li>The weekly summary is generated from that week's ingested articles; see the About page for the full pipeline.</li>
           </ul>
         </Card>

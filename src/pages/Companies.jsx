@@ -75,6 +75,9 @@ function SingleView({ companies, selected, setSelected, newsData }) {
       ? `Trading at its 30-day high of ${high.toLocaleString()}.`
       : `Currently ${Math.abs(pctFromHigh)}% below its 30-day high of ${high.toLocaleString()}, and ${(((latest - low) / low) * 100).toFixed(1)}% above its 30-day low of ${low.toLocaleString()}.`
 
+  const ranked = [...companies].sort((a, b) => b.change30d - a.change30d)
+  const rank = ranked.findIndex((c) => c.ticker === company.ticker) + 1
+
   return (
     <>
       <div className="flex gap-1.5 overflow-x-auto scrollbar-thin pb-1">
@@ -115,7 +118,7 @@ function SingleView({ companies, selected, setSelected, newsData }) {
                   labelFormatter={() => ''}
                   formatter={(v) => [v, 'price']}
                 />
-                <Line type="monotone" dataKey="price" stroke="#C4753A" strokeWidth={2} dot={false} animationDuration={500} />
+                <Line type="monotone" dataKey="price" stroke="#C4753A" strokeWidth={2} dot={false} isAnimationActive={false} />
               </LineChart>
             </ResponsiveContainer>
           </div>
@@ -125,6 +128,18 @@ function SingleView({ companies, selected, setSelected, newsData }) {
           </div>
           <p className="text-sm text-muted mt-3 leading-relaxed">{trendBlurb}</p>
           <p className="text-sm text-muted mt-2">{company.focus}</p>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-5 pt-5 border-t border-border">
+            <StatField label="Headquarters" value={company.headquarters ?? '—'} />
+            <StatField label="Founded" value={company.founded ?? '—'} />
+            <StatField label="Employees" value={company.employees ?? '—'} />
+            <StatField label="Sector" value={company.sector} />
+            <StatField
+              label="30d Rank"
+              value={`#${rank} of ${companies.length}`}
+              accent
+            />
+          </div>
         </Card>
 
         <div>
@@ -239,7 +254,7 @@ function CompareView({ companies, compareSet, setCompareSet }) {
                       stroke={LINE_COLORS[i % LINE_COLORS.length]}
                       strokeWidth={2}
                       dot={false}
-                      animationDuration={500}
+                      isAnimationActive={false}
                       connectNulls
                     />
                   ))}
@@ -250,5 +265,14 @@ function CompareView({ companies, compareSet, setCompareSet }) {
         )}
       </Card>
     </>
+  )
+}
+
+function StatField({ label, value, accent }) {
+  return (
+    <div>
+      <p className="text-[11px] font-mono uppercase tracking-wide text-muted">{label}</p>
+      <p className={`text-sm mt-0.5 ${accent ? 'text-copper-bright font-mono' : ''}`}>{value}</p>
+    </div>
   )
 }

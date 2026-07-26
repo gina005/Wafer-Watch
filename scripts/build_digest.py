@@ -51,6 +51,17 @@ def main():
     top_categories = [{"category": c, "count": n} for c, n in category_counts.most_common(6)]
     top_companies = [{"company": c, "count": n} for c, n in company_counts.most_common(7)]
 
+    # Per-category sentiment breakdown, so the Analysis page can show where
+    # positive/negative coverage is actually concentrated instead of just
+    # one aggregate number.
+    sentiment_by_category = []
+    for category, count in category_counts.most_common():
+        cat_articles = [a for a in recent if a["category"] == category]
+        cat_total = sum(sentiment_score(f"{a['title']} {a['summary']}") for a in cat_articles)
+        sentiment_by_category.append(
+            {"category": category, "score": round(cat_total / max(len(cat_articles), 1), 2), "count": count}
+        )
+
     # Simple templated summary; swap in an LLM API call here for richer prose
     # if you want to add that as a v2 feature.
     if top_categories:
@@ -79,6 +90,7 @@ def main():
                 "category_counts": top_categories,
                 "company_mentions": top_companies,
                 "sentiment_trend": sentiment_trend,
+                "sentiment_by_category": sentiment_by_category,
             },
             indent=2,
         )

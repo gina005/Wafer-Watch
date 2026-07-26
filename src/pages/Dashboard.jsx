@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import { BarChart, Bar, XAxis, ResponsiveContainer, Tooltip, Cell } from 'recharts'
+import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip, Cell } from 'recharts'
 import useJsonData from '../hooks/useJsonData.js'
-import { Card, SectionLabel, CategoryTag, SkeletonCard, SkeletonList, ErrorState } from '../components/ui.jsx'
+import { Card, SectionLabel, CategoryTag, SkeletonCard, SkeletonList, ErrorState, Sparkline } from '../components/ui.jsx'
 
 export default function Dashboard() {
   const { data: newsData, loading: newsLoading, error: newsError } = useJsonData('data/news.json')
@@ -11,6 +11,26 @@ export default function Dashboard() {
   const topCategory = digestData?.category_counts?.[0]
   const topCompany = digestData?.company_mentions?.[0]
   const gainers = companyData?.companies?.filter((c) => c.change30d >= 0).length
+
+  const totalArticles = newsData?.articles?.length
+  const categoriesActive = digestData?.category_counts?.length
+  const latestSentiment = digestData?.sentiment_trend?.[digestData.sentiment_trend.length - 1]?.score
+  const sentimentLabel =
+    latestSentiment == null
+      ? null
+      : latestSentiment > 0.15
+        ? 'positive'
+        : latestSentiment < -0.15
+          ? 'negative'
+          : 'neutral'
+
+  const biggestMover = companyData?.companies?.length
+    ? companyData.companies.reduce((best, c) => {
+        const h = c.priceHistory
+        const dayChange = ((h[h.length - 1] - h[h.length - 2]) / h[h.length - 2]) * 100
+        return !best || Math.abs(dayChange) > Math.abs(best.dayChange) ? { ticker: c.ticker, dayChange } : best
+      }, null)
+    : null
 
   return (
     <div className="space-y-10 fade-in">
@@ -26,14 +46,14 @@ export default function Dashboard() {
       {/* This week's snapshot — a quick, scannable insight strip above the raw feed */}
       <section>
         <SectionLabel>This Week's Snapshot</SectionLabel>
-        {digestLoading || companyLoading ? (
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            {Array.from({ length: 3 }).map((_, i) => (
+        {digestLoading || companyLoading || newsLoading ? (
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {Array.from({ length: 6 }).map((_, i) => (
               <SkeletonCard key={i} lines={1} />
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 fade-in-stagger">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 fade-in-stagger">
             <Card className="p-4">
               <p className="text-xs font-mono text-muted">Leading category</p>
               <p className="font-display text-lg mt-1">{topCategory?.category ?? '—'}</p>
@@ -45,9 +65,32 @@ export default function Dashboard() {
               <p className="text-xs text-muted mt-0.5">{topCompany?.count ?? 0} mentions this week</p>
             </Card>
             <Card className="p-4">
-              <p className="text-xs font-mono text-muted">Tracked companies up</p>
-              <p className="font-display text-lg mt-1">{gainers ?? 0} of {companyData?.companies?.length ?? 0}</p>
-              <p className="text-xs text-muted mt-0.5">over the last 30 days</p>
+              <p className="text-xs font-mono text-muted">Categories active</p>
+              <p className="font-display text-lg mt-1">{categoriesActive ?? 0} of 6</p>
+              <p className="text-xs text-muted mt-0.5">tracked beats covered this week</p>
+            </Card>
+            <Card className="p-4">
+              <p className="text-xs font-mono text-muted">Articles tracked</p>
+              <p className="font-display text-lg mt-1">{totalArticles ?? 0}</p>
+              <p className="text-xs text-muted mt-0.5">in the current dataset</p>
+            </Card>
+            <Card className="p-4">
+              <p className="text-xs font-mono text-muted">Avg. sentiment</p>
+              <p
+                className={`font-display text-lg mt-1 capitalize ${
+                  sentimentLabel === 'positive' ? 'text-positive' : sentimentLabel === 'negative' ? 'text-negative' : ''
+                }`}
+              >
+                {sentimentLabel ?? '—'}
+              </p>
+              <p className="text-xs text-muted mt-0.5">{latestSentiment != null ? `score ${latestSentiment}` : 'no data'}</p>
+            </Card>
+            <Card className="p-4">
+              <p className="text-xs font-mono text-muted">Biggest daily mover</p>
+              <p className="font-display text-lg mt-1">{biggestMover?.ticker ?? '—'}</p>
+              <p className={`text-xs mt-0.5 font-mono ${biggestMover?.dayChange >= 0 ? 'text-positive' : 'text-negative'}`}>
+                {biggestMover ? `${biggestMover.dayChange >= 0 ? '+' : ''}${biggestMover.dayChange.toFixed(1)}% last session` : '—'}
+              </p>
             </Card>
           </div>
         )}
@@ -134,6 +177,7 @@ export default function Dashboard() {
               <ResponsiveContainer width="100%" height={220}>
                 <BarChart data={digestData.category_counts} layout="vertical" margin={{ left: 0 }}>
                   <XAxis type="number" hide />
+                  <YAxis type="category" dataKey="category" hide />
                   <Tooltip
                     contentStyle={{
                       background: '#1E262B',
@@ -143,12 +187,11 @@ export default function Dashboard() {
                     }}
                     labelStyle={{ color: '#E8E6E1' }}
                   />
-                  <Bar dataKey="count" radius={[0, 3, 3, 0]} animationDuration={600}>
+                  <Bar dataKey="count" radius={[0, 3, 3, 0]} isAnimationActive={false}>
                     {digestData.category_counts.map((entry, i) => (
                       <Cell key={entry.category} fill={i === 0 ? '#C4753A' : '#5B8FA8'} fillOpacity={i === 0 ? 1 : 0.55} />
                     ))}
                   </Bar>
-                  <text />
                 </BarChart>
               </ResponsiveContainer>
               <div className="space-y-1.5 -mt-2">
@@ -184,29 +227,5 @@ export default function Dashboard() {
         </section>
       </div>
     </div>
-  )
-}
-
-function Sparkline({ points, positive }) {
-  const w = 100
-  const h = 28
-  const min = Math.min(...points)
-  const max = Math.max(...points)
-  const range = max - min || 1
-  const step = w / (points.length - 1)
-  const path = points
-    .map((p, i) => `${i === 0 ? 'M' : 'L'} ${i * step} ${h - ((p - min) / range) * h}`)
-    .join(' ')
-
-  return (
-    <svg viewBox={`0 0 ${w} ${h}`} className="w-full h-7 mt-2" preserveAspectRatio="none">
-      <path
-        d={path}
-        fill="none"
-        stroke={positive ? '#6FA97A' : '#C4574A'}
-        strokeWidth="1.5"
-        vectorEffect="non-scaling-stroke"
-      />
-    </svg>
   )
 }

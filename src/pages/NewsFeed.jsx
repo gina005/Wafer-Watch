@@ -1,13 +1,22 @@
 import { useEffect, useMemo, useState } from 'react'
 import useJsonData from '../hooks/useJsonData.js'
 import useLocalStorage from '../hooks/useLocalStorage.js'
-import { Card, CategoryTag, SkeletonList, ErrorState, EmptyState } from '../components/ui.jsx'
+import { Card, CategoryTag, SkeletonList, ErrorState, EmptyState, Sparkline } from '../components/ui.jsx'
+
+// Rough estimate: RSS summaries are a fraction of the full article, so we
+// scale the summary's word count up to approximate a full read.
+function estimateReadTime(text) {
+  const words = text.trim().split(/\s+/).filter(Boolean).length
+  const minutes = Math.round((words * 3) / 200)
+  return Math.max(1, minutes)
+}
 
 const CATEGORIES = ['All', 'Fabrication', 'Chip Design', 'Supply Chain', 'Policy', 'EDA', 'M&A']
 const PAGE_SIZE = 8
 
 export default function NewsFeed() {
   const { data, loading, error } = useJsonData('data/news.json')
+  const { data: companyData } = useJsonData('data/companies.json')
   const [category, setCategory] = useState('All')
   const [query, setQuery] = useState('')
   const [savedOnly, setSavedOnly] = useState(false)
@@ -45,6 +54,35 @@ export default function NewsFeed() {
     const [name, count] = Object.entries(counts).sort((a, b) => b[1] - a[1])[0]
     return { name, count }
   }, [filtered])
+
+  // How many OTHER articles from the past 7 days share at least one tagged
+  // company with a given article — a rough "co-coverage" signal.
+  const coCoverageCounts = useMemo(() => {
+    if (!data) return {}
+    const cutoff = Date.now() - 7 * 24 * 60 * 60 * 1000
+    const weekly = data.articles.filter((a) => new Date(a.date).getTime() >= cutoff)
+    const byCompany = {}
+    weekly.forEach((a) => {
+      a.companies.forEach((c) => {
+        if (!byCompany[c]) byCompany[c] = new Set()
+        byCompany[c].add(a.id)
+      })
+    })
+    const result = {}
+    weekly.forEach((a) => {
+      const related = new Set()
+      a.companies.forEach((c) => byCompany[c]?.forEach((id) => related.add(id)))
+      related.delete(a.id)
+      result[a.id] = related.size
+    })
+    return result
+  }, [data])
+
+  const companyByName = useMemo(() => {
+    const map = {}
+    companyData?.companies?.forEach((c) => { map[c.name] = c })
+    return map
+  }, [companyData])
 
   return (
     <div className="space-y-6 fade-in">
@@ -108,7 +146,10 @@ export default function NewsFeed() {
             />
           ) : (
             <div className="space-y-2.5 fade-in-stagger">
-              {visible.map((a) => (
+              {visible.map((a) => {
+                const trackedCompany = a.companies.map((c) => companyByName[c]).find(Boolean)
+                const coCoverage = coCoverageCounts[a.id] ?? 0
+                return (
                 <Card key={a.id} className="p-4 hover:border-copper/40 transition-colors">
                   <div className="flex items-start justify-between gap-3">
                     <div className="flex-1">
@@ -116,12 +157,34 @@ export default function NewsFeed() {
                       <p className="text-muted text-sm mt-1.5 leading-relaxed">{a.summary}</p>
                       <div className="flex items-center gap-2 mt-3 flex-wrap">
                         <span className="text-xs font-mono text-muted">{a.source} · {a.date}</span>
+                        <span className="text-xs font-mono text-muted">· ~{estimateReadTime(a.summary)} min read</span>
                         {a.companies.map((c) => (
                           <span key={c} className="text-[11px] font-mono px-1.5 py-0.5 rounded bg-raised text-silicon">
                             {c}
                           </span>
                         ))}
                       </div>
+                      {coCoverage > 0 && (
+                        <p className="text-xs text-muted mt-1.5">
+                          Also covered in {coCoverage} other article{coCoverage === 1 ? '' : 's'} about the same
+                          compan{a.companies.length === 1 ? 'y' : 'ies'} this week.
+                        </p>
+                      )}
+                      {trackedCompany && (
+                        <div className="flex items-center gap-2 mt-2.5">
+                          <div className="w-16">
+                            <Sparkline
+                              points={trackedCompany.priceHistory}
+                              positive={trackedCompany.change30d >= 0}
+                              className="w-full h-5"
+                            />
+                          </div>
+                          <span className={`text-xs font-mono ${trackedCompany.change30d >= 0 ? 'text-positive' : 'text-negative'}`}>
+                            {trackedCompany.ticker} {trackedCompany.change30d >= 0 ? '+' : ''}
+                            {trackedCompany.change30d}% · 30d
+                          </span>
+                        </div>
+                      )}
                       <a
                         href={a.url}
                         target="_blank"
@@ -145,7 +208,8 @@ export default function NewsFeed() {
                     </div>
                   </div>
                 </Card>
-              ))}
+                )
+              })}
             </div>
           )}
 

@@ -1,12 +1,15 @@
 {
   "generated_at": "2026-07-25T06:00:00Z",
-  "note": "Sample seed data. In production, scripts/fetch_prices.py refreshes priceHistory from a free market-data API.",
+  "note": "Sample seed data. In production, scripts/fetch_prices.py refreshes priceHistory from a free market-data API. Headquarters/founded/employees are static reference facts, not pipeline-refreshed.",
   "companies": [
     {
       "ticker": "TSM",
       "name": "TSMC",
       "sector": "Foundry",
       "focus": "Leading-edge logic foundry; 2nm ramp, US fab expansion",
+      "headquarters": "Hsinchu, Taiwan",
+      "founded": 1987,
+      "employees": "~76,000",
       "priceHistory": [612, 618, 609, 625, 631, 627, 640, 655, 648, 662, 671, 665, 680, 693],
       "change30d": 8.4
     },
@@ -15,6 +18,9 @@
       "name": "Nvidia",
       "sector": "Fabless / Accelerators",
       "focus": "AI GPUs, Rubin architecture, CoWoS packaging demand",
+      "headquarters": "Santa Clara, California, US",
+      "founded": 1993,
+      "employees": "~36,000",
       "priceHistory": [128, 131, 126, 134, 140, 138, 145, 149, 143, 151, 158, 155, 162, 167],
       "change30d": 10.2
     },
@@ -23,6 +29,9 @@
       "name": "ASML",
       "sector": "Equipment",
       "focus": "EUV and High-NA lithography systems",
+      "headquarters": "Veldhoven, Netherlands",
+      "founded": 1984,
+      "employees": "~42,000",
       "priceHistory": [845, 838, 852, 861, 855, 870, 882, 878, 891, 887, 902, 896, 910, 918],
       "change30d": 6.1
     },
@@ -31,6 +40,9 @@
       "name": "Intel",
       "sector": "IDM / Foundry",
       "focus": "18A process, Intel Foundry external customers",
+      "headquarters": "Santa Clara, California, US",
+      "founded": 1968,
+      "employees": "~109,000",
       "priceHistory": [22.1, 21.4, 22.8, 23.5, 22.9, 24.1, 24.8, 23.9, 25.2, 24.7, 25.9, 26.4, 25.8, 26.9],
       "change30d": 4.3
     },
@@ -39,6 +51,9 @@
       "name": "Samsung Electronics",
       "sector": "IDM / Foundry / Memory",
       "focus": "2nm GAA foundry, HBM memory",
+      "headquarters": "Suwon, South Korea",
+      "founded": 1969,
+      "employees": "~267,000",
       "priceHistory": [71000, 70200, 71800, 72500, 71900, 73200, 74100, 73600, 74800, 75300, 76100, 75700, 76900, 77500],
       "change30d": 3.9
     },
@@ -47,6 +62,9 @@
       "name": "AMD",
       "sector": "Fabless / Accelerators",
       "focus": "MI-series accelerators, chiplet packaging",
+      "headquarters": "Santa Clara, California, US",
+      "founded": 1969,
+      "employees": "~26,000",
       "priceHistory": [148, 152, 149, 155, 161, 158, 164, 169, 165, 172, 178, 174, 181, 186],
       "change30d": 9.7
     },
@@ -55,6 +73,9 @@
       "name": "Micron",
       "sector": "Memory",
       "focus": "HBM, DDR5, capex expansion",
+      "headquarters": "Boise, Idaho, US",
+      "founded": 1978,
+      "employees": "~48,000",
       "priceHistory": [98, 101, 99, 104, 108, 106, 111, 114, 110, 116, 120, 118, 123, 127],
       "change30d": 11.5
     },
@@ -63,6 +84,9 @@
       "name": "Applied Materials",
       "sector": "Equipment",
       "focus": "Deposition/etch tools for GAA transition",
+      "headquarters": "Santa Clara, California, US",
+      "founded": 1967,
+      "employees": "~34,000",
       "priceHistory": [195, 192, 198, 201, 199, 204, 208, 205, 210, 213, 217, 214, 219, 223],
       "change30d": 5.6
     }

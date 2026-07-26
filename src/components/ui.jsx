@@ -70,6 +70,30 @@ export function SkeletonList({ count = 4, lines = 2 }) {
   )
 }
 
+export function Sparkline({ points, positive, className = 'w-full h-7 mt-2' }) {
+  const w = 100
+  const h = 28
+  const min = Math.min(...points)
+  const max = Math.max(...points)
+  const range = max - min || 1
+  const step = w / (points.length - 1)
+  const path = points
+    .map((p, i) => `${i === 0 ? 'M' : 'L'} ${i * step} ${h - ((p - min) / range) * h}`)
+    .join(' ')
+
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} className={className} preserveAspectRatio="none">
+      <path
+        d={path}
+        fill="none"
+        stroke={positive ? '#6FA97A' : '#C4574A'}
+        strokeWidth="1.5"
+        vectorEffect="non-scaling-stroke"
+      />
+    </svg>
+  )
+}
+
 export function EmptyState({ title = 'Nothing Here Yet', hint, action }) {
   return (
     <div className="text-center py-14 px-4">
