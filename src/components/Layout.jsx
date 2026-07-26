@@ -18,7 +18,7 @@ export default function Layout({ children }) {
             <div className="flex items-center gap-2.5">
               <DieMark />
               <span className="font-display text-lg tracking-tight font-semibold">
-                wafer<span className="text-copper">watch</span>
+                Wafer<span className="text-copper">Watch</span>
               </span>
             </div>
             <nav className="hidden md:flex items-center gap-1">

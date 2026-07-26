@@ -37,12 +37,31 @@ FEEDS = {
 # gaming-deal, and "which laptop should I buy" posts out of the feed, even
 # when they happen to mention a chip company by name.
 INDUSTRY_KEYWORDS = [
+    # Fabrication / manufacturing
     "semiconductor", "chipmaker", "chip maker", "foundry", "fab ", "fabs ",
     "wafer", "process node", "nanometer", "nm process", "euv", "lithography",
-    "yield", "capex", "packaging capacity", "cowos", "die shrink", "transistor",
-    "gate-all-around", "finfet", "hbm", "chip design", "chip manufacturing",
-    "export control", "chips act", "tape-out", "tape out", "fab expansion",
-    "chip shortage", "chip supply", "silicon wafer", "eda tool", "ic design",
+    "yield", "die shrink", "transistor", "gate-all-around", "finfet",
+    "fab expansion", "silicon wafer",
+    # Chip design
+    "chip design", "chip architecture", "processor architecture",
+    "gpu architecture", "cpu architecture", "soc design", "chiplet",
+    "accelerator chip", "ai chip", "ai accelerator", "data center chip",
+    "silicon design", "compute subsystem", "ic design",
+    # Supply chain
+    "chip supply", "chip shortage", "semiconductor supply", "wafer supply",
+    "packaging capacity", "cowos", "hbm", "memory chip", "dram", "nand flash",
+    # Policy / trade
+    "export control", "chips act", "chip sanctions", "semiconductor sanctions",
+    "chip export", "semiconductor export", "trade restriction", "chip tariff",
+    "export restriction",
+    # M&A
+    "chipmaker acquisition", "acquires chipmaker", "chip acquisition",
+    "semiconductor merger", "chip merger",
+    # EDA
+    "eda tool", "eda software", "chip verification", "verification software",
+    "tape-out", "tape out",
+    # Capex / financials specific to the industry
+    "capex",
 ]
 
 # If any of these show up, the article is almost certainly a consumer deal,

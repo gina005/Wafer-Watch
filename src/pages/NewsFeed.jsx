@@ -122,6 +122,15 @@ export default function NewsFeed() {
                           </span>
                         ))}
                       </div>
+                      <a
+                        href={a.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-xs font-mono text-copper-bright hover:underline mt-2.5"
+                      >
+                        Read full article
+                        <ExternalLinkIcon />
+                      </a>
                     </div>
                     <div className="flex flex-col items-end gap-2 shrink-0">
                       <CategoryTag category={a.category} />
@@ -160,6 +169,14 @@ function BookmarkIcon({ filled }) {
   return (
     <svg width="16" height="16" viewBox="0 0 16 16" fill={filled ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.4">
       <path d="M3.5 2.5h9a.5.5 0 0 1 .5.5v11.2a.4.4 0 0 1-.63.33L8 11.2l-4.37 3.33A.4.4 0 0 1 3 14.2V3a.5.5 0 0 1 .5-.5Z" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+function ExternalLinkIcon() {
+  return (
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.4">
+      <path d="M4.5 2.5h-2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2M7 2.5h2.5V5M9.5 2.5 5 7" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   )
 }

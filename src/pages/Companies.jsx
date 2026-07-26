@@ -137,6 +137,14 @@ function SingleView({ companies, selected, setSelected, newsData }) {
               <Card key={a.id} className="p-3.5">
                 <h4 className="text-sm font-medium leading-snug">{a.title}</h4>
                 <p className="text-xs text-muted font-mono mt-1.5">{a.source} · {a.date}</p>
+                <a
+                  href={a.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs font-mono text-copper-bright hover:underline mt-1.5 inline-block"
+                >
+                  Read full article →
+                </a>
               </Card>
             ))}
           </div>

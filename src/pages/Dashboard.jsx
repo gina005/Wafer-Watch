@@ -106,6 +106,15 @@ export default function Dashboard() {
                       <p className="text-muted text-xs mt-1.5 font-mono">
                         {a.source} · {a.date}
                       </p>
+                      
+                      <a
+                        href={a.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs font-mono text-copper-bright hover:underline mt-1.5 inline-block"
+                      >
+                        Read full article →
+                      </a>
                     </div>
                     <CategoryTag category={a.category} />
                   </div>
