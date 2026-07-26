@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="space-y-10 max-w-2xl fade-in">
       <div>
-        <h1 className="font-display text-2xl font-semibold">About waferwatch</h1>
+        <h1 className="font-display text-2xl font-semibold">About WaferWatch</h1>
         <p className="text-muted text-sm mt-1">
           What this is, how it's built, and where the data comes from.
         </p>
@@ -13,7 +13,7 @@ export default function About() {
       <section>
         <SectionLabel>What This Is</SectionLabel>
         <p className="text-sm text-muted leading-relaxed">
-          waferwatch aggregates semiconductor industry news from trade publications and layers
+          WaferWatch aggregates semiconductor industry news from trade publications and layers
           basic analysis on top — category trends, company mentions, and a lightweight sentiment
           signal — so the raw feed turns into something closer to a weekly briefing.
         </p>

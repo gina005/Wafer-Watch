@@ -64,8 +64,8 @@ export default function Layout({ children }) {
 
       <footer className="border-t border-border mt-16">
         <div className="max-w-6xl mx-auto px-5 py-8 flex flex-col sm:flex-row justify-between gap-2 text-xs text-muted font-mono">
-          <span>waferwatch — semiconductor industry tracker</span>
-          <span>data refreshed periodically via automated pipeline</span>
+          <span>WaferWatch — Semiconductor Industry Tracker</span>
+          <span>Data Refreshed Periodically via Automated Pipeline</span>
         </div>
       </footer>
     </div>
