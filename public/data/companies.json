@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T09:57:57.886868+00:00",
+  "generated_at": "2026-07-26T14:22:21.897465+00:00",
   "note": "priceHistory, change30d, and financials are refreshed by scripts/fetch_prices.py. sector, focus, segmentRevenue, rdSpendPctRevenue, capexTrend, and supplyChain are manually curated from each company's public filings/investor materials and preserved across pipeline runs.",
   "companies": [
     {
@@ -97,9 +97,9 @@
         424.61,
         421.21,
         415.58,
-        403.41
+        NaN
       ],
-      "change30d": -8.5,
+      "change30d": NaN,
       "segmentRevenue": [
         {
           "segment": "HPC",
@@ -339,9 +339,9 @@
         207.29,
         212.06,
         208.76,
-        206.84
+        NaN
       ],
-      "change30d": 3.9,
+      "change30d": NaN,
       "segmentRevenue": [
         {
           "segment": "Data Center",
@@ -477,7 +477,7 @@
         "week52Low": 164.07,
         "week52High": 236.54,
         "avgVolume": 155046114,
-        "currentVolume": 110844026,
+        "currentVolume": 110793924,
         "beta": 2.211,
         "dividendYield": 0.48
       }
@@ -937,7 +937,8 @@
         "week52Low": 18.97,
         "week52High": 142.35,
         "avgVolume": 132343464,
-        "currentVolume": 179108323
+        "currentVolume": 179108323,
+        "beta": 2.187
       }
     },
     {
@@ -1534,7 +1535,7 @@
           "Applied Materials"
         ]
       },
-      "researchNote": "FY2025 = fiscal year ended August 28, 2025 (Micron's fiscal year ends in late August/early September, not December). Segment split ($13,524M / $11,859M / $7,229M / $4,753M of $37,378M total, up ~49% YoY) uses Micron's NEW business-unit structure (CMBU/CDBU/MCBU/AEBU), introduced in Q4 FY2025 — this replaces the old CNBU/MBU/SBU/EBU names used previously, and Micron retrospectively restated prior periods rather than keeping the old structure comparable. R&D% (10.2%) is ESTIMATED, not a directly confirmed dollar figure: I could only source an '+11% YoY' R&D growth commentary off FY2024's $3.43B base (≈$3.81B ÷ $37.4B) — flag this one for verification against the actual FY2025 10-K income statement. Capex 'rising' is emphatically confirmed and dramatic: FY2026 capex guidance has been raised twice this year, from ~$18B to $20B to ~$27B, specifically to fund HBM4 capacity — management says 2026 HBM supply is already fully booked.",
+      "researchNote": "FY2025 = fiscal year ended August 28, 2025 (Micron's fiscal year ends in late August/early September, not December). Segment split ($13,524M / $11,859M / $7,229M / $4,753M of $37,378M total, up ~49% YoY) uses Micron's NEW business-unit structure (CMBU/CDBU/MCBU/AEBU), introduced in Q4 FY2025 \u2014 this replaces the old CNBU/MBU/SBU/EBU names used previously, and Micron retrospectively restated prior periods rather than keeping the old structure comparable. R&D% (10.2%) is ESTIMATED, not a directly confirmed dollar figure: I could only source an '+11% YoY' R&D growth commentary off FY2024's $3.43B base (\u2248$3.81B \u00f7 $37.4B) \u2014 flag this one for verification against the actual FY2025 10-K income statement. Capex 'rising' is emphatically confirmed and dramatic: FY2026 capex guidance has been raised twice this year, from ~$18B to $20B to ~$27B, specifically to fund HBM4 capacity \u2014 management says 2026 HBM supply is already fully booked.",
       "priceDates": [
         "2026-03-17",
         "2026-03-18",
@@ -1860,7 +1861,7 @@
         "week52Low": 154.47,
         "week52High": 739.67,
         "avgVolume": 9544980,
-        "currentVolume": 5963166,
+        "currentVolume": 5956969,
         "beta": 1.567,
         "dividendYield": 0.4
       }
