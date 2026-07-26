@@ -1,40 +1,43 @@
 import { useState } from 'react'
 import { Card, SectionLabel } from '../components/ui.jsx'
 
+// adoptionStatus is derived mechanically from `current` + year, not an
+// editorial judgment call: past nodes are "Legacy", the current: true node
+// is "Current Standard", future-dated nodes are "Upcoming".
 const nodes = [
   {
     node: '28nm', year: '2011', tech: 'Planar',
-    density: 'Baseline', vsPrevious: '—', adoption: 'Legacy',
+    relativeDensity: 'Baseline', adoptionStatus: 'Legacy',
     note: 'Last major planar transistor node before FinFET.',
   },
   {
     node: '14nm', year: '2014', tech: 'FinFET',
-    density: '~2x', vsPrevious: '~+20% perf or ~-30% power vs 28nm', adoption: 'Legacy',
+    relativeDensity: '~2x', adoptionStatus: 'Legacy',
     note: 'FinFET transistors become mainstream, improving leakage control.',
   },
   {
     node: '7nm', year: '2018', tech: 'FinFET',
-    density: '~3.3x', vsPrevious: '~+25% perf or ~-35% power vs 14nm', adoption: 'Mainstream',
+    relativeDensity: '~3.3x', adoptionStatus: 'Legacy',
     note: 'EUV lithography begins entering high-volume manufacturing.',
   },
   {
     node: '5nm', year: '2020', tech: 'FinFET',
-    density: '~1.8x', vsPrevious: '~+15% perf or ~-30% power vs 7nm', adoption: 'Mainstream',
+    relativeDensity: '~1.8x', adoptionStatus: 'Legacy',
     note: 'Widespread EUV adoption; mobile and HPC chips converge on this node.',
   },
   {
     node: '3nm', year: '2022', tech: 'FinFET / early GAA',
-    density: '~1.7x', vsPrevious: '~+18% perf or ~-25% power vs 5nm', adoption: 'Leading-Edge / Ramping',
+    relativeDensity: '~1.7x', adoptionStatus: 'Legacy',
     note: 'Samsung introduces GAA (MBCFET); TSMC stays on optimised FinFET.',
   },
   {
     node: '2nm', year: '2025', tech: 'GAA', current: true,
-    density: '~1.15x', vsPrevious: '~+15% perf or ~-30% power vs 3nm', adoption: 'Current Standard',
+    relativeDensity: '~1.15x', adoptionStatus: 'Current Standard',
     note: 'Gate-all-around nanosheet transistors become the industry standard — this is where leading-edge production sits today.',
   },
   {
     node: '1.4nm (A14/14A class)', year: '2027-28', tech: 'GAA + Backside Power',
-    density: '~1.2x (est.)', vsPrevious: '~+15% perf or ~-25% power vs 2nm (est.)', adoption: 'In Development',
+    relativeDensity: '~1.2x (est.)', adoptionStatus: 'Upcoming',
     note: 'Backside power delivery separates power and signal routing layers.',
   },
 ]
@@ -110,14 +113,13 @@ export default function NodeRoadmap() {
         <section>
           <SectionLabel>Spec Comparison</SectionLabel>
           <Card className="overflow-x-auto">
-            <table className="w-full text-sm min-w-[640px]">
+            <table className="w-full text-sm min-w-[560px]">
               <thead>
                 <tr className="border-b border-border text-left">
                   <th className="font-mono text-[11px] uppercase tracking-wide text-muted font-normal px-4 py-3">Node</th>
                   <th className="font-mono text-[11px] uppercase tracking-wide text-muted font-normal px-4 py-3">Year</th>
-                  <th className="font-mono text-[11px] uppercase tracking-wide text-muted font-normal px-4 py-3">Transistor Type</th>
-                  <th className="font-mono text-[11px] uppercase tracking-wide text-muted font-normal px-4 py-3">Density vs Prev.</th>
-                  <th className="font-mono text-[11px] uppercase tracking-wide text-muted font-normal px-4 py-3">Power / Perf vs Prev.</th>
+                  <th className="font-mono text-[11px] uppercase tracking-wide text-muted font-normal px-4 py-3">Technology</th>
+                  <th className="font-mono text-[11px] uppercase tracking-wide text-muted font-normal px-4 py-3">Relative Density</th>
                   <th className="font-mono text-[11px] uppercase tracking-wide text-muted font-normal px-4 py-3">Adoption Status</th>
                 </tr>
               </thead>
@@ -127,8 +129,7 @@ export default function NodeRoadmap() {
                     <td className="px-4 py-3 font-display">{n.node}</td>
                     <td className="px-4 py-3 font-mono text-xs text-muted">{n.year}</td>
                     <td className="px-4 py-3 text-xs text-muted">{n.tech}</td>
-                    <td className="px-4 py-3 font-mono text-xs text-copper-bright">{n.density}</td>
-                    <td className="px-4 py-3 text-xs text-muted">{n.vsPrevious}</td>
+                    <td className="px-4 py-3 font-mono text-xs text-copper-bright">{n.relativeDensity}</td>
                     <td className="px-4 py-3">
                       <span
                         className={`text-[11px] font-mono px-2 py-0.5 rounded border ${
@@ -137,7 +138,7 @@ export default function NodeRoadmap() {
                             : 'bg-raised text-muted border-border'
                         }`}
                       >
-                        {n.adoption}
+                        {n.adoptionStatus}
                       </span>
                     </td>
                   </tr>
@@ -146,8 +147,8 @@ export default function NodeRoadmap() {
             </table>
           </Card>
           <p className="text-xs text-muted mt-3 leading-relaxed">
-            Density and power/performance figures are approximate, industry-typical improvements cited for each node
-            transition — actual results vary by foundry, design, and workload.
+            Relative density is an approximate, industry-typical multiplier cited for each node transition vs. the
+            previous one — illustrative, not a precision claim.
           </p>
         </section>
       )}

@@ -55,21 +55,22 @@ export default function NewsFeed() {
     return { name, count }
   }, [filtered])
 
-  // How many OTHER articles from the past 7 days share at least one tagged
-  // company with a given article — a rough "co-coverage" signal.
+  // How many OTHER articles in the currently-loaded feed share at least one
+  // tagged company with a given article — a rough "co-coverage" signal.
+  // news.json only ever holds a rolling window of recent articles (see
+  // MAX_ARTICLES in scripts/fetch_news.py), so "this week" is an accurate
+  // framing for the whole loaded set without a separate date filter here.
   const coCoverageCounts = useMemo(() => {
     if (!data) return {}
-    const cutoff = Date.now() - 7 * 24 * 60 * 60 * 1000
-    const weekly = data.articles.filter((a) => new Date(a.date).getTime() >= cutoff)
     const byCompany = {}
-    weekly.forEach((a) => {
+    data.articles.forEach((a) => {
       a.companies.forEach((c) => {
         if (!byCompany[c]) byCompany[c] = new Set()
         byCompany[c].add(a.id)
       })
     })
     const result = {}
-    weekly.forEach((a) => {
+    data.articles.forEach((a) => {
       const related = new Set()
       a.companies.forEach((c) => byCompany[c]?.forEach((id) => related.add(id)))
       related.delete(a.id)
@@ -166,8 +167,8 @@ export default function NewsFeed() {
                       </div>
                       {coCoverage > 0 && (
                         <p className="text-xs text-muted mt-1.5">
-                          Also covered in {coCoverage} other article{coCoverage === 1 ? '' : 's'} about the same
-                          compan{a.companies.length === 1 ? 'y' : 'ies'} this week.
+                          {coCoverage} other article{coCoverage === 1 ? '' : 's'} this week also mention{' '}
+                          {a.companies.join(' and ')}.
                         </p>
                       )}
                       {trackedCompany && (

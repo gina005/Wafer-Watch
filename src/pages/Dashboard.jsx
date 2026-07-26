@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip, Cell } from 'recharts'
 import useJsonData from '../hooks/useJsonData.js'
 import { Card, SectionLabel, CategoryTag, SkeletonCard, SkeletonList, ErrorState, Sparkline } from '../components/ui.jsx'
+import { getSectorRank, formatSectorRank } from '../utils/ranking.js'
 
 export default function Dashboard() {
   const { data: newsData, loading: newsLoading, error: newsError } = useJsonData('data/news.json')
@@ -10,7 +11,6 @@ export default function Dashboard() {
 
   const topCategory = digestData?.category_counts?.[0]
   const topCompany = digestData?.company_mentions?.[0]
-  const gainers = companyData?.companies?.filter((c) => c.change30d >= 0).length
 
   const totalArticles = newsData?.articles?.length
   const categoriesActive = digestData?.category_counts?.length
@@ -24,12 +24,11 @@ export default function Dashboard() {
           ? 'negative'
           : 'neutral'
 
+  // Biggest mover = largest |change30d| across tracked companies, not a
+  // single-day move — the pipeline refreshes daily, so "today" isn't a
+  // meaningful window, but 30d change is already computed per company.
   const biggestMover = companyData?.companies?.length
-    ? companyData.companies.reduce((best, c) => {
-        const h = c.priceHistory
-        const dayChange = ((h[h.length - 1] - h[h.length - 2]) / h[h.length - 2]) * 100
-        return !best || Math.abs(dayChange) > Math.abs(best.dayChange) ? { ticker: c.ticker, dayChange } : best
-      }, null)
+    ? companyData.companies.reduce((best, c) => (!best || Math.abs(c.change30d) > Math.abs(best.change30d) ? c : best), null)
     : null
 
   return (
@@ -47,13 +46,13 @@ export default function Dashboard() {
       <section>
         <SectionLabel>This Week's Snapshot</SectionLabel>
         {digestLoading || companyLoading || newsLoading ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
             {Array.from({ length: 6 }).map((_, i) => (
               <SkeletonCard key={i} lines={1} />
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 fade-in-stagger">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 fade-in-stagger">
             <Card className="p-4">
               <p className="text-xs font-mono text-muted">Leading category</p>
               <p className="font-display text-lg mt-1">{topCategory?.category ?? '—'}</p>
@@ -86,10 +85,10 @@ export default function Dashboard() {
               <p className="text-xs text-muted mt-0.5">{latestSentiment != null ? `score ${latestSentiment}` : 'no data'}</p>
             </Card>
             <Card className="p-4">
-              <p className="text-xs font-mono text-muted">Biggest daily mover</p>
+              <p className="text-xs font-mono text-muted">Biggest mover</p>
               <p className="font-display text-lg mt-1">{biggestMover?.ticker ?? '—'}</p>
-              <p className={`text-xs mt-0.5 font-mono ${biggestMover?.dayChange >= 0 ? 'text-positive' : 'text-negative'}`}>
-                {biggestMover ? `${biggestMover.dayChange >= 0 ? '+' : ''}${biggestMover.dayChange.toFixed(1)}% last session` : '—'}
+              <p className={`text-xs mt-0.5 font-mono ${biggestMover?.change30d >= 0 ? 'text-positive' : 'text-negative'}`}>
+                {biggestMover ? `${biggestMover.change30d >= 0 ? 'up' : 'down'} ${Math.abs(biggestMover.change30d).toFixed(1)}% · 30d` : '—'}
               </p>
             </Card>
           </div>
@@ -122,6 +121,9 @@ export default function Dashboard() {
                 </div>
                 <div className="font-display text-lg mt-1">{c.name}</div>
                 <Sparkline points={c.priceHistory} positive={c.change30d >= 0} />
+                <p className="text-[11px] font-mono text-muted mt-1.5 truncate">
+                  {formatSectorRank(getSectorRank(c, companyData.companies))}
+                </p>
               </Card>
             ))}
           </div>
