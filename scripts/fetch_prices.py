@@ -9,6 +9,7 @@ Run manually with:  python scripts/fetch_prices.py
 Runs automatically via .github/workflows/update-prices.yml
 """
 import json
+import math
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -32,14 +33,34 @@ INFO_FIELD_MAP = {
 }
 
 
+def _is_bad_number(value) -> bool:
+    """True for NaN/Infinity — valid Python floats, but not valid JSON, and
+    Python's json.dumps writes them as bare NaN/Infinity tokens by default,
+    which silently breaks JSON.parse on the frontend for the whole file."""
+    return isinstance(value, float) and (math.isnan(value) or math.isinf(value))
+
+
 def fetch_company_data(ticker: str) -> dict | None:
     t = yf.Ticker(ticker)
     hist = t.history(period=HISTORY_PERIOD)
     if hist.empty:
         return None
 
-    closes = [round(float(c), 2) for c in hist["Close"].tolist()]
-    dates = [d.strftime("%Y-%m-%d") for d in hist.index]
+    # yfinance occasionally returns a NaN close for the most recent trading
+    # day (a data gap from the source), so drop any (date, close) pair where
+    # the close isn't a real number rather than writing NaN into the JSON.
+    raw_dates = [d.strftime("%Y-%m-%d") for d in hist.index]
+    raw_closes = hist["Close"].tolist()
+    dates, closes = [], []
+    for date, close in zip(raw_dates, raw_closes):
+        close = float(close)
+        if _is_bad_number(close):
+            continue
+        dates.append(date)
+        closes.append(round(close, 2))
+
+    if not closes:
+        return None
 
     base_idx = -(CHANGE_WINDOW_TRADING_DAYS + 1) if len(closes) > CHANGE_WINDOW_TRADING_DAYS else 0
     base = closes[base_idx]
@@ -49,7 +70,7 @@ def fetch_company_data(ticker: str) -> dict | None:
     financials = {
         our_key: info[yf_key]
         for yf_key, our_key in INFO_FIELD_MAP.items()
-        if info.get(yf_key) is not None
+        if info.get(yf_key) is not None and not _is_bad_number(info.get(yf_key))
     }
 
     return {
@@ -76,7 +97,11 @@ def main():
         print(f"  {ticker}: {data['change30d']:+.1f}% ({len(data['priceHistory'])} trading days)")
 
     existing["generated_at"] = datetime.now(timezone.utc).isoformat()
-    OUT_PATH.write_text(json.dumps(existing, indent=2) + "\n")
+    # allow_nan=False is a hard backstop: if a NaN/Infinity ever slips through
+    # despite the filtering above, this raises here instead of silently
+    # writing invalid JSON that breaks JSON.parse for every page that reads
+    # this file.
+    OUT_PATH.write_text(json.dumps(existing, indent=2, allow_nan=False) + "\n")
     print(f"Updated {updated}/{len(companies)} companies in {OUT_PATH}")
 
 

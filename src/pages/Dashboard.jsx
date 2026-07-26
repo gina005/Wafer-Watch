@@ -6,8 +6,8 @@ import { getSectorRank, formatSectorRank } from '../utils/ranking.js'
 
 export default function Dashboard() {
   const { data: newsData, loading: newsLoading, error: newsError } = useJsonData('data/news.json')
-  const { data: companyData, loading: companyLoading } = useJsonData('data/companies.json')
-  const { data: digestData, loading: digestLoading } = useJsonData('data/digest.json')
+  const { data: companyData, loading: companyLoading, error: companyError } = useJsonData('data/companies.json')
+  const { data: digestData, loading: digestLoading, error: digestError } = useJsonData('data/digest.json')
 
   const topCategory = digestData?.category_counts?.[0]
   const topCompany = digestData?.company_mentions?.[0]
@@ -104,6 +104,8 @@ export default function Dashboard() {
               <SkeletonCard key={i} lines={1} />
             ))}
           </div>
+        ) : companyError || !companyData ? (
+          <ErrorState />
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 fade-in-stagger">
             {companyData.companies.slice(0, 4).map((c) => (
@@ -174,6 +176,8 @@ export default function Dashboard() {
           <SectionLabel>Coverage by Category (7d)</SectionLabel>
           {digestLoading ? (
             <SkeletonCard lines={5} />
+          ) : digestError || !digestData ? (
+            <ErrorState />
           ) : (
             <Card className="p-4">
               <ResponsiveContainer width="100%" height={220}>
@@ -216,6 +220,8 @@ export default function Dashboard() {
                   <div className="skeleton h-2.5 rounded w-5/6" />
                   <div className="skeleton h-2.5 rounded w-2/3" />
                 </div>
+              ) : digestError || !digestData ? (
+                <p className="text-negative text-sm font-mono">Could not load summary.</p>
               ) : (
                 <p className="text-sm text-muted leading-relaxed">
                   {digestData.weekly_summary.split('. ').slice(0, 2).join('. ')}.

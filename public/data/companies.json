@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T14:22:21.897465+00:00",
+  "generated_at": "2026-07-26T14:29:34.760387+00:00",
   "note": "priceHistory, change30d, and financials are refreshed by scripts/fetch_prices.py. sector, focus, segmentRevenue, rdSpendPctRevenue, capexTrend, and supplyChain are manually curated from each company's public filings/investor materials and preserved across pipeline runs.",
   "companies": [
     {
@@ -97,9 +97,9 @@
         424.61,
         421.21,
         415.58,
-        NaN
+        403.41
       ],
-      "change30d": NaN,
+      "change30d": -8.5,
       "segmentRevenue": [
         {
           "segment": "HPC",
@@ -339,9 +339,9 @@
         207.29,
         212.06,
         208.76,
-        NaN
+        206.84
       ],
-      "change30d": NaN,
+      "change30d": 3.9,
       "segmentRevenue": [
         {
           "segment": "Data Center",
@@ -477,7 +477,7 @@
         "week52Low": 164.07,
         "week52High": 236.54,
         "avgVolume": 155046114,
-        "currentVolume": 110793924,
+        "currentVolume": 110844026,
         "beta": 2.211,
         "dividendYield": 0.48
       }
@@ -1861,7 +1861,7 @@
         "week52Low": 154.47,
         "week52High": 739.67,
         "avgVolume": 9544980,
-        "currentVolume": 5956969,
+        "currentVolume": 5963166,
         "beta": 1.567,
         "dividendYield": 0.4
       }
