@@ -21,6 +21,11 @@ MIN_SUMMARY_CHARS = 60  # below this, a "summary" is too thin to be useful
 SUMMARY_MAX_CHARS = 420  # roughly 2-3 sentences — enough to be informative without a wall of text
 
 # Add or remove feeds here. Any publication with an RSS feed works.
+# Besides the general-interest feeds, we run a few category-targeted Google
+# News searches so Policy/M&A/EDA/Supply Chain/Chip Design actually have
+# source material to pull from — without these, almost everything the
+# general feeds return is generic "semiconductor" business/investor
+# coverage that falls into Fabrication by default.
 FEEDS = {
     "SemiEngineering": "https://semiengineering.com/feed/",
     "EE Times": "https://www.eetimes.com/feed/",
@@ -29,6 +34,26 @@ FEEDS = {
     "Google News - Semiconductors": (
         "https://news.google.com/rss/search?q=semiconductor+OR+chipmaking+OR+foundry"
         "+when:2d&hl=en-US&gl=US&ceid=US:en"
+    ),
+    "Google News - Chip Policy": (
+        "https://news.google.com/rss/search?q=%22chips+act%22+OR+%22export+control%22"
+        "+OR+%22chip+export%22+OR+%22semiconductor+sanctions%22+OR+%22semiconductor+tariff%22"
+        "+when:4d&hl=en-US&gl=US&ceid=US:en"
+    ),
+    "Google News - Chip M&A": (
+        "https://news.google.com/rss/search?q=%22chipmaker+acquisition%22+OR+%22chip+merger%22"
+        "+OR+%22acquires+chipmaker%22+OR+%22semiconductor+merger%22+OR+%22chip+acquisition%22"
+        "+when:4d&hl=en-US&gl=US&ceid=US:en"
+    ),
+    "Google News - EDA & Chip Design": (
+        "https://news.google.com/rss/search?q=%22chip+design%22+OR+%22chip+architecture%22"
+        "+OR+chiplet+OR+%22eda+software%22+OR+synopsys+OR+cadence+OR+%22ai+accelerator%22"
+        "+when:4d&hl=en-US&gl=US&ceid=US:en"
+    ),
+    "Google News - Chip Supply Chain": (
+        "https://news.google.com/rss/search?q=%22chip+supply+chain%22+OR+%22chip+shortage%22"
+        "+OR+%22packaging+capacity%22+OR+%22memory+shortage%22+OR+%22hbm+supply%22"
+        "+when:4d&hl=en-US&gl=US&ceid=US:en"
     ),
 }
 
@@ -72,16 +97,52 @@ NOISE_KEYWORDS = [
     "best deal", "coupon", "prime day", "black friday", "cyber monday",
     "unboxing", "buying guide", "which laptop", "best laptops", "best gpus",
     "gaming pc build", "review:", "hands-on",
+    # Automated stock-trading / analyst-note filler. Google News' general
+    # semiconductor search is flooded with these — they're not industry
+    # news, they're routine 13F filing recaps, and they crowd out real
+    # articles while all landing in the Fabrication default bucket.
+    "shares of", "grows holdings", "holdings in", "trims holdings",
+    "sells shares", "buys shares", "raised its stake", "boosts stake",
+    "revenue breakdown", "price to book", "price to sales", "forward of",
+    "enterprise value to ebitda", "consensus rating", "price target",
+    "buy rating", "sell rating", "hold rating", "given a rating",
+    "shares sold by", "shares acquired by", "position raised by",
+    "position trimmed by", "stock position", "13f filing", "etf",
 ]
 
 # Keyword -> category. Checked against title + summary, first match wins.
 CATEGORY_KEYWORDS = {
-    "Policy": ["export control", "commerce department", "tariff", "sanction", "chips act", "regulation"],
-    "M&A": ["acquisition", "acquire", "merger", "buyout", "deal to buy"],
-    "EDA": ["eda", "cadence", "synopsys", "verification software", "design software"],
-    "Supply Chain": ["supply chain", "shortage", "capacity", "hbm", "memory demand", "packaging capacity"],
-    "Chip Design": ["architecture", "chiplet", "gpu", "accelerator", "processor design", "soc"],
-    "Fabrication": ["fab", "foundry", "euv", "lithography", "yield", "nm process", "wafer", "gate-all-around", "finfet"],
+    "Policy": [
+        "export control", "commerce department", "tariff", "sanction", "chips act",
+        "regulation", "entity list", "trade war", "trade restriction",
+        "export restriction", "national security", "white house", "biden administration",
+        "trump administration", "washington", "beijing", "subsidy", "subsidies",
+    ],
+    "M&A": [
+        "acquisition", "acquire", "acquires", "acquired", "merger", "buyout",
+        "deal to buy", "takeover", "to buy", "stake in", "joint venture",
+        "strategic collaboration", "strategic partnership",
+    ],
+    "EDA": [
+        "eda", "cadence", "synopsys", "verification software", "design software",
+        "electronic design automation", "simulation software", "chip verification",
+    ],
+    "Supply Chain": [
+        "supply chain", "shortage", "capacity", "hbm", "memory demand",
+        "packaging capacity", "supply constraint", "lead time", "raw material",
+        "dram", "nand flash", "memory chip", "wafer supply",
+    ],
+    "Chip Design": [
+        "architecture", "chiplet", "gpu", "accelerator", "processor design", "soc",
+        "ai chip", "ai accelerator", "custom silicon", "npu", "asic",
+        "chip design", "chip architecture", "next-gen chip", "unveils chip",
+        "launches chip", "new chip",
+    ],
+    "Fabrication": [
+        "fab", "foundry", "euv", "lithography", "yield", "nm process", "wafer",
+        "gate-all-around", "finfet", "chip factory", "fab construction",
+        "chip plant", "manufacturing facility", "fab expansion",
+    ],
 }
 
 # Keyword -> canonical company name. Checked against title + summary.
