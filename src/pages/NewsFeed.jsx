@@ -57,9 +57,11 @@ export default function NewsFeed() {
 
   // How many OTHER articles in the currently-loaded feed share at least one
   // tagged company with a given article — a rough "co-coverage" signal.
-  // news.json only ever holds a rolling window of recent articles (see
-  // MAX_ARTICLES in scripts/fetch_news.py), so "this week" is an accurate
-  // framing for the whole loaded set without a separate date filter here.
+  // news.json retains articles by a rolling date window, not a fixed count
+  // (see RETENTION_DAYS/MAX_ARTICLES_CAP in scripts/fetch_news.py) — up to
+  // 14 days deep, though the actual span varies with feed volume day to
+  // day. That's too wide a range to safely label as "this week", so the
+  // copy below stays time-qualifier-free rather than assert a fixed window.
   const coCoverageCounts = useMemo(() => {
     if (!data) return {}
     const byCompany = {}
@@ -167,7 +169,7 @@ export default function NewsFeed() {
                       </div>
                       {coCoverage > 0 && (
                         <p className="text-xs text-muted mt-1.5">
-                          {coCoverage} other article{coCoverage === 1 ? '' : 's'} this week also mention{' '}
+                          {coCoverage} other article{coCoverage === 1 ? '' : 's'} in the tracked feed also mention{' '}
                           {a.companies.join(' and ')}.
                         </p>
                       )}

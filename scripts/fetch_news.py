@@ -10,13 +10,27 @@ import hashlib
 import html
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import feedparser
 
 OUT_PATH = Path(__file__).resolve().parent.parent / "public" / "data" / "news.json"
-MAX_ARTICLES = 60  # keep the dataset small and fast to load
+# Retention is time-based, not count-based: keep everything from the last
+# RETENTION_DAYS days (7 for the Analysis page's window + 7 for its
+# prior-period comparison — no extra buffer). A fixed article count gets hit
+# almost immediately at this feed's real volume (~20-40 qualifying
+# articles/day), which pins the dataset's depth to just 1-2 days no matter
+# how long the pipeline runs — that's not enough history for a real
+# week-over-week comparison. MAX_ARTICLES_CAP is a runaway-growth ceiling
+# for an unexpected volume spike. Note it's still lower than 14 days' worth
+# at today's volume (14 * 20-40/day = 280-560), so at current volume it will
+# typically be the binding constraint, trimming back to the newest 200 —
+# roughly 5-10 days of depth in practice, an improvement over the old
+# 1-2 days even if short of the full 14. Raise this if actual depth turns
+# out to matter more than dataset size.
+RETENTION_DAYS = 14
+MAX_ARTICLES_CAP = 200
 MIN_SUMMARY_CHARS = 60  # below this, a "summary" is too thin to be useful
 SUMMARY_MAX_CHARS = 420  # roughly 2-3 sentences — enough to be informative without a wall of text
 
@@ -278,7 +292,7 @@ def main():
 
     # Re-check previously stored articles against the current relevance
     # rules too, so already-committed noise gets cleaned out over time
-    # instead of sitting in the dataset until it ages past MAX_ARTICLES.
+    # instead of sitting in the dataset until it ages out of retention.
     still_valid_existing = [
         a for a in existing.get("articles", [])
         if is_relevant(f"{a['title']} {a.get('summary', '')}")
@@ -293,8 +307,11 @@ def main():
         seen_ids.add(article["id"])
         merged.append(article)
 
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).strftime("%Y-%m-%d")
+    merged = [a for a in merged if a["date"] >= cutoff]
+
     merged.sort(key=lambda a: a["date"], reverse=True)
-    merged = merged[:MAX_ARTICLES]
+    merged = merged[:MAX_ARTICLES_CAP]
 
     OUT_PATH.write_text(
         json.dumps(
