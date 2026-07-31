@@ -1,7 +1,547 @@
 {
-  "generated_at": "2026-07-30T21:49:55.153548+00:00",
+  "generated_at": "2026-07-31T10:05:53.275310+00:00",
   "note": "Live data from scripts/fetch_news.py",
   "articles": [
+    {
+      "id": "3f45a31cc3",
+      "title": "Chip Industry Week In Review",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-149/",
+      "date": "2026-07-31",
+      "category": "Policy",
+      "companies": [],
+      "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semiconductor Engineering ."
+    },
+    {
+      "id": "35daca0186",
+      "title": "Can Semiconductor Makers Navigate Rising Water Risks? - AllianceBernstein",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWUdBQTR3bzlIRXpsMkw3MWlOb29ScWgzYmxoMkNkUGw0dmVCQzVTdTFUUTVRUjYtanRHU0RnZGduZS1ydU1TMWh1V0Nxc1Z3TlM4YWU5dEh3YUFlU3lxNnR0Z2xCSkQ5OUl3dW1QZHI4aWt5ZnYzeV9oVlVVM3dXVDVURHVZZWNXbVc2OGZFNUNueW9DVjc5SkRzTktGNDRPXzZtSUloUVZHb0xaWjlWMFhDS0UtNXB3Zm8tNUo5Snh1UjQxTFo5eTlPXzVKUQ?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Can Semiconductor Makers Navigate Rising Water Risks? AllianceBernstein"
+    },
+    {
+      "id": "936eea68b5",
+      "title": "Linde to invest $1 billion in Arizona after winning semiconductor supply deal - Reuters",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1R2Vjh1TnFqVDJvVmJEOTZZajhIT3Rxc3cyOXZkMDM3MGVrME1neEZaZXJWQ0drckpNaFk0QjRxODdvcFpjeE1ic0JLQi1rT0dMVVdSX3ZycXM5S2R1VDM5cXFucjd4U1RWaWN5UnVXQkpOb3A1MDA5elVYMmtSNGpLemJYOVFuR2UteWU2RGZzWTdmM0Z1MDFoUy1WMGxvbUpBcnJYYUVoVE5ocEs5c0NQSWFtWkJtajRYalV0Yw?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Linde to invest $1 billion in Arizona after winning semiconductor supply deal Reuters"
+    },
+    {
+      "id": "5ef0b74e2a",
+      "title": "U.S. Semiconductor Projects Progress in New York, Texas & Elsewhe... - Industrial Info Resources",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWjdldVZSTk1mWkRmMV9DMnRJSjUxblFhb2tYbUFNel9SNHBNNVMxZmhsUnN2SGVoVG1CbWdTd3JCOU85UWU2QVhxV1RYd0JLTzVwenJINlF2Uk5vVEQ1a3hFam42c1RKTXBMbVNUbVItWWpGUkkwejFyQ1BLek16bHp4bTNPeko5NExrY3BuSmFiLWpBTUxzSFpabUtGc2owbXJCNTNMNUNvOXpaeFJ2YlpFV3RRNHdDcXc?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "U.S. Semiconductor Projects Progress in New York, Texas & Elsewhe... Industrial Info Resources"
+    },
+    {
+      "id": "b0cb1a6405",
+      "title": "Linde invests $1bn in Arizona semiconductor gas project - gasworld",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZWhhSXhXMmNsbkRmREMwSE9ZMHMwUlBsTWlNZXJLNGo1RDNpX1pJT3FVTVR1R0NBR0U4OTdwNEVMdjJLY0RDZktkNXQ0UFhwa1NmSTZPMW5FdDdpZkFBNnViRF9tdXo2elN4NFVFZjVrekVZNU9MZldZeVRSN2tNbkxDU24wdFd4aWN6WUVEWDBZb2lwcUFzelZmeHdQcUdTeHczWA?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Linde invests $1bn in Arizona semiconductor gas project gasworld"
+    },
+    {
+      "id": "a777eed80f",
+      "title": "The Need for a Dedicated ESD Control Document in a Semiconductor Fabrication Environment - In Compliance Magazine",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWE91UjUxcnIwY3EzTWlfcDlXV2RydXJOdDdkUEJNWUtkLXJMUkM1VmVSZHdMa2hzWnc3RHRsRmllOGRnQzZQT3pJZlE2Nm9UTzZ3MVcwbzdXczRibTFvWm84NFdsN0FDWlAzRG1mUnJwN2RJRkYzLVhvVFRROC1HVGVyazlRRzVUWlFpNjNZQUp0T1BaYmtkX0tTanNrQU9PV2xndzlYaVpwUlpVczdPR0ZwTmxPRXZq0gHAAUFVX3lxTE9UdmcwcGVGcUVkSm1xZzI2NHZDUWR5eTBuR2p3SkxVVDJiRW1oYXdSamlxNWVIMUp6Z2RhaG9YZHZGUk1UbEJzMVpLNlBnYmYycUNwMWdPOVJlYWhiMWFUdmF2NDROTzZrY0E4RTVWRjNVaW5pWEEtaTMwb282Umc0aFktdXRGbkwtV0JqdVlhbTlKemt4NlpLb0NKNDNCc3J1bHJBVmw5ZG5VV3NpcF9LOGx3NVZHZTdDT0QtNS1FXw?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "The Need for a Dedicated ESD Control Document in a Semiconductor Fabrication Environment In Compliance Magazine"
+    },
+    {
+      "id": "ba08147cc1",
+      "title": "Micron accelerates US semiconductor ambitions with US$250 billion investment and New York construction milestone - Intelligent CIO",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNU040RExDSmZlVndzZzV0YmNQS21zNTNoLWJWOEY3ek1ZZ1VDY3o5UVpnZXQxNzNtOEhYQjRzcnNpQTZfaUVKUHZzdnFoMzAxaWR3X01CbXhFQWJmanUwOUh2NndnU254T2ROQW12MTR2M01IYWU4cjcyR3p0Zm5qQXhiZXJmSUp4NmJFa2wzU3h3Vm13LWFiZGxmcVg3cEJYd3JURlZMMDd3NEpBeGM5RlU2TG1DRHE1TVdNXzZMeEllOTMyUGpma05rMF9fOEE3XzQxNy03V2w1all1TWdKMnk0NE54QUdTdnljR2NaVFRFNzc5YVM5OWw0aE8?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [
+        "Intel",
+        "Micron"
+      ],
+      "summary": "Micron accelerates US semiconductor ambitions with US$250 billion investment and New York construction milestone Intelligent CIO"
+    },
+    {
+      "id": "cc8ee41fa6",
+      "title": "Linde to invest $1 billion in Arizona after winning semiconductor supply deal - 1450 AM 99.7 FM WHTC",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSGo3SVJGTzdRZmFhdHNQUDk3S2ZWLUJWSzdQTU1WekhjQlVzR3h3M044QjNhQURESm43X20tTFBHN0JmMlNFUkVyZ1A5RWJOSDhnaXJMUktocFMxVVdhRkxPNGJaR3V1bWptUEp0QThRcVQ2c1NxS1NjZDRVVmJUOWlUREQ4M25sLXdnQk1sZHZJSF9wM2cxQy1IYWpQb25EMmJ3OHAtV0I?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Linde to invest $1 billion in Arizona after winning semiconductor supply deal 1450 AM 99.7 FM WHTC"
+    },
+    {
+      "id": "6c6e1569f6",
+      "title": "Semiconductor Stocks Riding AI Packaging And Memory Demand - simplywall.st",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPc1VUZkQxVm56OW03RDU5MFhWelRrR3J5Z01SYjh3dnNNVGJXdUNUSXhxQTNoVHo1enJ2ZUR6M0l4ZUJONnhJVWhWRDBadXQya0YtNU10dGh3SDNnV0pZR1NnY20wc0RGWmI2LUhtN18zZlZoUXRfSkNBTGpteE5wTnU0dzhVaE5nUzBraENRQVZiTmVreG52SlNyZnZkVzZqYmdyNFo1MHJpdnZINURkNEVtVG1OS0ZPcmsxZjJkTVd2cVo2eGthcTJVVFFxUTZ4WDdQaGNkVXlJUdIB3wFBVV95cUxOSHk0X3ZHUnRUMnVzZWtEUkFMNkgyZG0tdndfcmR2RjBVRGhvN2l1c2FLbVhiZWliWlA2bkFBMDhocFh5OHJvYkFWdl93SUt4VUJCV3I2MjlOSW11MFpZTjE1ZjhldHEtYTZFbzJ0VkJzYVNNaW9aTzBBTmpRTVpwbzlQMjhVNnBjQnk0WFRxVlBGQTZXZ2V4MWFOeVRPNlkteE5yRThHVkt3Ymg2S2VHckQ5bXFYTVhSOFNsTzR5bFdiMTFIUTRqZnpMS0huV3cyRVVXOEwwRDRFSzdiYk5V?oc=5",
+      "date": "2026-07-31",
+      "category": "Supply Chain",
+      "companies": [],
+      "summary": "Semiconductor Stocks Riding AI Packaging And Memory Demand simplywall.st"
+    },
+    {
+      "id": "be5ab4667c",
+      "title": "Can Semiconductor Makers Navigate Rising Water Risks? - Seeking Alpha",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU3I4bzFqNFk1TFpERVdMS0I2RXZzN1E3V0N4VUJNZ1R0NmFlZDZET3VNX0xJQXdoVTB5V2pNNzUydHFLaHNiNF9QaDhoYnVTOTU1VE9PUXpSTUo2MWc2Tzczelk1NXBaUTNCODNWTnpKNE0yNHowOGNRODk0RUQyRUhCR25lYWVtaDNBU0ROS3VMODRsbTlpTg?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Can Semiconductor Makers Navigate Rising Water Risks? Seeking Alpha"
+    },
+    {
+      "id": "4487552416",
+      "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Restarts Kumamoto Plant Operations After Earthquake - simplywall.st",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOY256MDNxOVdFTnRQZmZyOEdGSWhPRkV4azhZaU5kWklydEdQTjJfMGgxd3lYczh5N2FOMmlVVFJDQWFjZnZyb3l0RUhYWmZMR2FGUUJ4VVQ0VEpzYnB5MFp0S1J2VWoyTk1pRjd5Q2RpbXlINHhreUpWZHQzbXV0M0g0ZlZtVTdjZG5CUnRWU2NhSmVnazJ2ZGxDMDY3cVhjWlJqa1AxNV93b3VBQ0MweHZtT3lRdS1CTjFuZTdFMXhlQVgyWlAxMGFwTlhyNkllbzFfcXRRR1hvZEpKVEdGMFBCblY3QThhWTNMb9IB8gFBVV95cUxNd1FvXzZMbGd1Qjg0QVJadVU5UHZjMGQtb2JmOVR2eThWZTZBbHBlbmR5SjV3UFdCV21FeFdmTjB2QW1PblVneWVBdnhjUE1yR2xxSFBScnVrdGstZG5IRkN4a2U1UjIwQmdxNzZjVzJZbXAxVXpEajNVbjV6VGxsQ3g0U01reVNHaEdtaVp2RXY1Uzc2OVBxSHVBRGpoX3E2QWpWSzZ4Uks5Z1F2a20xQzdrSHhZSmJoNmt5S0VYUm80eGpTcENZV3dQVjNveGFRMHNrazE4ZURSUUVmTGlTRDdsNmY1bVdsdUVPRVZaWFI2Zw?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [
+        "TSMC"
+      ],
+      "summary": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Restarts Kumamoto Plant Operations After Earthquake simplywall.st"
+    },
+    {
+      "id": "f0d40fe22e",
+      "title": "Is the AI Boom Changing the Semiconductor Cycle? - The Acquirer's Multiple",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaXpQU2VnbFZXaUtZdXg3aTJMSGMzbnYydlpyTmY4dFFOX2FRRGRJWXk3Vl90MmlMbTNlUF9nZklEaVBWMFFrUldpU3ZiQUdZQnpEY01rV0p4dzdTc0FzdWgyWWQ4aWd5WWJXRWVHdERMSllxbjlhaVVzVDNtZExSeE1MRWlmdW5Hc2pLclpVUQ?oc=5",
+      "date": "2026-07-31",
+      "category": "M&A",
+      "companies": [],
+      "summary": "Is the AI Boom Changing the Semiconductor Cycle? The Acquirer's Multiple"
+    },
+    {
+      "id": "f677f15c93",
+      "title": "Comet H1 2026 slides: sales jump 12.7% as semiconductor demand surges - Investing.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbVkwLWcxdXBYcXZuNTJPRmNhbkNVZFFYYW9QZXVualR2b1Q0UnpLeE1ITHFTOE4xNy1YTjRVN3pIeWhvTzVPZnZjcTBjMWJ6TldOeVVoZkFscF83cFgyU2JlSHpzd2d0WDJyV3NhLWZHX1F4eGlEVGlUNXBRaG9NWmZTTkdsNnJLbVBTR0t1QkZWYk42WEl3VV91QzgtVV9SenJVWDBfVnJCbWc5a05zTUFlTUtzX01oTWJjTXVxUlM?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Comet H1 2026 slides: sales jump 12.7% as semiconductor demand surges Investing.com"
+    },
+    {
+      "id": "8f388379d8",
+      "title": "Taiwan Semiconductor Manufacturing Company Ltd. $TSM Shares Purchased by E20 Capital Ltd - MarketBeat",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeERYUGE1WlRwempJNE5Qdm1ESFJrd3M3TnBjcVpVaXV5Y0hBNFRNbnRMQm1qSG9FRDA5VHZCZVJWeHBiS2VqdXBIamY0T0s5TTBNVmZIdENDeFVBaC04UTVici1sWW5Ga1lpM2dvWTluTGdrbU1PT1p6Nkl1cmpqRXNJZnRvMU1NY3I3YXdGbk55clBSSDM4TVBMR2xFSHhYMXZ2NjJOdUg1TWQ3Z2tFSEoyejFieGJISHdpVnlrWllkaHUxU09PZE1UZ3BuUUE4RExMWThRSllJTl9EalI4TA?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [
+        "TSMC"
+      ],
+      "summary": "Taiwan Semiconductor Manufacturing Company Ltd. $TSM Shares Purchased by E20 Capital Ltd MarketBeat"
+    },
+    {
+      "id": "4c2ce2d8a0",
+      "title": "Linde to invest $1 billion in Arizona after winning semiconductor supply deal By Reuters - Investing.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbGdfR1BNbkUxeTExaDF4T2NTdVROTDQ2dmZDeFFHdDJlNUVRcDZCVC1DUEktUzFlRFZkVmltbW4xNzRQdUs4T1o2S25JU3oxUlFjWVNnMVRHX21aREp1Vm14RjBBSnVqdVZ2N1Z4ZFNWaUwxVEE2OUlRcHJMSndDQ0JuYVlPbkpjNEtLUGhXTkstWGtOM3RJZmlpVGwzRElPNUFPMUdGQXZSZWxpX2xLWFJFclBsNnJUWUszclAzTTVzZXhDemtVYXEtRXNiQQ?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Linde to invest $1 billion in Arizona after winning semiconductor supply deal By Reuters Investing.com"
+    },
+    {
+      "id": "5fc9e1c2fa",
+      "title": "Sei Investments Co. Has $16.07 Million Position in Tower Semiconductor Ltd. $TSEM - MarketBeat",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcUo3NmtXTmdmNnVpUjVhYUZSR2tHVXZOc0ZGZHpMV2xrUDVtTThFX2t4ZWNMRFQ0ZTlKN3FOVWtFVkZfN2dLSkIxZzdGdTJvSDcyX1FLVk81S3o4OF9jMlZGTGotZzFXSHpVRUY3bGx4UXBJQmIwMVZoLWE3U2c3elN0d2YtaG9UZkpQc2JQZWVMU2psQkRQYmpZSFRCR1JnUF81MndOT2tBb01EQURmOHMxZUFJNlY2OGM2OEN0YUNwMFhxR2t0RnZXZzRQM2Uxbk9N?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Sei Investments Co. Has $16.07 Million Position in Tower Semiconductor Ltd. $TSEM MarketBeat"
+    },
+    {
+      "id": "c2c631fec0",
+      "title": "BankChampaign National Association Purchases New Shares in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNMkF1aU5Na1Q2eVdIRTQzQmQ0NENaalgwZ3NYWUZhMDZYd1ZQczJmaEZieDZwR3l1ejY5MDQxWE9nakNUSmpoTmprak4tNG50cFFpenFJcmo3Q3NaV1lMUGFDNEJWc0VXMzRsY0sxRVloVDRzZm94d1ZmR0ZhOUp2aFFCSzNMWGMxRkUzS0JlLVlYOGhRRzlxTlZjcEF3UjQ1UnBmWTR5UDJ3MkpDVXI1ZlVLSGhaYkp3bWI5eUJCZXJFNGd1NDVfZ1JPVk9JVnNZaHJ5bTVGMDVFUGE3emplWXVTVEF2LURReDlUN3h1RFhLYmNyMVZVWFEyTlhKTjQ?oc=5",
+      "date": "2026-07-31",
+      "category": "Chip Design",
+      "companies": [
+        "TSMC"
+      ],
+      "summary": "BankChampaign National Association Purchases New Shares in Taiwan Semiconductor Manufacturing Company Ltd. $TSM MarketBeat"
+    },
+    {
+      "id": "d23b58c36f",
+      "title": "Linde To Invest $1 Billion In U.S. Semiconductor Facility Expansion - TradingView",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTUJtOS00bjlhNDI5czlsbmRTRWcxS0tDZkN2S3hhZXhQX0c4bERsWmJFbS1faWVMLVRxNGlTVGhUV3BjQVRBdFR3WS1PRExSUjNwUU11WlJ0V3l3YzlvVDBXNnpxWDhURi1KZ3g4aVU1SlRuV1UzNVhhWF81bi15aVlJZmZlN0diX2xuVzI2Z2ptcXh4MTZ2LW16ZkY1bFluLTQwSmJfeU5vQlJ0RnVJRjhhZ2dKTi10eVlFV05mbE91OHM0djFCdGwzWll4TlZ2?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Linde To Invest $1 Billion In U.S. Semiconductor Facility Expansion TradingView"
+    },
+    {
+      "id": "0e402c8beb",
+      "title": "Japan\u2019s semiconductor supply may stagnate amid earthquake damage - Asia News Network",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNE5xSTV2ei1oR2ZXNmItUlpXeEJqWWZoRzJmS3FoaXluQVR6eVVIR3NzZXpCM3JycEJZWWVwRy1oWHc2RnJSaUxPS0xDMHUzbkZKWEd1eDd4TmZMQlFkZ2x4SzlxTXp5WnA4OVBfd3VRMjlFeXhYVHJCVEQwSnZqWGk5S3pGZm12RlpyUFNaSUFyclk?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Japan\u2019s semiconductor supply may stagnate amid earthquake damage Asia News Network"
+    },
+    {
+      "id": "beb8fc0343",
+      "title": "Linde to Invest $1 Billion to Support Major U.S. Semiconductor Facility Expansion - marketscreener.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOHFSR1UwbWlsTldxdzkyaV9RMThick5VSFhLTVRtNmlZdEhmRF9jNjdCTzlzREdqbTcxeFBMVWZndE9ueUJ4MDhfYVFtTXdhSVdJZy1GbzZXVWtkaEl3Vmt1cmFpa29aSVY1RDlZVldSeTY1dVQ5eGQ0cV9VbjN4aFVodGNjS2J4OVlVZ2xxdzZsRzEtRUUxZV9VVEFibHBMUnJZN2JqQWZhUWVyTGlkOGpZcjVVZFhFdGk2V3FJWUZ3UzhhYjdHZ3RKTGc?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Linde to Invest $1 Billion to Support Major U.S. Semiconductor Facility Expansion marketscreener.com"
+    },
+    {
+      "id": "143f52253c",
+      "title": "Semiconductor Surge Boosts New York Market, Nasdaq Up 2.8% - \uc870\uc120\uc77c\ubcf4",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWJsZTg3RVJBdmJhbWxVTzdiMUEtTUxOVUc4T0J6cHlybDJxXzNFWmF4UElPR2V4TEFFeXRnRFdjSG5LQy1BRHJMbXRtSGpLVm9SZHZHdm05eVZ2V2dvMHg4U3NoWFhfSjVHUDBCRUNwc3QwN3JlOEMzX3FmRFRVLUFJVGk?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Semiconductor Surge Boosts New York Market, Nasdaq Up 2.8% \uc870\uc120\uc77c\ubcf4"
+    },
+    {
+      "id": "5799d0e47f",
+      "title": "Semiconductor sell-off remains technical, Invesco says - marketscreener.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd2s2c2ZCTFFTRUd5SnpqeXdJbk5UdTNUaWdlQjRNT2k3a3c2RVluUk93VUJZeExDMV9PTUNEc0lzUTJsVlJubUNnaTd5dFIxNDBZMjNTSmFuZUk4SGVlNjdzamE3WUQxdWRJV1A4X1dtZ2UyOS1EMEdRV3BwX0FOTHlLTlhHckw1bkQyQ21WYjgxYTZkdDd4a09xM3I4ZXhSendta1hrdmFIZw?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Semiconductor sell-off remains technical, Invesco says marketscreener.com"
+    },
+    {
+      "id": "14830a180c",
+      "title": "Linde to Invest $1 Billion to Support Major U.S. Semiconductor Facility Expansion - marketscreener.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPejhNNkZ2S3AtRkVUVHQ5bWhVUWtmU1lHcElGeFp3WHhOWlBGOWtBSTRSbTZYWVpWOGxZMWszTDZiMmRkNWlrbDBwX1lGSUlwaGtWcmxYd21uUWYyWm5MOEc4alduZVF3OUNYX1d5aUxwRC1qU0dvbGpNTHZmel83V1RWXy1PQlJpdGpqM191QWtWLXRvRjdrNWRtN2JTUlpSREcySF8ycHFyQTN4QnJ1MUQ3TWNaY0RLTWU4UVIzQjMxNXdLNlNXY0thdUc?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Linde to Invest $1 Billion to Support Major U.S. Semiconductor Facility Expansion marketscreener.com"
+    },
+    {
+      "id": "f59052398a",
+      "title": "Opposition lawmaker files bill to lift chipmakers\u2019 52-hour workweek cap nationwide - The Korea Herald",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56TFdOS0xZSGRIOS03Tk9fRjE3dVpBTHU2UnllajZoTkxJbkpMVmFkcW1vVmk5am1VLXdyMkNKNmI2akpQVEhTWF9OdzQtWENnNUZiUWVMRQ?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Opposition lawmaker files bill to lift chipmakers\u2019 52-hour workweek cap nationwide The Korea Herald"
+    },
+    {
+      "id": "d017b66f89",
+      "title": "Vietnam, Southeast Asia Semiconductor Association deepen semiconductor cooperation - Asia News Network",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRy1FM1I4QllQVGFZQUVLbFR0d2UySm50YVpMdy1PZjdlTERJNklJZzY2WHUwYklUNzhqLV9fSlFZdEFFZTV5em91STdWbGE1U1BxM1BEcl9VSjhuWnBXdGVhdE5PLUZ3YnhBbWx5bXh1SWhucVVyQlhnVmZTamRYMlNMY2dwX1I3eTJRSXVCckF2ZW1JakR0N0tFbHFBTlFtS1o1ejJLY1QtLWM?oc=5",
+      "date": "2026-07-31",
+      "category": "Chip Design",
+      "companies": [],
+      "summary": "Vietnam, Southeast Asia Semiconductor Association deepen semiconductor cooperation Asia News Network"
+    },
+    {
+      "id": "e60d94814f",
+      "title": "Buoyed by strong buying in semiconductor and AI-related stocks, the index temporarily recovered to the 65,000 yen range. - Moomoo",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM0Q1ZUFtcFJkby1aVXhqUkNJbmtlR3RPV0FhRUFWRHo2bUdvZFN5RGtWTk5WaUdyRXRDOHBxajdMNWlNZjdpOFN2LVpydTlNcEVwUFhGem9kaXAzNkFaSjdNekZaQVNaQnU3Qjh3RHl2QU56emNxbzdpeGdNVzhXY091aHVITzlWM3lyaWM0a1N5LTJfZkNWV0xCRkNyNDBkODB3YmR3WQ?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Buoyed by strong buying in semiconductor and AI-related stocks, the index temporarily recovered to the 65,000 yen range. Moomoo"
+    },
+    {
+      "id": "b236233ea9",
+      "title": "Linde to invest $1 billion in Arizona after winning semiconductor supply deal - AOL.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWenJ4LTNaXy1Sb0lNM205NUdYWGNGdHpVQVpLUkNiajhicEdqN29QdHl6TE1PWUI4YTBUcHN2ei1tVjdZeXQ0X2FGVzJmdVBxNktCNGE5azlPOUpVeWpwajlBbUJQMGc5Qi01a1l6Q0tlUlA5Z0RBQlFscmNzQkk?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Linde to invest $1 billion in Arizona after winning semiconductor supply deal AOL.com"
+    },
+    {
+      "id": "fd2066c789",
+      "title": "COTN: H1 2026 saw 5.6% sales growth, margin expansion, and robust semiconductor-driven demand - TradingView",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPUEFXOW1rVUN3MTJES0JWTUVlYUo3ajg5Mks5VnIyUng2cFBRazFjakg0ZUMxOUJVODhfdU1rd1F4eDVHMl9TNkNLTFl4TWQySlV4cW55bnpKbGpVYkktRWt6WlNLZE5jZDFpNWQ1UWJVRVJCRTc4QWplQnpRSVJON1FSNkRQOWJCaE8tZFNvMTBjcVAtTzd3SFpFS2F0VFdIUFV4TEdFclY2VHFyT1RjeUhTUDZRSHJOU19BbmFvUXhJYmJwRlZLZEhScDlEQjlFN3RKLU1kZGlVVjZrUGdMQXdjZmJCU1haWl9falViNWVoMnBRYXF4Zld6VGFiYnJuN3c?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "COTN: H1 2026 saw 5.6% sales growth, margin expansion, and robust semiconductor-driven demand TradingView"
+    },
+    {
+      "id": "45dcab6115",
+      "title": "Chipmakers Samsung and SK Hynix soar nearly 30% as Amazon sparks relief rally - Proactive financial news",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONDN1NXFEc1IwMXJTeE5vV3ZHRFRvM2Fla3l2R3BJRmljeFJCejRNY2xsRjJWR2syM3ZnUHQ2UEVUYVU4TlRzVXN3blJ6WkF0cWs1YXhWN1RrcDExTGZtUjVxV05BcExqaXFEV2I2dGVvdkF3RmIzcy1TeksyUjJRZ0RqUVJPWmRuWTM2aTdqdlZKUXNRZktTUnRZS3Z1NzZ1SWc4MTllQzlXbnk0Z2VabnFBZW5sRUtWNGFXcW5xVVdYdmJ0YWZRQld2cXAxQ3BLZzBtdHNObnllM1pQUENUUg?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [
+        "Samsung",
+        "SK Hynix"
+      ],
+      "summary": "Chipmakers Samsung and SK Hynix soar nearly 30% as Amazon sparks relief rally Proactive financial news"
+    },
+    {
+      "id": "f1ac65cba7",
+      "title": "Linde to invest $1 billion in Arizona after winning semiconductor supply deal - marketscreener.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeHFyb3BHUzhfaVZZSFdzMUE3S0FIT2RnT3I5Q1Nick9QMm9FaDRMSFBMMmRwNlBhLURlRVlmU1NST2N0VFd0SktsV3pfdmxfOE54RG1vdVdlcXJLSHBhV2tJRWpUelIzUlZqN0JPUTJndDlQVllDYnJSM2VSOFZReEpIMEpYclM2T2M4aGFqX0VWcDVES2lIR0RQODVnZUY1MEszeDdlNlY1RjVaUHNwMFRoQ2x1MkhzOHhEdmNQV3V6RmQ1UDRxRw?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Linde to invest $1 billion in Arizona after winning semiconductor supply deal marketscreener.com"
+    },
+    {
+      "id": "b029216998",
+      "title": "Is Bangladesh ready to build semiconductor chips? - The Daily Star",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUUxBeEN6SUJFek8tYUZtaW9ZQ3ZtMUJWRFdrUnBlX3JMdzVRTEJ5MUdXUGRUUDlEOVBHTzlSMTJRbjNST3N3cC1mdEFBNEZjaVNaT0RWNGloTkE5VVl3WnNoTUxLczBHblB2TWtqNW9aRmhyOFNTQUJOX0dpLTVkSVExd05abDAybzdNaWJ4TGRnbDJYRW9SWjlCSVhjb2JHRmp5dlhqM0JScDFHSkFEMA?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Is Bangladesh ready to build semiconductor chips? The Daily Star"
+    },
+    {
+      "id": "bdef8eb5a0",
+      "title": "Volatile South Korean shares soar on renewed semiconductor buying - marketscreener.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQalBYX3lZcU85VmhnZGhXQjVZMVpvRk84OV9RS2VNeW42OHc5ZElDQWZId053bzRSZVFRRXN5cVRHbW9vYUZfc1pYZUp3RnlJV0kxRVFLUmlzSFBTcG9zVW5BbG9rWWlHUUNUQjMtR0x3ZWNpNWZrczlGSXJrSzN5NzlHRFJkb2NEZXJfTjdlb3dXdmNEUFZnZ01qcVZGa2lvOGhkdTJsMHliUUc3ekVNclYwTjZtNUtaTVE?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Volatile South Korean shares soar on renewed semiconductor buying marketscreener.com"
+    },
+    {
+      "id": "c027f3fafb",
+      "title": "Semiconductor market surges upstream! Minor metal sector soars over 4%, Yunnan Germanium and Dongfang Tantalum hit daily limit [SMM Flash] - Shanghai Metals Market",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNb1FENzRNZGlKMnFVQnZ2Q0tYQjRjNnI1Mzl5eHNJa283X3lsYmxMVFAwREtpblEydVFoel93dG5pc1ZpMlVfMmRZUGV5UkFnb21tTG5iVlRrbzU3N1dZQmh2X2s1TVd3aGZaY0ZzM1hhUVpUNEt4ODJscUhqZE9mRzNvZGNqc1dSQml1MDBGYmJfVmdveEFVNG5WdTZYSFc0ZHZvNi1pbWJxelAtWC1icWhJNmN0eHFCMFlOMG5HSzZyNDMwWnA1MUlxN3VaNWRldk4wX05OOUtFTUVjRUxtV0E5bzUzZFRtZWh3V1JsWnY4bExYYkFnMk42MEM?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Semiconductor market surges upstream! Minor metal sector soars over 4%, Yunnan Germanium and Dongfang Tantalum hit daily limit [SMM Flash] Shanghai Metals Market"
+    },
+    {
+      "id": "a3eeb4e8a2",
+      "title": "Southeast Asia\u2019s semiconductor edge will come from smarter fabs, not scale alone - Asian Business Review",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUzhmeGREbFNXMlJwbVptT2c4UEZZRURldjdacjg3X3ltMHYtWmxUZ2JnSlB2c0kwZ2dHS1g5ck8ya1BnQm9Qa0RGODRHSFhmNHVJSThBWDFveHYxb2hLR1V0UFoweG1iU0JiOGp2bjRLQ0EwRWNyWmJfdEhKWW11Zkdua0ZTU0VWdWtIcDdUUXJITmpWUWdDbHlHUThjWUwtYlo0dTBMd2tLR0J5Y3luOUtmb1dkamFoaWx3bk5sdlFNenZxdE5BbXVB?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Southeast Asia\u2019s semiconductor edge will come from smarter fabs, not scale alone Asian Business Review"
+    },
+    {
+      "id": "6025b7e1df",
+      "title": "HSBC: AI Boom Remains Intact Despite Semiconductor Volatility - finews.asia",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcFBwUVNPckI2M3ViNkdiWU9TMG42ZnAzaHVxekpjWFpuV0padGVYeVRHVWVhbnpfTlIzcUlrcUlGbU9oWXlmUmwwX2RYckFlTUYzbkxJQ3lsc00wT1RyWFNpc1YxMU9zdXJxenBGRlZfWUFDTnNLNWZzYUV6T1o3X3FRZTNPcjZBVlRCMVo3VmQ1dFdoOS1UcVhWUDZvcTg?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "HSBC: AI Boom Remains Intact Despite Semiconductor Volatility finews.asia"
+    },
+    {
+      "id": "a63a5d8c5d",
+      "title": "China emerging as long-term AI winner despite semiconductor market volatility: Jefferies - ETEnterpriseai.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQd3ZweGVhWElJMXVFZ1p6Snh0cHBIT0laNkk4bUFtQjlsV3JVakZFZVJRTmZLZ0dCc0ZlX243aWdKUDBaajlvOE1tVDlVeUZGaUw5VmFKSEd2eTlJU0FsYmFGdVdQRnZHdmd5SnY3ZDFEYUxiQS1qdDJZbGxIRDlVZDdRUW9rMzNZdmFPbEhnZmJEUnJKU25TZTNvcHJ4ZS1DUElaY19jUjNQY3diS1pjZWZRbmktemhUR3Nuc2xvbnNodUZSdzlhZ3VGOUxvS1FYcHVGY2syd1ZnRlRJVlhKVUhtTVRveEdvcS1OTk9iNnd4cVhtM2dSNWpfZ0pOQVpFamdHcWoxSDFKaS1n0gGMAkFVX3lxTFB3dnB4ZWFYSUkxdUVnWnpKeHRwcEhPSVo2SThtQW1COWxXclVqRkVlUlFOZktnR0JzRmVfbjdpZ0pQMFpqOW84TW1UOVV5RkZpTDlWYUpIR3Z5OUlTQWxiYUZ1V1BGdkd2Z3lKdjdkMURhTGJBLWp0MllsbEhEOVVkN1FRb2szM1l2YU9sSGdmYkRSckpTblNlM29wcnhlLUNQSVpjX2NSM1Bjd2JLWmNlZlFuaS16aFRHc25zbG9uc2h1RlJ3OWFndUY5TG9LUVhwdUZjazJ3VmdGVElWWEpVSG1NVG94R29xLU5OT2I2d3hxWG0zZ1I1al9nSk5BWkVqZ0dxajFIMUppLWc?oc=5",
+      "date": "2026-07-31",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "China emerging as long-term AI winner despite semiconductor market volatility: Jefferies ETEnterpriseai.com"
+    },
+    {
+      "id": "24a6cfb553",
+      "title": "Analysis: Samsung's HBM4 base die is the foundry weapon TSMC and Intel can't copy - digitimes",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNGwzazdId0dVUXl0WjVvSWNZYTVpcnQ2RE5IcHVnakdjcU5meXRLOXNFcGk0bEtzOWJ3eWZqcDMzUGpmT0NRVGQ2RExmNExCcmhKbXVGenFuVVFYT1ljX2ZxX29SSFpsY1Q1RDlhY2pSeU5xVE01dFlVRDRvNk1Ca3lDOUdYODYwSVdR?oc=5",
+      "date": "2026-07-31",
+      "category": "Supply Chain",
+      "companies": [
+        "TSMC",
+        "Intel",
+        "Samsung"
+      ],
+      "summary": "Analysis: Samsung's HBM4 base die is the foundry weapon TSMC and Intel can't copy digitimes"
+    },
+    {
+      "id": "7b4b4e317c",
+      "title": "Trump Administration Unveils $874 Million CHIPS Act AI Push, With GlobalFoundries Securing Top Award - Benzinga",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUUxPRUhhcGw0RGU3cm9SMV9JWXJpanpvQVh0TWNuUVZkcmFxZTRZMDE4c2ROMF84WExNWWUxaEJ3ZHhhazBZcDczdkNFSkVhZ2p3ZnE0dThpMkZsZFI1X1FkbUZlTXl5NmhFRWlOSnQ4U19UamhlT0hQc0FQLWp2Z0F4REVNV3pkUHRsX3BzRnI5MHpFVVNwbDdTMUFOWmFUS2ZkVkFyWHdBMnpKT3VnTlJ4aEVwUHVrMUx6WjlnZ1otNmpsWDR5SXBqeXpiV3Q3LXlpeC1vODA4YUlxWldjOTR2XzFQZw?oc=5",
+      "date": "2026-07-31",
+      "category": "Policy",
+      "companies": [],
+      "summary": "Trump Administration Unveils $874 Million CHIPS Act AI Push, With GlobalFoundries Securing Top Award Benzinga"
+    },
+    {
+      "id": "6a4cd481a2",
+      "title": "China adds 14 EU entities to export control list over Russia-related sanctions - AOL.com",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBGWVRNT0pmVlBoNUlVQjVpMHBFR05wcXh1d2xoMUxrUEFRSFpTOXBHWHhXUk53Q0lDTGxKNENiLUw4RmxEMVVGcFMwcTRaNmNyNl9QcTY2T0poYkhmbS1kQWRCTFc3bzFlRE5TUFJ3T29MMjNqN3ZyTg?oc=5",
+      "date": "2026-07-31",
+      "category": "Policy",
+      "companies": [],
+      "summary": "China adds 14 EU entities to export control list over Russia-related sanctions AOL.com"
+    },
+    {
+      "id": "7371dfb918",
+      "title": "Commerce Dept. Signs $874 Million in CHIPS Act Incentives With Seven Companies - marketscreener.com",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZEtvbmktNFRPTnNNUEM5cjRhVEF0dnpJcmZMM1BvZERfN0JITFd6VE9hZ3dYN0hBZXdzczd2UFVVTVFSNnZpWnNqQ3VDZ2xSbmlaZ2pDOVRkWURENlRXYlMxUDE0Ty1JMjFJMGxPdmdJY0pkVFMzWjE0eFRRVVlIZmg5a2lWdHZOeFdya0RQeC0zTmJpb3dsaUZ4bm8zcmZ5QWxMejRqRDFxd0hXMHFUZjBLSDIyZ1B1UEkwZ055bWp2QXNFOE10Zw?oc=5",
+      "date": "2026-07-31",
+      "category": "Policy",
+      "companies": [],
+      "summary": "Commerce Dept. Signs $874 Million in CHIPS Act Incentives With Seven Companies marketscreener.com"
+    },
+    {
+      "id": "318d935173",
+      "title": "Chiplet interconnect startup Eliyan valued at $1bn following $145m Series C funding round - Data Center Dynamics",
+      "source": "Google News - EDA & Chip Design",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVk9uTjAyVHVvX0pXcHhpeWdkUmFYUGZpMEYwVXJXUzRYTHdKOVdGTUx5SmxXMVFYakVBUF9IaWo4TkpGaFM5cmZEc05rMmhHU1VySGJVVW1NZlY4NEtURE9NbHRvLXVjY3VybUdyU2dWU2ZsN1czTTlpb09YYVlPS2JWWVh0S3pMNk5vZEF0NmpqNDUxcE81RmFiTEx3Y0R6S1VodXl3WG9YV0hsWDhzMkk0d0tEeXVOaWRGRHk4MVA4MkFtOVVHQWlXTQ?oc=5",
+      "date": "2026-07-31",
+      "category": "Chip Design",
+      "companies": [],
+      "summary": "Chiplet interconnect startup Eliyan valued at $1bn following $145m Series C funding round Data Center Dynamics"
+    },
+    {
+      "id": "c30ce98da9",
+      "title": "Intel advances chiplet packaging for AI processors - Digital Watch Observatory",
+      "source": "Google News - EDA & Chip Design",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBiQmhKVzZkQWJPMTE0Z3VqX3BYX0lSU0pNMWF0dFpRb25mS2dha2pseThKaXA5WFNfTHZTek05a0wtLUJvVklqOTQ1ZkxSWmhWOURwVTdkWnV3N21Xc0hhQ3FhSVpiWFpOT2tWN0E2dmdMSTAtdjV2QVAxelI?oc=5",
+      "date": "2026-07-31",
+      "category": "Chip Design",
+      "companies": [
+        "Intel"
+      ],
+      "summary": "Intel advances chiplet packaging for AI processors Digital Watch Observatory"
+    },
+    {
+      "id": "17bfc26b83",
+      "title": "Chip design firm Arm posts record Q1 revenue of USD 1.29 billion, driven by AI demand and data centre growth - The Tribune",
+      "source": "Google News - EDA & Chip Design",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYUczNndXTEZqR25YdktjdFVVaW9YeVVfLUpzYlhtQnFnSkZHTnpXelI1YjFCMzh0aHZ4M3ZvVUNCYlNtWFd4Smk5RS1IXzhKZjhMRXZzUGE5TEZkdVJoaGlEdUxaUHdraXJTSTBVNktLU3V2YWlxTk96b21WMC1md2lsaEx3UjBfbzNvcTNUY1dhaHBUQ2R4LWhQbWdVM0gzUVprRWxMNGVoYVA2b1F6QzBRclVLVndkRGx5U0FqN1NSUnlDck14RWlMR3hSdTYzcEZZcnpQMHU1V3FINjRZVC1EdExITjlhbGfSAeoBQVVfeXFMUGFHMzZ3V0xGakduWHZLY3RVVWlvWHlVXy1Kc2JYbUJxZ0pGR056V3pSNWIxQjM4dGh2eDN2b1VDQmJTbVhXeEppOUUtSF84SmY4TEV2c1BhOUxGZHVSaGhpRHVMWlB3a2lyU0kwVTZLS1N1dmFpcU5Pem9tVjAtZndpbGhMd1IwX28zb3EzVGNXYWhwVENkeC1oUG1nVTNIM1Faa0VsTDRlaGFQNm9RekMwUXJVS1Z3ZERseVNBajdTUlJ5Q3JNeEVpTEd4UnU2M3BGWXJ6UDB1NVdxSDY0WVQtRHRMSE45YWxn?oc=5",
+      "date": "2026-07-31",
+      "category": "Chip Design",
+      "companies": [
+        "Arm"
+      ],
+      "summary": "Chip design firm Arm posts record Q1 revenue of USD 1.29 billion, driven by AI demand and data centre growth The Tribune"
+    },
+    {
+      "id": "e7b5da8b77",
+      "title": "Rapidus and Cadence partner on Agentic AI for advanced SoC design - dqindia.com",
+      "source": "Google News - EDA & Chip Design",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQUo4S05JR3BZYndyT3loU1hnbGxFOWdlSng0QTRRTDdLejFzUGVoSGNfTzhnSmpQNUpPUkJsLUo3Vm9kaHVEdXZBbHZZbVVodkh1dEt0ZkpRdHZsTnYwNUV4OXpKTlMtLWYwU2lTTDdadHdiVmxQVVA0OG5ia1c5N09rdVVPNldWM2NtRktEa3NEUlVWU1Q5YTRvbEUzc0JUdEFpT2hBZEhpUFg1QWw4Z3NhMNIBswFBVV95cUxNQUo4S05JR3BZYndyT3loU1hnbGxFOWdlSng0QTRRTDdLejFzUGVoSGNfTzhnSmpQNUpPUkJsLUo3Vm9kaHVEdXZBbHZZbVVodkh1dEt0ZkpRdHZsTnYwNUV4OXpKTlMtLWYwU2lTTDdadHdiVmxQVVA0OG5ia1c5N09rdVVPNldWM2NtRktEa3NEUlVWU1Q5YTRvbEUzc0JUdEFpT2hBZEhpUFg1QWw4Z3NhMA?oc=5",
+      "date": "2026-07-31",
+      "category": "EDA",
+      "companies": [
+        "Cadence"
+      ],
+      "summary": "Rapidus and Cadence partner on Agentic AI for advanced SoC design dqindia.com"
+    },
+    {
+      "id": "d63cffa1fa",
+      "title": "Apple warns of memory chip shortage for key devices - Sky News",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb1hOaFd2TFNTa3hSb3czNjZFbkd6Ny1hNG9sRlNsZ2FpWFN5cVFsZjZCTWR2ZnZZbmQ2YVp4UkJMV3BQTGFOZXBIYUVEZXM2Mmxaa0lJQWY0Sm5fdHc2SDFSQWJseUptd19zc1FlQXdLaUxGcVRiSWMxOGREN0VUbGtlS0l3ZUtyTzhTbmRfalo?oc=5",
+      "date": "2026-07-31",
+      "category": "Supply Chain",
+      "companies": [],
+      "summary": "Apple warns of memory chip shortage for key devices Sky News"
+    },
+    {
+      "id": "6a2518e35f",
+      "title": "Samsung forecasts chip shortage until 2028 and signs long-term contracts - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYjZPVV9MSTJCN19qNlNQNTgwVmRaNXc1T2pqT2NhZUFncFFDRlpsLUJOR21heUpwTVZhRV9hVk13Vi12NW9ZSTZHaEhoeE10WWxKZXhOcGFReXgwazRGN19ETzJiSllSVWozVmYwWEstSngwY3FORi1lWXl3NHlUcm9fRDJ0cnpsdG5wNngyX0FONlFWbGt2NlZCZ9IBmgFBVV95cUxQdHRlYnpOeTNxb3hURWlLUkhwb0Rtb2Z3TTlPU0dRNkxra0RMcm1xTXQzZk9pa2JmNThmb3Q0dE5zWTdab3dESERGWGFfa0ZhOXBNeHFuYWxLMVVwRDlyVi1JTHRQN3gwUGV5X2kyUEdaRUw4MWRvTTltajNYdk1JaE1ud0VFTzBCcDI1MjhzQUxGdnk1WHBNdmZR?oc=5",
+      "date": "2026-07-31",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung forecasts chip shortage until 2028 and signs long-term contracts \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+    },
+    {
+      "id": "7ba0df807e",
+      "title": "Samsung Sees Chip Shortage to 2028, Secures Data Centre Supply Deals - Indiatimes",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNzFfZFIxQlFUMGZKakxSZWNQaXd1alhGSXVCcVB4Q2pkeVlCTkRJLVl5UE40ME4tQ1Fzdlg3TXBuWkZSbld0VDhOdDhTT1JUWWNJcGh2dDZwd3lVaVZGUWRzQzROSThFbl9tTDVGMThmXzF2UnpYOE1POGZzQTBXQkQzN2V6elBKTUIxUTdvTGpSNHdjTUhxQTNOSzRYMXBkQTNhc2hnUGdPeXlCZkpDUVNjRXFoRFBhZFZKU1M0T1YtcUxKVWwxcGZTUkc5bVhrdlY4SVNBcURFbUZQZVQ4VFppM0kwYnd6dUVmM2ZB?oc=5",
+      "date": "2026-07-31",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung Sees Chip Shortage to 2028, Secures Data Centre Supply Deals Indiatimes"
+    },
+    {
+      "id": "a085c51fb8",
+      "title": "SK hynix and ADATA warn of memory shortages: 2027 could become particularly tight for DRAM and HBM - igorslab.de",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CdTFvQXYwNVFxeXMwNEN0aWI1Mms2SWlLYXhjZHkxMkd0aG9PUmd5YW5UTFRYZHh4TjdIMXA2TFlHWV9mQzdQbFZBT3NwRWJWeGNOakNFYmg4RDhjUTFFRVlkV3NUVk9ZU0VNWE43RmpFODhySjIySk0zMm0?oc=5",
+      "date": "2026-07-31",
+      "category": "Supply Chain",
+      "companies": [
+        "SK Hynix"
+      ],
+      "summary": "SK hynix and ADATA warn of memory shortages: 2027 could become particularly tight for DRAM and HBM igorslab.de"
+    },
+    {
+      "id": "b5ab6b58bc",
+      "title": "AI strains mature-node and packaging capacity, leaving chip designers with orders but no supply - digitimes",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZTQxbzJJelNLWl9KQXNvTE1lOE5OUFlJNXFGYWp3MHhPaFRsLTE5b3pqbHJDd3VPMF9ia3Y4WVpRdER5a3hZMVVla3R4Z1kxTHRqaUdZcjFaRWdzN240SVJtTGdGdTlVRTZoa0hTTzh6Y052Y1RySEtxTERfdGh1cWNTcGNOMnZyYUtWMnBPT2w?oc=5",
+      "date": "2026-07-31",
+      "category": "Supply Chain",
+      "companies": [],
+      "summary": "AI strains mature-node and packaging capacity, leaving chip designers with orders but no supply digitimes"
+    },
+    {
+      "id": "c1456e4413",
+      "title": "Samsung Warns AI Chip Shortage Could Extend Into 2028 As Q2 Profit Soars - BW Businessworld",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa1dmWDdpMENYRTd3c2Niby13bVRaS1VhU0RyUUtRWUJPZFk1MkJhdUktYllPMHdaQU9Udm5TXzVaU2ZTTlhONHVCeGZpRHRvSVhKVDVLU0lHQkVMWFRWcllMb3BNWDZPYmZoSUphSkdPUmJhVzhFTTg2WV9TX0kxejVNb25iU2dMMm9NWEV3dkptd3lWLUZoREYwUkdST1BZblp1ZmxWUHd2SXVUaXRvbURfLWdMYm8?oc=5",
+      "date": "2026-07-31",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung Warns AI Chip Shortage Could Extend Into 2028 As Q2 Profit Soars BW Businessworld"
+    },
+    {
+      "id": "0f80837c88",
+      "title": "Chip shortage is back: prices are climbing and it could last through 2027 - en.softonic.com",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORm95bHFORG1nUEZvdkRURGVxdGp3MlAxdllWVmdzVDh2ZUpUUTdfRnRfWmd1Ml9Sb1VYSnd3LWZMZ01jT2l0Tk9kLTBHZHhTQ05ybnpTS0dCcVF1cnVyRHFxN3U4SFdBWWJxZlpYMUpwZDdiY2RFWWNDUUc5NHN5SjZKOGR3d0dnYlBfeWU0NlR4SF9SM3BQb0k5X1ZDalZIbFFGa01qRUI?oc=5",
+      "date": "2026-07-31",
+      "category": "Supply Chain",
+      "companies": [],
+      "summary": "Chip shortage is back: prices are climbing and it could last through 2027 en.softonic.com"
+    },
     {
       "id": "c928cbcc0d",
       "title": "Compute Clusters Break Out Of National Labs To Scale AI",
@@ -36,14 +576,44 @@
       "summary": "Google eyes to build more TPU AI accelerators in 2028 than Nvidia, if a report by Fubon Research is correct."
     },
     {
-      "id": "d1c2912399",
-      "title": "US signs letters of intent worth $874 million to boost semiconductor research - reuters.com",
+      "id": "216dc42ebe",
+      "title": "Don't Scrap It, Save It: Feedforward Control for Modern Semiconductor Manufacturing - Lam Research Newsroom",
       "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNV2N6YTNQZGpiY3RtS1lDbjFBV0U1eHQ1MzY5QVNDZ1FtSi1MT2ctX2p6UlJjdExjdWhQemdWb3l6ckp2NFEycEVSNGJSM0FTOHRwZGswcVZiVUh4b1cyeVRzdGJRR2xsWkJJd19tQ0hhbk9LSzB6U1d3alJVeW5kMDhUUDFLaEhOLXJPaHRXU2wzbTdJTEdLQXZWaWZ6WGJLQXlZeGVQYVZKT1pLTEQ2ejRhUE5aeGFE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWFRwbWhsYVhlSFp4RXc0U2QtYk5HcEw0V0R3TVFXb1lqVjk0RHVmVUFnSTg4RHZ4X1BuYVFMUE02NF9VYllWd2JrMzZzb2tZR05FX0FrS3B5NjFiSnFzcWRNSWRoNnh6dTFGbFg5ejg0TkRybVRwcDRPWFRXZEEwN3VRTlRoU2pndVBsUHhVRGdWN2dZWU1jQTZ6NUE1LWpFRFJhd2xOQ1pGQlBNazRGMUJnMA?oc=5",
       "date": "2026-07-30",
       "category": "Fabrication",
       "companies": [],
-      "summary": "US signs letters of intent worth $874 million to boost semiconductor research reuters.com"
+      "summary": "Don't Scrap It, Save It: Feedforward Control for Modern Semiconductor Manufacturing Lam Research Newsroom"
+    },
+    {
+      "id": "be40a57991",
+      "title": "Mike McCalister: Brian Mast has the tools to close China\u2019s semiconductor backdoor - Florida Politics",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaTFPeU5qQmdzVS1BX0RtM3AzejlOYWtmTXBFRTJOazdFY2N5QTA5RzBQbFY3bGVDVzRuTGdYZzJUWFJUazVJaElpSUlhdU92dVpnelYtbHhmbzktemdYUGNFd1FDRGpPNDA0V09QUnBNWUZGNERpMEx4bkRQR2NjVEtmWGhzVjJSUkxJQnRzMHR0cDZMeHV1OWVXRldDUk5GLTB1SXM3S2NMUzlyUExDX3E0WXphX3NqZnpTUlJJdTQ0Zw?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Mike McCalister: Brian Mast has the tools to close China\u2019s semiconductor backdoor Florida Politics"
+    },
+    {
+      "id": "1c2001139a",
+      "title": "Kennesaw State Professors Use NSF Grant to Strengthen Semiconductor Education Through Interactive Learning | Newswise - Newswise",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZTNxNUpjYWZOSjI1U3BLNVltMUhfZnFNSk5YRTIzWmZuRm9Ia2JFYzVqRzdWWWZVM3BnWXMwT0tSdTNWQzc0WHVvYXl1Um5hUGY5NEYxaF9IQTMtaDJKM19aajFGcGVVTHFGU01ZUHJQNzBXVlhXd19ZVGN5T1RMVnMyT3FoLWlRQm9yS2w0Y3p5MU5yNVF2dEdRQ3NZSjJpeXZQWUZWUXYzMElLXzkycjlNX2g3dXQ2b185c0lJeW9ES1NzYTZqdExWeHhVWFIwM24zbGk5MNIB1wFBVV95cUxPZTNxNUpjYWZOSjI1U3BLNVltMUhfZnFNSk5YRTIzWmZuRm9Ia2JFYzVqRzdWWWZVM3BnWXMwT0tSdTNWQzc0WHVvYXl1Um5hUGY5NEYxaF9IQTMtaDJKM19aajFGcGVVTHFGU01ZUHJQNzBXVlhXd19ZVGN5T1RMVnMyT3FoLWlRQm9yS2w0Y3p5MU5yNVF2dEdRQ3NZSjJpeXZQWUZWUXYzMElLXzkycjlNX2g3dXQ2b185c0lJeW9ES1NzYTZqdExWeHhVWFIwM24zbGk5MA?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Kennesaw State Professors Use NSF Grant to Strengthen Semiconductor Education Through Interactive Learning | Newswise Newswise"
+    },
+    {
+      "id": "63e0cf07d5",
+      "title": "AI Is Needed To Make Semiconductor Engineering Work More Productive - Forbes",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR2w5MlZMamN2UGozdGcxWDViUEd4anhhdkhxTEhoTXZPa2tlZjMwY0tlOWp4UWlmOGNMMDJwd0xzMGRoaXJDVnY2WEFnLXJYOWZtU2NueEt2WENiRF9nS0c3eXJBOGg5RUZTVmRzRUtoSVNVUWxWU1lVUDRkczdqanZKOFdxVXNkREo1dGhzY3FtZkNzOWJrRGJnb00yQUNXQmFDQ291NmhXR3hVcWkwSllsMDRlUVFkZHQteA?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "AI Is Needed To Make Semiconductor Engineering Work More Productive Forbes"
     },
     {
       "id": "f06efb3917",
@@ -58,14 +628,56 @@
       "summary": "Semiconductor chip titan Analog Devices reports data breach The Record from Recorded Future News"
     },
     {
-      "id": "1c2001139a",
-      "title": "Kennesaw State professors use NSF grant to strengthen semiconductor education through interactive learning | Newswise - Newswise",
+      "id": "076435b02a",
+      "title": "Intel (INTC) Just Expanded Its Foundry Tool Kit For AI Chip Customers - finance.yahoo.com",
       "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZTNxNUpjYWZOSjI1U3BLNVltMUhfZnFNSk5YRTIzWmZuRm9Ia2JFYzVqRzdWWWZVM3BnWXMwT0tSdTNWQzc0WHVvYXl1Um5hUGY5NEYxaF9IQTMtaDJKM19aajFGcGVVTHFGU01ZUHJQNzBXVlhXd19ZVGN5T1RMVnMyT3FoLWlRQm9yS2w0Y3p5MU5yNVF2dEdRQ3NZSjJpeXZQWUZWUXYzMElLXzkycjlNX2g3dXQ2b185c0lJeW9ES1NzYTZqdExWeHhVWFIwM24zbGk5MNIB1wFBVV95cUxPZTNxNUpjYWZOSjI1U3BLNVltMUhfZnFNSk5YRTIzWmZuRm9Ia2JFYzVqRzdWWWZVM3BnWXMwT0tSdTNWQzc0WHVvYXl1Um5hUGY5NEYxaF9IQTMtaDJKM19aajFGcGVVTHFGU01ZUHJQNzBXVlhXd19ZVGN5T1RMVnMyT3FoLWlRQm9yS2w0Y3p5MU5yNVF2dEdRQ3NZSjJpeXZQWUZWUXYzMElLXzkycjlNX2g3dXQ2b185c0lJeW9ES1NzYTZqdExWeHhVWFIwM24zbGk5MA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcFp6eG9qWGxlekRlSTRCd0VqSl9hN3U2bVdvNXVhOGZKdmxvSUdrblZMcjlMSnJncnVJYXZZNTJtaDhlQnZ0cXZzRkFKeWF4Xy13bFp5OWxaR05ZYVBpQTFPbnFWY0ZySkktZlMyb2hHaHpPaF9sRW12VDdOTFhZY3ZFRzF2cG4yRUF0eWNZNzVvRFJBV2Y2alB1SUg?oc=5",
+      "date": "2026-07-30",
+      "category": "Chip Design",
+      "companies": [
+        "Intel"
+      ],
+      "summary": "Intel (INTC) Just Expanded Its Foundry Tool Kit For AI Chip Customers finance.yahoo.com"
+    },
+    {
+      "id": "d1c2912399",
+      "title": "US signs letters of intent worth $874 million to boost semiconductor research - Reuters",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNV2N6YTNQZGpiY3RtS1lDbjFBV0U1eHQ1MzY5QVNDZ1FtSi1MT2ctX2p6UlJjdExjdWhQemdWb3l6ckp2NFEycEVSNGJSM0FTOHRwZGswcVZiVUh4b1cyeVRzdGJRR2xsWkJJd19tQ0hhbk9LSzB6U1d3alJVeW5kMDhUUDFLaEhOLXJPaHRXU2wzbTdJTEdLQXZWaWZ6WGJLQXlZeGVQYVZKT1pLTEQ2ejRhUE5aeGFE?oc=5",
       "date": "2026-07-30",
       "category": "Fabrication",
       "companies": [],
-      "summary": "Kennesaw State professors use NSF grant to strengthen semiconductor education through interactive learning | Newswise Newswise"
+      "summary": "US signs letters of intent worth $874 million to boost semiconductor research Reuters"
+    },
+    {
+      "id": "2a87f4643e",
+      "title": "Semiconductor stocks soar as strong Microsoft outlook revives AI trade - Fox Business",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yc3RCWHk1SkRmNlFYZ0pfZkg5TldiM1BVS1FLVWxNb2RHZUxkcTl6cVlXczVWWWlqM0ljMjFISlNWbFBNZHRtdmxvMlNIMFhzU3lFRzN6SXVrU2M?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Semiconductor stocks soar as strong Microsoft outlook revives AI trade Fox Business"
+    },
+    {
+      "id": "e8c0966368",
+      "title": "Embattled foundry Northern Iron to close on St. Paul\u2019s East Side - twincities.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTnhfMEtzX3NXZHYyb21sQnFsS0N6b0ZFLVpyZWl2SjMwYzRIMEJxUUU2b1pjWlJZSWZPOFpVcDBoYTVLWk9COHJfQ1FqeDFxY2pERWNTWFRNQWp1V2haaHp6TlNJOGRzNW8xb1pVWGpLVDI1UjA3dnhmd0VQWmZlWWFB?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Embattled foundry Northern Iron to close on St. Paul\u2019s East Side twincities.com"
+    },
+    {
+      "id": "35be2e42d1",
+      "title": "US Equity Markets End Higher on Microsoft's Cloud Gains, Semiconductor Rebound - finance.yahoo.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSDRhTFNHaFFhRzhOamh6czg0eDI3TGlTTF94RThvUUQxZGdDSmZ2YThEcy1US1h5SF9PQWg1MFF2S2FoR0djZ0hQcmNrd1JqcldRMXhsc3R5QUFWWmcyei1yWmhYRER2NGgyd0VENUpMNEVOZ2Job3JCQmR4Ykt1bVBUUE5jUjNRY1hHOVViSFhqS1NPLUl2UA?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "US Equity Markets End Higher on Microsoft's Cloud Gains, Semiconductor Rebound finance.yahoo.com"
     },
     {
       "id": "e46269a3f8",
@@ -80,28 +692,6 @@
       "summary": "Samsung plans to begin construction on second semiconductor plant in Taylor by end of 2026 KVUE"
     },
     {
-      "id": "15466615fb",
-      "title": "Veolia secures semiconductor fab water contracts - Water Tech Online",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR2pubUhkS0xSTjJfdDJzZG9KNkNEMW54TUlLNDY4UDR2Ym1XUHFtb254YzA1MXlaS3hFUG90OGN1Y3RCUEJsWDBGSXdDT1NLekdzRERXUjlkNXBROV9mQ2xLM3RmbzJ3RndtcC1ud3ZRTlY0UmZidUxBY0ZGd015RldSMlptOTdrUkRNOEtEN2FxdE5MSXZUZXV5M1B0R1M1MTFVSDBkSFZPRXM?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Veolia secures semiconductor fab water contracts Water Tech Online"
-    },
-    {
-      "id": "703b409286",
-      "title": "Intel Stock\u2019s Biggest Risk Is A Foundry Bill Due Long Before The Customers - trefis.com",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcmRzQ1JoZFlieUJGTGFYTm9TQk5YeHdsNDJCZnl3MVR2VnRFNkdDeFhweWtDUEcxeDFwd05HUGdBZzBFUVNybFlBV3hwUjJBTU1KNVEwZTJUdHpOd2tDRHNCLWh6dzE0QVV2LWJlbXZrZWgtU2w2UWxkOEozRE5mTklLRXVPdTRxc0JEV19NZTlETDhTVVY4T1hsblh3NzZzd0JBczNjUVBETjJONDQtTEtKNHFEV2hQWVlDa2RkaTk0cnZ5Q2pfUGlwZ0ZxLTg?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "Intel"
-      ],
-      "summary": "Intel Stock\u2019s Biggest Risk Is A Foundry Bill Due Long Before The Customers trefis.com"
-    },
-    {
       "id": "82e36419f8",
       "title": "Fund Update: 55,557 TAIWAN SEMICONDUCTOR MANUFACTURING (TSM) shares added to Carnegie Investment Counsel portfolio - Quiver Quantitative",
       "source": "Google News - Semiconductors",
@@ -114,14 +704,130 @@
       "summary": "Fund Update: 55,557 TAIWAN SEMICONDUCTOR MANUFACTURING (TSM) shares added to Carnegie Investment Counsel portfolio Quiver Quantitative"
     },
     {
-      "id": "c827985db9",
-      "title": "Top Chip Analyst: Semiconductor Oversupply Is Nearly Impossible Before 2028. Why He\u2019s Bullish on Memory - 24/7 Wall St.",
+      "id": "1e2e23ee93",
+      "title": "Kennesaw State professors use NSF grant to strengthen semiconductor education through interactive learning | Newswise - Newswise",
       "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSENOVjdWNlVyWXVadm4zYjhxbTlCTFMzUUJFRlBSeGhreUFnYkJfWjhWQlZyRjRuMFd5NjlYU21Kb1NoVmNsTHNfbjFHcndsMExoVV9vbVdrdGJULWVFa294WmF3UDMzeWJNMEg5Z3RlUWM0M1pJc2VXbFFEUzcxTkR6S3FCd1N5RjAyaEpvbk0xOVB5bDYzYzhEdlVtdmJuVkthVU1tZ0d0QW01SFNfdENyNS14Q0Q1UVlVN082eGl4X3Y1TDBfSlpSY1oyWC1wRDhNWGw4dzR6dVZY?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa1ZXSEtqdklub2dMQkFnWWd5MV92dkJoV085ZW5SU0hiZ1FyNmxNVHh6d2dITGJUcUhsVk5EZ0NzQnluU1BYOWZQdENxVWM2QksyM21fZ1NDWG03b3RGSFZRdWk5VG9ySXVpd1JIYWltN0xEb1lHS2hlZlQxd1dMN0Nhcm96dXc5dW1Jenl1TmtVZnpyZnZQbVdnZnRXVVRwY1RWSmhfYXhfc3dLODFWTEhOYi1DZEY1WE9iNGVUbjNMckpjYUx0VUt5UkMtM2lsLXRPT213S2U5UHJoZWF2TmZlZEJSRUMteXh4c3VXSmjSAfABQVVfeXFMTWtWV0hLanZJbm9nTEJBZ1lneTFfdnZCaFdPOWVuUlNIYmdRcjZsTVR4endnSExiVHFIbFZORGdDc0J5blNQWDlmUHRDcVVjNkJLMjNtX2dTQ1htN290RkhWUXVpOVRvckl1aXdSSGFpbTdMRG9ZR0toZWZUMXdXTDdDYXJvenV3OXVtSXp5dU5rVWZ6cmZ2UG1XZ2Z0V1VUcGNUVkpoX2F4X3N3SzgxVkxITmItQ2RGNVhPYjRlVG4zTHJKY2FMdFVLeVJDLTNpbC10T09td0tlOVByaGVhdk5mZWRCUkVDLXl4eHN1V0po?oc=5",
       "date": "2026-07-30",
       "category": "Fabrication",
       "companies": [],
-      "summary": "Top Chip Analyst: Semiconductor Oversupply Is Nearly Impossible Before 2028. Why He\u2019s Bullish on Memory 24/7 Wall St."
+      "summary": "Kennesaw State professors use NSF grant to strengthen semiconductor education through interactive learning | Newswise Newswise"
+    },
+    {
+      "id": "7131840ac8",
+      "title": "Samsung planning to begin construction on second semiconductor plant in Taylor by end of 2026 - KVUE",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNRllOLWhlVGZRb3o5WjVxMUJQOFQtYll6eDNiLWFGckc2TkN5eHVlS0FkUVVMc3h1YzF3NU5CWDRObUE0SE9keDhDcXFFVUlQTVZ4RGstd1czQjZxX1JZZVdvYkFSRzFPN1BKN0VCOF9mdlMzc0d5SUg4cFRxa2M5Q2Jjd0hXc2NfWnVCbUxvenFOTTZkdmxiNVdOMjZRbGVSMFdkXzU0YmptQjRhN3lWdlpMS2Y2VkhHNDYxU00tbHpVT3N0QWNkU1hhSHkzT0ZnX3M1WVY1cW1WcncwakFlNVFQMW5XWFdkS2U2VzRaamNoczVldGZwU0tuM2Mza1NYRGNfdlRkNURta2FfaVdZU0p0eTRwNWpu?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung planning to begin construction on second semiconductor plant in Taylor by end of 2026 KVUE"
+    },
+    {
+      "id": "15466615fb",
+      "title": "Veolia secures semiconductor fab water contracts - Water Tech Online",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR2pubUhkS0xSTjJfdDJzZG9KNkNEMW54TUlLNDY4UDR2Ym1XUHFtb254YzA1MXlaS3hFUG90OGN1Y3RCUEJsWDBGSXdDT1NLekdzRERXUjlkNXBROV9mQ2xLM3RmbzJ3RndtcC1ud3ZRTlY0UmZidUxBY0ZGd015RldSMlptOTdrUkRNOEtEN2FxdE5MSXZUZXV5M1B0R1M1MTFVSDBkSFZPRXM?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Veolia secures semiconductor fab water contracts Water Tech Online"
+    },
+    {
+      "id": "87baed0e85",
+      "title": "Is Lattice Semiconductor's (LSCC) ESOP Shelf Filing Reframing Its Margin-Pressure Investment Story? - finance.yahoo.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdUMtdFNVcVl1ZEd0eE5lMzN1bkluVmtnSDV1MzRkd0JhOUpFNmFRZTZzMlpzMlRaSndoX0hFbF9HS2l0NjNpSHhuV0NxWVI4aDhScWw0YkZNb2EyazA1bm9nQ0lLZnJwYndUWFN4VmEyaHFxWjV0UUNxRFA4Y3ZzdjVkQ3hUUXYzaWhtYmU5aVFkUjRtLTg3LUltTktGT1BadHRVbWx3?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Is Lattice Semiconductor's (LSCC) ESOP Shelf Filing Reframing Its Margin-Pressure Investment Story? finance.yahoo.com"
+    },
+    {
+      "id": "e0f83b4c7f",
+      "title": "Omdia: AI demand drives 94.1% surge in semiconductor forecast for 2026 - Omdia",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdVhpVmpYeXJXckpxUHVUTlhzbEF0MmVvckNjd1VTczF2RU5XQVRubHE3c3RtZ1FLZ3hER2J2dVlkbExVTGFrbEdMRTE1ZEVFdmNlV2hMQmZXZUluRUpmR0ZwVXdwVElaaXQ5YmtCODR4OUdLSnBQUkVDZEktUkJDbGRxYk5rZFRiVnFNV0kwVWxfdUVKNDNFVHB0ZERaVV9rcXg0RkRubE9Ga00zNVA2dDVBekJGOHhRTEtwSQ?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Omdia: AI demand drives 94.1% surge in semiconductor forecast for 2026 Omdia"
+    },
+    {
+      "id": "6b0af51bf9",
+      "title": "Cathie Wood buys $14.3 million of tumbling semiconductor stock - thestreet.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOTJpcTlwR193SUZXNVN2Vm1rS3JkS3BNZ2lsWUFoazVBWUljdkRRQnJJa1ktbFVfaURrcmZEZXBucDBkdTllVk1DRmZSYjM1bFpZWTgxZHJkRlpoQmk5OW5wSnNCdmZKR2lTUkNRRzBhSFNGbnBVOWU0Ujg5R2MtdVB3a3dtOTBuMlVJeVlBd2NDUGtZUG5UOXU2XzE2UGVqLUppU01raG5wU1diYnc?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Cathie Wood buys $14.3 million of tumbling semiconductor stock thestreet.com"
+    },
+    {
+      "id": "703b409286",
+      "title": "Intel Stock\u2019s Biggest Risk Is A Foundry Bill Due Long Before The Customers - Trefis",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcmRzQ1JoZFlieUJGTGFYTm9TQk5YeHdsNDJCZnl3MVR2VnRFNkdDeFhweWtDUEcxeDFwd05HUGdBZzBFUVNybFlBV3hwUjJBTU1KNVEwZTJUdHpOd2tDRHNCLWh6dzE0QVV2LWJlbXZrZWgtU2w2UWxkOEozRE5mTklLRXVPdTRxc0JEV19NZTlETDhTVVY4T1hsblh3NzZzd0JBczNjUVBETjJONDQtTEtKNHFEV2hQWVlDa2RkaTk0cnZ5Q2pfUGlwZ0ZxLTg?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [
+        "Intel"
+      ],
+      "summary": "Intel Stock\u2019s Biggest Risk Is A Foundry Bill Due Long Before The Customers Trefis"
+    },
+    {
+      "id": "f87eb7e5cb",
+      "title": "Does Lattice Semiconductor\u2019s (LSCC) ESOP Shelf Offering Hint At Shifting Priorities Amid Revenue Pressure? - simplywall.st",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcHpScVpyam9MUmdiZERUV0dORktkMUR2ZVltRXJWMl9tdjJTMXF2UGtMNU5NbnNzdjZROTRWQWZ5LUlVZUZsMmtfVmh6Yk1NWTVFdzZVVHJFUnRpWElKak52Tl90WEVCWkxjYWlZbHVlUmQ3aFpXMjhjQnh4MU5yZDc4bEo5TDBSb3NXR1c1SjVQRS1DakZiTmM3b2hPd3VEdEFhazR3Snp4ekozc0FBTnRjMUJVVUQwRGVJQTd6bmFGbjdIVWtwNldHVW1HZEVCS1JRYjlYSl9xdUdmTVBQRktqNGzSAeQBQVVfeXFMUHB6UnFacmpvTFJnYmREVFdHTkZLZDFEdmVZbUVyVjJfbXYyUzFxdlBrTDVOTW5zc3Y2UTk0VkFmeS1JVWVGbDJrX1ZoemJNTVk1RXc2VVRyRVJ0aVhJSmpOdk5fdFhFQlpMY2FpWWx1ZVJkN2haVzI4Y0J4eDFOcmQ3OGxKOUwwUm9zV0dXNUo1UEUtQ2pGYk5jN29oT3d1RHRBYWs0d0p6eHpKM3NBQU50YzFCVVVEMERlSUE3em5hRm43SFVrcDZXR1VtR2RFQktSUWI5WEpfcXVHZk1QUEZLajRs?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Does Lattice Semiconductor\u2019s (LSCC) ESOP Shelf Offering Hint At Shifting Priorities Amid Revenue Pressure? simplywall.st"
+    },
+    {
+      "id": "83b28d8290",
+      "title": "Meet the Super Semiconductor Stock Crushing Nvidia With a 12-Month Return of 129% - finance.yahoo.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR2lxbTE0VkllamFfb2RmRzQwZG93OVFIdEpOYy1hajBjQ1lFOXJVZm9XMS1ELUtiekJvSW9EaUp2R01yR2xSNWxfMTB1alpfYzVmcWYxWWhzclVQcFBHSVNHRWxqMmtqT09iUlJzS19lbDRUZmpNRkNuRHJwbGVTUkRTeWNheHloM0IzRWJCeWFaeTQ1c1hBN0l4NThFcllmWW5kODBvMA?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [
+        "Nvidia"
+      ],
+      "summary": "Meet the Super Semiconductor Stock Crushing Nvidia With a 12-Month Return of 129% finance.yahoo.com"
+    },
+    {
+      "id": "447f507979",
+      "title": "AI Is Needed To Make Semiconductor Engineering Work More Productive - Yahoo News Canada",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeUJidDBCT29RYlpvb3VyNTRaQW05SW9CWVZfb3N3QU92Ry1DRVdIVFF5LUVaSV81N2dEdTZTWGhXZG50bjRTWU1zbGRPWlZmN0NzUjBKbllsYUVGZHdicHd4SnlhS05kRFExclBTRTJCRG1nMGMwMzlwM3BldWpZX3ZkZ2pIaEp2?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "AI Is Needed To Make Semiconductor Engineering Work More Productive Yahoo News Canada"
+    },
+    {
+      "id": "62f70301fa",
+      "title": "Marvell Invests $250 Million in India to Expand AI and Semiconductor Innovation Capabilities - The Fast Mode",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPT1lObnBIbl94NU1IbHc1LUFScTdON1dSQkJaVEstRzFqZ0JVeFQ3V2laQld6bHNmZjdub3hNcU1VQU9KQkZTRUwzbGFmU2E0U01fVlJBei1ORmhzMkZCZ2NMdzhjRmZBV0xkNjZpdEpXSjZpVzIybUc1X1htSVBEUlRKMWFyQS03Wk56SHprdTZfZEZaaUZ4RU5IWVBvRUJIbXFraHJTV1lXZzNxVzVQR2ozdXhOSWtfUkxreXlHNC1QTldQbURwSWdlbTJuM2Z2bXNuZmpKcjZ3dWtVZHVyS0NLTndlS3M?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Marvell Invests $250 Million in India to Expand AI and Semiconductor Innovation Capabilities The Fast Mode"
+    },
+    {
+      "id": "971aa9c109",
+      "title": "Philadelphia Semiconductor Index Soars 8.2% \u2014 Biggest Rally in 15 Months - finance.biggo.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uSzc1U0daTUdMclJvQXFqSm5TQXBwd0VHaFc3UlpJWVROdXFuWEdTYjhSck0xdGh0UXg0bE1ULVRZSWJOeFo0dmxleFU5MFZLMEFBUlRScy12eDFQb1FzNkhHc0F5TG5kR2FIM1FldmQ2SE9hTUE?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Philadelphia Semiconductor Index Soars 8.2% \u2014 Biggest Rally in 15 Months finance.biggo.com"
     },
     {
       "id": "a605c8bac9",
@@ -132,6 +838,609 @@
       "category": "Fabrication",
       "companies": [],
       "summary": "SA analyst: AI optimism fuels massive semiconductor comeback Seeking Alpha"
+    },
+    {
+      "id": "369e978854",
+      "title": "The future of semiconductors has a new home: Purdue and Taiwan forge partnerships for the industry's next chapter - Macau Business",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTm9aRXcxRGk3Z1k0QU4wbTdUelhaX3ljV2ZwVklIbF9VNHdpYy10aDVycktZQ3pGY2k3UFNVQXFveEd1bG5FZXdabmlmcmdUWmd3am9fcFdHaWVsWDdITTljWkRuZklGc1JlYWgzOFhvcWpkYTBvTVA4THZTTXZRdG9VSnh6b2dzUWc3SENGLUtneENkeU9reEJjUFlZeUZVQ3RHYW41QmxBbnpCb2NEXzZKUWlaWDRid3ExSTlMWWQtU1d2aFlKZDZyZkNjd3lkZ09kUg?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "The future of semiconductors has a new home: Purdue and Taiwan forge partnerships for the industry's next chapter Macau Business"
+    },
+    {
+      "id": "26ab104aa9",
+      "title": "425-year-old Austrian bell foundry survives on 3D printing and lasers - Fortune",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VaWZOMHJCS1pfZDl2N3doTU9TTENMQXhOU1pZMnRLaHlXOFkzMTIwU0d0eGh2d0tfWXVBa0cxcHFLNFZsNTRIaUJROEhJbnI3U3VaeWZNY2lrRWNBUFV6SVJzTjBKR0RJcFE1S0xKZVNXbnZDUW9MREhHa0kwdw?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "425-year-old Austrian bell foundry survives on 3D printing and lasers Fortune"
+    },
+    {
+      "id": "63b93704f6",
+      "title": "IEX Q2 Deep Dive: Data Center and Semiconductor Demand Drive Momentum, Guidance Raised - Yahoo! Finance Canada",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83MEpSREhOUnJmUWZwQm5qa1Q1NHVtMkMyblJVOHp3bDNNY1JYX2NWdnZFMkNOZXkyUzdObUg1R1NLWlZTUlExRElaNEQ3RkVVcnRqVlVwSFdNam1xMDc4bWdzdzExSnFSbkc1MVJZcUlOZHhuTVl0QTBR?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "IEX Q2 Deep Dive: Data Center and Semiconductor Demand Drive Momentum, Guidance Raised Yahoo! Finance Canada"
+    },
+    {
+      "id": "2a5999b62b",
+      "title": "US signs letters of intent worth $874 million to boost semiconductor research - Yahoo Finance Singapore",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSDA0STFsYkpDMkxBSmpHVU1TcmNzeFJjejI0N3lJM2FFVFlQeXRWY21tWTgtRF8xbEJPaXdTM0ZMb1pWTXZWN1BNWjVsc2x2SXpXeURHVHVGZEE3OVl3bUQyZ1lXX3JMVVlscHNNbUZVZl9JYVRPSVJLU0ZmUGxhOGc0ZVg?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "US signs letters of intent worth $874 million to boost semiconductor research Yahoo Finance Singapore"
+    },
+    {
+      "id": "b7a6667be5",
+      "title": "Halo: Campaign Evolved PC Looks Stunning - But Requires Further Optimisation - digitalfoundry.net",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMjllQTlxTXBVTm5ZZDJqQ3VnMURwX29aUHFJZVRLQlZ0U18yU2lFNm1CU0diS0pBUE1ucHczbF9PV0lGVEFxTEEwcEJlTmlvRHdvcE5yNndxRFlBZnFVbWVrM1NDc2ptd2RiNHBZX1dYT3RpeDIwSm1oVlpjRDF5M2RTUWR5ZUNDeVhPYXJWVFhWY20xQ2RXOEVITld6eHJlSncwc1cwdmxYbXhNcHBLNkEyQQ?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Halo: Campaign Evolved PC Looks Stunning - But Requires Further Optimisation digitalfoundry.net"
+    },
+    {
+      "id": "fecaec24a6",
+      "title": "Commerce Department Signs $874M in CHIPS Act R&D Incentives - ExecutiveGov",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeHhVS014NmZXVUZIZGJhZnRCQXI4NFNnam4weFdGTm9sVFF3Ukw3aTJwN3diZEV1VW9xM2hGd0g3WTkxdEl1cHN3QnZ2WEFSbkdCeWgzNUR4LUtjTWJrdW5zdXpJR1F3Tl9PRU8zdUV6RkYtOURCbmk1ZW5WQkEwSmVQUQ?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "Commerce Department Signs $874M in CHIPS Act R&D Incentives ExecutiveGov"
+    },
+    {
+      "id": "43f59388c8",
+      "title": "TER Q2 Deep Dive: AI Demand Drives Growth Across Semiconductor Test and Robotics - finance.yahoo.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWERlcGJkMEdLUU1HSVpha1l1RjI3UlBianFCWjdXdU11YVhja2FOV0hmajl4MEg3WUk2WjlUVFNxNG1PWElfanVaVzhEaE1EUTEyWDNDcmNtU1gtT0o2MjhIYXZveDFLUUJYbEFRQjJvcUtJd25TVU1ST2taUDA0NGlsTEVhel9rV01n?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "TER Q2 Deep Dive: AI Demand Drives Growth Across Semiconductor Test and Robotics finance.yahoo.com"
+    },
+    {
+      "id": "c827985db9",
+      "title": "Top Chip Analyst: Semiconductor Oversupply Is Nearly Impossible Before 2028. Why He\u2019s Bullish on Memory - 24/7 Wall St.",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSENOVjdWNlVyWXVadm4zYjhxbTlCTFMzUUJFRlBSeGhreUFnYkJfWjhWQlZyRjRuMFd5NjlYU21Kb1NoVmNsTHNfbjFHcndsMExoVV9vbVdrdGJULWVFa294WmF3UDMzeWJNMEg5Z3RlUWM0M1pJc2VXbFFEUzcxTkR6S3FCd1N5RjAyaEpvbk0xOVB5bDYzYzhEdlVtdmJuVkthVU1tZ0d0QW01SFNfdENyNS14Q0Q1UVlVN082eGl4X3Y1TDBfSlpSY1oyWC1wRDhNWGw4dzR6dVZY?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "Top Chip Analyst: Semiconductor Oversupply Is Nearly Impossible Before 2028. Why He\u2019s Bullish on Memory 24/7 Wall St."
+    },
+    {
+      "id": "d8e2992fc0",
+      "title": "AI Weekly: Trump mulls AI controls, semiconductor stocks slump - Reuters",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3SlpHMFdKZGlTUURIV1hXcXZUOVROLXpOdnU3THRibFkzMW0zTmpsQklKTlFsSnNjOGF1eDhJMnZScElCTmE4Rl9ET0YxdTNWY25rUXRPSzU3Q0FBbS00ZVVLVTF2RTg?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "AI Weekly: Trump mulls AI controls, semiconductor stocks slump Reuters"
+    },
+    {
+      "id": "c552e281e3",
+      "title": "Applied Materials (AMAT) Stock May Not Be A Bargain Despite AI Materials Foundry News - finance.yahoo.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd1JnNzNwbXQ4VXdjdnd1Zm5VVDI2akJVYW1OckJoWVE2cWcza19nWjhCaFJlMWhmRlpXX3ZFbktGZEtCWGxPNTVvNE10SHRoRGFNZ0VCTkktQXdEVS1CYlEwa1RxWTNLNjZTeU03NGktRFhxYzF5OVV0bEl5bHotTFNvcjNCeG5FRmV0Yjc3NzlWS2FwQ2VwTXNxejZ2Zw?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [
+        "Applied Materials"
+      ],
+      "summary": "Applied Materials (AMAT) Stock May Not Be A Bargain Despite AI Materials Foundry News finance.yahoo.com"
+    },
+    {
+      "id": "7553796e0a",
+      "title": "TER Rides on Strong Semiconductor Test Segment: More Upside Ahead? - finance.yahoo.com",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTWhZWlBxVUdGY09BWFRBaVYxQjc4NXRINFl0V3JNWnNnTFpFcmJCMUhYVGlCZU9JU29INkp2S1hTZ2FIcjc1anJnR1B2a0o1bC15d05GQW4yX0FZSjExQnBYdmh2b19JZEZLUmNPaFJqeEszVGo4YWp2RHBlZ252dk9IUU5SeUZpUTZIYl9MdnFvVHU3LTFWQU5kXzI?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "TER Rides on Strong Semiconductor Test Segment: More Upside Ahead? finance.yahoo.com"
+    },
+    {
+      "id": "eaf1115ac7",
+      "title": "ASE Technology Stock (ASX) Opinions on Semiconductor Sector Momentum - Quiver Quantitative",
+      "source": "Google News - Semiconductors",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYmVmUUJDYWU0SVNoRFVBeEVteFdJdllnckNYT2N6alZ2LWhfV2ZWemh5c3RfTnRwV19Famxpdk1nX1ZjVE1TVTVtRURBd2xEb0hQckZQaFlpeGhfMHFpcXZSazkyZkpaTmotV3V0X0VnSjVvQWVWY183cjJBZk80elB3cnJ3eDdEcUtKX2FndC1haFNpZFVnNTlpRVY2VE9maFRsSzVOdG8?oc=5",
+      "date": "2026-07-30",
+      "category": "Fabrication",
+      "companies": [],
+      "summary": "ASE Technology Stock (ASX) Opinions on Semiconductor Sector Momentum Quiver Quantitative"
+    },
+    {
+      "id": "2dc3572b7d",
+      "title": "Thailand\u2019s Export Control Regime: Are Your Shipments Ready? - Alvarez & Marsal",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdFlmcHlwYkJRX1ZGN3BXVW1BM3BVM3hzdFZsZjE0aE1jZ1laQnpKVk1zYlBfc3BoUkxTQUsyWnZydWpZODBuZWd5LWF2OWlUOHY3akdpX3JleVlnakR4TmhyYjJHQnRjTDJ3TjFQdzNIdldYM2VpXzRSS0NRc1B4SzVicDViaUhEQU1mMm5lMHRCUHRQQVprY000WDBTNTFrNmZGTUNTM1VtblFqSVE?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "Thailand\u2019s Export Control Regime: Are Your Shipments Ready? Alvarez & Marsal"
+    },
+    {
+      "id": "2af61522b0",
+      "title": "CHIPS Act Targets The Smaller Players Powering AI Chips - Finimize",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUHE2VXUtemZRb01RWDdlVGVpM0dfbHk1c3NYbzBZWjVqSUo2MkI2TUZYUFhYT3RZMUFiQ0VVLVJjeTNHMFFVbTZ1allHek9GLTZNTnBQWlcxOUlKaWNNUDA3a0dIMGY4YlZPNGxoMjhSYjRKTGIteWRQYWM2OUE1cS16cE5pN1BmTmlkRA?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "CHIPS Act Targets The Smaller Players Powering AI Chips Finimize"
+    },
+    {
+      "id": "dd2376ac49",
+      "title": "Airbus receives record UK export control penalty - Global Investigations Review",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY3NCbGlsY1Bkcnc2OVJDdmpPZ1ZsYUNQd1VnaDE0dlJOMDAxQ2lkV3ZWbC1QSVlmRTlQbkNsXy13WV9mdmhQbFhZX0tsNXVLejVXU2FmdlZGX0hpX3dkYW5vYUJvR3RvTXNlVHBoMHNqX3RxSkdjWkVYT3dfcGQtZW4tYW9jNGdoTWhmdEtRdjB3OHdpTk9Uc1c1Vi0wVS1pWExicEd4RFBzcENSUXc?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "Airbus receives record UK export control penalty Global Investigations Review"
+    },
+    {
+      "id": "fb123ca339",
+      "title": "China Puts EU Entities in Export Control Watchlist, Targeting Rare-Earth Supply Chains\u3010SMM Analysis\u3011 - Shanghai Metals Market",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWS1RTlJHRjVEVTZoZTFjSGJSdTBYM3pzX1J4NWZYQkh3N1lOX01PeS1CNnRYczdoMnJiSmZHVjZRU2tNLTZQT3B5QjAyQzd5VldsYy1hVEphSlhDNzVaM1ZENW83NzlBWmJOTk1KMkhDYlFYZ3VlSWZscldRcDNnSlNzS3VpbTljR053RzJabnNqa1F4SnJiZEJSV2FhTEN5bmdLSTlkOGlZVjRYcXZvV1ozQkw4TlpkcEtHekVhOWtSNHpyX3MtOGVaY25zbXF1ekd0V2E2dVZVcUFVbHc?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "China Puts EU Entities in Export Control Watchlist, Targeting Rare-Earth Supply Chains\u3010SMM Analysis\u3011 Shanghai Metals Market"
+    },
+    {
+      "id": "3335835f27",
+      "title": "Airbus Pays \u00a36.4 Million to Settle UK Export Control Investigation - Yahoo",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GRFlIb1hWUVVRelRFQ2tVaGlYYk1FanJsWW16dDk0clVFdV9RR1RxczNoQnJES3JkU3lPWWFoSEVBbGo3LUVfTkdxTHFJRkZhNXNITVdwd2l6QmdHTnFGVkstaHd4Y2NJZDRNS0ZfajFtVHkyaHZ6S3ZtZm4?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "Airbus Pays \u00a36.4 Million to Settle UK Export Control Investigation Yahoo"
+    },
+    {
+      "id": "7c7f57882e",
+      "title": "The Day in Trade: Government hands out seven-figure export control fine and Burnham administration sets out EU \u2018reset\u2019 approach - The Chartered Institute of Export & International Trade",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxONWFHWS1JQ3NLWFRVaGpyb2Z3YVdySExnTndNcW1udFU4TFpucGN4dm1abTFuZDRzd3JndzFCeDhrNGlkOFRpV1hVMWhBV3ktbjhaOHRXU2d0NVptVTZiUlRZc2Rxcjl0Uk1UUGJJbGFpR1R3dGVHd19oYnZhT2t2azI3bGZEVDVBWXZCZDgyWkFwNmZWZkJKZWRYVXBvRU9RLWl6WTYxVjFKRmplUHpiM3Y3dXNaT1otQTdVS0k4Z09ULUdtd2RSZGdZUzJYRHlSWmJhQlVma29tS2s1WDExWHE2Wl9DLXdXb21ScUVpTzBZZ3VVSGY1WnV4NG1wODNX?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "The Day in Trade: Government hands out seven-figure export control fine and Burnham administration sets out EU \u2018reset\u2019 approach The Chartered Institute of Export & International Trade"
+    },
+    {
+      "id": "7ec3d32f4b",
+      "title": "Airbus says it paid \u00a36 million fine in UK export control probe - The Economic Times",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNU1dpMEJyUWhnVVcxbnVxNXB5WjQ4OXFuczFqeTByTFhmU3V6RFdlUFlGWUxJSy1pZXNtRlhYWHhOVjA4ZTdDd21IeUhMYmRUdFpCN1lsTVVLaUl5cFF1SXoydUFlbDg0MUtycVNSd29mZTNyaTZob3pnR0NFY3E3SzVqaDJQNXV2a2dOczViY1RPWkRKN0lpTjh2ODI1cEhhcVhsT1FiWVpaV3FUVmRkMnJxbVdOeTU4d3FFdlN6Ynk5QmV3MnhiQ3dUQjgtT2R1T0NfejBuQzhOWXVUYnQxTmpUZ3dmUzdEeGtDRDFZVjlqeUNrMlUzWGtSOTFLV1pLNG1qakFPMXNIWHpZRVlOeTlFU1lwbmdzcmd3VDR0UUFwZU5tdnVzMVBLRk1qQW4zTm9yVTZtR2ZOeW1jZEIyV1dzczTSAeABQVVfeXFMTXU3MWVTeFdLTUs0RWs4SmxEb01hQjdnV2xUc3hfcVlweUlJSGhjcDNVSl92M2tPVUJsZWdGaFdxY0hQQW1SVU5HQUxCWVIwSHIxSEpacVIwWTd2bnRPMVNvLXd0by1kbkttemtDMU5aa3MybU9uRm9FdGd2MzM4Z1ZRSVhzR2NhN2d4OXFfTndxNl94T1ExXzBjNHRpOFZ4ZVdEQTU5NjVaSmZSRHBzVFBwZGxwaFA0Y2o5YUQzY2dHVE1Nb29Jck82SGMyQ19tR3Q4RXZwN2g2WGlHeHRrQzg?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "Airbus says it paid \u00a36 million fine in UK export control probe The Economic Times"
+    },
+    {
+      "id": "a0c18b4850",
+      "title": "China Adds 20 Japanese Companies to Export Control List Amid Taiwan Tensions - News On AIR",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc1c4UUp3M01qZDkyUHU5MzlWQll6THB6V09DNjlGdmZGbDRnOXV1VldBQUZKbUlyODhFWkFTRzV4WU14MWFVWUJTclBDSWg3bHdJa2d3N0Fja2l1UHRzVENxX2tSMFMycXN0U1JvcDhITlFIS0FEdnlLdVBHRFY3cEk5aHhDVG5SNW9tMDN0TlRybHFBa2ZkZGtwc3c3S256UHNfMw?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "China Adds 20 Japanese Companies to Export Control List Amid Taiwan Tensions News On AIR"
+    },
+    {
+      "id": "e9c9cbde0f",
+      "title": "Aeluma Secures Proposed CHIPS Act Funding Commitment - TipRanks",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQlNWYlBaaDFsek1GaWoxa3hsZFBXT01lMjdYZFVqWVkta2wtSUhQNXA1NkFTZDFLZld6S0dYTW1zZHM1dUVpdEo4LW5CQUpmeWM2V1lia1paT1BHOExEb2NTNXFiX0JmV2NpQ1RBVUNEYjRjV19NWDFpZENFeTdfV2t2TnVxSzY2YXlUM1hobTkyajlkVDg5S2s1YnpXWG5sa0drWXU4OA?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "Aeluma Secures Proposed CHIPS Act Funding Commitment TipRanks"
+    },
+    {
+      "id": "ae3b1c281d",
+      "title": "Airbus Pays KES 1.05 Billion to Settle UK Export Control Violation Probe - streamlinefeed.co.ke",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVURlYmROdFRYRjV1cnFLZVdmMWJXMnpUazh6YW5heG1iZTlGYTlMU0pOQ0xMZzdqWUJpVmFNbGRLbVZKNFozQXJvQVpZYVlUalV4bWkwN0pTZ2xBTTd3R1hSZ0o0X1RvTHhKM25sZG1NRzFpc3lXSGVhOUVXNXlsYVZWMldpYmt0dWlLNHJ6cXdNM2VJaTVxb1U1MWJHSklsd3FOVFFn?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "Airbus Pays KES 1.05 Billion to Settle UK Export Control Violation Probe streamlinefeed.co.ke"
+    },
+    {
+      "id": "9de0562e5a",
+      "title": "Airbus Pays \u00a36.4 Million to Settle UK Export Control Investigation - Brand Icon Image",
+      "source": "Google News - Chip Policy",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ0RnSDNxQ3NnYWprOEtkTkxxWnhaWTdnX2JaVUlXcTlTMnJlSUlrbGV2SXBpdnpCenVDM0M0eG9JMnlnTzNJcmswY2k4Y0N0aVc3UU5WWGppUnVaanAyODctb2ctc1ZxRzBVLVltWTVsRWdGYU4yWnBMRFVyd2lOb3lOUm1xUQ?oc=5",
+      "date": "2026-07-30",
+      "category": "Policy",
+      "companies": [],
+      "summary": "Airbus Pays \u00a36.4 Million to Settle UK Export Control Investigation Brand Icon Image"
+    },
+    {
+      "id": "173d10c182",
+      "title": "ChipAgents raises additional $60m in expanded Series A round to support AI chip design platform - Data Center Dynamics",
+      "source": "Google News - EDA & Chip Design",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZ25veEUzNzhqdHpOLTV3cEROR2VJS045Q3dzQXU1WjVuTGJad0h1RzhEM2Q2dUdOX0t4X1FiZGlUWXhBSTFWcVZhNTk3Tzc2QWZHeXBmMVF0ZGFDRktJVUVkeENOWkJ4RmJfY0dDMXNoRTJ4bm8tRXJYY0o2RUJkZGxiVXZOWXFCQk1lUkltTV9taWdXQXE0MnBKMFVoYUMzUW9VV1p0RFkxbVJVUW5ETFFrcGFKclRwNkpUXzZhUjFXUXBoU2V4b01LZ2tKVUEwSFc1aw?oc=5",
+      "date": "2026-07-30",
+      "category": "Chip Design",
+      "companies": [],
+      "summary": "ChipAgents raises additional $60m in expanded Series A round to support AI chip design platform Data Center Dynamics"
+    },
+    {
+      "id": "3160840590",
+      "title": "Why Microsoft\u2019s Maia 200 AI accelerator buildout is positive for this chip stock - Investing.com",
+      "source": "Google News - EDA & Chip Design",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSHVpeWNhQnI5MkxMSnFaLVVKRkFPaGR0Vmw0b3BUZlY2T0gwcU1NVy1iNnFoNklHclFrY0hISWs4NnRoUFRzc3pfTnlXMHIzUVc0ZTlTTm1KNmpaVGZJMUlFR2FpSkRHVnZuYXZfQVhRYUhNT1E5X3BxS3E3Umw0X0g3OElCWXlhT0tjOWZtdmtQdnpiOG9OVm0yeUxmN0Q0UUxHYXN5ME1jVGh3ZTNaUlEwUzFNa1ZhVFV6QnQ2cDk4dzJsZF9vVHVYT2JOMlZSX1lJeDdrVTdEMXNkLUx1aGI1VQ?oc=5",
+      "date": "2026-07-30",
+      "category": "Chip Design",
+      "companies": [],
+      "summary": "Why Microsoft\u2019s Maia 200 AI accelerator buildout is positive for this chip stock Investing.com"
+    },
+    {
+      "id": "52246f44de",
+      "title": "Samsung Expects the Chip Shortage to Get Worse Before It Gets Better - CNET",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV3hIZkRSbTA4cngwTFgyeEM5NkxBQmZjSWNFbmJPeDJ5Zk9QRHdxTFR2NURIQi1LeGhXNWpXNVdXcy1EU2MxRUFVUjYtclZGRjNwWDF4aFJhOW1OZzJGNGRNa0RualVKUEZoSUJwS3hDMmd1cVJaenlwaThhRW5UaG1PNjlyX25lV0VwSUYzLWF2c0xFRVRoTm9Iaw?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung Expects the Chip Shortage to Get Worse Before It Gets Better CNET"
+    },
+    {
+      "id": "b4b04327fe",
+      "title": "Samsung Expects Memory Chip Shortage to Stretch Into 2028 as Chip Profit Jumps 250-Fold - Technology Org",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa3RjX1FnTDN0NlpUNklrMXNIeGQ5MEZiWTlDX1o5WmlSVjl3WEpXOUF2N2RVXzR2ZDBuQzI4eVVQZnNGTVFHRjJqcGZnVUptNDNJVk9qRU1acHZkcHhkRlVMZXVMdzRDQzR0ZzV1eTd5Mk1jdzI5WV9VN2RFbmVHMlViaVpTRG5EazZLNE5INUNEUQ?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung Expects Memory Chip Shortage to Stretch Into 2028 as Chip Profit Jumps 250-Fold Technology Org"
+    },
+    {
+      "id": "6b8e517164",
+      "title": "Samsung sees chip shortage extending to 2028, touts long-term supply deals - Reuters",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeEFMZFc3WHBfOVFBR0JhTjNnd2dWdmpoSm9wSW1YNDc0S2FmemlKMWVZaDdPcjJTanc5a19BVHRnTGtMNlNfWFBvbHk1ZGM3YjlIb3lzVU52RUZQS0xDaHgybDFJVFhhUFhyT3NMa0E3bzY2T0M5ZU9PRHg0VklLS3R3d2o5eHVNcWdGdF9rNk1qS29VandoLTdReDV5T0pBR2phRHZiWks3U0hqdHktR2xsUUZMRlpuNjVrRWJ3?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung sees chip shortage extending to 2028, touts long-term supply deals Reuters"
+    },
+    {
+      "id": "41aca4ed59",
+      "title": "Samsung sees chip shortage extending to 2028, signs long-term supply deals - The Business Standard",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWmd6SFVIMnFpTHI0bWEtTXJCanFFaC1kcmxDaVlXb1dvY19KenFkMU1FaHF2eGtMMlFqYjNhTEF0T2tNZmZIakZTYXNhZENkUFhGSmVDOG1SWUEyRWtTY19HN0ZnY044LXdqcXN4ZVZPOXV4MTNTX2UyY2k3QWpwSXZrd19tLVkxNndCWTBVZTBoTVhiMW1PbFV2dkViZ1JiamlTbTVFOWNqcTVzWGp6aUhtN21ZSmJfWVg0a3IyNzI0LVN3bFHSAcYBQVVfeXFMUFpnekhVSDJxaUxyNG1hLU1yQmpxRWgtZHJsQ2lZV29Xb2NfSnpxZDFNRWhxdnhrTDJRamIzYUxBdE9rTWZmSGpGU2FzYWRDZFBYRkplQzhtUllBMkVrU2NfRzdGZ2NOOC13anFzeGVWTzl1eDEzU19lMmNpN0FqcEl2a3dfbS1ZMTZ3QlkwVWUwaE1YYjFtT2xVdnZFYmdSYmppU201RTljanE1c1hqemlIbTdtWUpiX1lYNGtyMjcyNC1Td2xR?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung sees chip shortage extending to 2028, signs long-term supply deals The Business Standard"
+    },
+    {
+      "id": "b1b928d9bd",
+      "title": "Samsung sees chip shortage lasting until 2028 - The News International",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcWNRQ3Vud2dSYkpWN0llbXNVNzEwX1U4NXhWX29oU3ZIVXZ3UUw3WmNsRlRTWUJZa1Q5VFZqMUh2U1VyaVNJcy1sZXJCWnhZeUVVLURKeUlhYl9aVmpIeVo0LWYwdnp1QVF2OFk1U2hUU2pHM3JSU0w4OE85dkxiRjZ2Y0ExNFM0TUk5SGFTWkQ?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung sees chip shortage lasting until 2028 The News International"
+    },
+    {
+      "id": "c5b7716d22",
+      "title": "Samsung warns chip shortage could last until 2028; shares jump 8% - Storyboard18",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONG1VRnFacXRnTHlJNFpydE11RF9NOG5qbThzdXlTQVVRUWoyV05pelN6SktZWFN5R2pyMFljMDNObWtMVUtHa2JuNDh2LXB2X1dTbmdsb01WUU5RbTRyVncwRllxcUZXdHBrS1ZMYzA4Wk9CNTZtVzJrUWJTT21BWFQwdHg1WDNaUEdWLWJjWUtoWWdoUTVLUk5fNnM3em9QSElDSFIycUJ1LTNvQ0wtbzNvWk1mRDFkN0ZR0gHAAUFVX3lxTE5HdVlHNDZoTkNicF9rQ2pBTnpjZ1BEdHhIRWhaRzNjUWl0YVpVdTZ4VkNiQUpQOGZhNEhTbjJTTXlIcUlINlNXM0NzQk1sRldXTkVqM0c2LWtGU2JzSGpWQzlHZENYaURRQ2lnYjhhaDNIZTJhT2lZTVoxWC1OTXZBVmJwdmo1UHRXX1RPUWxkN1FDbi1aaDNhTVdKalRNSXF2clJURXRRaWtOa1ZqSU13Z3NiOGZ0eW1IZ2N6bHR3NA?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung warns chip shortage could last until 2028; shares jump 8% Storyboard18"
+    },
+    {
+      "id": "c6acaa6485",
+      "title": "Apple Surpasses Expectations with Record iPhone Sales Amid Chip Shortage - Devdiscourse",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdUJwU2lHbVBDcnB0dnpjcGR6NGNPN0FOdFNVWThWZVJ6UXUwdVBYSmhnMXF6MDR2eTh4aXZ1TTM4VkVWN1MxbVdBdkp5SkpDRGdKZ044RzJOSjVza0VHVlNBMmxrdWdmS0U0aDd6dmE0VVVtTS1MWWRaQ0dwM0xjV0FyZUJwaHB4YUtjRUlTdmJxSm4wNFJZUFd5R1VnUEZLU2Iyb2szamhUaEg4WWc4NFh5TGN1R25JQ2QyblBzbmZKVXFhQkxr0gHMAUFVX3lxTE84Zkw5NnBjTjlBcHJDTUc2eFZrZWFoSy11bW4tRkFsanhMZUFLOFlGT2dqb1Z4bTZVUEJfcWN1TzBrVDZfOFlFSFh6eHZiUU4xNnFvMUxmemdYUHVlQVJLUXNxZF9ENWJacnFEV0RfN29DQ2QwcHpHM2VmQlY0QUhMOGVpY2RLX3dQRmNKbWplclVqX1JIRmtibm9nYVNYbGFOZ3VvM0g1d1BKOXFMNXZzcldqYTMzdHY2bGs5TlhieFNmRklRbktWQ1A3Tw?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [],
+      "summary": "Apple Surpasses Expectations with Record iPhone Sales Amid Chip Shortage Devdiscourse"
+    },
+    {
+      "id": "6a7aea3605",
+      "title": "Samsung Electronics flags prolonged AI chip shortage as demand surge lifts profits - ETEnterpriseai.com",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPczZ4X3o5bm9XeklxeVB5RVM3RDRqRllWZmhZNmRlSWZxNkVIc3pXUG5Wcm1MT0tUQ1pPQjJZRkRqanBqejZ3X09FdlI4Q2gxTlFUWUd3NW5aQ04yVDY2OVBqYUxwam1tbFJPZVM1VGdrQVJadDF3d05iQnRNV3NhTWhiR3RmUUp4NGo5Z09ZVUc0dXRvMS1tM0luVHprblhSLTBITHpwanNMTDZITGlVT2RDUXpYNnhOaHBRcEVobU5UMzZuSUF2c2dOQWQtenFDaUkwM29RakpCMXQ5dmRfZldRX2xQeE00NzBxNm1yY1VxalllNnNnbm5VUTd3VUpaeUN6T1Q4TFBaQ0RaTWIzLXFPRGJoaXNZVmNTNNIBnAJBVV95cUxPczZ4X3o5bm9XeklxeVB5RVM3RDRqRllWZmhZNmRlSWZxNkVIc3pXUG5Wcm1MT0tUQ1pPQjJZRkRqanBqejZ3X09FdlI4Q2gxTlFUWUd3NW5aQ04yVDY2OVBqYUxwam1tbFJPZVM1VGdrQVJadDF3d05iQnRNV3NhTWhiR3RmUUp4NGo5Z09ZVUc0dXRvMS1tM0luVHprblhSLTBITHpwanNMTDZITGlVT2RDUXpYNnhOaHBRcEVobU5UMzZuSUF2c2dOQWQtenFDaUkwM29RakpCMXQ5dmRfZldRX2xQeE00NzBxNm1yY1VxalllNnNnbm5VUTd3VUpaeUN6T1Q4TFBaQ0RaTWIzLXFPRGJoaXNZVmNTNA?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung Electronics flags prolonged AI chip shortage as demand surge lifts profits ETEnterpriseai.com"
+    },
+    {
+      "id": "a948a27de6",
+      "title": "Samsung Sees Chip Shortage Lasting Until 2028, Expands AI Supply Deals - Asia Business Outlook",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaS14NlVULW9UNlY3YS1RQ0VBaEk4SzJFUXNGaGE2Y2F3LVEybmNEMktCSF85WkdkYkEyOGdjTGtEUnNWODh2X0YwelItaFVFT0UzLWJxZ3NwQlpsaHlvdWpyWTFsM1k0LXM4N2dLSDVGTjVLbVd4UUhrRkk4VWpJU1Zrb1dEMmRad1J0R1ZaNHRUVVdqMTRMZVhtUnZaS0s2QXpRUWxyYzVicm8wOFJkdmlid05xd0J4RmpfY1RqZlhudDNZ?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung Sees Chip Shortage Lasting Until 2028, Expands AI Supply Deals Asia Business Outlook"
+    },
+    {
+      "id": "b1aac796e6",
+      "title": "Samsung Sees Chip Shortage Till 2028 and Signs Supply Deals - CEO Insights Asia",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORlBuWGt4N0FiZDhMbHItLVdIYW5KWTdmbUVMY29pWE0zNF9Oa3otRXBSdzVSLUd2cFMweHJoMlJCSGx2cU1NRl9MQmR6dmZxMEtNb3Z3ZjFBb1h6YlFSZjI1WlBtV0ZidC1rU2Z6Y1ZiVGhkdEZHX1lEYzU2Zmh3eDZNM09nOU80djNGSzZudm5YakJfSVNMTkQ0c2dIQWtHVE9nUmVGSHpPa3hZSWg4QXBB?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung Sees Chip Shortage Till 2028 and Signs Supply Deals CEO Insights Asia"
+    },
+    {
+      "id": "6e9a871976",
+      "title": "ASE sees full-year LEAP revenue topping US$3.5 billion amid tight packaging capacity - digitimes",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZHQtM0tkVUdJaUxuYXZUZVdsc19iTk9PLUFyYnM0QlJlU2JqY3lvUk1vN3pNQTRvT20wQUl6Zk84V1BvdGxxWDZNaGhXT28zQ1AwQXVxMXRDSmdCVW1LWnNwS2JMV056YzdXdHFuSmt6cVQxcHVLeVR3ZlJWSWhfRHZRbndhX09FMjZRSlozT3BYXzQ?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [],
+      "summary": "ASE sees full-year LEAP revenue topping US$3.5 billion amid tight packaging capacity digitimes"
+    },
+    {
+      "id": "67b8fc8dd4",
+      "title": "Samsung Sees Global Chip Shortage Extending to 2028 - Equitypandit",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbWlBZzV2UUxUUXZrRFZLQVItOHJvSVNlZXRSRTlIbGt3c2FyM1lRNmRFN0I4MDhHMzFSMVRfMUVjX0xnYlA1QzVvMWpJekhBRGUtNUgwWWZPQ3VfaGd2c0pRS3B2eFYyQnI2YUNpWFJzV3BLQmpJN2dzQ2lPakM3Y1J4Qm44aHZ0?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung Sees Global Chip Shortage Extending to 2028 Equitypandit"
+    },
+    {
+      "id": "1fde068d27",
+      "title": "Samsung Sees Deeper Chip Shortage in 2027, KOSPI Rebounds 5% - Seoul Economic Daily",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdWl6VW9xSkJBYzhyenZLQlNhMzR2SWVEWlhVMUw5WVNZdUJNWVdiRGtfVEdxLUdmdVpJbExjUGkwa0t3TXFNNi1wYUlQdGtMc3liTEk1c0FaU2FnNG9VaW9VZE4zMmxKRHduV3RNd0RrZzhOMmFJa1liZmRuOG8xOHYtd2VwTW5PNjUwU2FYMWFONHl1N19CNVY1b2IwQkk3NFE?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung Sees Deeper Chip Shortage in 2027, KOSPI Rebounds 5% Seoul Economic Daily"
+    },
+    {
+      "id": "194e1afa5e",
+      "title": "Samsung expects AI memory chip shortage to extend into 2028 despite record semiconductor profits - varindia.com",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcVdyWTMwSWhlODhidTJURXJNeUJnV2RKYWFsZ01jMXpSX3FNMTBfclYtWG1XZDJ4MG1xMGtqOFhWRU9NS1JxazNkOFluLVZNMTRoYWpSci1fLVd6Qk1oVzY2eVpYUzFCOHdBTGZXbE9jS3ViaEx1V1ZDS1hWT2doN2UtWmd0WUJycXlUNGxpWUZjeUV0RWF5dURqVi1kYTdzbFFSZ2F3VUhaUGFpd2NWOXlyNXhlR3ZURzJST3NWeGVpb1Fa?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung expects AI memory chip shortage to extend into 2028 despite record semiconductor profits varindia.com"
+    },
+    {
+      "id": "ea111703ce",
+      "title": "Samsung forecast deepens chip shortage, KOSPI surges toward 6000 in Korea - CHOSUNBIZ - Chosunbiz",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPR0tzQ3YxLWV5dWpCRjFSNnpCbml1UVdEaGdyRnFSNDVXQXR1em9mVHhKY1AxQ1kwNURwdFJ0SzBZSWk5amprYjd2SmVLbm43SkxzaHVxWm1NdURncjhBTFNYMXl0MFV2QW1jczhwTy0tY0Y5T0ZLWTJvczgzMVI4bdIBlAFBVV95cUxONlJhODVCZzk4Y1RBZWRPd1owcjNsc1NReVBUSDVvNUhuOFRMMFNYUV9aUUY4d3UwWThxTWxLTkRzT1hKOENiTGZiNzhxUWhnaVZObDJlLUJKZVM1ckg2N0d0blI5a0xiYXdLdnF4dkphanVnOGpMVEcyaGdYbnlvcDJveGFUQnJyMDhuSkhUeldNcHIz?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung forecast deepens chip shortage, KOSPI surges toward 6000 in Korea - CHOSUNBIZ Chosunbiz"
+    },
+    {
+      "id": "0189146ba4",
+      "title": "Samsung sees chip shortage extending to 2028, shares surge 8% - Moneycontrol.com",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSkdsZXozOGF6WGNCYzBPc1YtSmdOUGhzUUxxTVpNMmNNNTdZdWwxWDBybkdPRm1qemNuTzVVb0tXMjBFdWpQUXlQNF9XeElhMTdGTE5LdS1wSDBpOWg1MXNiRUZvTlFZNjU3cGdsVXVlb00zeHJmbEV0SzNvRUF2YWRGZVE0alZWY0JrLS1NOFNHYUw2NkJiTTZCOExFT0VTdmp4SmZEUUx5dUE0b0M5NktLd05nY03SAbwBQVVfeXFMUFoyWE9vYldjYWxQNzBUOXpkT0tNOUZSeDhNY2RhWk04S2t2NWwybHM0bjBQaHhhZ1RKS2lWLWoxbUczWlFnSGt4WDNDRHpnSkFRWDNDajI1S2JNODl6aFdRYnRjMnFOVFBnb3E0b2szbWFpWEFVaDFVV241cUxiRDlEaTkxbHlEdUtrdkZiRHo1RjRPMEtxMzQySXVjRlVrUi1hUWtjWUxZTXIwRmZMa0hmSFp2cVRHYmh2TC0?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung sees chip shortage extending to 2028, shares surge 8% Moneycontrol.com"
+    },
+    {
+      "id": "c5d2c3474d",
+      "title": "Samsung Sees Deepening Memory Shortage, Q3 HBM4 Sales to Triple - Seoul Economic Daily",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjB1U1h4b0pYWHRqb1RwZFJpVjBGcFVmdnlpQWFnMkVLOFFzTXFOTUtGTjc5UnllQlRERDA3bUdwRWo5YWIxdWEyLXdqcFFVOGhCQmZEQ3pLbk1HWmNUSndLSDh0ZjVxRnB4eTV1RkZHTUhWQy10SlZ0azNWS1FsdG1NRlphYTZsc2FPdTdyTzEwZ3E1cDNsbnZPLUpfUQ?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung Sees Deepening Memory Shortage, Q3 HBM4 Sales to Triple Seoul Economic Daily"
+    },
+    {
+      "id": "49a6a6bc91",
+      "title": "Samsung sees chip shortage extending to 2028, touts long-term supply deals - The Economic Times",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMFNtTU1JVEpFQ21NeFRmQlJFcmZITFRld3huVG5LcTJsMDJwYkM3b0dqcWJRV1dRZEFIZTRwdlZKRFJEY1A1UmNuUEdkanpueVJpNjlTU3VHNmRHQWg2MmZKU1VGTjFsdk9TMFFpTW9PNGxwREtMQ1kteG5xMEtvLWszd3ZSSWFUZXlnOHVxMUR6VE51Qk13YUYyUURJWkRSMndlb1RSb21yQmJnSjVNeDY4M0JGRjJhV3YxQzBsNXNhaDBXLXFJdmhZVFVUSjhCa2JKbTUyWFBETm9uYS1hRDQzY2E5MWZxbzhWYXNWcVpCZ9IB8gFBVV95cUxOMFNtTU1JVEpFQ21NeFRmQlJFcmZITFRld3huVG5LcTJsMDJwYkM3b0dqcWJRV1dRZEFIZTRwdlZKRFJEY1A1UmNuUEdkanpueVJpNjlTU3VHNmRHQWg2MmZKU1VGTjFsdk9TMFFpTW9PNGxwREtMQ1kteG5xMEtvLWszd3ZSSWFUZXlnOHVxMUR6VE51Qk13YUYyUURJWkRSMndlb1RSb21yQmJnSjVNeDY4M0JGRjJhV3YxQzBsNXNhaDBXLXFJdmhZVFVUSjhCa2JKbTUyWFBETm9uYS1hRDQzY2E5MWZxbzhWYXNWcVpCZw?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung sees chip shortage extending to 2028, touts long-term supply deals The Economic Times"
+    },
+    {
+      "id": "b017fa7ab6",
+      "title": "Samsung sees chip shortage extending to 2028, signs long-term supply deals - CNBC TV18",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRVBXdjlWTHh0cy1XMG96cDBJSzdvTzQ4blFxZ2RzdzFfRjMwcUo0bWdFYU14VE9yZkRjbzdqUGtwTEt5eGZJLWk4M1VEN0wwODVqVnFidXlSN0xoam5oaXBFU0hUbWtNeDJZZ1NXVE1WYUVVaGlhaXpmMHltNVJCNFZvaFMtMnZxUGVxVHZNR3VGRDZWNjRhZFRHZXZFZ1FFSVdjaWR2M0NOQk5LNXJvdGduQk91NHlRSkRGcDB4akxfNkQtY0xETHVzV2Q4YkZEUXFNbtIB1AFBVV95cUxPRVBXdjlWTHh0cy1XMG96cDBJSzdvTzQ4blFxZ2RzdzFfRjMwcUo0bWdFYU14VE9yZkRjbzdqUGtwTEt5eGZJLWk4M1VEN0wwODVqVnFidXlSN0xoam5oaXBFU0hUbWtNeDJZZ1NXVE1WYUVVaGlhaXpmMHltNVJCNFZvaFMtMnZxUGVxVHZNR3VGRDZWNjRhZFRHZXZFZ1FFSVdjaWR2M0NOQk5LNXJvdGduQk91NHlRSkRGcDB4akxfNkQtY0xETHVzV2Q4YkZEUXFNbg?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung sees chip shortage extending to 2028, signs long-term supply deals CNBC TV18"
+    },
+    {
+      "id": "2f73609d4e",
+      "title": "Samsung warns of a greater chip shortage in 2027 that will extend until 2028 - Dem\u00f3crata",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcnZfQjRXME56N29kLW5jYTZPVXJwem5SY0xNa0k0aFdOeTN6Um5QeWNiREo2OHhNWnBIMGF5Tzk3VERnN3pZX0U2N0tNeEg4M3hsMEJUWVBNR1liQnoxVDd5UzRkejFXeHlfM0p4Q1Z5Uk52OFhJODd4dnV5SldaS1ZnRlNGLVVZMVlzR2VNbkxVYlVtNnFHeXY2TmZIU29fY0hQRHNLOFBYY252OGR5ZEtiZ9IBuAFBVV95cUxNQTkwSGFQY0RTZW9ZTm1BTVRnUFdoY2hjS0IyelZkZGlaQnk3RFlnbk1ndEstMWdsVVJZNnNKWGpOM1dZSzl3dmpRT0V1ZHEwaTJoQjJfUFJoRU1vZmxlRk5KZmtZU2Yta0t0NzVPXzBWWmwtaDlQN2ttMU9KQkpydENPMzUwMHBDS3Q2UG1lZ3ZQN2poVHdpTm9sZy1UbUNhZW5sYkxuMGxId0RETm5uUHo4OFZTb2VT?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung warns of a greater chip shortage in 2027 that will extend until 2028 Dem\u00f3crata"
+    },
+    {
+      "id": "a36ef28b90",
+      "title": "Kaynes Tech plans chip supply chain expansion via JVs under ISM 2.0 - dqindia.com",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS1g2a2JqQTJTUWVSRjhtMnBXbWhTY1U4OFZqSDBnaGY0RDdHZ2RaWjMzbWoyR2JndGtKMkQydHdKeXBVS2hDc0tJN2RscHU1d090ZFlDZW5iMXd4RDZkNHdOdWNnc3haVENncGJ4R3BhQkxXUFJPcGhOdjFaamx6b05LVDBqUVVQVkRIZ2lvb3p1b0sxS3ZBQjJ3MFNJNm1BdTNoTVZTRHVxWW9nMExKNXpuTFLSAbQBQVVfeXFMTktYNmtiakEyU1FlUkY4bTJwV21oU2NVODhWakgwZ2hmNEQ3R2dkWlozM21qMkdiZ3RrSjJEMnR3SnlwVUtoQ3NLSTdkbHB1NXdPdGRZQ2VuYjF3eEQ2ZDR3TnVjZ3N4WlRDZ3BieEdwYUJMV1BST3BoTnYxWmpsem9OS1QwalFVUFZESGdpb296dW9LMUt2QUIydzBTSTZtQXUzaE1WU0R1cVlvZzBMSjV6bkxS?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [],
+      "summary": "Kaynes Tech plans chip supply chain expansion via JVs under ISM 2.0 dqindia.com"
+    },
+    {
+      "id": "a28e30df99",
+      "title": "Samsung sees chip shortage extending to 2028, signs long-term supply deals - Khaleej Times",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY0Jra0NJQlBlenNHV3ZNQVlGUFh1N0Y5bHNjN3NtVWY4b181V1NyZjZoTHQzbm1vdGtkZ1E2aC1GVnlPMGdkWWw2VzFKSFdnSG40Y19oMnRNbExlX0pEcGdvWDdQc1I3UXhlZlJmaFI3U25EZjFtLUdrc1pSdFJ4c1BCelNwWTVsa1BkNGd5UUdPa2lmQWtJVlluVkxsaXUtcEdabFl0ZGpoQ283eXlodGMyRUxhdkVqSkFUSzFxRdIBvwFBVV95cUxPY0Jra0NJQlBlenNHV3ZNQVlGUFh1N0Y5bHNjN3NtVWY4b181V1NyZjZoTHQzbm1vdGtkZ1E2aC1GVnlPMGdkWWw2VzFKSFdnSG40Y19oMnRNbExlX0pEcGdvWDdQc1I3UXhlZlJmaFI3U25EZjFtLUdrc1pSdFJ4c1BCelNwWTVsa1BkNGd5UUdPa2lmQWtJVlluVkxsaXUtcEdabFl0ZGpoQ283eXlodGMyRUxhdkVqSkFUSzFxRQ?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung sees chip shortage extending to 2028, signs long-term supply deals Khaleej Times"
+    },
+    {
+      "id": "ff702e2bf4",
+      "title": "Samsung forecasts chip shortage to extend through 2028, pushing customers toward long-term deals - Crypto Briefing",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MdlF4Q0w1UHBCc1lzbVBOc25mdExZTlFZM2E5cS1KRUtEaEFMeTY0QUo0aUk0N0ppMGV1Uk1JWGloRi1qbjFkMDlmbEt5YnhzdEZPMzlVaG1ZY0s4Q2lZZHZoSlVoRWdfUDF6TEZGM3U?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung forecasts chip shortage to extend through 2028, pushing customers toward long-term deals Crypto Briefing"
+    },
+    {
+      "id": "33b125c888",
+      "title": "Micron Shares Surge Nearly 15% as Samsung's Record Profits Point to a Deepening Chip Shortage Through 2028 - International Business Times Australia",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMjg2a243dmJBZ3lfYkN5ZmJ6TnBhM0gweDVMY1BiNkNjOHdKWWtxdkQ0S3dqTk9PSWxEeEItRHBxZy1JbEhGNllhRl9EX1dZQ3pnZTQ3bzd3czlDVXp2bVhKdXZjMXBGWFQ0ZDhfRkl6THlfRDNsd3llUG8wMTkwbTQzWE9RWjVKaEVFeVVQNA?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung",
+        "Micron"
+      ],
+      "summary": "Micron Shares Surge Nearly 15% as Samsung's Record Profits Point to a Deepening Chip Shortage Through 2028 International Business Times Australia"
+    },
+    {
+      "id": "eb697583ab",
+      "title": "Samsung Warns AI Chip Shortage Could Continue Until 2028: Here's Why - Times Now",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeGJ3elBjNmZxTVJ3eVpKQTZyQkF3TzVkSkF1dThCaERtbWFuV0YyaXBEZVVtSDExa244QW94Qm1wczJZTEFiSmdycjF5Tlg2R3kzWXNucGVEemtOT0ZiYmdjUDRTcFd6OWFST2dvY2lodEozd0ZQX0NQSTQ4Rm9MVTFvQk00azZEaXFJanhFRi03RXh3UTQtMU11WHN0QkJEZWNka0VJVE1WU0hHaEs3SHEySFdzMG1wQmxCTW1yZG1sVUtWX2l3OXBIMkk?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung Warns AI Chip Shortage Could Continue Until 2028: Here's Why Times Now"
+    },
+    {
+      "id": "b8b49c518d",
+      "title": "China's CXMT Hits $500 Billion Valuation in Debut as Global Memory Chip Shortage Intensifies - streamlinefeed.co.ke",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR1hxSmJ6U2JyS3I5WjAzSDJLRzJDREFIelFuanppN18zSDAyb3lndURPQlV2QWNveDdjOExoUFB2T3V6SUhMQXBaN0lSX29mcmVya05zZTlObDd0cEV0cG9iUkxkRXMxSUdWcEp6QkRReHFqMUZGeF9BRUQ5VGVQVlVxNUMzUTZZTVFJaXZFZEJ2clppSHFnaEZiczFOLVJqMWlvckNLdnplWG83ZjQ2ck5Sa2lRN1hyeHNMV3kySGpSUQ?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [],
+      "summary": "China's CXMT Hits $500 Billion Valuation in Debut as Global Memory Chip Shortage Intensifies streamlinefeed.co.ke"
+    },
+    {
+      "id": "58e5204987",
+      "title": "Samsung says memory chip shortage may continue even after 2027, here is what we know - digit.in",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOG4xQThSQ2Q1QVQwM2RoT3hvSl9FcDVpc1VBbzZCcTNSYmxxbTRJZWVDT1pxTXFJb29ZaFdjaW9jZllPUkpsMXpOa29MeFlGYUJyUjl2bUdtd0kzT25BbjMzS0JEdXZuYk1xWndrNmdZR2ZnbnNORFh2NV9tX1Y2NTFIblhHdFU0dHprb0VrMl9qRWw4S2JmMGZkS3FHQThzVXZXVVJ6NmNES1g3WmhHT1VRZ1htak93ekpxN2xUb9IBxgFBVV95cUxNSHBXbnR1NDRqaV91QTlJUkRVc1c5SWhoVzlOZUpZWEdlVUFWc2JlQ3R5eVVwZUQ0VUp4R0RQN3ZzOGJYRjZvbEMzYkFhLUZNVzZha1ZZYnhnMC01eFVnZndBa0J2YjZkdjBXLXhCemNnQjNPaUMzZHVuRmdNcXNQd05sZ01QWDJGaUJ1UHhKY1doQTVManJUSjdhX2dFTWNrY1dOalV5eElZVmpVNXllczJuc0x1c3hkRWxnQ3VJTHJxdjBKc0E?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung says memory chip shortage may continue even after 2027, here is what we know digit.in"
+    },
+    {
+      "id": "8560110afc",
+      "title": "AI Data Centers Lock In Memory Deals as Samsung Sees Chip Shortage Through 2028 - Qoo Media",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObVdQTDhNa3ZnZ1ZyZDBybXdyQmc1b1dvdW9kdVk3eVpORFFkMEVjRFFfRUdBRnFoVmg4cF9UMGZMRV9YWF9Nb2hSc0hsS3RlZWlKVHpXbEROM3Q0dFZyMzQzV2pkcXpsSEVwcEsxNjhGX1N4OW5mZTZyZnU1b3RMeXVsUEU1U3Ywcm55ejYwOA?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "AI Data Centers Lock In Memory Deals as Samsung Sees Chip Shortage Through 2028 Qoo Media"
+    },
+    {
+      "id": "30b94aab7e",
+      "title": "Samsung warns global chip shortage could last until 2028 - samaa tv",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLVpQWEdDai1WRXdoTU1zNVRJOURlcUl6WU92LXFZRmU5eVktQXM3Y0dnOGF0X1dYZlA5V1hKQkktekNJakZSS2pHaTlXRDlMMU4xc1VhSGtLUmpHV3ZRRDBPWDJMSlRvcDB3WXhoelNBcV9lMUdPUndYeThxRzFpMEVPTEptQXRWa3Rsd3JnV3JYZw?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [
+        "Samsung"
+      ],
+      "summary": "Samsung warns global chip shortage could last until 2028 samaa tv"
+    },
+    {
+      "id": "dd3d5cbc65",
+      "title": "SanDisk Stock Faces Volatility as Memory Sector Struggles Despite Long-Term Chip Shortage - Azat TV",
+      "source": "Google News - Chip Supply Chain",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wb3VZVEp6NWhVYVRRU2lGS3FkNmhoM1dKdUFRd2lMWTh2RHdyTGczSzZucjFBcmJKUklzNEZqa2h1d3JNMWo2VXNvQ2FyazFrdWFaa0ZPTVViUE9LTzFoUjNfVzlUZnUtRHhnNWFKT2VKdUQ2WVE?oc=5",
+      "date": "2026-07-30",
+      "category": "Supply Chain",
+      "companies": [],
+      "summary": "SanDisk Stock Faces Volatility as Memory Sector Struggles Despite Long-Term Chip Shortage Azat TV"
     },
     {
       "id": "2a3240bd35",
@@ -157,58 +1466,6 @@
         "Samsung"
       ],
       "summary": "Samsung\u2019s $200 Billion Broadcom Deal Is a Bid to Break TSMC\u2019s AI Foundry Lock Yahoo Finance"
-    },
-    {
-      "id": "83b28d8290",
-      "title": "Meet the Super Semiconductor Stock Crushing Nvidia With a 12-Month Return of 129% - Yahoo Finance",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR2lxbTE0VkllamFfb2RmRzQwZG93OVFIdEpOYy1hajBjQ1lFOXJVZm9XMS1ELUtiekJvSW9EaUp2R01yR2xSNWxfMTB1alpfYzVmcWYxWWhzclVQcFBHSVNHRWxqMmtqT09iUlJzS19lbDRUZmpNRkNuRHJwbGVTUkRTeWNheHloM0IzRWJCeWFaeTQ1c1hBN0l4NThFcllmWW5kODBvMA?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "Nvidia"
-      ],
-      "summary": "Meet the Super Semiconductor Stock Crushing Nvidia With a 12-Month Return of 129% Yahoo Finance"
-    },
-    {
-      "id": "63b93704f6",
-      "title": "IEX Q2 Deep Dive: Data Center and Semiconductor Demand Drive Momentum, Guidance Raised - Yahoo! Finance Canada",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83MEpSREhOUnJmUWZwQm5qa1Q1NHVtMkMyblJVOHp3bDNNY1JYX2NWdnZFMkNOZXkyUzdObUg1R1NLWlZTUlExRElaNEQ3RkVVcnRqVlVwSFdNam1xMDc4bWdzdzExSnFSbkc1MVJZcUlOZHhuTVl0QTBR?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "IEX Q2 Deep Dive: Data Center and Semiconductor Demand Drive Momentum, Guidance Raised Yahoo! Finance Canada"
-    },
-    {
-      "id": "7553796e0a",
-      "title": "TER Rides on Strong Semiconductor Test Segment: More Upside Ahead? - Yahoo Finance",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTWhZWlBxVUdGY09BWFRBaVYxQjc4NXRINFl0V3JNWnNnTFpFcmJCMUhYVGlCZU9JU29INkp2S1hTZ2FIcjc1anJnR1B2a0o1bC15d05GQW4yX0FZSjExQnBYdmh2b19JZEZLUmNPaFJqeEszVGo4YWp2RHBlZ252dk9IUU5SeUZpUTZIYl9MdnFvVHU3LTFWQU5kXzI?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "TER Rides on Strong Semiconductor Test Segment: More Upside Ahead? Yahoo Finance"
-    },
-    {
-      "id": "fecaec24a6",
-      "title": "Commerce Department Signs $874M in CHIPS Act R&D Incentives - ExecutiveGov",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeHhVS014NmZXVUZIZGJhZnRCQXI4NFNnam4weFdGTm9sVFF3Ukw3aTJwN3diZEV1VW9xM2hGd0g3WTkxdEl1cHN3QnZ2WEFSbkdCeWgzNUR4LUtjTWJrdW5zdXpJR1F3Tl9PRU8zdUV6RkYtOURCbmk1ZW5WQkEwSmVQUQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "Commerce Department Signs $874M in CHIPS Act R&D Incentives ExecutiveGov"
-    },
-    {
-      "id": "eaf1115ac7",
-      "title": "ASE Technology Stock (ASX) Opinions on Semiconductor Sector Momentum - Quiver Quantitative",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYmVmUUJDYWU0SVNoRFVBeEVteFdJdllnckNYT2N6alZ2LWhfV2ZWemh5c3RfTnRwV19Famxpdk1nX1ZjVE1TVTVtRURBd2xEb0hQckZQaFlpeGhfMHFpcXZSazkyZkpaTmotV3V0X0VnSjVvQWVWY183cjJBZk80elB3cnJ3eDdEcUtKX2FndC1haFNpZFVnNTlpRVY2VE9maFRsSzVOdG8?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "ASE Technology Stock (ASX) Opinions on Semiconductor Sector Momentum Quiver Quantitative"
     },
     {
       "id": "4c6d72fa2d",
@@ -368,16 +1625,6 @@
       "category": "Fabrication",
       "companies": [],
       "summary": "A Stock Market Correction Reveals South Korea\u2019s Economic Dependency on Semiconductors The Diplomat \u2013 Asia-Pacific"
-    },
-    {
-      "id": "d8e2992fc0",
-      "title": "AI Weekly: Trump mulls AI controls, semiconductor stocks slump - reuters.com",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3SlpHMFdKZGlTUURIV1hXcXZUOVROLXpOdnU3THRibFkzMW0zTmpsQklKTlFsSnNjOGF1eDhJMnZScElCTmE4Rl9ET0YxdTNWY25rUXRPSzU3Q0FBbS00ZVVLVTF2RTg?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "AI Weekly: Trump mulls AI controls, semiconductor stocks slump reuters.com"
     },
     {
       "id": "3e092037f0",
@@ -799,16 +2046,6 @@
       "summary": "Google could build more AI accelerators than Nvidia sells in 2028, analyst claims \u2014 could push the company to use Intel Foundry to meet its goals Tom's Hardware"
     },
     {
-      "id": "b7a6667be5",
-      "title": "Halo: Campaign Evolved PC Looks Stunning - But Requires Further Optimisation - Digital Foundry",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMjllQTlxTXBVTm5ZZDJqQ3VnMURwX29aUHFJZVRLQlZ0U18yU2lFNm1CU0diS0pBUE1ucHczbF9PV0lGVEFxTEEwcEJlTmlvRHdvcE5yNndxRFlBZnFVbWVrM1NDc2ptd2RiNHBZX1dYT3RpeDIwSm1oVlpjRDF5M2RTUWR5ZUNDeVhPYXJWVFhWY20xQ2RXOEVITld6eHJlSncwc1cwdmxYbXhNcHBLNkEyQQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Halo: Campaign Evolved PC Looks Stunning - But Requires Further Optimisation Digital Foundry"
-    },
-    {
       "id": "c091bc9f01",
       "title": "Executive Sell-Off Wave Sweeps Semiconductor Sector, Micron Shares Pull Back Over 30% from Peak - nai500.com",
       "source": "Google News - Semiconductors",
@@ -851,56 +2088,6 @@
       "summary": "SUNY Poly joins national AI-driven semiconductor research initiative Rome Sentinel"
     },
     {
-      "id": "2dc3572b7d",
-      "title": "Thailand\u2019s Export Control Regime: Are Your Shipments Ready? - Alvarez & Marsal",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdFlmcHlwYkJRX1ZGN3BXVW1BM3BVM3hzdFZsZjE0aE1jZ1laQnpKVk1zYlBfc3BoUkxTQUsyWnZydWpZODBuZWd5LWF2OWlUOHY3akdpX3JleVlnakR4TmhyYjJHQnRjTDJ3TjFQdzNIdldYM2VpXzRSS0NRc1B4SzVicDViaUhEQU1mMm5lMHRCUHRQQVprY000WDBTNTFrNmZGTUNTM1VtblFqSVE?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "Thailand\u2019s Export Control Regime: Are Your Shipments Ready? Alvarez & Marsal"
-    },
-    {
-      "id": "dd2376ac49",
-      "title": "Airbus receives record UK export control penalty - Global Investigations Review",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY3NCbGlsY1Bkcnc2OVJDdmpPZ1ZsYUNQd1VnaDE0dlJOMDAxQ2lkV3ZWbC1QSVlmRTlQbkNsXy13WV9mdmhQbFhZX0tsNXVLejVXU2FmdlZGX0hpX3dkYW5vYUJvR3RvTXNlVHBoMHNqX3RxSkdjWkVYT3dfcGQtZW4tYW9jNGdoTWhmdEtRdjB3OHdpTk9Uc1c1Vi0wVS1pWExicEd4RFBzcENSUXc?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "Airbus receives record UK export control penalty Global Investigations Review"
-    },
-    {
-      "id": "fb123ca339",
-      "title": "China Puts EU Entities in Export Control Watchlist, Targeting Rare-Earth Supply Chains\u3010SMM Analysis\u3011 - Shanghai Metals Market",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWS1RTlJHRjVEVTZoZTFjSGJSdTBYM3pzX1J4NWZYQkh3N1lOX01PeS1CNnRYczdoMnJiSmZHVjZRU2tNLTZQT3B5QjAyQzd5VldsYy1hVEphSlhDNzVaM1ZENW83NzlBWmJOTk1KMkhDYlFYZ3VlSWZscldRcDNnSlNzS3VpbTljR053RzJabnNqa1F4SnJiZEJSV2FhTEN5bmdLSTlkOGlZVjRYcXZvV1ozQkw4TlpkcEtHekVhOWtSNHpyX3MtOGVaY25zbXF1ekd0V2E2dVZVcUFVbHc?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "China Puts EU Entities in Export Control Watchlist, Targeting Rare-Earth Supply Chains\u3010SMM Analysis\u3011 Shanghai Metals Market"
-    },
-    {
-      "id": "7c7f57882e",
-      "title": "The Day in Trade: Government hands out seven-figure export control fine and Burnham administration sets out EU \u2018reset\u2019 approach - The Chartered Institute of Export & International Trade",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxONWFHWS1JQ3NLWFRVaGpyb2Z3YVdySExnTndNcW1udFU4TFpucGN4dm1abTFuZDRzd3JndzFCeDhrNGlkOFRpV1hVMWhBV3ktbjhaOHRXU2d0NVptVTZiUlRZc2Rxcjl0Uk1UUGJJbGFpR1R3dGVHd19oYnZhT2t2azI3bGZEVDVBWXZCZDgyWkFwNmZWZkJKZWRYVXBvRU9RLWl6WTYxVjFKRmplUHpiM3Y3dXNaT1otQTdVS0k4Z09ULUdtd2RSZGdZUzJYRHlSWmJhQlVma29tS2s1WDExWHE2Wl9DLXdXb21ScUVpTzBZZ3VVSGY1WnV4NG1wODNX?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "The Day in Trade: Government hands out seven-figure export control fine and Burnham administration sets out EU \u2018reset\u2019 approach The Chartered Institute of Export & International Trade"
-    },
-    {
-      "id": "2af61522b0",
-      "title": "CHIPS Act Targets The Smaller Players Powering AI Chips - Finimize",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUHE2VXUtemZRb01RWDdlVGVpM0dfbHk1c3NYbzBZWjVqSUo2MkI2TUZYUFhYT3RZMUFiQ0VVLVJjeTNHMFFVbTZ1allHek9GLTZNTnBQWlcxOUlKaWNNUDA3a0dIMGY4YlZPNGxoMjhSYjRKTGIteWRQYWM2OUE1cS16cE5pN1BmTmlkRA?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "CHIPS Act Targets The Smaller Players Powering AI Chips Finimize"
-    },
-    {
       "id": "48c431280b",
       "title": "Airbus Pays \u00a36.4 Million to Settle UK Export Control Investigation - Yahoo News UK",
       "source": "Google News - Chip Policy",
@@ -909,76 +2096,6 @@
       "category": "Policy",
       "companies": [],
       "summary": "Airbus Pays \u00a36.4 Million to Settle UK Export Control Investigation Yahoo News UK"
-    },
-    {
-      "id": "7ec3d32f4b",
-      "title": "Airbus says it paid \u00a36 million fine in UK export control probe - The Economic Times",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNU1dpMEJyUWhnVVcxbnVxNXB5WjQ4OXFuczFqeTByTFhmU3V6RFdlUFlGWUxJSy1pZXNtRlhYWHhOVjA4ZTdDd21IeUhMYmRUdFpCN1lsTVVLaUl5cFF1SXoydUFlbDg0MUtycVNSd29mZTNyaTZob3pnR0NFY3E3SzVqaDJQNXV2a2dOczViY1RPWkRKN0lpTjh2ODI1cEhhcVhsT1FiWVpaV3FUVmRkMnJxbVdOeTU4d3FFdlN6Ynk5QmV3MnhiQ3dUQjgtT2R1T0NfejBuQzhOWXVUYnQxTmpUZ3dmUzdEeGtDRDFZVjlqeUNrMlUzWGtSOTFLV1pLNG1qakFPMXNIWHpZRVlOeTlFU1lwbmdzcmd3VDR0UUFwZU5tdnVzMVBLRk1qQW4zTm9yVTZtR2ZOeW1jZEIyV1dzczTSAeABQVVfeXFMTXU3MWVTeFdLTUs0RWs4SmxEb01hQjdnV2xUc3hfcVlweUlJSGhjcDNVSl92M2tPVUJsZWdGaFdxY0hQQW1SVU5HQUxCWVIwSHIxSEpacVIwWTd2bnRPMVNvLXd0by1kbkttemtDMU5aa3MybU9uRm9FdGd2MzM4Z1ZRSVhzR2NhN2d4OXFfTndxNl94T1ExXzBjNHRpOFZ4ZVdEQTU5NjVaSmZSRHBzVFBwZGxwaFA0Y2o5YUQzY2dHVE1Nb29Jck82SGMyQ19tR3Q4RXZwN2g2WGlHeHRrQzg?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "Airbus says it paid \u00a36 million fine in UK export control probe The Economic Times"
-    },
-    {
-      "id": "a0c18b4850",
-      "title": "China Adds 20 Japanese Companies to Export Control List Amid Taiwan Tensions - News On AIR",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc1c4UUp3M01qZDkyUHU5MzlWQll6THB6V09DNjlGdmZGbDRnOXV1VldBQUZKbUlyODhFWkFTRzV4WU14MWFVWUJTclBDSWg3bHdJa2d3N0Fja2l1UHRzVENxX2tSMFMycXN0U1JvcDhITlFIS0FEdnlLdVBHRFY3cEk5aHhDVG5SNW9tMDN0TlRybHFBa2ZkZGtwc3c3S256UHNfMw?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "China Adds 20 Japanese Companies to Export Control List Amid Taiwan Tensions News On AIR"
-    },
-    {
-      "id": "e9c9cbde0f",
-      "title": "Aeluma Secures Proposed CHIPS Act Funding Commitment - TipRanks",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQlNWYlBaaDFsek1GaWoxa3hsZFBXT01lMjdYZFVqWVkta2wtSUhQNXA1NkFTZDFLZld6S0dYTW1zZHM1dUVpdEo4LW5CQUpmeWM2V1lia1paT1BHOExEb2NTNXFiX0JmV2NpQ1RBVUNEYjRjV19NWDFpZENFeTdfV2t2TnVxSzY2YXlUM1hobTkyajlkVDg5S2s1YnpXWG5sa0drWXU4OA?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "Aeluma Secures Proposed CHIPS Act Funding Commitment TipRanks"
-    },
-    {
-      "id": "ae3b1c281d",
-      "title": "Airbus Pays KES 1.05 Billion to Settle UK Export Control Violation Probe - streamlinefeed.co.ke",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVURlYmROdFRYRjV1cnFLZVdmMWJXMnpUazh6YW5heG1iZTlGYTlMU0pOQ0xMZzdqWUJpVmFNbGRLbVZKNFozQXJvQVpZYVlUalV4bWkwN0pTZ2xBTTd3R1hSZ0o0X1RvTHhKM25sZG1NRzFpc3lXSGVhOUVXNXlsYVZWMldpYmt0dWlLNHJ6cXdNM2VJaTVxb1U1MWJHSklsd3FOVFFn?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "Airbus Pays KES 1.05 Billion to Settle UK Export Control Violation Probe streamlinefeed.co.ke"
-    },
-    {
-      "id": "9de0562e5a",
-      "title": "Airbus Pays \u00a36.4 Million to Settle UK Export Control Investigation - Brand Icon Image",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ0RnSDNxQ3NnYWprOEtkTkxxWnhaWTdnX2JaVUlXcTlTMnJlSUlrbGV2SXBpdnpCenVDM0M0eG9JMnlnTzNJcmswY2k4Y0N0aVc3UU5WWGppUnVaanAyODctb2ctc1ZxRzBVLVltWTVsRWdGYU4yWnBMRFVyd2lOb3lOUm1xUQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "Airbus Pays \u00a36.4 Million to Settle UK Export Control Investigation Brand Icon Image"
-    },
-    {
-      "id": "173d10c182",
-      "title": "ChipAgents raises additional $60m in expanded Series A round to support AI chip design platform - Data Center Dynamics",
-      "source": "Google News - EDA & Chip Design",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZ25veEUzNzhqdHpOLTV3cEROR2VJS045Q3dzQXU1WjVuTGJad0h1RzhEM2Q2dUdOX0t4X1FiZGlUWXhBSTFWcVZhNTk3Tzc2QWZHeXBmMVF0ZGFDRktJVUVkeENOWkJ4RmJfY0dDMXNoRTJ4bm8tRXJYY0o2RUJkZGxiVXZOWXFCQk1lUkltTV9taWdXQXE0MnBKMFVoYUMzUW9VV1p0RFkxbVJVUW5ETFFrcGFKclRwNkpUXzZhUjFXUXBoU2V4b01LZ2tKVUEwSFc1aw?oc=5",
-      "date": "2026-07-30",
-      "category": "Chip Design",
-      "companies": [],
-      "summary": "ChipAgents raises additional $60m in expanded Series A round to support AI chip design platform Data Center Dynamics"
-    },
-    {
-      "id": "3160840590",
-      "title": "Why Microsoft\u2019s Maia 200 AI accelerator buildout is positive for this chip stock - Investing.com",
-      "source": "Google News - EDA & Chip Design",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSHVpeWNhQnI5MkxMSnFaLVVKRkFPaGR0Vmw0b3BUZlY2T0gwcU1NVy1iNnFoNklHclFrY0hISWs4NnRoUFRzc3pfTnlXMHIzUVc0ZTlTTm1KNmpaVGZJMUlFR2FpSkRHVnZuYXZfQVhRYUhNT1E5X3BxS3E3Umw0X0g3OElCWXlhT0tjOWZtdmtQdnpiOG9OVm0yeUxmN0Q0UUxHYXN5ME1jVGh3ZTNaUlEwUzFNa1ZhVFV6QnQ2cDk4dzJsZF9vVHVYT2JOMlZSX1lJeDdrVTdEMXNkLUx1aGI1VQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Chip Design",
-      "companies": [],
-      "summary": "Why Microsoft\u2019s Maia 200 AI accelerator buildout is positive for this chip stock Investing.com"
     },
     {
       "id": "927f6c1470",
@@ -999,309 +2116,6 @@
       "category": "Chip Design",
       "companies": [],
       "summary": "RISC-V Processor Advances Local Chip Design Open Source For You"
-    },
-    {
-      "id": "52246f44de",
-      "title": "Samsung Expects the Chip Shortage to Get Worse Before It Gets Better - CNET",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV3hIZkRSbTA4cngwTFgyeEM5NkxBQmZjSWNFbmJPeDJ5Zk9QRHdxTFR2NURIQi1LeGhXNWpXNVdXcy1EU2MxRUFVUjYtclZGRjNwWDF4aFJhOW1OZzJGNGRNa0RualVKUEZoSUJwS3hDMmd1cVJaenlwaThhRW5UaG1PNjlyX25lV0VwSUYzLWF2c0xFRVRoTm9Iaw?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung Expects the Chip Shortage to Get Worse Before It Gets Better CNET"
-    },
-    {
-      "id": "6b8e517164",
-      "title": "Samsung sees chip shortage extending to 2028, touts long-term supply deals - reuters.com",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeEFMZFc3WHBfOVFBR0JhTjNnd2dWdmpoSm9wSW1YNDc0S2FmemlKMWVZaDdPcjJTanc5a19BVHRnTGtMNlNfWFBvbHk1ZGM3YjlIb3lzVU52RUZQS0xDaHgybDFJVFhhUFhyT3NMa0E3bzY2T0M5ZU9PRHg0VklLS3R3d2o5eHVNcWdGdF9rNk1qS29VandoLTdReDV5T0pBR2phRHZiWks3U0hqdHktR2xsUUZMRlpuNjVrRWJ3?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung sees chip shortage extending to 2028, touts long-term supply deals reuters.com"
-    },
-    {
-      "id": "b4b04327fe",
-      "title": "Samsung Expects Memory Chip Shortage to Stretch Into 2028 as Chip Profit Jumps 250-Fold - Technology Org",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa3RjX1FnTDN0NlpUNklrMXNIeGQ5MEZiWTlDX1o5WmlSVjl3WEpXOUF2N2RVXzR2ZDBuQzI4eVVQZnNGTVFHRjJqcGZnVUptNDNJVk9qRU1acHZkcHhkRlVMZXVMdzRDQzR0ZzV1eTd5Mk1jdzI5WV9VN2RFbmVHMlViaVpTRG5EazZLNE5INUNEUQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung Expects Memory Chip Shortage to Stretch Into 2028 as Chip Profit Jumps 250-Fold Technology Org"
-    },
-    {
-      "id": "b1b928d9bd",
-      "title": "Samsung sees chip shortage lasting until 2028 - The News International",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcWNRQ3Vud2dSYkpWN0llbXNVNzEwX1U4NXhWX29oU3ZIVXZ3UUw3WmNsRlRTWUJZa1Q5VFZqMUh2U1VyaVNJcy1sZXJCWnhZeUVVLURKeUlhYl9aVmpIeVo0LWYwdnp1QVF2OFk1U2hUU2pHM3JSU0w4OE85dkxiRjZ2Y0ExNFM0TUk5SGFTWkQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung sees chip shortage lasting until 2028 The News International"
-    },
-    {
-      "id": "41aca4ed59",
-      "title": "Samsung sees chip shortage extending to 2028, signs long-term supply deals - The Business Standard",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWmd6SFVIMnFpTHI0bWEtTXJCanFFaC1kcmxDaVlXb1dvY19KenFkMU1FaHF2eGtMMlFqYjNhTEF0T2tNZmZIakZTYXNhZENkUFhGSmVDOG1SWUEyRWtTY19HN0ZnY044LXdqcXN4ZVZPOXV4MTNTX2UyY2k3QWpwSXZrd19tLVkxNndCWTBVZTBoTVhiMW1PbFV2dkViZ1JiamlTbTVFOWNqcTVzWGp6aUhtN21ZSmJfWVg0a3IyNzI0LVN3bFHSAcYBQVVfeXFMUFpnekhVSDJxaUxyNG1hLU1yQmpxRWgtZHJsQ2lZV29Xb2NfSnpxZDFNRWhxdnhrTDJRamIzYUxBdE9rTWZmSGpGU2FzYWRDZFBYRkplQzhtUllBMkVrU2NfRzdGZ2NOOC13anFzeGVWTzl1eDEzU19lMmNpN0FqcEl2a3dfbS1ZMTZ3QlkwVWUwaE1YYjFtT2xVdnZFYmdSYmppU201RTljanE1c1hqemlIbTdtWUpiX1lYNGtyMjcyNC1Td2xR?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung sees chip shortage extending to 2028, signs long-term supply deals The Business Standard"
-    },
-    {
-      "id": "a948a27de6",
-      "title": "Samsung Sees Chip Shortage Lasting Until 2028, Expands AI Supply Deals - Asia Business Outlook",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaS14NlVULW9UNlY3YS1RQ0VBaEk4SzJFUXNGaGE2Y2F3LVEybmNEMktCSF85WkdkYkEyOGdjTGtEUnNWODh2X0YwelItaFVFT0UzLWJxZ3NwQlpsaHlvdWpyWTFsM1k0LXM4N2dLSDVGTjVLbVd4UUhrRkk4VWpJU1Zrb1dEMmRad1J0R1ZaNHRUVVdqMTRMZVhtUnZaS0s2QXpRUWxyYzVicm8wOFJkdmlid05xd0J4RmpfY1RqZlhudDNZ?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung Sees Chip Shortage Lasting Until 2028, Expands AI Supply Deals Asia Business Outlook"
-    },
-    {
-      "id": "c5b7716d22",
-      "title": "Samsung warns chip shortage could last until 2028; shares jump 8% - Storyboard18",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONG1VRnFacXRnTHlJNFpydE11RF9NOG5qbThzdXlTQVVRUWoyV05pelN6SktZWFN5R2pyMFljMDNObWtMVUtHa2JuNDh2LXB2X1dTbmdsb01WUU5RbTRyVncwRllxcUZXdHBrS1ZMYzA4Wk9CNTZtVzJrUWJTT21BWFQwdHg1WDNaUEdWLWJjWUtoWWdoUTVLUk5fNnM3em9QSElDSFIycUJ1LTNvQ0wtbzNvWk1mRDFkN0ZR0gHAAUFVX3lxTE5HdVlHNDZoTkNicF9rQ2pBTnpjZ1BEdHhIRWhaRzNjUWl0YVpVdTZ4VkNiQUpQOGZhNEhTbjJTTXlIcUlINlNXM0NzQk1sRldXTkVqM0c2LWtGU2JzSGpWQzlHZENYaURRQ2lnYjhhaDNIZTJhT2lZTVoxWC1OTXZBVmJwdmo1UHRXX1RPUWxkN1FDbi1aaDNhTVdKalRNSXF2clJURXRRaWtOa1ZqSU13Z3NiOGZ0eW1IZ2N6bHR3NA?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung warns chip shortage could last until 2028; shares jump 8% Storyboard18"
-    },
-    {
-      "id": "6a7aea3605",
-      "title": "Samsung Electronics flags prolonged AI chip shortage as demand surge lifts profits - ETEnterpriseai.com",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPczZ4X3o5bm9XeklxeVB5RVM3RDRqRllWZmhZNmRlSWZxNkVIc3pXUG5Wcm1MT0tUQ1pPQjJZRkRqanBqejZ3X09FdlI4Q2gxTlFUWUd3NW5aQ04yVDY2OVBqYUxwam1tbFJPZVM1VGdrQVJadDF3d05iQnRNV3NhTWhiR3RmUUp4NGo5Z09ZVUc0dXRvMS1tM0luVHprblhSLTBITHpwanNMTDZITGlVT2RDUXpYNnhOaHBRcEVobU5UMzZuSUF2c2dOQWQtenFDaUkwM29RakpCMXQ5dmRfZldRX2xQeE00NzBxNm1yY1VxalllNnNnbm5VUTd3VUpaeUN6T1Q4TFBaQ0RaTWIzLXFPRGJoaXNZVmNTNNIBnAJBVV95cUxPczZ4X3o5bm9XeklxeVB5RVM3RDRqRllWZmhZNmRlSWZxNkVIc3pXUG5Wcm1MT0tUQ1pPQjJZRkRqanBqejZ3X09FdlI4Q2gxTlFUWUd3NW5aQ04yVDY2OVBqYUxwam1tbFJPZVM1VGdrQVJadDF3d05iQnRNV3NhTWhiR3RmUUp4NGo5Z09ZVUc0dXRvMS1tM0luVHprblhSLTBITHpwanNMTDZITGlVT2RDUXpYNnhOaHBRcEVobU5UMzZuSUF2c2dOQWQtenFDaUkwM29RakpCMXQ5dmRfZldRX2xQeE00NzBxNm1yY1VxalllNnNnbm5VUTd3VUpaeUN6T1Q4TFBaQ0RaTWIzLXFPRGJoaXNZVmNTNA?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung Electronics flags prolonged AI chip shortage as demand surge lifts profits ETEnterpriseai.com"
-    },
-    {
-      "id": "c6acaa6485",
-      "title": "Apple Surpasses Expectations with Record iPhone Sales Amid Chip Shortage - Devdiscourse",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdUJwU2lHbVBDcnB0dnpjcGR6NGNPN0FOdFNVWThWZVJ6UXUwdVBYSmhnMXF6MDR2eTh4aXZ1TTM4VkVWN1MxbVdBdkp5SkpDRGdKZ044RzJOSjVza0VHVlNBMmxrdWdmS0U0aDd6dmE0VVVtTS1MWWRaQ0dwM0xjV0FyZUJwaHB4YUtjRUlTdmJxSm4wNFJZUFd5R1VnUEZLU2Iyb2szamhUaEg4WWc4NFh5TGN1R25JQ2QyblBzbmZKVXFhQkxr0gHMAUFVX3lxTE84Zkw5NnBjTjlBcHJDTUc2eFZrZWFoSy11bW4tRkFsanhMZUFLOFlGT2dqb1Z4bTZVUEJfcWN1TzBrVDZfOFlFSFh6eHZiUU4xNnFvMUxmemdYUHVlQVJLUXNxZF9ENWJacnFEV0RfN29DQ2QwcHpHM2VmQlY0QUhMOGVpY2RLX3dQRmNKbWplclVqX1JIRmtibm9nYVNYbGFOZ3VvM0g1d1BKOXFMNXZzcldqYTMzdHY2bGs5TlhieFNmRklRbktWQ1A3Tw?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [],
-      "summary": "Apple Surpasses Expectations with Record iPhone Sales Amid Chip Shortage Devdiscourse"
-    },
-    {
-      "id": "6e9a871976",
-      "title": "ASE sees full-year LEAP revenue topping US$3.5 billion amid tight packaging capacity - digitimes",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZHQtM0tkVUdJaUxuYXZUZVdsc19iTk9PLUFyYnM0QlJlU2JqY3lvUk1vN3pNQTRvT20wQUl6Zk84V1BvdGxxWDZNaGhXT28zQ1AwQXVxMXRDSmdCVW1LWnNwS2JMV056YzdXdHFuSmt6cVQxcHVLeVR3ZlJWSWhfRHZRbndhX09FMjZRSlozT3BYXzQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [],
-      "summary": "ASE sees full-year LEAP revenue topping US$3.5 billion amid tight packaging capacity digitimes"
-    },
-    {
-      "id": "67b8fc8dd4",
-      "title": "Samsung Sees Global Chip Shortage Extending to 2028 - Equitypandit",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbWlBZzV2UUxUUXZrRFZLQVItOHJvSVNlZXRSRTlIbGt3c2FyM1lRNmRFN0I4MDhHMzFSMVRfMUVjX0xnYlA1QzVvMWpJekhBRGUtNUgwWWZPQ3VfaGd2c0pRS3B2eFYyQnI2YUNpWFJzV3BLQmpJN2dzQ2lPakM3Y1J4Qm44aHZ0?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung Sees Global Chip Shortage Extending to 2028 Equitypandit"
-    },
-    {
-      "id": "b1aac796e6",
-      "title": "Samsung Sees Chip Shortage Till 2028 and Signs Supply Deals - CEO Insights Asia",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORlBuWGt4N0FiZDhMbHItLVdIYW5KWTdmbUVMY29pWE0zNF9Oa3otRXBSdzVSLUd2cFMweHJoMlJCSGx2cU1NRl9MQmR6dmZxMEtNb3Z3ZjFBb1h6YlFSZjI1WlBtV0ZidC1rU2Z6Y1ZiVGhkdEZHX1lEYzU2Zmh3eDZNM09nOU80djNGSzZudm5YakJfSVNMTkQ0c2dIQWtHVE9nUmVGSHpPa3hZSWg4QXBB?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung Sees Chip Shortage Till 2028 and Signs Supply Deals CEO Insights Asia"
-    },
-    {
-      "id": "c5d2c3474d",
-      "title": "Samsung Sees Deepening Memory Shortage, Q3 HBM4 Sales to Triple - Seoul Economic Daily",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjB1U1h4b0pYWHRqb1RwZFJpVjBGcFVmdnlpQWFnMkVLOFFzTXFOTUtGTjc5UnllQlRERDA3bUdwRWo5YWIxdWEyLXdqcFFVOGhCQmZEQ3pLbk1HWmNUSndLSDh0ZjVxRnB4eTV1RkZHTUhWQy10SlZ0azNWS1FsdG1NRlphYTZsc2FPdTdyTzEwZ3E1cDNsbnZPLUpfUQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung Sees Deepening Memory Shortage, Q3 HBM4 Sales to Triple Seoul Economic Daily"
-    },
-    {
-      "id": "194e1afa5e",
-      "title": "Samsung expects AI memory chip shortage to extend into 2028 despite record semiconductor profits - varindia.com",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcVdyWTMwSWhlODhidTJURXJNeUJnV2RKYWFsZ01jMXpSX3FNMTBfclYtWG1XZDJ4MG1xMGtqOFhWRU9NS1JxazNkOFluLVZNMTRoYWpSci1fLVd6Qk1oVzY2eVpYUzFCOHdBTGZXbE9jS3ViaEx1V1ZDS1hWT2doN2UtWmd0WUJycXlUNGxpWUZjeUV0RWF5dURqVi1kYTdzbFFSZ2F3VUhaUGFpd2NWOXlyNXhlR3ZURzJST3NWeGVpb1Fa?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung expects AI memory chip shortage to extend into 2028 despite record semiconductor profits varindia.com"
-    },
-    {
-      "id": "0189146ba4",
-      "title": "Samsung sees chip shortage extending to 2028, shares surge 8% - Moneycontrol.com",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSkdsZXozOGF6WGNCYzBPc1YtSmdOUGhzUUxxTVpNMmNNNTdZdWwxWDBybkdPRm1qemNuTzVVb0tXMjBFdWpQUXlQNF9XeElhMTdGTE5LdS1wSDBpOWg1MXNiRUZvTlFZNjU3cGdsVXVlb00zeHJmbEV0SzNvRUF2YWRGZVE0alZWY0JrLS1NOFNHYUw2NkJiTTZCOExFT0VTdmp4SmZEUUx5dUE0b0M5NktLd05nY03SAbwBQVVfeXFMUFoyWE9vYldjYWxQNzBUOXpkT0tNOUZSeDhNY2RhWk04S2t2NWwybHM0bjBQaHhhZ1RKS2lWLWoxbUczWlFnSGt4WDNDRHpnSkFRWDNDajI1S2JNODl6aFdRYnRjMnFOVFBnb3E0b2szbWFpWEFVaDFVV241cUxiRDlEaTkxbHlEdUtrdkZiRHo1RjRPMEtxMzQySXVjRlVrUi1hUWtjWUxZTXIwRmZMa0hmSFp2cVRHYmh2TC0?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung sees chip shortage extending to 2028, shares surge 8% Moneycontrol.com"
-    },
-    {
-      "id": "ea111703ce",
-      "title": "Samsung forecast deepens chip shortage, KOSPI surges toward 6000 in Korea - CHOSUNBIZ - Chosunbiz",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPR0tzQ3YxLWV5dWpCRjFSNnpCbml1UVdEaGdyRnFSNDVXQXR1em9mVHhKY1AxQ1kwNURwdFJ0SzBZSWk5amprYjd2SmVLbm43SkxzaHVxWm1NdURncjhBTFNYMXl0MFV2QW1jczhwTy0tY0Y5T0ZLWTJvczgzMVI4bdIBlAFBVV95cUxONlJhODVCZzk4Y1RBZWRPd1owcjNsc1NReVBUSDVvNUhuOFRMMFNYUV9aUUY4d3UwWThxTWxLTkRzT1hKOENiTGZiNzhxUWhnaVZObDJlLUJKZVM1ckg2N0d0blI5a0xiYXdLdnF4dkphanVnOGpMVEcyaGdYbnlvcDJveGFUQnJyMDhuSkhUeldNcHIz?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung forecast deepens chip shortage, KOSPI surges toward 6000 in Korea - CHOSUNBIZ Chosunbiz"
-    },
-    {
-      "id": "c1456e4413",
-      "title": "Samsung Warns AI Chip Shortage Could Extend Into 2028 As Q2 Profit Soars - BW Businessworld",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa1dmWDdpMENYRTd3c2Niby13bVRaS1VhU0RyUUtRWUJPZFk1MkJhdUktYllPMHdaQU9Udm5TXzVaU2ZTTlhONHVCeGZpRHRvSVhKVDVLU0lHQkVMWFRWcllMb3BNWDZPYmZoSUphSkdPUmJhVzhFTTg2WV9TX0kxejVNb25iU2dMMm9NWEV3dkptd3lWLUZoREYwUkdST1BZblp1ZmxWUHd2SXVUaXRvbURfLWdMYm8?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung Warns AI Chip Shortage Could Extend Into 2028 As Q2 Profit Soars BW Businessworld"
-    },
-    {
-      "id": "a36ef28b90",
-      "title": "Kaynes Tech plans chip supply chain expansion via JVs under ISM 2.0 - dqindia.com",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS1g2a2JqQTJTUWVSRjhtMnBXbWhTY1U4OFZqSDBnaGY0RDdHZ2RaWjMzbWoyR2JndGtKMkQydHdKeXBVS2hDc0tJN2RscHU1d090ZFlDZW5iMXd4RDZkNHdOdWNnc3haVENncGJ4R3BhQkxXUFJPcGhOdjFaamx6b05LVDBqUVVQVkRIZ2lvb3p1b0sxS3ZBQjJ3MFNJNm1BdTNoTVZTRHVxWW9nMExKNXpuTFLSAbQBQVVfeXFMTktYNmtiakEyU1FlUkY4bTJwV21oU2NVODhWakgwZ2hmNEQ3R2dkWlozM21qMkdiZ3RrSjJEMnR3SnlwVUtoQ3NLSTdkbHB1NXdPdGRZQ2VuYjF3eEQ2ZDR3TnVjZ3N4WlRDZ3BieEdwYUJMV1BST3BoTnYxWmpsem9OS1QwalFVUFZESGdpb296dW9LMUt2QUIydzBTSTZtQXUzaE1WU0R1cVlvZzBMSjV6bkxS?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [],
-      "summary": "Kaynes Tech plans chip supply chain expansion via JVs under ISM 2.0 dqindia.com"
-    },
-    {
-      "id": "ff702e2bf4",
-      "title": "Samsung forecasts chip shortage to extend through 2028, pushing customers toward long-term deals - Crypto Briefing",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MdlF4Q0w1UHBCc1lzbVBOc25mdExZTlFZM2E5cS1KRUtEaEFMeTY0QUo0aUk0N0ppMGV1Uk1JWGloRi1qbjFkMDlmbEt5YnhzdEZPMzlVaG1ZY0s4Q2lZZHZoSlVoRWdfUDF6TEZGM3U?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung forecasts chip shortage to extend through 2028, pushing customers toward long-term deals Crypto Briefing"
-    },
-    {
-      "id": "33b125c888",
-      "title": "Micron Shares Surge Nearly 15% as Samsung's Record Profits Point to a Deepening Chip Shortage Through 2028 - International Business Times Australia",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMjg2a243dmJBZ3lfYkN5ZmJ6TnBhM0gweDVMY1BiNkNjOHdKWWtxdkQ0S3dqTk9PSWxEeEItRHBxZy1JbEhGNllhRl9EX1dZQ3pnZTQ3bzd3czlDVXp2bVhKdXZjMXBGWFQ0ZDhfRkl6THlfRDNsd3llUG8wMTkwbTQzWE9RWjVKaEVFeVVQNA?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung",
-        "Micron"
-      ],
-      "summary": "Micron Shares Surge Nearly 15% as Samsung's Record Profits Point to a Deepening Chip Shortage Through 2028 International Business Times Australia"
-    },
-    {
-      "id": "eb697583ab",
-      "title": "Samsung Warns AI Chip Shortage Could Continue Until 2028: Here's Why - Times Now",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeGJ3elBjNmZxTVJ3eVpKQTZyQkF3TzVkSkF1dThCaERtbWFuV0YyaXBEZVVtSDExa244QW94Qm1wczJZTEFiSmdycjF5Tlg2R3kzWXNucGVEemtOT0ZiYmdjUDRTcFd6OWFST2dvY2lodEozd0ZQX0NQSTQ4Rm9MVTFvQk00azZEaXFJanhFRi03RXh3UTQtMU11WHN0QkJEZWNka0VJVE1WU0hHaEs3SHEySFdzMG1wQmxCTW1yZG1sVUtWX2l3OXBIMkk?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung Warns AI Chip Shortage Could Continue Until 2028: Here's Why Times Now"
-    },
-    {
-      "id": "58e5204987",
-      "title": "Samsung says memory chip shortage may continue even after 2027, here is what we know - digit.in",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOG4xQThSQ2Q1QVQwM2RoT3hvSl9FcDVpc1VBbzZCcTNSYmxxbTRJZWVDT1pxTXFJb29ZaFdjaW9jZllPUkpsMXpOa29MeFlGYUJyUjl2bUdtd0kzT25BbjMzS0JEdXZuYk1xWndrNmdZR2ZnbnNORFh2NV9tX1Y2NTFIblhHdFU0dHprb0VrMl9qRWw4S2JmMGZkS3FHQThzVXZXVVJ6NmNES1g3WmhHT1VRZ1htak93ekpxN2xUb9IBxgFBVV95cUxNSHBXbnR1NDRqaV91QTlJUkRVc1c5SWhoVzlOZUpZWEdlVUFWc2JlQ3R5eVVwZUQ0VUp4R0RQN3ZzOGJYRjZvbEMzYkFhLUZNVzZha1ZZYnhnMC01eFVnZndBa0J2YjZkdjBXLXhCemNnQjNPaUMzZHVuRmdNcXNQd05sZ01QWDJGaUJ1UHhKY1doQTVManJUSjdhX2dFTWNrY1dOalV5eElZVmpVNXllczJuc0x1c3hkRWxnQ3VJTHJxdjBKc0E?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung says memory chip shortage may continue even after 2027, here is what we know digit.in"
-    },
-    {
-      "id": "8560110afc",
-      "title": "AI Data Centers Lock In Memory Deals as Samsung Sees Chip Shortage Through 2028 - Qoo Media",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObVdQTDhNa3ZnZ1ZyZDBybXdyQmc1b1dvdW9kdVk3eVpORFFkMEVjRFFfRUdBRnFoVmg4cF9UMGZMRV9YWF9Nb2hSc0hsS3RlZWlKVHpXbEROM3Q0dFZyMzQzV2pkcXpsSEVwcEsxNjhGX1N4OW5mZTZyZnU1b3RMeXVsUEU1U3Ywcm55ejYwOA?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "AI Data Centers Lock In Memory Deals as Samsung Sees Chip Shortage Through 2028 Qoo Media"
-    },
-    {
-      "id": "30b94aab7e",
-      "title": "Samsung warns global chip shortage could last until 2028 - samaa tv",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLVpQWEdDai1WRXdoTU1zNVRJOURlcUl6WU92LXFZRmU5eVktQXM3Y0dnOGF0X1dYZlA5V1hKQkktekNJakZSS2pHaTlXRDlMMU4xc1VhSGtLUmpHV3ZRRDBPWDJMSlRvcDB3WXhoelNBcV9lMUdPUndYeThxRzFpMEVPTEptQXRWa3Rsd3JnV3JYZw?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung warns global chip shortage could last until 2028 samaa tv"
-    },
-    {
-      "id": "dd3d5cbc65",
-      "title": "SanDisk Stock Faces Volatility as Memory Sector Struggles Despite Long-Term Chip Shortage - Azat TV",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wb3VZVEp6NWhVYVRRU2lGS3FkNmhoM1dKdUFRd2lMWTh2RHdyTGczSzZucjFBcmJKUklzNEZqa2h1d3JNMWo2VXNvQ2FyazFrdWFaa0ZPTVViUE9LTzFoUjNfVzlUZnUtRHhnNWFKT2VKdUQ2WVE?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [],
-      "summary": "SanDisk Stock Faces Volatility as Memory Sector Struggles Despite Long-Term Chip Shortage Azat TV"
-    },
-    {
-      "id": "e0f83b4c7f",
-      "title": "Omdia: AI demand drives 94.1% surge in semiconductor forecast for 2026 - Omdia",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdVhpVmpYeXJXckpxUHVUTlhzbEF0MmVvckNjd1VTczF2RU5XQVRubHE3c3RtZ1FLZ3hER2J2dVlkbExVTGFrbEdMRTE1ZEVFdmNlV2hMQmZXZUluRUpmR0ZwVXdwVElaaXQ5YmtCODR4OUdLSnBQUkVDZEktUkJDbGRxYk5rZFRiVnFNV0kwVWxfdUVKNDNFVHB0ZERaVV9rcXg0RkRubE9Ga00zNVA2dDVBekJGOHhRTEtwSQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Omdia: AI demand drives 94.1% surge in semiconductor forecast for 2026 Omdia"
     },
     {
       "id": "b025b10f99",
@@ -1335,819 +2149,6 @@
         "Intel"
       ],
       "summary": "Taiwan Semiconductor Is Copying One of Intel\u2019s Best Ideas \u2014 Here\u2019s Why Investors Should Pay Attention AOL.com"
-    },
-    {
-      "id": "f15be361db",
-      "title": "TER Rides on Strong Semiconductor Test Segment: More Upside Ahead? - Zacks Investment Research",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbUZwVnRmVEhUd0JYLTdNdGRyRVZUb3Z0TzR3YmZIQ2tIVy1ZLVNKMjYxQnlQeTdBZWotMlFRUzRrSHlBdnI4WC1xZm00WGVSSHRCemJKMzVVMG1ETlhXUmNFcmU5bE9qM2UzSHVoajBHeGRHdDc4LXVuMHpBQ3pqcHB3cmtkNmFYYzFRX2dxM1M1dGs3bUQ4TzJBRnhuWGpNd2dDOHk1c04?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "TER Rides on Strong Semiconductor Test Segment: More Upside Ahead? Zacks Investment Research"
-    },
-    {
-      "id": "219e2f0e87",
-      "title": "Thailand unveils semiconductor roadmap to build domestic high-tech capacity - TV BRICS",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbTNoNVliRnVGX0tLRzRtNF8tX19RbUljdEFmVEN3OU42a1dsUUdFanRGazJOaVRGWFZxT2owUzVPcGlDYUZlT3JaYTJJdGpYamlmNWQwX1BOeTNWUDdDQVFHeDVTN05VVjJYd2dXbmVYdUxyeEZiLVlfV0o0cUtGUF9oZHFnX01OMEcySDVyWkVBTG84a0swZE5ucXhuNVBocVN6dExCYw?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [],
-      "summary": "Thailand unveils semiconductor roadmap to build domestic high-tech capacity TV BRICS"
-    },
-    {
-      "id": "c838c1e0c1",
-      "title": "Semiconductor stocks plunge on concerns over Ch... - pluang.com",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYTZydllKclF5M2FZX3JmbjEwbkxxNFdDZjM1cXNHRE9kYkNvdnhRTzU5NnJrUFBhWUI2R0xiNXVZVUhyWUhienBzZURwTFR5QnVpUjNETUNHNWxHVVpCaktlUzJWcGVJOGNILWtwNUdaR0puUXF4ekh4T2NDTW1iVlB1RkdjZlBDV1BQX2JpR0ZqQQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Semiconductor stocks plunge on concerns over Ch... pluang.com"
-    },
-    {
-      "id": "51b313d2e6",
-      "title": "IEX Q2 Deep Dive: Data Center and Semiconductor Demand Drive Momentum, Guidance Raised - TradingView",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTVFYZWp4OTF2X3QwamRheDZ5endTV1dsVjlOOFE2YzZsRmlEM1VFRnVaZFk4RnNHblJla2M2RWtMd0dhM0VkX0RhUjhjUlZNallUTldxTVdxUEVLbllnS21FRTZnR21uNTMtaVBKV1Nub3FvSlNYbWZycldxb0FoMmFWdENHeG1MVXBSMjZkdFkyTVRLelZhT1c2ZkN4c0lmcW5EeWVMVElvQ2FVZG9KcWpKdFphRDdzWFBBVi0yZlBpOFhsMnlCeFgzdHc1aXBNNVd1Uk91WS1nYm1rRnc?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "IEX Q2 Deep Dive: Data Center and Semiconductor Demand Drive Momentum, Guidance Raised TradingView"
-    },
-    {
-      "id": "31bf106e60",
-      "title": "Qnity and University of Delaware form semiconductor workforce pact - StreetInsider",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd3lWRU9oaUxFUk5CUm93WlhoSnF2R29pQlpadWxSdFg5dHNiMUx2cWl3SmhqZlczRnQyR0VZRlM4bXdoSkxrNGZsM3Boa0o3N1J6RXBCMFdBeDIyRE9qZGJraGxXc1RacGF0S3pkMFd3ZjRtbjUzS1RvQjIyUVBJTk4tUk84N0VIeEYwamZHemlBVTV4SVRqYWpJR3A1dk5lOFBvejBSTURJMFUzTU9jYXJtaWZTMUlWQ3Vpd05ELUp5WUU?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Qnity and University of Delaware form semiconductor workforce pact StreetInsider"
-    },
-    {
-      "id": "8925d5aaf1",
-      "title": "Realtek Semiconductor : Net sales rose 17.7% year-over-year, but net income and margins declined amid higher expenses - TradingView",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOeU93M1JsR2czdmx4QzROSDV4ZFAzeG5nOVBiRjY2djB5eFItVEZsVlhrTVhfTTlUcTJaRDJYcjFGLU5kV3NLeXB0U3VyNEpJbjJZbDFtMkxjcFJWT1hxVzFSN3VadDdaUk9nTTZQenp4V3BLNW11X1otZTliMGFGczMybWJKZFVvcTVIYnF6cW1acmpkcTlaRXFzMXQtVDJ6LXQzcmwzVG1CVkw1aVBrU08yR2Uyb3ZPV1Q0SlJDSDJzNGtaaDN5eXRHbEVqQWdCRGR6azZUaTUwT3IwcWpUcnVMdUhoWFhNeUtmR3Q2cUxhRF83OVZ4bG41MElOaTVMdDlCZ0tmTC1pM1c0YURIT3BCMkVGMDNKTUh1Ym9HWXIzdw?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Realtek Semiconductor : Net sales rose 17.7% year-over-year, but net income and margins declined amid higher expenses TradingView"
-    },
-    {
-      "id": "c2362d4ff8",
-      "title": "H&H International Investment LLC Has $51.10 Million Stake in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWW50bXQyeXVvbVZxZnBNRHVwdktBb3NkWkVmUGE1a0YwSnlDU0xTOFhDTm1hYUFzempmZDVTTkJDajlIRUt1dU43bEdUOTRoZDNwLURBUTRiM1NBS0U3X1BMSHJiSDIzYWdZeGQ1d1o3eWg3NTd6dXQ0cnpUMVBjN3hXd1h1SFMyNFBLQzIwNmVRaWV3a1VQTENCNVBXUHUyNksyenhhM0JRN3NJMEh2elFYV21kX01yMFB5QWd6dGxMVUl2LWdjR0F4MmRmTFlPN0R2VTh3NGJ5YW40WUk0Y2VGZk55ZExOTV9xT1lUa045bmw3V2hhSjJsU3Nadw?oc=5",
-      "date": "2026-07-30",
-      "category": "M&A",
-      "companies": [
-        "TSMC"
-      ],
-      "summary": "H&H International Investment LLC Has $51.10 Million Stake in Taiwan Semiconductor Manufacturing Company Ltd. $TSM MarketBeat"
-    },
-    {
-      "id": "1bd7eebe7a",
-      "title": "[News] Mass Production and Capacity Expansion Accelerate, Reshaping the Foundry Landscape in Silicon Photonics - TrendForce",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVFVhZ0pRdWUwUG9KdklHRGhYb2d6a2paYy1CNnRjZDY1TUdEWjh4NE9RVjlZcFFFTHFfYmlSUGxGY2pYTzFycjZ0OXVQcFUzaE8yZDRfcGc0VUoxZjhiTTFyb1h4aGoxdUxTT3p1WVlITWpGcGllaTFYQTZtN1ZEZGZjZ0hvbFRtQkpuWkxQaHprYkhsc2ZDOU1KMllFblczcnI2bXJLQl8yc3J5ZG9JUkRES2lSNGNLZHV0aFdVZDduNkZjay1iUXhBZ3lEdzQ1NjUyNHJfd3VGU2d3NlRsQTVPOEMyQQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [],
-      "summary": "[News] Mass Production and Capacity Expansion Accelerate, Reshaping the Foundry Landscape in Silicon Photonics TrendForce"
-    },
-    {
-      "id": "e2fb5ec14c",
-      "title": "The Market Thinks Texas Instruments (TXN) Is a Boring Analog Chipmaker; AI Data Centers Disagree - Yahoo Finance Singapore",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVkdVOVlDczBudFFjbjRMMkdzeTNlZ2FyZ2lPU2d5a0xYc0JHc1hwcjB6MXZZWXV0OTBxNXZPMFhUVjNmVUU2N09LUmNoXzRCeERhd1BXZGgxU2Nyd0xiM2hKOXl4YXdUR2NDbFpUTnhuWUFGdk5wNmNKVHVwZWRwbEROMlY4ZkxjQnFocg?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "Texas Instruments"
-      ],
-      "summary": "The Market Thinks Texas Instruments (TXN) Is a Boring Analog Chipmaker; AI Data Centers Disagree Yahoo Finance Singapore"
-    },
-    {
-      "id": "334770c1f2",
-      "title": "What Is India Semiconductor Mission (ISM) 2.0? Here's Why the \u20b91.27 Lakh Crore Push Matters - Open Magazine",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLXBLTVRTdEFzOTNIUGw4elpuQkpLSGo1X0cxQlAxQlIxaUpZdXJHd2l1RV90ckc2TXU4V19iWHYzV29xbFhXTzNSaVpWVnZMVFNKRGxYUG9hZGZSRzlRQ085YjFldlR1MzVmY0hheThOMzB2LXZlYjFZUTRvV3dUS003d3ZiclJpYkNTQ2x1bWg2emFCUktkVk0xLWd5X29KVzBrUTFrZ0VqTXNXUGtEaEZiREhSamhVeWZSYnh3?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "What Is India Semiconductor Mission (ISM) 2.0? Here's Why the \u20b91.27 Lakh Crore Push Matters Open Magazine"
-    },
-    {
-      "id": "67cfbecf5b",
-      "title": "Taiwan Semiconductor Manufacturing Company Ltd. $TSM Position Lessened by Janus Henderson Group PLC - MarketBeat",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOUTBHWTI2ZFVNU0NrRUVkQWR0YjE5R1BDM0tJVVY3NWN0Q1BWRU9jRnBNOVEwLV9seHhrNUJOaWhnQS1QMlRpU25FX1FOaTNoODQ4S0ExOHprYjBVbjVEZUFkOVlzOXJNd3kxcWt5ZUZwM0NycEp0ZjRxdWktQ1JDbmdHbG1CZ29aRTFINi1fSF9QaDUtNjlKTm54cmJGRHFMZnAxd0xRNTFYWWtfR2pDMDl5UGtGOWtEanQ4VlhXVkFGMkpkMXNubUpnWlBlR3I4VXYteEdxcVJPd205aFRvUFY2QnZQVzZPSmRPNHM0UQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "TSMC"
-      ],
-      "summary": "Taiwan Semiconductor Manufacturing Company Ltd. $TSM Position Lessened by Janus Henderson Group PLC MarketBeat"
-    },
-    {
-      "id": "b6ccae1e89",
-      "title": "Samsung to Begin Construction of Second Semiconductor Manufacturing Plant in Texas by End of 2026 - maaal.com",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hdklfSnpzN1dpeGxNb2lhUlQ2dWVaOXZIYmxLc3Q3VU5FRjB3VmdiSDV2cFFfMjhKN1pPVUhGMS01TDNEQUxYeTk4N2s0VFNabmN3VnJCV1lnUm80aXdFNl9UT2daUk5pWGRobQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung to Begin Construction of Second Semiconductor Manufacturing Plant in Texas by End of 2026 maaal.com"
-    },
-    {
-      "id": "87093f3656",
-      "title": "Taiwan Semiconductor (NYSE: TSM) VP adds ADS and common shares - Stock Titan",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbWVFLUlOdjIxTDVzZXA1R19kTGxhb1VxaHFjY2JtMWFUTUgyMUppX1BXTjI3VFY0SjA3aE5pN3FiWWt5Y01PeVV5WDVqbU4zMGJRYVNvRFNfYlp5RUZrZktXN0t1RGNpRXIzUkJTUzJLeFR2NWt6dU95T0stUEs1NEYzM3FSRmRLaUtnRU13Z3dQcjF4V1JXd2NUNzFHNmVJZkwtUHZDS25GMEhNZTh3MUVyWHlJOW1sbVdybjZYOHp0dDloRlg3X2FR?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "TSMC"
-      ],
-      "summary": "Taiwan Semiconductor (NYSE: TSM) VP adds ADS and common shares Stock Titan"
-    },
-    {
-      "id": "fea545e358",
-      "title": "U.S. semiconductor stocks stage a powerful rebound! AI computing power takes the lead, and opportunities may be emerging from the 'deleveraging rubble.' - \u5bcc\u9014\u725b\u725b",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVhTWmUtMFJ6SjJNcnlkSlJrb3Bkczl2clZpc1EwaTZFdENUTkZfbDAwMTdTN1hpMzdCeGF2dEJXRW03UzBnYnZmZWJ6YVhjeVhCNTV2TzBlR25Gd3RqaWpTZ05JOV9BbTdNQnU5NjhuQ00zQUdNNEk5dXNPSmRYM3ZLQUllaFNxckYyRHBYalYwek5uRXNRT1lCY0ZndXA2cXFvRGg0U0IyVVlT?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "U.S. semiconductor stocks stage a powerful rebound! AI computing power takes the lead, and opportunities may be emerging from the 'deleveraging rubble.' \u5bcc\u9014\u725b\u725b"
-    },
-    {
-      "id": "753f6baaf4",
-      "title": "Cathie Wood\u2019s ARK sells Shopify, buys Taiwan Semiconductor stock - Investing.com",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUE83OXVGQXlfQXRYNjE0d1BMZ1BUSEFKNUJXTE01a3FBYkd3YnVpNkItWTFob0hlSVAtd09ER25WYmFVMFBOX1N1VnQzNDc3N3lobW9BMWt2VGEyallPMzE4R2VNcUdnTGdIZjZrOGdMZF96a3F3NEF5eDRFeTQ5YnZKM2RLUnBsR2FJbE1YN1NQQ2w5VUNOaF9zSGtmN05BZ1VXRWlSWkk5Q0hfdndJR2Jra3lsdzIyX2RB?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "TSMC"
-      ],
-      "summary": "Cathie Wood\u2019s ARK sells Shopify, buys Taiwan Semiconductor stock Investing.com"
-    },
-    {
-      "id": "10a97f878a",
-      "title": "IonQ wins FTC clearance to close its $1.8 billion SkyWater acquisition and become America's only quantum chipmaker - Startup Fortune",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZzRjLWY4X1B4VEgwSjZ1QXBac01BY3A5UXVqMHBfbVJncE92T21KWUdfTUkwYWhISTVZRUthOFotdHdVbDZkY0JId2stOGRFNlRsaWNjM211YzBKUjBuMHNtMl96eGE3dzBWaTBiSGhPVUQzR3JUaEJkZm9OUFlXRWNrd1B2cjk2c2xSZWwxN2Y1R2hCUlVpMkMwZnloNkVaajgwSzRHcDYtZ2ZBMDRlZFNZUlllSGhiYnRDVXNTNkVDRWVqNllST0MxcFNIX08td0x4VXJn?oc=5",
-      "date": "2026-07-30",
-      "category": "M&A",
-      "companies": [],
-      "summary": "IonQ wins FTC clearance to close its $1.8 billion SkyWater acquisition and become America's only quantum chipmaker Startup Fortune"
-    },
-    {
-      "id": "f0aea0b736",
-      "title": "U.S. semiconductor chip stocks keep falling, how long will this correction last? - odaily.news",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nVXU0M1dLMHF3T3FfZnlvVjRuQlpvRHJVNW53QWFWNThvUTllM015VkhLODBzZG9zTUNodm91SVdHRkVQS3VXSVBtNWk4N3FR?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "U.S. semiconductor chip stocks keep falling, how long will this correction last? odaily.news"
-    },
-    {
-      "id": "f22b658612",
-      "title": "IFCN: Record Q2 sales and orders drive raised 2026 guidance amid strong semiconductor momentum - TradingView",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQVUZXZEZRTEt0R3NUd1FoT2d5bklDNnR3OVZOcnhWYlI1clE0ajJpQ2todU53NkhkZ3ZYYk5EdVBBU3FQZmxXV1F4TmM1Nl9EdUNxV0NQenFMdHNodzBkQzFDMi00Z1dxMV9Db1hCaGQxa3R1SDNIY21zckhIWnZVbjdfUjI1RTk4Q1NHU0VaQ0pRa3hmYkNXVXBiSDBzV01qMk1kWHlpdGhtRHc2cFY0SGl0SDZUdzhmc3JDMm5QSEZPTUxoNFQ5Ykw2RHhLSkZoRWNZa1hwYWJtTWxXM0NmcTlSbktTZWplNWFsMWlsRzN6ckJiRUllT1VpTHhYTXV4cEVhdVhCWkJoMWNX?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "IFCN: Record Q2 sales and orders drive raised 2026 guidance amid strong semiconductor momentum TradingView"
-    },
-    {
-      "id": "d269fb5847",
-      "title": "Samsung Electronics' Semiconductor Profit Surge, Smartphone First Loss - \uc870\uc120\uc77c\ubcf4",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeFZUVHlYWXY3TDU2UFdCYXVqcndsbXpsR2ZkOXZsTjV6akVGY1AxYlJhWUllVjhhcWJhNkw4aU80ZkVlVUZJUUZBTy1wdEl2OUI4TjMzb2VBUU9VbGhUa19ha0U5bGR0TnctaHlKU05yUTNhQkgzWHkyOFdkQzZGMG9EUl81RDZ5?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung Electronics' Semiconductor Profit Surge, Smartphone First Loss \uc870\uc120\uc77c\ubcf4"
-    },
-    {
-      "id": "cafc630f87",
-      "title": "Global semiconductor stocks decline following China's memory breakthrough - Global Sources",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPX19rcUFSQ3RDeTYwbUlNRXM4UDlHVElNU0xKajJzU0szYXZac250bmZvemVyamxscEdNNEVnUTFwa3NFUzNDS2llQzE3ZFBwRk9xc1BXemxqdDhseldwYkxIYngyY19yMWRhaDBRU2NoYlhDSjdIQ0RYMjhvbi15SXZ5c1kwemVfdWhvOFNkLTM2d05kQ3lySzBmcDR0MlRaZXVaYUswVnBIeDJNelU1bThBLWhOeW8yVC1IeA?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Global semiconductor stocks decline following China's memory breakthrough Global Sources"
-    },
-    {
-      "id": "d1f2cf878b",
-      "title": "Samsung expects semiconductor shortage to continue until 2028 - \u0633\u0627\u0646\u0627",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE56ejN3d2FiU05pdTZxckxKb1YwM3ZrS0hkT2p3U0FDNGhLcGVDVkZabjFZS29tUUFURmREN2dEMUVodTFkNmtkNW9ZUFY?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung expects semiconductor shortage to continue until 2028 \u0633\u0627\u0646\u0627"
-    },
-    {
-      "id": "004274045c",
-      "title": "Omdia: AI Demand Drives 94.1% Surge in Semiconductor Forecast for 2026 - The Joplin Globe",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNdHV4eC1DSld4c1I4a1d3UG5QU19jTUhDd0w5LUtNT3hRV0J6MDJtWXNqZkFxQndpSWJpZzBKM1NiS181TWVGbjVMVnZzWFQ0WnVfZUdSUGdtamRlY295T2d0WWtERF80QXlzend2LVBROXpObldkSWVjWjQ0RlFpN3AzVF9jTlBIVEtwUnZCd203b0labFNMR1NWVWpUWkNfRTA0SU85bUhfY3c5ZnAzcWVEbmtwbTVpWE8xVnd1ZEFLMXhXbXdqVmJfYVJWQmxGb2FlMW5HZURseW95eWo1eVp0RDBkWGlVQVEyLWUwcVIzVzdaNy14VDF3RC1TZndu?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Omdia: AI Demand Drives 94.1% Surge in Semiconductor Forecast for 2026 The Joplin Globe"
-    },
-    {
-      "id": "d41f92fe6f",
-      "title": "Magnachip Semiconductor Q2 Earnings Call Highlights - MarketBeat",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX1R0aDgxeFhPaUV4RE14OG9ZeVQxQ3BuNk1FU2FNcEh1Tl8tZlNkMEo4SndGeXFCVkR0bjdHLVkyMXQxOFhHSFJnR0tFZ29nZ0dHZWk1WkNoTHhPNkt3ZGY1X1ZjV1NsS3lKRWQ4RDRfd1I1RHJfS1VWNzVyakJ0MnM4TXl6Q2VUNWVRWGtnWVAwQXQydEJONVFUWkRrSnBOVGc1RHV1Nks?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Magnachip Semiconductor Q2 Earnings Call Highlights MarketBeat"
-    },
-    {
-      "id": "59058a793f",
-      "title": "Short Interest in BE Semiconductor Industries NV (OTCMKTS:BESIY) Rises By 86.9% - MarketBeat",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWWhKNUFkWWlySmxYbTZDODEwcmdKUHo0OGhqQ2tnYmlDVnBUa1ZtWjItM2c3dHBSN0FyRmo3cTJ2MTZNMjlGZC10cUlBeW1SZW02Vi1ZaFlOTk5Nc0dRNDY3el9CU05Mc2k4UUo2cFZiYUR6ZjI2aHp4QlVXYUhFdTI4UEM2Nnk5WFdEM3VaampCYnoxMWhxVWw3azVSdkhMNzQ3c0NYMDJDMUJ4dUdXclpVOEFGN3pmcEtfYjBlbmJURTdwUll3?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Short Interest in BE Semiconductor Industries NV (OTCMKTS:BESIY) Rises By 86.9% MarketBeat"
-    },
-    {
-      "id": "bb7b92f1b5",
-      "title": "Why ON Semiconductor (ON) Is Down 14.6% After Pre-Earnings Jitters Around Its SiC Expansion Strategy - simplywall.st",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNamN4OXpWdEgxQmN5MTVUb3VhM1VwZWFWaXY5TlFPQWhzU1lCcXlBQ3RwVTFmUHk5MV91R1RXcUxHak0wc0hZaEZGcDRMZVhtQmRXb0dWbzV3MUhPdXRtMHprVmhISi04ZjVjTE9IWTc0S0RUSTlTdmRnMTRqRURTLU9FTXEtR2MxRWJENFJtZ05DVXRRQ1dCckRIZV9IbURwOVpwYllLcEJOeU9jTGdGVi1jeGxSeHFhTkpkTVE4eWM4NVpyV25GeXBKZW5qWG5BRjA1d2NR0gHbAUFVX3lxTFBpZzU1ZDhUSGFfMUwtQ2dmTWtNM3c1SGtydXZlVk1wb29HdVhGZHhHbXo5bkl0YnBwSzVDZ09aMEVla0prVnF5dDlOdFczbVFVeTNNOTB1N19jRUN6OG5aVk5nSGRHR2NPMmpjamg3a0NkVHpQd1NURjYxUFF1OThFMktOb0FMczl5N25kSGFBcVl5bVladzdWZWs3LWppclAwaWp5QXBHcTNZV3pXZmZVaVlDd2k1dWNzZVo5RlpaT3NUeGF4eHBQaTR5LThnM0VfVGdEemI0dW5idw?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Why ON Semiconductor (ON) Is Down 14.6% After Pre-Earnings Jitters Around Its SiC Expansion Strategy simplywall.st"
-    },
-    {
-      "id": "8a8c68a913",
-      "title": "Kyocera: Record 1Q results and raised forecasts reflect strong AI and semiconductor market demand - TradingView",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQWEVhZkRUWmkzQlVqOTlQRHppcDNKWVVVMzBGZ1JzREdXZWxmNTd1RmF6UzN1X0NQTUNfT3pyQU1keVEtZjVOWUFFYTB1VEdiR2U0MWNIYlktUmZvanc2Rm5tRFVDWGgxd1NnUVdJenhaWEJjZko2bG9UdDZrOGZMUnNhWUhvMWZKUFNsaFNFdzZMN0lRcWJoVUtpcUNEYU5mRF9HaU1NNXA3T1lEb1dxNEpiLUV1VlNKM0hDcnhQalZoeWkwcFdzaUNPOHhoNE43Q2w2d0FHdDJtQW1tWFdETTlReE9IeDNqZFNqM3FlRGNMWDV1ZE9MS1F1ejZmamlSV3U4RkJtMmZ5N0E?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Kyocera: Record 1Q results and raised forecasts reflect strong AI and semiconductor market demand TradingView"
-    },
-    {
-      "id": "cef052113e",
-      "title": "The semiconductor sector rebounded, with the Philadelphia Semiconductor Index surging more than 6%. - \u5bcc\u9014\u725b\u725b",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUU00dllMektrNVc1YmV2ZFJaQV82elJPM19JUTRQTXRxZTh2NGQ5NURyV1FDLWZQbERKM0xnZlptLWh1SVBhSHNLV3hudVR0blJYREZwcmJSR3FwY3liTkJGTk5ZSEFtLUttejVGS3pqeVVZVExjTWNJQnVPbmk4SFl0bXB6TkpXekpUYlhPMnpta2hyNWpzOUl2dnBGOVlBTmFxMlFqdFZlaTEwU1Z6UklvQTk1V1FwZUUwY0xtdjRLOHc?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "The semiconductor sector rebounded, with the Philadelphia Semiconductor Index surging more than 6%. \u5bcc\u9014\u725b\u725b"
-    },
-    {
-      "id": "e54a550169",
-      "title": "Building an Integrated Software & Hardware Ecosystem: How Sailing Capital Breaks Through Core Bottlenecks to Fully Connect AI and Semiconductor Industrial Chains - 36 Kr",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15eDRUS3ZkU2pZbVd0TXRsTGFwSEd3eFZ0SXdhYkVhNm1FREpCQm1Ya1hUeTBLX2N4eGYtU1RnZFhEdjhKd0hQOGI3X1Jqb1JlTUtj?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Building an Integrated Software & Hardware Ecosystem: How Sailing Capital Breaks Through Core Bottlenecks to Fully Connect AI and Semiconductor Industrial Chains 36 Kr"
-    },
-    {
-      "id": "648323d77e",
-      "title": "Airbus Pays HMRC \u00a36.4M Over Export Control Breaches - law360.com",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVVZnV0VjMFkxVTc1SkFCcWc0eGh6S2hZUU4tVm9lY2o4c1pwSGRPaUFGZTIwV1ppWml6MURLR2NnSFlrNUU5QV9rbkZFZ3p2bWhtbHhkeE5SS05KcjhZQy1JZmpLUVZuNm5fakdZRU9aX3RvaHJFZ2xXY0xGdk4xb0VLV2tNV2N5ZkpPNW4zVXpfaDFm0gFWQVVfeXFMT25Yc2V3QnhlblhFelZ0Zkc2WkxPVXJqMTh1ME5mY2I4QTdFYXRDckNDcWF3b1lfWmJzQjNXZS1JeU1sem5pekpIX1ZkM1g5Nl9rMHJyMGc?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "Airbus Pays HMRC \u00a36.4M Over Export Control Breaches law360.com"
-    },
-    {
-      "id": "5ccc5c009a",
-      "title": "Airbus Operations Limited has paid a record \u00a36.4 million for breaching Strategic Export Controls - Mynewsdesk",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOZFU0UTZCZllSQjNTUmRXN0RDejY4clhyYzYyQnFhRnpSSC1pWGp5TXJ2MUdaMl9zUzF6dnlDX3JjdHdKN24tbW55N1lOMFlDZFFCRDU1ZzdBOEwyRGVUbVNGY1hFblNBem9FUlAyZnVYODV5T2ZRUlFoV1RtWU5pSnZwVXFIaFlWUUJoTnQ5eEw5QjhiWGM0U09TZkdJaFMxYU52NnAwLTdWOHd6aHVRc3V5UkZ0cFByYmQweWZGb05KVEs2WnFoVXk0dnZ1LXlvTG13N0Rvd0NleXZIZFYydldqMzhGcGNZeENnZlBVWFd3cEgxUDV3V3NTbnoxRTg2VFNRWDNUa255TnNOSzhBRmFR?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "Airbus Operations Limited has paid a record \u00a36.4 million for breaching Strategic Export Controls Mynewsdesk"
-    },
-    {
-      "id": "1b7fc40c06",
-      "title": "Why Microsoft\u2019s Maia 200 AI accelerator buildout is positive for this chip stock - Investing.com Canada",
-      "source": "Google News - EDA & Chip Design",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORFVmN3VwYmdQQUY5Tk5oUk40cmYxVS0wVGUzRGpCZW9vTFJfTHo3dEtTV2FPbUF3RnltV1ZScE1NRDdiTDNOdU9weFdxNkFWUHUzWWUxVUN3TmIwelhvb0UtYkpYb2FuWmE4RjNIVUhqcTFRSTNfMXFKdWlLNFUzMFU5MTRwcVdEV1N5bE8xRW9Jel9RVUVFTk8wMzNWdm5nRHBnR3ZQMWMzYnZ0ZWZDejJTQmIwalZSTVhWc1JUOWFGYVN4LUlmaEJBc3hLSmJOa0VmRG0tZw?oc=5",
-      "date": "2026-07-30",
-      "category": "Chip Design",
-      "companies": [],
-      "summary": "Why Microsoft\u2019s Maia 200 AI accelerator buildout is positive for this chip stock Investing.com Canada"
-    },
-    {
-      "id": "a19b54e0dd",
-      "title": "Samsung signs five-year memory deals as chip shortage stretches to 2028 - digitimes",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY0pxLU4yT3RqN2E5TFl6NVo0dWlYOUJJWGduUXJwamVoeXlMMk1sc2RMOWRxNjhEQl9fZV9GUEdNR2tIOTAxLTEyc2tUaEdjRlRjVFhMUXVoeDUxMWp1TC0wNloxMUdXeW1YWFVNSTlGTld2bFl5MGVHVUhGOXlmdTl1TjhKaktG?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung signs five-year memory deals as chip shortage stretches to 2028 digitimes"
-    },
-    {
-      "id": "afd231e33a",
-      "title": "Samsung forecast deepens chip shortage, KOSPI surges toward 6000 in Korea - CHOSUNBIZ - Chosunbiz",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONlJhODVCZzk4Y1RBZWRPd1owcjNsc1NReVBUSDVvNUhuOFRMMFNYUV9aUUY4d3UwWThxTWxLTkRzT1hKOENiTGZiNzhxUWhnaVZObDJlLUJKZVM1ckg2N0d0blI5a0xiYXdLdnF4dkphanVnOGpMVEcyaGdYbnlvcDJveGFUQnJyMDhuSkhUeldNcHIz0gGUAUFVX3lxTE42UmE4NUJnOThjVEFlZE93WjByM2xzU1F5UFRINW81SG44VEwwU1hRX1pRRjh3dTBZOHFNbEtORHNPWEo4Q2JMZmI3OHFRaGdpVk5sMmUtQkplUzVySDY3R3RuUjlrTGJhd0t2cXh2SmFqdWc4akxURzJoZ1hueW9wMm94YVRCcnIwOG5KSFR6V01wcjM?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung forecast deepens chip shortage, KOSPI surges toward 6000 in Korea - CHOSUNBIZ Chosunbiz"
-    },
-    {
-      "id": "b8b49c518d",
-      "title": "China's CXMT Hits $500 Billion Valuation in Debut as Global Memory Chip Shortage Intensifies - streamlinefeed.co.ke",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR1hxSmJ6U2JyS3I5WjAzSDJLRzJDREFIelFuanppN18zSDAyb3lndURPQlV2QWNveDdjOExoUFB2T3V6SUhMQXBaN0lSX29mcmVya05zZTlObDd0cEV0cG9iUkxkRXMxSUdWcEp6QkRReHFqMUZGeF9BRUQ5VGVQVlVxNUMzUTZZTVFJaXZFZEJ2clppSHFnaEZiczFOLVJqMWlvckNLdnplWG83ZjQ2ck5Sa2lRN1hyeHNMV3kySGpSUQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [],
-      "summary": "China's CXMT Hits $500 Billion Valuation in Debut as Global Memory Chip Shortage Intensifies streamlinefeed.co.ke"
-    },
-    {
-      "id": "9a0634c26f",
-      "title": "Semiconductor Manufacturing International's Stock Price Plunges to 62.00 HKD, Marking a 7.74% Drop: A Critical Market Update - Smartkarma",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQVllrNVB6aFhQeVVmcFhqM3pPa3E4U1FDWWZnOXZOcW5HUjhvUHljUklTMElScjd5aUJfbzdvcFdpTDZwTDJJZG9fLXlNRDBDRzJQNHk5V2U0VDlfNzdkemR1VmZVZ3c1eE9ST2p2ZjhLcFNzbnpWdG96M25NN3NYOFhER1BwMXVuWkNLNi1QZVczbVQxS0V2SnJRVmFYaVFZRmQ1YnNvVzFmbEQteVRzbmNhckNCd0x0WldBSXFqOTMzMUxYaEVnckRKT0FWRnp5YV9BVEZFb2JHT1lJWWk1Q1RNdEdTdGVlRmtxZWtEV1VuSHlPaC1xS3ZTMA?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Semiconductor Manufacturing International's Stock Price Plunges to 62.00 HKD, Marking a 7.74% Drop: A Critical Market Update Smartkarma"
-    },
-    {
-      "id": "b35759034a",
-      "title": "Cim LLC Has $2.88 Million Stake in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeG5zV0Rzb2lEd1RpTzZOUllETThkRjNrMGVkT1ltcnd0RDUtY1h3N0pBUjRqeGFMOW5vUzBWS29fUC15eVY3b1R6a3V4aFhEX1dNQndXRVY3aEQxLUp3RWdWWmtfUExnMEtjd0JtT29NNmFBMnJlblYyYkY5WmtXQUxFZnpoNmN3aHFZZjNLbkdBQUEyS3pfNllQak5OX2FwaFMzQ3NZYUxucjZpV3BzTGNRS0tPNU5HQTA5WXNSQ0FmSWFMbERJVVZOTndHeGhSR0JibDdaSGxiT2N6?oc=5",
-      "date": "2026-07-30",
-      "category": "M&A",
-      "companies": [
-        "TSMC"
-      ],
-      "summary": "Cim LLC Has $2.88 Million Stake in Taiwan Semiconductor Manufacturing Company Ltd. $TSM MarketBeat"
-    },
-    {
-      "id": "0b749d6d79",
-      "title": "DIHAG Sets the Course for the \u201cFoundry of the Future\u201d - foundry-planet.com",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORUsweWNHWXBvU19CRmRzV2R5Y19pTnRGNzdlMXVNTmxBMFI4RE5DTDFmSEpNZFpTSHZtZkJrUVZHNjJBMmZEQl9GV0M5Y1EwVjBVZEV4elRNUmFjWjhwUnpKVEZ6M3FacnFBT3B2blVKaExXaThINFFrNm1JTU5Qb0pkTjllVlBuZGpMQzRn?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "DIHAG Sets the Course for the \u201cFoundry of the Future\u201d foundry-planet.com"
-    },
-    {
-      "id": "a2cc6da8f2",
-      "title": "Adobe is building an AI content empire through Firefly Foundry, Topaz Labs, and a string of capability acquisitions - MarketScale",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQQ09uakVLeEV6ZmxJSXpiUVlkZ1BmbmtRbEdEbVk0ODhDbWk0dzN3cmtNd2dTbEtnUjhIRmR6SURfY19MYmxHTFdjQTFtb09yc2Z6SVZNczE3MWlfWnFlODBxdVd3YzJCd3VxaWFHSkNhdHRoeXBHRDN0LVdPUXVLNGhzY2NpalFkSkh0a1V2bHRwRUNpMzRHVUJlYXBQQVg5c1VwNGZlOTAzYnlaR0l2dEh5R1pWQVdoSHpRU0hRRXhndTNqNnJWWF96U3BFdWxaek9WMUxtYkZfWGJxOHZNNVJCeW5DZmg0WVg2dkJvdzdad25FZkt3RXpHU21JbjRnd0RYaEFwbw?oc=5",
-      "date": "2026-07-30",
-      "category": "M&A",
-      "companies": [],
-      "summary": "Adobe is building an AI content empire through Firefly Foundry, Topaz Labs, and a string of capability acquisitions MarketScale"
-    },
-    {
-      "id": "eb55239ff8",
-      "title": "Global semiconductor stocks decline following China's memory breakthrough - Global Sources",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOVpZRms2QnZaVlU1S1BRdXpYTkk2QUd4Wmg4TVpiU3UwM180LXVpaGlrcmhZUXZqcVVkRUZ5RUlDM3pkM0hkUlFPdTc2MnVTRm52S0pMUVBlQk5Kd1pFM1I4d0FkTGZXWUpES1FXYWpua2VEOG42b1NQX0cxVi0xVmRBeTNyWnJwamx0MUx0REtZRWtQdTZBY1c2Q29ndjJ3WnVlT1dTcVNEcEhqU3lEbjBkQnZuMnNkWk9FSWVFVmJXTXdmV3MySFJTQURJRFdMajhPT1U3aw?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Global semiconductor stocks decline following China's memory breakthrough Global Sources"
-    },
-    {
-      "id": "037d19c313",
-      "title": "Anson Funds Management LP Has $4.56 Million Stake in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQME9wbERSeGZKLTlzck1JcjVOSnpQS2hQYmRhRGdlUmNOcFkzZzJzVHhhT2ZNeWJlRGU4djYySFNmOXk5aXM2VV9lR2lfdDNNTEZaV3cxNEsyU1V2bUxiZ2tTWldhT3Zlb0JPZmlfMFcwZ1phUE9rSTVaRm5hd250MnljODBkelMzaEs0UldNc2ExN0toR1N1anNTX09DeFB2TUw1bjVldzBZRTd5WGUxVlJHSk5RbFlNSzd4T1pHdmFEZGtfVXplTUc2UkxZUV82NlV1NzVqRGdoVk5zX0gxS0lPTDR5U2swZ3c3anVERzZFUXB3?oc=5",
-      "date": "2026-07-30",
-      "category": "M&A",
-      "companies": [
-        "TSMC"
-      ],
-      "summary": "Anson Funds Management LP Has $4.56 Million Stake in Taiwan Semiconductor Manufacturing Company Ltd. $TSM MarketBeat"
-    },
-    {
-      "id": "c61acb00ff",
-      "title": "Samsung foundry to double 2nm design wins in 2026 on Broadcom talks; claims profit turnaround 'possible in near term' - digitimes",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdFZwZGpOZUZSTVB4U2JhU2FYZGRqQmJHbUJnVHpRSXZqOGFFT0JwM3lRYk01QmV2cHI2ZkZYZl9hZlpNWG9qaU9tM0c5SGNFX0l1cTFuOTg0ODdFRHR2Sjd6bkpqY0pyLVBCY0t5NmNydkJwdzYxTG5na3A1R0I5elpMWE00VW5zcnNz?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung foundry to double 2nm design wins in 2026 on Broadcom talks; claims profit turnaround 'possible in near term' digitimes"
-    },
-    {
-      "id": "0973e1bc83",
-      "title": "Holtek Semiconductor: Q2 2026 delivered double-digit sales and profit growth, led by MCU and application segment gains - tradingview.com",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNU2JWUjNWRXEtZkR6WVFpZXRjUFU1Nm13LWs4bFBVYnRGaGVpUWhPVzdxV1pqZGFNMmdBTGhLRkpGWDl1YTJiUE1rc2NQTm9iRVhlTlI4RTNiZnQyWUkwX1E5T0FzaE1ZNUZocG1fUmZ1NlYzbkRkZWZ0MU9lb0tzWGhQZ3p4Sy1tNzJfTWw3LUVnR25US0FILW9PTkJEVkdCUDltM0p1ZHNqNndGQTlmNFdQRDRETTdWbWN5LVc0elE4a3hiazEtYklXUXlxMGNrQ0UySlBnT2IwYTlPZEV6bHc4SnE5djl3a0FsVnRWS21qLXRTVmkyZmdYTEdmYjlnNlUxeXJ0UnNfU1lobG1jb1dral9PbmlabzJpQUtpSzhPVlVidFE?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Holtek Semiconductor: Q2 2026 delivered double-digit sales and profit growth, led by MCU and application segment gains tradingview.com"
-    },
-    {
-      "id": "dc41159942",
-      "title": "GigaDevice Semiconductor: Chairman Plans to Raise A-Share Holding on Confidence in Future Outlook - Moomoo",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNX1lrZnJCVXJsRG1DLUxaRzJ4TmxvWThLV3k4VGhDci1Bc0xiTDNTcDJaV2dKNXdFejlMWVVkT0g3ZlliOWNvUzhvRGIxd1U0OS1kYUNVR01LcmRGZ0g0VmJqUFB1Mnptc3VSNGxsZDQ2QUtSeDZGQ1pmOE1Xcm14MEswbThrT3BuWWxIbFRsTjFqbkJRQ1FDaFhsUjBqZVF5MzN4dVFXZC1oc1duTWQ5MVR2SHhnQVBPTDVyeEFEeWRseVR2czJkdlJ5eFJicXpzbHcxUjd1WVFqN3gx?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "GigaDevice Semiconductor: Chairman Plans to Raise A-Share Holding on Confidence in Future Outlook Moomoo"
-    },
-    {
-      "id": "6e182f052e",
-      "title": "Marvell plans US$250 million India investment to expand semiconductor R&D - digitimes",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcksyUC1SbS1OT1NPZWtkTVktVVpDXy1wVHQ5d2laSVREYkdEekpoM3g2MnU2X3lJQ1hBaF9hQlJHR1hmX29uSWJEZTg4UUFqM1V4Zk9KR3NfVThlN2VYeFh1azNSdTZKQjQtM0l1UEgxN1JPUVhfWE1hQXBsenFHbnhHQU9tOVc3b0cxQnpFV3hycDE4RzFxbEg2Ym1HbjA2bmRoam5lcTRfdw?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Marvell plans US$250 million India investment to expand semiconductor R&D digitimes"
-    },
-    {
-      "id": "d068ed3fed",
-      "title": "SK hynix, KAERI join hands on space semiconductor research - \ub9e4\uc77c\uacbd\uc81c",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RWGNwQzJwT0lLRTBYVTgtOU95LVZFcWM4aWcyLUVnbHk3dVlhZTBGdXJPcXU3UTBPVGU1NWVVQkNCY3haaXFVUi1zb1VRc2JzM21zel9STQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "SK Hynix"
-      ],
-      "summary": "SK hynix, KAERI join hands on space semiconductor research \ub9e4\uc77c\uacbd\uc81c"
-    },
-    {
-      "id": "7941f04c5f",
-      "title": "Lam Research raises outlook as AI-driven semiconductor demand fuels record revenue and margin expansion - digitimes",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOemxzeVJoV3BNbEhoa1lkajhPUE5uTEo4NkNCLWwwMEU3LTVjelBER1Z3TnliaVBxY2JVaVN3UnFnTFFOLUJ3N0RGcWpOelFMRXpjZ3VfQmtZajhkUFhjV19zNzVJNVBYS3pKckx1cEFMOHFEZEVGWXR1ZDBiNGdkWkVuSUFhQlN0UnNxNWFhaGdnRWI2dm9JRXdIcEU?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Lam Research raises outlook as AI-driven semiconductor demand fuels record revenue and margin expansion digitimes"
-    },
-    {
-      "id": "d51d23dc05",
-      "title": "Tessolve collaborates with Intel Foundry to support EMIB-based advanced package design - Electronics For You BUSINESS",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLTdaN3RYOHlCZmFtSUNkQWFxMS1tTVlRemlxQ1ZLcmlGdEZxR2hQd2x3djlYbDJTc2VkaXRISTZDOEViN01zQVRqR1FnMGZXQUpSWi1pbTBwb0IyWDFrQmxNN0dYV0dMYjRiQUFBV2UxMUIyQTdOY1NvSEFGaTIxNm5ZTURoTkJKNDlTdVdfQzJuWk12SVd2d3g1RGF1ckhmZkFHR3FDZ2hxcjNYVVZnb05UbUQ1UEMyOFNvcVRaTmE2b1pSS0VOeENhZUxWZzh5?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "Intel"
-      ],
-      "summary": "Tessolve collaborates with Intel Foundry to support EMIB-based advanced package design Electronics For You BUSINESS"
-    },
-    {
-      "id": "c2f6c595c9",
-      "title": "Trending Industry Today: BASICSEMI Leads Losses In Power Semiconductor Stocks - Moomoo",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmhkU3BBWWpfcmpfLS1PRmZsVGJyWlVIZjNTcTNBaGswZjdYUWozeWNvckVBbU1xYmJnSEdOMmVxYWhoVlNvQ2ZrX1RFMEFCU2FENy12bkF2dkJYT3ZWdF9FY2ktNXNSdXRKQ3B5bG1mZDhpQjBCdndJQ0pWZ1NWUVgwRTJUaWdrOEs4VWhDdnVsVXoyQXVfc2FtWE9ITmlEc21zMlZKYUY1VC16NTFCRlRscFA3VV9OWmc?oc=5",
-      "date": "2026-07-30",
-      "category": "Chip Design",
-      "companies": [],
-      "summary": "Trending Industry Today: BASICSEMI Leads Losses In Power Semiconductor Stocks Moomoo"
-    },
-    {
-      "id": "25d75c91f3",
-      "title": "Realtek Semiconductor (2379) Earnings: 1H Net Income of NT$8.14B and EPS at NT$15.86 Revealed - Smartkarma",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUjBrUWF0c1YxNGVDMWEwS2NZdFVrLTI4eS12RDVmYkVwYmtNelI0N3VpWWYyTnVVNm9jTmFlZkRLbjRuazZoSHFsU0NjemdrREt5QkJMaDh1VUtHZDltUFN2Q0c5SmF4VEsxSmVnc0ZWOVVWN3RPbEozaFhucFVUZDBMazJUd3daakhKdjF0WDVkZFlzel9fOFZIakVadEpSQWozVHBWT1VFbkZoYUZXa2VrVFBOZlJiWlFuZ2k1dHg2MUVPSUJhTjlVRkpsUWNTMG5Xekl5bVJWaVpXMDlv?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Realtek Semiconductor (2379) Earnings: 1H Net Income of NT$8.14B and EPS at NT$15.86 Revealed Smartkarma"
-    },
-    {
-      "id": "f551963db6",
-      "title": "Inficon raises 2026 guidance on semiconductor demand strength By Investing.com - Investing.com Nigeria",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbktGSWxCVU1IRVotc2tEQ3c0V1dZZmlJYjdOb00wS2M0bEJ3MFRKMUs0TlhRRnNLQ3BGejZjZVhjYVVKLVNadG9NTUh2QkwxeTg5TGlXdlo0T21hbXM2eGxOdnBrRDVrRENBZUR3b0dqVUZhWmRtOElkU0NYa1ZiS2Y0WV83VW9ZVlJFTHg0OHBUTUZKanZtNmJTQkNQQXpoTHVYeWJhZUg0R1FyeFB3WFowT2lKc01uUF9Ud1haMA?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Inficon raises 2026 guidance on semiconductor demand strength By Investing.com Investing.com Nigeria"
-    },
-    {
-      "id": "acd0fe847f",
-      "title": "Magnachip Semiconductor (NYSE:MX) Posts Quarterly Earnings Results, Beats Estimates By $0.09 EPS - MarketBeat",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPLXdIanhTcGZFUHEwMjVybjNNVXRkUjlXSWpKUHFNc280bUVoc2dKd0tXVzYyV1RvYjB2bUJnU0M0bzBlR2NwMnB0eWkyTUtrM29LQjhPWjVrVndVX0U1TGN1UWczeElZUFBNZW1JSndqN0ZkV1d2SE9MSVoycDFscGdRUWcxenl4S1lMdUtHOGV0S2lLZ253UnczRVVyQXNTVWZZNDdhQWtxUDRxRUdaYUdINENvRFNmV0JGU1VCRmJxamhnRHprM1lLMXl6N0c4NFV1Q0UtQ3hweUVN?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Magnachip Semiconductor (NYSE:MX) Posts Quarterly Earnings Results, Beats Estimates By $0.09 EPS MarketBeat"
-    },
-    {
-      "id": "80cf8e3104",
-      "title": "indie Semiconductor (INDI) awards 200,000 restricted stock units to COO - Stock Titan",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNa01BelZRY0s2Mi0tUkZrR09Wc29Yb1BvWkdPUzVZWmh3TGV2TXZpZVI1dFR2YmpFc1laZm9NZ1Jxd29OTE90el93R2xtN1Z4Tk5IRVp5WmlBb0R5NzhvRG1IWkJ2TGtqeGRrdUdqRFY0NmFSc1hBVl83LXVod1pjcDYzdTNkeV9ZWVFaVVlHTl90blVTODAzMnpya1hHcURqeXFQMmhLcTlGNlBpZWh6OXB3UGsyMnNL?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "indie Semiconductor (INDI) awards 200,000 restricted stock units to COO Stock Titan"
-    },
-    {
-      "id": "95496b9b87",
-      "title": "\u3014Tokyo Stocks\u3015Gains narrowed as semiconductor stocks faced profit-taking (afternoon open, 30th). - Moomoo",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX2Y0Sl9TcEQ2c0daNTI4Nm10eXlpM3czVTZrSlo3ZUNmZEJvVG1GOWlubW5pbjZqWW11b1ZPeWMyeUtZUkE4QUxXNXlIYmVaazhaYW95c1RLUTBIUExGNG41bXVqaUdfdFQtWkdUd3pGV3RMNklOdzJUVVd4a0tLemwwLXd0R18ta3RpaHVyekw5SW9sVzR0X3VYUGdyNDAwaHk3VGRVeTNoYmdQc2M5NWlfRQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "\u3014Tokyo Stocks\u3015Gains narrowed as semiconductor stocks faced profit-taking (afternoon open, 30th). Moomoo"
-    },
-    {
-      "id": "f9f3c6363c",
-      "title": "Samsung's chip division posted a 250-fold profit surge as AI memory shortages rewrite the rules of the semiconductor market - Startup Fortune",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMTI4ZkhYa3RRNHg4WW1vTGpXSFVIWjByeDNLR0RzUTVnNEc5WVBnamRYcFBaTXNSdFVRcUgzNVVmc3VCN19pQXA4T1ZIYnFxNUlUVDUtSUJidWNfOFROcXVkeXZJaFlfMzFrSjlUQ0JrVVY4LTIzMV9nTVpjb2JNSlFRRFhSaUs5emU4MUlUWWNXZFc1VUVvMTE3eU11OUk5dUQ3YjFUMk5FRHFNd1Ayc3czZ0xDb3otMlRPa2lRVjFhUV9ZMXM5NnpKb29pQjQzOUNaa2s5TVYwcjY3OHZfOGh0bXo?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung's chip division posted a 250-fold profit surge as AI memory shortages rewrite the rules of the semiconductor market Startup Fortune"
-    },
-    {
-      "id": "06c2d7286e",
-      "title": "Lattice Semiconductor Corp (LSCC) Stock Down 5.9% but Still Over - GuruFocus",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQU0J0V19FcVpReFhvUFV0QV9jejVHTmRjX1BsLUtzMzgzYWU5SDY0Z1VDc0pXa1pXU0x6T0R0M1N3RzZMR3VwUjJLbUI5Zk9JM3hIVFdMSE5QbjVfSzhIWXYwRVA4Si1TTE1wMWhYNlZNWmlBbV9NUEgyUHRhT0VlbkJUUlJzZEdkd2hwZXlIY0FBYnk1cng1T3hkRFVQU1U5ZU9TNk5RVEtiLVoxcHphOXU4RUxMRTl6UFotYQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Lattice Semiconductor Corp (LSCC) Stock Down 5.9% but Still Over GuruFocus"
-    },
-    {
-      "id": "538f070221",
-      "title": "indie Semiconductor (INDI) awards 40,000 RSUs vesting by 2028 - Stock Titan",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbWFhU296bE1CZS1yRFkzWjR4dFRTOE5ZSEVPUHRCR214dFRYMlV3TEF2bExHTk9ZbUlSZ0dJekZqQzJJNjFuTFZ1d01TNVlXWlpJa1ROcmZiR2h3a1hHVmsxYktXNzVtaVE0WjFFTTZZaVYxZFQyOWtFOWZLZjMyR3JTRzZCTkhfZzVBSEp1NjZOdHk0LUtFRmpuQ01DREotYndydnZNcnpjWTM3WXZRTHdLM2ttRG5M?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "indie Semiconductor (INDI) awards 40,000 RSUs vesting by 2028 Stock Titan"
-    },
-    {
-      "id": "55bbcb2ad9",
-      "title": "indie Semiconductor (NASDAQ: INDI) awards CEO 500,000 RSUs vesting in 2027-2028 - Stock Titan",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMFFiYjdDc09RaXd2SVAwd3Vob2RfaERsT3dUZjNZU1BXeFdBSk5qUFdubHdWRDJGV1ppVHNUSTF2ejlkSkNETmkwSllXWUsyRWZWWVhTaHprcmdOT2FRRFJQVEdMNWZjMmxVZTd0WFBleEUxRVBGaWsxVExtcXZPWnhoUUtWZWp4WmdXcVEtZU94ejJvT2k5d0pjVkswbHRBNVU5TGlHM2lGSWtvYW9ZVDBycFdjYkI0?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "indie Semiconductor (NASDAQ: INDI) awards CEO 500,000 RSUs vesting in 2027-2028 Stock Titan"
-    },
-    {
-      "id": "cef6befd31",
-      "title": "indie Semiconductor, Inc. (INDI) grants CFO 173,335 restricted stock units - Stock Titan",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZVRqdUhpSm41SkwtNDEwZGpoZTZRR2NNdTBhYWExUFhlZzdkMWVVTTVJZlpoQk1UdllQZUlwbmpINUgtaEFrZXpBYWpYR1hndW44d2djOHIzNFowUlp5VDYtVml1RVVmZ1Z4Y3g0VDVCS2VBTUtLQUdRaVNFTkxUakpoZXVBb3dycklrNmV5TW8yUnB1QU4wMVB2bll6WnFJYU1TQk5CZlFKOUlKNnZPSWRqZ2lsVTRQ?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "indie Semiconductor, Inc. (INDI) grants CFO 173,335 restricted stock units Stock Titan"
-    },
-    {
-      "id": "009b11b884",
-      "title": "Samsung Electronics' Semiconductor Profits Can't Offset Historic Smartphone Loss - \uc870\uc120\uc77c\ubcf4",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV0lTUzRveThtUFNaQk1EQ3F5U3p2S2VfSXI2TnJXRUl1YWtWOXRsdkw0RXJ6VTJTSDhrVDZQVG9yUzlmZDIxUHJNMnZEUmtxYXlzR3hxSlVUX0Via3hyckk4UmpMYTQycW1UWWNlV3E4azBpN2tOWFJFc2VyQWlzRHhGVlhBSWZY?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung Electronics' Semiconductor Profits Can't Offset Historic Smartphone Loss \uc870\uc120\uc77c\ubcf4"
-    },
-    {
-      "id": "bf220e27a2",
-      "title": "Taiwan Semiconductor Supply Chain Benefits From Global Foundry 2.0 Growth - SME & Entrepreneurship Magazine",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU19mSmxWUG1ZakJQOWRzdUVaUDZQWUJUYjYyOTBVN1VBSWJaSmpkNl9BYjFEcFBDRTduSEhZb0Nwamg2U0lrYmZRQno2M015dFp6dUdaU0tmdmlvMHpDVVhrelhsOWZiYlpTRkdFcFRSMHl5dXdvenRjRnpUQXp1M2JUVUh6NF9pMkNjZXNNRUZ3WUcwTlE?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "TSMC"
-      ],
-      "summary": "Taiwan Semiconductor Supply Chain Benefits From Global Foundry 2.0 Growth SME & Entrepreneurship Magazine"
-    },
-    {
-      "id": "382bfbee6a",
-      "title": "Kumamoto Earthquake Disrupts Semiconductor Supply Chain - \uc870\uc120\uc77c\ubcf4",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcWlDU1pnUUYycmFzSUh4amUxNnVOSG54dFVHT2JpU2RVNk9pcU5oUFlRY21fMUF4QWdxaFdaOUZHS0Rub2t3X0tXbEVKc2haVXo4RnROLWJ5UmV3TEdqX2M2b1pPalB3OEZndTFHaXg5UkZ3dkJVVHdWVmVBeXBqaFZyVXo?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [],
-      "summary": "Kumamoto Earthquake Disrupts Semiconductor Supply Chain \uc870\uc120\uc77c\ubcf4"
-    },
-    {
-      "id": "93315617a6",
-      "title": "Will Kumamoto Quake Drive Overseas Chipmakers Away? - News On Japan",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPaWFiVHlrYkFEWG1FOEhHOENrM2RDSE16SGI2azFRUU40MkxLdXhOSkVOWTBJaVQ5STJ5ZW9VdXpHYzdaYkR1UmFEcnZ3S1A3VXk1eg?oc=5",
-      "date": "2026-07-30",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Will Kumamoto Quake Drive Overseas Chipmakers Away? News On Japan"
-    },
-    {
-      "id": "e2ca299102",
-      "title": "Airbus says it paid \u00a36 million fine in UK export control probe - The Economic Times",
-      "source": "Google News - Chip Policy",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZ0M2TjBIZ05OVEtGaFFPbi1ydjcxbmtrMFBPYk1qakc3VWNnbDhFRmVKRzFxWGROZkZXVllsZWFaZmZ6NjJLQ2QzdkFUa1Rsa3YxQjV2ODQ1eWE0ZGhYU0pYeVg1RVlFMnZ4XzQ2ZGVybnBJX2diT29BOGZMSWdzN1FXVXFuQWJSQmFKWEVMcGJtTktXSm9EZnNIU0F3N28yQWlXbGV2Z0FrZU5nWDNnb09Bbk1HbGdDdjFMYlJUdk5qbzBRUy1LaUhuTV9SWHJ6czRrNHJGZEZiT1nSAeABQVVfeXFMTXU3MWVTeFdLTUs0RWs4SmxEb01hQjdnV2xUc3hfcVlweUlJSGhjcDNVSl92M2tPVUJsZWdGaFdxY0hQQW1SVU5HQUxCWVIwSHIxSEpacVIwWTd2bnRPMVNvLXd0by1kbkttemtDMU5aa3MybU9uRm9FdGd2MzM4Z1ZRSVhzR2NhN2d4OXFfTndxNl94T1ExXzBjNHRpOFZ4ZVdEQTU5NjVaSmZSRHBzVFBwZGxwaFA0Y2o5YUQzY2dHVE1Nb29Jck82SGMyQ19tR3Q4RXZwN2g2WGlHeHRrQzg?oc=5",
-      "date": "2026-07-30",
-      "category": "Policy",
-      "companies": [],
-      "summary": "Airbus says it paid \u00a36 million fine in UK export control probe The Economic Times"
-    },
-    {
-      "id": "ff7b68159e",
-      "title": "Eliyan Raises $145 Million, Extends Chiplet Connectivity Toward Rack-to-Rack Optical Links - XenoSpectrum",
-      "source": "Google News - EDA & Chip Design",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE90RGdYSnd5OFNPcXhwazQ3MTNCSjRlcWdyb0Z6Z21NaFZGckxYLW5MSVV0RWY4emZVZHRXLUNxNGE1c1A1N2lMRXl2dE03QWRLVGFWM25xcU5KcEtFVEJaMVg0dTU1T1ZUTlh6cl9IUE9OQUk?oc=5",
-      "date": "2026-07-30",
-      "category": "Chip Design",
-      "companies": [],
-      "summary": "Eliyan Raises $145 Million, Extends Chiplet Connectivity Toward Rack-to-Rack Optical Links XenoSpectrum"
-    },
-    {
-      "id": "e63e661d93",
-      "title": "Want a career in chip design? Marvell\u2019s $250 million India investment may create new semiconductor opport - The Times of India",
-      "source": "Google News - EDA & Chip Design",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOT2V3ZTlaWXFiQW55S0IwTEhHSlpBM00xSG90cFZqNmRzLWF0UnltdnAxU1ItcG1Xd2hFMXltRWo2OG1GU29kQnk3VXhPRnpEOGhuRlBYd0Z4OW1Dd29xb1lDMVZuaUZIQy1FdktiWlVsTGk5cENDdmVaUDRyZWVVdlBrRVExd2FxUXhKc19yR3d5NUlVcXFrQV9IVzRZbUpRRk5kdG1DeUwzMFc4UUxTVnlwUVFxZGhkQXE5c3QtbnQxOGlVSl84Sk5BVXRXcnhxU0txejBmeWpvLXZBeFljQTVmNzdXblJwZnZtNVhVQ3VUeHZCc3p6cUtZamJkSHhYbU52ODBFRktXSG9lYXVJeEZVeTJDTUt6Yll2Y3BtRWpIVElPQ0EyRTd2VmljSndQQ3ozN1Nn0gG7AkFVX3lxTFBsRUtqVU5qS3VXekdTcURmRmk2cGM1blJpSFdKbG10dmFBc2VWTDJCSXFwMTdRbHk2TW1kZjNWU0JsMzd0SXVab3FFUkdkUnFzb0hMVXpDczZBMjJwRmg1bWlTeE4tcDVpMDlwYS1SbGxpXzk2aGh1cVViT0s4bTlPREtRd0o3YzhDamhveWFkRm4yTW9TTjRVSlcwMlN3MGdycU95WHBRQ19rNHZsbEJGSDRqVFFHV1JsTlRsTFZKTnZiLXVkT2ZPeEZJVWRJSk11bWw1OGJVbk9RSXZZTXo3TUdUcTlFY2dFSTZNRkhKMFdRVmlGWWVLNzRlVjBnYTQ3bFV5MzBPN200UUZFNnNwcjVzaThjVWVVR25xYUs0N3JsVEFtY292el93enQ0Y002NEFmdVRSeXNiMA?oc=5",
-      "date": "2026-07-30",
-      "category": "Chip Design",
-      "companies": [],
-      "summary": "Want a career in chip design? Marvell\u2019s $250 million India investment may create new semiconductor opport The Times of India"
-    },
-    {
-      "id": "ca415132ff",
-      "title": "Samsung sees chip shortage extending to 2028, shares surge 8% - wixx.com",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT1Q1WU5heElkY2RxcG5vZ2R2Q3BtVUwtbmY1SU80NFJ4ZG1xaVh3QjVtdEw1ZllldnlSQ1ZOSExnbl85djNmdzBGcGpqSDNNSDlyaFNSVVJoQnB6X2RQUGdySHlySVdHQ3dQTUhZWDdBdDJQQ0VIbnhyUHVyMm9oaDVkVjZlQ2JldFplZ2tBeXJtR3FQYktvc0ZuSDY2N2s?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung sees chip shortage extending to 2028, shares surge 8% wixx.com"
-    },
-    {
-      "id": "853edebc73",
-      "title": "Samsung sees chip shortage extending to 2028, signs long-term supply deals - 104.1 WIKY",
-      "source": "Google News - Chip Supply Chain",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdUdmYVc3bEE2N2NmWDhfeU1MQUczNjc3MU96eS0tMUZnZjBEZWtsVDZhZWo1RGkwUnpVNkpjMDlkM01mLUxDQm92NUNUbFVoX3hVVU5OY2haX0UxaWcwZ1M2T0tlcUNmWGpPVm1CYl9zVjFnay0yX01HcjE0QkZZQi1ObU9ZMFFXcmJ2dTVpakswdFBCd3Q3eVBsRmJjdlk?oc=5",
-      "date": "2026-07-30",
-      "category": "Supply Chain",
-      "companies": [
-        "Samsung"
-      ],
-      "summary": "Samsung sees chip shortage extending to 2028, signs long-term supply deals 104.1 WIKY"
-    },
-    {
-      "id": "43a7d0e3da",
-      "title": "Hybrid Memory Combines NAND Flash And DRAM For Faster Data Transfer (U. of Seoul)",
-      "source": "SemiEngineering",
-      "url": "https://semiengineering.com/nad-memory-combines-nand-flash-and-dram-for-faster-data-transfer-u-of-seoul/",
-      "date": "2026-07-29",
-      "category": "Supply Chain",
-      "companies": [],
-      "summary": "Researchers from University of Seoul published a technical paper titled \u201cNAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.\u201d The paper proposes \u201ca hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and parallel data transfer. By eliminating intermediate components such as I/O buffers and..."
-    },
-    {
-      "id": "b39690c628",
-      "title": "2D P-Type Semiconductors with Oxide N-Channel Transistors For Complementary BEOL CMOS (Stanford, Hanyang)",
-      "source": "SemiEngineering",
-      "url": "https://semiengineering.com/2d-p-type-semiconductors-with-oxide-n-channel-transistors-for-complementary-beol-cmos-stanford-hanyang/",
-      "date": "2026-07-29",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Researchers from Stanford University and Hanyang University published a technical paper titled \u201cBridging the p-type gap in oxide electronics with 2D semiconductors.\u201d \u201cThe review assesses manufacturing-aligned pathways to high-performance 2D p-channel transistors, covering transfer-free low-temperature growth, clean van der Waals contacts, gentle p-doping, and mitigation of crystallization, volatility, and\u2026"
-    },
-    {
-      "id": "fe7756c2d4",
-      "title": "Deployable 3D Structures from Wafer-Fabricated Precursors (U. of Houston, Toyota, Imperial College London)",
-      "source": "SemiEngineering",
-      "url": "https://semiengineering.com/deployable-3d-structures-from-wafer-fabricated-precursors-u-of-houston-toyota-imperial-college-london/",
-      "date": "2026-07-29",
-      "category": "Chip Design",
-      "companies": [],
-      "summary": "Researchers from University of Houston, Toyota, and Imperial College London published a technical paper titled \u201cDeployable 3D Architectures from Wafer-Fabricated Precursors.\u201d The paper shows that \u201cstandard wafer fabrication can produce free-standing, mechanically stable, doubly-curved 3D structures with prescribed Gaussian curvature \u2014 a capability not previously achieved through semiconductor manufacturing\u201d and\u2026"
-    },
-    {
-      "id": "8308fe1b73",
-      "title": "Benchmarking Open-Source LLMs on Verilog RTL Generation Across 50 Tasks (NMIMS, IIT Roorkee, BITS Pilani)",
-      "source": "SemiEngineering",
-      "url": "https://semiengineering.com/benchmarking-open-source-llms-on-verilog-rtl-generation-across-50-tasks-nmims-iit-roorkee-bits-pilani/",
-      "date": "2026-07-29",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "Researchers from NMIMS Hyderabad, IIT Roorkee, and BITS Pilani published a technical paper titled \u201cBenchmarking LLMs for Verilog Design Flows.\u201d Abstract Excerpt: The paper presents \u201caa reproducible benchmarking platform that evaluates open-source LLMs on Verilog RTL generation across 50 curated tasks consisting of combinational, sequential, finite state machine (FSM), and mixed designs,\u201d and reports that..."
-    },
-    {
-      "id": "9ced5bc25f",
-      "title": "Flat Enough? Warpage Management Gets Harder In Advanced Packaging",
-      "source": "SemiEngineering",
-      "url": "https://semiengineering.com/flat-enough-warpage-management-gets-harder-in-advanced-packaging/",
-      "date": "2026-07-29",
-      "category": "Fabrication",
-      "companies": [],
-      "summary": "As packages get larger and thinner, warpage is becoming a process-control problem rather than a simple flatness spec. The post Flat Enough? Warpage Management Gets Harder In Advanced Packaging appeared first on Semiconductor Engineering ."
-    },
-    {
-      "id": "ac1bb4b664",
-      "title": "Pre-Silicon Power Side-Channel Leakage In Processors (University of L\u00fcbeck)",
-      "source": "SemiEngineering",
-      "url": "https://semiengineering.com/pre-silicon-power-side-channel-leakage-in-processors-university-of-lubeck/",
-      "date": "2026-07-29",
-      "category": "Chip Design",
-      "companies": [],
-      "summary": "Researchers from University of L\u00fcbeck published a technical paper titled \u201cSPARC: Automated Root-Cause Analysis of Pre-Silicon Power Side-Channel Leakage in the Processor Design Flow.\u201d Abstract Excerpt: \u201cThis paper presents SPARC, an automated framework for pre-silicon PSCL evaluation and root-cause analysis."
-    },
-    {
-      "id": "75cb21f8b3",
-      "title": "From Co-Packaged Optics to Nanolasers, Photonics Moves Inward",
-      "source": "EE Times",
-      "url": "https://www.eetimes.com/from-co-packaged-optics-to-nanolasers-photonics-moves-inward/",
-      "date": "2026-07-29",
-      "category": "Chip Design",
-      "companies": [],
-      "summary": "CEA-Leti, Scintil Photonics, and NcodiN show how optical interconnects are moving from data center racks toward co-packaged optics and chiplet-level communication. The post From Co-Packaged Optics to Nanolasers, Photonics Moves Inward appeared first on EE Times ."
-    },
-    {
-      "id": "c4cc619802",
-      "title": "DRAM chip supply to module makers could drop by more than 70% year-on-year in 2027, says Apacer CEO \u2014 demand for HBM and server RAM continues to devour manufacturing capacity",
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/pc-components/ram/dram-chip-supply-to-module-makers-could-drop-by-more-than-70-percent-year-on-year-in-2027-says-apacer-ceo-demand-for-hbm-and-server-ram-continues-to-devour-manufacturing-capacity",
-      "date": "2026-07-29",
-      "category": "Supply Chain",
-      "companies": [],
-      "summary": "Apacer warns DRAM allocations to module makers could fall below 30% of 2026 levels as AI demand tightens supply and pushes memory prices higher."
-    },
-    {
-      "id": "6cdf97e691",
-      "title": "Intel closes out RAMP-C production pilot that paid Nvidia and others to run test chips on 18A \u2014 program helped lay a path for secure domestic chip production on advanced processes",
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/intel-closes-out-the-defense-program-that-paid-nvidia-and-others-to-run-test-chips-on-18a",
-      "date": "2026-07-29",
-      "category": "Fabrication",
-      "companies": [
-        "Nvidia",
-        "Intel"
-      ],
-      "summary": "Intel Foundry says that it has completed RAMP-C, the U.S. defense program awarded to the company in 2021 to stand up a domestic leading-edge chip ecosystem on its 18A process."
-    },
-    {
-      "id": "94aa83ada2",
-      "title": "Department of Commerce Announces Letters of Intent With 7 Companies for $874 Million to Accelerate Semiconductor R&D for the Compute Supply Chain - National Institute of Standards and Technology (.gov)",
-      "source": "Google News - Semiconductors",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZzcxTXJ1dkYwSHNnbU11YUx6ZVM2RDZFb0ltd1NfeFRVdWxNXzBJcVRCZHV3OUJqS0p6V1ZjZl9wVDc0M2k3LVVJRWo0ZGJXTXF0Tmp6a3ZUejhUakJldnRrR19JeTdPSXpINHBfZnFFTXhBTUUxNWFUdk1LYmJTY0JobEJWaU84a2U1T0VKWTBqRmFpNFN4TW9iV3hKNWlOVGhQUm1yZTJBdlRoY251VTh6d0o?oc=5",
-      "date": "2026-07-29",
-      "category": "Supply Chain",
-      "companies": [],
-      "summary": "Department of Commerce Announces Letters of Intent With 7 Companies for $874 Million to Accelerate Semiconductor R&D for the Compute Supply Chain National Institute of Standards and Technology (.gov)"
     }
   ]
 }
