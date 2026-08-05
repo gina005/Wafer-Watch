@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-05T17:13:44.412309+00:00",
+  "generated_at": "2026-08-05T22:18:40.567194+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Samsung, Nvidia appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 139
+      "count": 137
     },
     {
       "category": "Chip Design",
@@ -17,7 +17,7 @@
     },
     {
       "category": "Policy",
-      "count": 12
+      "count": 14
     },
     {
       "category": "M&A",
@@ -31,7 +31,7 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 12
+      "count": 11
     },
     {
       "company": "Samsung",
@@ -39,7 +39,7 @@
     },
     {
       "company": "Nvidia",
-      "count": 9
+      "count": 7
     },
     {
       "company": "Intel",
@@ -47,22 +47,18 @@
     },
     {
       "company": "SK Hynix",
-      "count": 6
+      "count": 5
     },
     {
       "company": "Micron",
-      "count": 4
+      "count": 3
     },
     {
       "company": "AMD",
-      "count": 3
+      "count": 2
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Aug 04",
-      "score": 0.02
-    },
     {
       "week": "Aug 04",
       "score": 0.07
@@ -74,32 +70,36 @@
     {
       "week": "Aug 05",
       "score": 0.15
+    },
+    {
+      "week": "Aug 05",
+      "score": 0.1
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.21,
-      "count": 139
+      "score": 0.17,
+      "count": 137
     },
     {
       "category": "Chip Design",
-      "score": 0.12,
+      "score": 0.08,
       "count": 25
     },
     {
       "category": "Supply Chain",
-      "score": -0.25,
+      "score": -0.3,
       "count": 20
     },
     {
       "category": "Policy",
-      "score": 0.17,
-      "count": 12
+      "score": 0.07,
+      "count": 14
     },
     {
       "category": "M&A",
-      "score": 0.33,
+      "score": 0.0,
       "count": 3
     },
     {
