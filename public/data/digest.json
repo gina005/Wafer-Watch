@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-11T12:25:16.334963+00:00",
+  "generated_at": "2026-08-11T15:30:58.464789+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Intel, ASML appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 138
+      "count": 135
     },
     {
       "category": "Chip Design",
@@ -13,11 +13,11 @@
     },
     {
       "category": "Supply Chain",
-      "count": 17
+      "count": 19
     },
     {
       "category": "Policy",
-      "count": 13
+      "count": 14
     },
     {
       "category": "EDA",
@@ -31,7 +31,7 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 20
+      "count": 21
     },
     {
       "company": "Intel",
@@ -39,7 +39,7 @@
     },
     {
       "company": "ASML",
-      "count": 6
+      "count": 5
     },
     {
       "company": "Cadence",
@@ -60,10 +60,6 @@
   ],
   "sentiment_trend": [
     {
-      "week": "Aug 10",
-      "score": 0.16
-    },
-    {
       "week": "Aug 11",
       "score": 0.17
     },
@@ -74,28 +70,32 @@
     {
       "week": "Aug 11",
       "score": 0.1
+    },
+    {
+      "week": "Aug 11",
+      "score": 0.1
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.21,
-      "count": 138
+      "score": 0.22,
+      "count": 135
     },
     {
       "category": "Chip Design",
-      "score": 0.27,
+      "score": 0.23,
       "count": 22
     },
     {
       "category": "Supply Chain",
       "score": -0.47,
-      "count": 17
+      "count": 19
     },
     {
       "category": "Policy",
-      "score": -0.23,
-      "count": 13
+      "score": -0.21,
+      "count": 14
     },
     {
       "category": "EDA",
