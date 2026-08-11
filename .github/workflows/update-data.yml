@@ -28,10 +28,37 @@ jobs:
       - name: Rebuild digest
         run: python scripts/build_digest.py
 
-      - name: Commit updated data
+      - name: Commit and push updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/news.json public/data/digest.json
-          git diff --staged --quiet || git commit -m "chore: refresh semiconductor news data"
-          git push
+
+          # update-prices.yml (or a manual push) can land on main between
+          # this job's checkout and its push, which rejects the push
+          # outright — git push never auto-retries. On rejection, drop this
+          # commit, fast-forward to the new remote HEAD, and regenerate the
+          # data fresh on top of it rather than trying to merge/rebase two
+          # independently-regenerated JSON files.
+          attempt=1
+          max_attempts=3
+          while [ "$attempt" -le "$max_attempts" ]; do
+            git add public/data/news.json public/data/digest.json
+            if git diff --staged --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+            git commit -m "chore: refresh semiconductor news data"
+            if git push; then
+              echo "Pushed successfully on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt/$max_attempts — resyncing and regenerating."
+            git reset --hard HEAD~1
+            git pull --ff-only origin main
+            python scripts/fetch_news.py
+            python scripts/build_digest.py
+            attempt=$((attempt + 1))
+          done
+
+          echo "::error::Failed to push after $max_attempts attempts."
+          exit 1
