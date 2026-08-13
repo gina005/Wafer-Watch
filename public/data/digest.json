@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-13T15:33:02.346134+00:00",
+  "generated_at": "2026-08-13T20:03:50.682822+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with Intel, TSMC, Samsung appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Intel, Samsung appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 152
+      "count": 144
     },
     {
       "category": "Chip Design",
-      "count": 21
-    },
-    {
-      "category": "M&A",
-      "count": 10
+      "count": 24
     },
     {
       "category": "Supply Chain",
-      "count": 8
+      "count": 13
     },
     {
       "category": "Policy",
+      "count": 10
+    },
+    {
+      "category": "M&A",
       "count": 7
     },
     {
@@ -30,27 +30,27 @@
   ],
   "company_mentions": [
     {
-      "company": "Intel",
-      "count": 12
+      "company": "TSMC",
+      "count": 11
     },
     {
-      "company": "TSMC",
-      "count": 12
+      "company": "Intel",
+      "count": 10
     },
     {
       "company": "Samsung",
-      "count": 7
-    },
-    {
-      "company": "Nvidia",
-      "count": 3
-    },
-    {
-      "company": "Qualcomm",
-      "count": 2
+      "count": 6
     },
     {
       "company": "AMD",
+      "count": 3
+    },
+    {
+      "company": "ASML",
+      "count": 2
+    },
+    {
+      "company": "Qualcomm",
       "count": 2
     },
     {
@@ -59,10 +59,6 @@
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Aug 12",
-      "score": 0.15
-    },
     {
       "week": "Aug 13",
       "score": 0.12
@@ -74,32 +70,36 @@
     {
       "week": "Aug 13",
       "score": 0.12
+    },
+    {
+      "week": "Aug 13",
+      "score": 0.17
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.14,
-      "count": 152
+      "score": 0.18,
+      "count": 144
     },
     {
       "category": "Chip Design",
-      "score": 0.1,
-      "count": 21
-    },
-    {
-      "category": "M&A",
-      "score": 0.3,
-      "count": 10
+      "score": 0.17,
+      "count": 24
     },
     {
       "category": "Supply Chain",
-      "score": -0.38,
-      "count": 8
+      "score": -0.15,
+      "count": 13
     },
     {
       "category": "Policy",
-      "score": 0.29,
+      "score": 0.4,
+      "count": 10
+    },
+    {
+      "category": "M&A",
+      "score": 0.43,
       "count": 7
     },
     {
