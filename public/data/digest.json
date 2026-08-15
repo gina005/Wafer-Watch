@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-15T07:43:06.425816+00:00",
+  "generated_at": "2026-08-15T13:41:05.089821+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with SMIC, Samsung, TSMC appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Samsung appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 167
+      "count": 164
     },
     {
       "category": "Chip Design",
-      "count": 14
+      "count": 16
     },
     {
       "category": "Supply Chain",
@@ -21,7 +21,7 @@
     },
     {
       "category": "M&A",
-      "count": 2
+      "count": 3
     },
     {
       "category": "EDA",
@@ -30,15 +30,15 @@
   ],
   "company_mentions": [
     {
-      "company": "SMIC",
-      "count": 8
+      "company": "TSMC",
+      "count": 9
+    },
+    {
+      "company": "Nvidia",
+      "count": 6
     },
     {
       "company": "Samsung",
-      "count": 8
-    },
-    {
-      "company": "TSMC",
       "count": 5
     },
     {
@@ -46,23 +46,19 @@
       "count": 5
     },
     {
-      "company": "Nvidia",
-      "count": 4
+      "company": "SMIC",
+      "count": 5
     },
     {
       "company": "AMD",
-      "count": 3
+      "count": 4
     },
     {
-      "company": "Micron",
+      "company": "SK Hynix",
       "count": 2
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Aug 14",
-      "score": 0.21
-    },
     {
       "week": "Aug 14",
       "score": 0.2
@@ -74,22 +70,26 @@
     {
       "week": "Aug 15",
       "score": 0.23
+    },
+    {
+      "week": "Aug 15",
+      "score": 0.18
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.25,
-      "count": 167
+      "score": 0.21,
+      "count": 164
     },
     {
       "category": "Chip Design",
-      "score": 0.36,
-      "count": 14
+      "score": 0.19,
+      "count": 16
     },
     {
       "category": "Supply Chain",
-      "score": 0.0,
+      "score": -0.17,
       "count": 12
     },
     {
@@ -100,7 +100,7 @@
     {
       "category": "M&A",
       "score": 0.0,
-      "count": 2
+      "count": 3
     },
     {
       "category": "EDA",
