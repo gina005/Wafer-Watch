@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-16T03:27:42.610713+00:00",
+  "generated_at": "2026-08-16T07:45:28.963041+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Samsung appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 162
-    },
-    {
-      "category": "Chip Design",
-      "count": 16
+      "count": 158
     },
     {
       "category": "Supply Chain",
-      "count": 12
+      "count": 16
+    },
+    {
+      "category": "Chip Design",
+      "count": 15
     },
     {
       "category": "Policy",
-      "count": 6
+      "count": 7
     },
     {
       "category": "M&A",
@@ -31,23 +31,23 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 10
+      "count": 13
     },
     {
       "company": "Nvidia",
-      "count": 7
+      "count": 9
     },
     {
       "company": "Samsung",
-      "count": 5
+      "count": 6
     },
     {
       "company": "AMD",
-      "count": 4
+      "count": 5
     },
     {
       "company": "Intel",
-      "count": 4
+      "count": 5
     },
     {
       "company": "SK Hynix",
@@ -61,10 +61,6 @@
   "sentiment_trend": [
     {
       "week": "Aug 15",
-      "score": 0.23
-    },
-    {
-      "week": "Aug 15",
       "score": 0.18
     },
     {
@@ -74,28 +70,32 @@
     {
       "week": "Aug 16",
       "score": 0.19
+    },
+    {
+      "week": "Aug 16",
+      "score": 0.18
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
       "score": 0.24,
-      "count": 162
-    },
-    {
-      "category": "Chip Design",
-      "score": 0.19,
-      "count": 16
+      "count": 158
     },
     {
       "category": "Supply Chain",
-      "score": -0.33,
-      "count": 12
+      "score": -0.31,
+      "count": 16
+    },
+    {
+      "category": "Chip Design",
+      "score": 0.2,
+      "count": 15
     },
     {
       "category": "Policy",
-      "score": -0.17,
-      "count": 6
+      "score": -0.14,
+      "count": 7
     },
     {
       "category": "M&A",
