@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-16T13:44:30.184386+00:00",
+  "generated_at": "2026-08-16T19:00:30.404283+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Samsung appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 151
+      "count": 145
     },
     {
       "category": "Supply Chain",
-      "count": 21
+      "count": 25
     },
     {
       "category": "Chip Design",
-      "count": 15
+      "count": 17
     },
     {
       "category": "Policy",
@@ -31,7 +31,7 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 18
+      "count": 17
     },
     {
       "company": "Nvidia",
@@ -52,17 +52,9 @@
     {
       "company": "SK Hynix",
       "count": 2
-    },
-    {
-      "company": "SMIC",
-      "count": 1
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Aug 15",
-      "score": 0.17
-    },
     {
       "week": "Aug 16",
       "score": 0.19
@@ -74,23 +66,27 @@
     {
       "week": "Aug 16",
       "score": 0.14
+    },
+    {
+      "week": "Aug 16",
+      "score": 0.12
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.21,
-      "count": 151
+      "score": 0.19,
+      "count": 145
     },
     {
       "category": "Supply Chain",
-      "score": -0.29,
-      "count": 21
+      "score": -0.28,
+      "count": 25
     },
     {
       "category": "Chip Design",
-      "score": 0.2,
-      "count": 15
+      "score": 0.18,
+      "count": 17
     },
     {
       "category": "Policy",
