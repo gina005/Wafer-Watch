@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-21T14:06:36.512860+00:00",
+  "generated_at": "2026-08-21T19:16:14.457433+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Samsung appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with Nvidia, TSMC, Samsung appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 156
+      "count": 154
     },
     {
       "category": "Chip Design",
@@ -13,7 +13,7 @@
     },
     {
       "category": "Supply Chain",
-      "count": 12
+      "count": 14
     },
     {
       "category": "Policy",
@@ -26,16 +26,16 @@
   ],
   "company_mentions": [
     {
-      "company": "TSMC",
+      "company": "Nvidia",
       "count": 19
     },
     {
-      "company": "Nvidia",
-      "count": 18
+      "company": "TSMC",
+      "count": 17
     },
     {
       "company": "Samsung",
-      "count": 16
+      "count": 13
     },
     {
       "company": "Micron",
@@ -46,19 +46,15 @@
       "count": 7
     },
     {
-      "company": "Intel",
+      "company": "ASML",
       "count": 3
     },
     {
-      "company": "ASML",
-      "count": 3
+      "company": "Arm",
+      "count": 2
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Aug 20",
-      "score": 0.17
-    },
     {
       "week": "Aug 21",
       "score": 0.15
@@ -70,13 +66,17 @@
     {
       "week": "Aug 21",
       "score": 0.14
+    },
+    {
+      "week": "Aug 21",
+      "score": 0.12
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.16,
-      "count": 156
+      "score": 0.13,
+      "count": 154
     },
     {
       "category": "Chip Design",
@@ -85,8 +85,8 @@
     },
     {
       "category": "Supply Chain",
-      "score": 0.08,
-      "count": 12
+      "score": 0.07,
+      "count": 14
     },
     {
       "category": "Policy",
