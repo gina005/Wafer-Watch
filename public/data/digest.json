@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-23T13:46:21.348949+00:00",
+  "generated_at": "2026-08-23T18:35:53.997158+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with Nvidia, TSMC, AMD appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 150
+      "count": 154
     },
     {
       "category": "Supply Chain",
-      "count": 21
-    },
-    {
-      "category": "M&A",
-      "count": 14
+      "count": 17
     },
     {
       "category": "Chip Design",
+      "count": 14
+    },
+    {
+      "category": "M&A",
       "count": 13
     },
     {
@@ -31,11 +31,15 @@
     },
     {
       "company": "TSMC",
-      "count": 13
+      "count": 14
     },
     {
       "company": "AMD",
-      "count": 6
+      "count": 7
+    },
+    {
+      "company": "Micron",
+      "count": 7
     },
     {
       "company": "Qualcomm",
@@ -48,17 +52,9 @@
     {
       "company": "Intel",
       "count": 6
-    },
-    {
-      "company": "Micron",
-      "count": 6
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Aug 22",
-      "score": 0.14
-    },
     {
       "week": "Aug 23",
       "score": 0.14
@@ -70,27 +66,31 @@
     {
       "week": "Aug 23",
       "score": 0.15
+    },
+    {
+      "week": "Aug 23",
+      "score": 0.16
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.2,
-      "count": 150
+      "score": 0.21,
+      "count": 154
     },
     {
       "category": "Supply Chain",
       "score": 0.0,
-      "count": 21
+      "count": 17
+    },
+    {
+      "category": "Chip Design",
+      "score": 0.07,
+      "count": 14
     },
     {
       "category": "M&A",
       "score": 0.0,
-      "count": 14
-    },
-    {
-      "category": "Chip Design",
-      "score": 0.08,
       "count": 13
     },
     {
