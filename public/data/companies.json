@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T07:44:52.162092+00:00",
+  "generated_at": "2026-08-23T07:47:39.605054+00:00",
   "note": "priceHistory, change30d, and financials are refreshed by scripts/fetch_prices.py. sector, focus, segmentRevenue, rdSpendPctRevenue, capexTrend, and supplyChain are manually curated from each company's public filings/investor materials and preserved across pipeline runs.",
   "companies": [
     {
@@ -235,7 +235,7 @@
       ],
       "financials": {
         "marketCapUSD": 2172873342976,
-        "peRatio": 31.05634,
+        "peRatio": 31.241611,
         "week52Low": 225.63,
         "week52High": 479.0,
         "avgVolume": 13613580,
@@ -473,13 +473,13 @@
       ],
       "financials": {
         "marketCapUSD": 5200733011968,
-        "peRatio": 33.23839,
+        "peRatio": 32.88208,
         "week52Low": 164.07,
         "week52High": 236.54,
         "avgVolume": 140182203,
         "currentVolume": 91581137,
         "beta": 2.215,
-        "dividendYield": 0.46
+        "dividendYield": 0.47
       }
     },
     {
@@ -706,13 +706,13 @@
       ],
       "financials": {
         "marketCapUSD": 677460246528,
-        "peRatio": 59.97144,
+        "peRatio": 59.526157,
         "week52Low": 716.2,
         "week52High": 1999.96,
-        "avgVolume": 1874912,
+        "avgVolume": 1878270,
         "currentVolume": 858512,
         "beta": 1.365,
-        "dividendYield": 0.52
+        "dividendYield": 0.51
       }
     },
     {
@@ -934,9 +934,9 @@
       ],
       "financials": {
         "marketCapUSD": 476119498752,
-        "week52Low": 23.65,
+        "week52Low": 23.68,
         "week52High": 142.35,
-        "avgVolume": 119106833,
+        "avgVolume": 119694637,
         "currentVolume": 90790387,
         "beta": 2.241
       }
@@ -998,6 +998,7 @@
         -308.79,
         -308.79,
         -308.79,
+        65.21,
         65.21,
         65.21,
         65.21,
@@ -1160,7 +1161,8 @@
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
-        "2026-08-20"
+        "2026-08-20",
+        "2026-08-21"
       ],
       "financials": {
         "marketCapUSD": 428205604864,
@@ -1396,7 +1398,7 @@
       ],
       "financials": {
         "marketCapUSD": 772568776704,
-        "peRatio": 118.907036,
+        "peRatio": 120.419846,
         "week52Low": 149.22,
         "week52High": 584.73,
         "avgVolume": 28740575,
@@ -1627,7 +1629,7 @@
       ],
       "financials": {
         "marketCapUSD": 1091874717696,
-        "peRatio": 21.858015,
+        "peRatio": 21.833334,
         "week52Low": 114.25,
         "week52High": 1255.0,
         "avgVolume": 48346220,
@@ -1854,10 +1856,10 @@
       ],
       "financials": {
         "marketCapUSD": 390882099200,
-        "peRatio": 42.73611,
+        "peRatio": 42.55143,
         "week52Low": 154.47,
         "week52High": 739.67,
-        "avgVolume": 9558974,
+        "avgVolume": 9634291,
         "currentVolume": 5342374,
         "beta": 1.618,
         "dividendYield": 0.43
