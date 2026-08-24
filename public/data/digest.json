@@ -1,64 +1,64 @@
 {
-  "generated_at": "2026-08-24T01:38:51.721559+00:00",
+  "generated_at": "2026-08-24T07:06:33.296021+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with Nvidia, TSMC, Intel appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Intel appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 147
+      "count": 157
     },
     {
       "category": "Chip Design",
-      "count": 22
+      "count": 18
     },
     {
       "category": "Supply Chain",
-      "count": 17
+      "count": 18
     },
     {
       "category": "M&A",
-      "count": 12
+      "count": 5
+    },
+    {
+      "category": "EDA",
+      "count": 1
     },
     {
       "category": "Policy",
-      "count": 2
+      "count": 1
     }
   ],
   "company_mentions": [
     {
-      "company": "Nvidia",
-      "count": 19
+      "company": "TSMC",
+      "count": 15
     },
     {
-      "company": "TSMC",
-      "count": 13
+      "company": "Nvidia",
+      "count": 10
     },
     {
       "company": "Intel",
-      "count": 8
-    },
-    {
-      "company": "Micron",
-      "count": 8
-    },
-    {
-      "company": "AMD",
-      "count": 5
+      "count": 7
     },
     {
       "company": "SK Hynix",
-      "count": 4
+      "count": 5
     },
     {
-      "company": "Qualcomm",
-      "count": 4
+      "company": "Micron",
+      "count": 5
+    },
+    {
+      "company": "Samsung",
+      "count": 3
+    },
+    {
+      "company": "AMD",
+      "count": 2
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Aug 23",
-      "score": 0.12
-    },
     {
       "week": "Aug 23",
       "score": 0.15
@@ -70,33 +70,42 @@
     {
       "week": "Aug 24",
       "score": 0.15
+    },
+    {
+      "week": "Aug 24",
+      "score": 0.14
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.21,
-      "count": 147
+      "score": 0.17,
+      "count": 157
     },
     {
       "category": "Chip Design",
-      "score": 0.09,
-      "count": 22
+      "score": 0.11,
+      "count": 18
     },
     {
       "category": "Supply Chain",
       "score": -0.06,
-      "count": 17
+      "count": 18
     },
     {
       "category": "M&A",
       "score": 0.0,
-      "count": 12
+      "count": 5
+    },
+    {
+      "category": "EDA",
+      "score": 0.0,
+      "count": 1
     },
     {
       "category": "Policy",
-      "score": -0.5,
-      "count": 2
+      "score": 0.0,
+      "count": 1
     }
   ]
 }
