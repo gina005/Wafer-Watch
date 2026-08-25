@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-25T01:34:07.522786+00:00",
+  "generated_at": "2026-08-25T06:55:23.747152+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with Nvidia, Micron, TSMC appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 164
+      "count": 168
     },
     {
       "category": "Chip Design",
@@ -13,7 +13,7 @@
     },
     {
       "category": "Supply Chain",
-      "count": 10
+      "count": 6
     },
     {
       "category": "M&A",
@@ -31,38 +31,34 @@
   "company_mentions": [
     {
       "company": "Nvidia",
-      "count": 20
+      "count": 21
     },
     {
       "company": "Micron",
-      "count": 9
+      "count": 10
     },
     {
       "company": "TSMC",
-      "count": 8
-    },
-    {
-      "company": "SK Hynix",
-      "count": 5
+      "count": 7
     },
     {
       "company": "AMD",
       "count": 5
     },
     {
-      "company": "Intel",
-      "count": 3
+      "company": "SK Hynix",
+      "count": 4
     },
     {
       "company": "Samsung",
+      "count": 4
+    },
+    {
+      "company": "Intel",
       "count": 2
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Aug 24",
-      "score": 0.14
-    },
     {
       "week": "Aug 24",
       "score": 0.14
@@ -74,27 +70,31 @@
     {
       "week": "Aug 25",
       "score": 0.07
+    },
+    {
+      "week": "Aug 25",
+      "score": 0.07
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.06,
-      "count": 164
+      "score": 0.08,
+      "count": 168
     },
     {
       "category": "Chip Design",
-      "score": 0.13,
+      "score": 0.07,
       "count": 15
     },
     {
       "category": "Supply Chain",
-      "score": -0.1,
-      "count": 10
+      "score": -0.5,
+      "count": 6
     },
     {
       "category": "M&A",
-      "score": 0.4,
+      "score": 0.6,
       "count": 5
     },
     {
