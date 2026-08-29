@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-29T16:30:01.274784+00:00",
+  "generated_at": "2026-08-29T20:43:34.063123+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, SK Hynix appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with Nvidia, TSMC, SK Hynix appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 115
+      "count": 119
     },
     {
       "category": "Supply Chain",
-      "count": 27
+      "count": 26
     },
     {
       "category": "Chip Design",
-      "count": 27
+      "count": 26
     },
     {
       "category": "Policy",
-      "count": 22
+      "count": 19
     },
     {
       "category": "M&A",
-      "count": 9
+      "count": 10
     }
   ],
   "company_mentions": [
-    {
-      "company": "TSMC",
-      "count": 12
-    },
     {
       "company": "Nvidia",
       "count": 12
     },
     {
+      "company": "TSMC",
+      "count": 11
+    },
+    {
       "company": "SK Hynix",
-      "count": 12
+      "count": 10
     },
     {
       "company": "Samsung",
@@ -50,15 +50,11 @@
       "count": 3
     },
     {
-      "company": "ASML",
-      "count": 2
+      "company": "Micron",
+      "count": 3
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Aug 28",
-      "score": 0.07
-    },
     {
       "week": "Aug 28",
       "score": 0.07
@@ -70,33 +66,37 @@
     {
       "week": "Aug 29",
       "score": 0.07
+    },
+    {
+      "week": "Aug 29",
+      "score": 0.1
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.12,
-      "count": 115
+      "score": 0.14,
+      "count": 119
     },
     {
       "category": "Supply Chain",
-      "score": -0.26,
-      "count": 27
+      "score": -0.27,
+      "count": 26
     },
     {
       "category": "Chip Design",
-      "score": 0.3,
-      "count": 27
+      "score": 0.35,
+      "count": 26
     },
     {
       "category": "Policy",
       "score": 0.0,
-      "count": 22
+      "count": 19
     },
     {
       "category": "M&A",
       "score": 0.0,
-      "count": 9
+      "count": 10
     }
   ]
 }
