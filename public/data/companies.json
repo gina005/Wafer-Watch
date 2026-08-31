@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T10:53:30.912982+00:00",
+  "generated_at": "2026-08-31T12:06:52.033425+00:00",
   "note": "priceHistory, change30d, and financials are refreshed by scripts/fetch_prices.py. sector, focus, segmentRevenue, rdSpendPctRevenue, capexTrend, and supplyChain are manually curated from each company's public filings/investor materials and preserved across pipeline runs.",
   "companies": [
     {
@@ -235,7 +235,7 @@
       ],
       "financials": {
         "marketCapUSD": 2165456502784,
-        "peRatio": 31.847445,
+        "peRatio": 31.065475,
         "week52Low": 225.63,
         "week52High": 479.0,
         "avgVolume": 13426336,
@@ -477,7 +477,7 @@
         "week52Low": 164.07,
         "week52High": 236.54,
         "avgVolume": 140227025,
-        "currentVolume": 194036188,
+        "currentVolume": 194792961,
         "beta": 2.215,
         "dividendYield": 0.46
       }
@@ -706,13 +706,13 @@
       ],
       "financials": {
         "marketCapUSD": 651495079936,
-        "peRatio": 58.488277,
+        "peRatio": 57.148247,
         "week52Low": 716.2,
         "week52High": 1999.96,
         "avgVolume": 1850293,
-        "currentVolume": 1249306,
+        "currentVolume": 1257930,
         "beta": 1.365,
-        "dividendYield": 0.52
+        "dividendYield": 0.54
       }
     },
     {
@@ -937,7 +937,7 @@
         "week52Low": 23.68,
         "week52High": 142.35,
         "avgVolume": 117017876,
-        "currentVolume": 85801756,
+        "currentVolume": 86066401,
         "beta": 2.241
       }
     },
@@ -993,6 +993,7 @@
         -308.79,
         -308.79,
         -308.79,
+        65.21,
         65.21,
         65.21,
         65.21,
@@ -1160,7 +1161,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ],
       "financials": {
         "marketCapUSD": 428205604864,
@@ -1400,7 +1402,7 @@
         "week52Low": 149.22,
         "week52High": 584.73,
         "avgVolume": 27545658,
-        "currentVolume": 15283714,
+        "currentVolume": 15351151,
         "beta": 2.489
       }
     },
@@ -1631,7 +1633,7 @@
         "week52Low": 114.25,
         "week52High": 1255.0,
         "avgVolume": 45365950,
-        "currentVolume": 22761175,
+        "currentVolume": 22851288,
         "beta": 2.213,
         "dividendYield": 0.06
       }
@@ -1858,7 +1860,7 @@
         "week52Low": 154.47,
         "week52High": 739.67,
         "avgVolume": 9562936,
-        "currentVolume": 6506714,
+        "currentVolume": 6526908,
         "beta": 1.618,
         "dividendYield": 0.46
       }
