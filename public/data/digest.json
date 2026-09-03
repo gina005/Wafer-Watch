@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:57:08.123772+00:00",
+  "generated_at": "2026-09-03T16:09:06.324701+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Micron, Intel appearing most frequently across 200 tracked articles.",
   "category_counts": [
@@ -13,11 +13,11 @@
     },
     {
       "category": "Supply Chain",
-      "count": 18
+      "count": 19
     },
     {
       "category": "M&A",
-      "count": 11
+      "count": 10
     },
     {
       "category": "Chip Design",
@@ -54,15 +54,11 @@
       "count": 3
     },
     {
-      "company": "Texas Instruments",
-      "count": 3
+      "company": "Samsung",
+      "count": 2
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Sep 02",
-      "score": 0.15
-    },
     {
       "week": "Sep 02",
       "score": 0.14
@@ -74,6 +70,10 @@
     {
       "week": "Sep 03",
       "score": 0.16
+    },
+    {
+      "week": "Sep 03",
+      "score": 0.15
     }
   ],
   "sentiment_by_category": [
@@ -89,13 +89,13 @@
     },
     {
       "category": "Supply Chain",
-      "score": -0.28,
-      "count": 18
+      "score": -0.32,
+      "count": 19
     },
     {
       "category": "M&A",
-      "score": 0.64,
-      "count": 11
+      "score": 0.7,
+      "count": 10
     },
     {
       "category": "Chip Design",
