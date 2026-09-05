@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-05T14:53:33.637066+00:00",
+  "generated_at": "2026-09-05T20:08:39.401782+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Samsung appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Intel appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 122
-    },
-    {
-      "category": "Policy",
-      "count": 33
+      "count": 132
     },
     {
       "category": "Supply Chain",
       "count": 28
     },
     {
+      "category": "Policy",
+      "count": 24
+    },
+    {
       "category": "Chip Design",
-      "count": 10
+      "count": 9
     },
     {
       "category": "M&A",
@@ -31,11 +31,15 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 10
+      "count": 13
     },
     {
       "company": "Nvidia",
-      "count": 7
+      "count": 9
+    },
+    {
+      "company": "Intel",
+      "count": 6
     },
     {
       "company": "Samsung",
@@ -46,23 +50,15 @@
       "count": 4
     },
     {
-      "company": "Intel",
-      "count": 4
+      "company": "ASML",
+      "count": 3
     },
     {
       "company": "Cadence",
       "count": 2
-    },
-    {
-      "company": "Qualcomm",
-      "count": 2
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Sep 04",
-      "score": 0.08
-    },
     {
       "week": "Sep 05",
       "score": 0.09
@@ -74,18 +70,17 @@
     {
       "week": "Sep 05",
       "score": 0.07
+    },
+    {
+      "week": "Sep 05",
+      "score": 0.08
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
       "score": 0.13,
-      "count": 122
-    },
-    {
-      "category": "Policy",
-      "score": -0.03,
-      "count": 33
+      "count": 132
     },
     {
       "category": "Supply Chain",
@@ -93,9 +88,14 @@
       "count": 28
     },
     {
+      "category": "Policy",
+      "score": -0.04,
+      "count": 24
+    },
+    {
       "category": "Chip Design",
-      "score": -0.1,
-      "count": 10
+      "score": -0.11,
+      "count": 9
     },
     {
       "category": "M&A",
