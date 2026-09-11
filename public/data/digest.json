@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-11T16:11:30.776944+00:00",
+  "generated_at": "2026-09-11T20:45:05.996769+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Samsung, Intel appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 135
+      "count": 137
     },
     {
       "category": "Chip Design",
-      "count": 28
+      "count": 26
     },
     {
       "category": "Supply Chain",
@@ -31,7 +31,7 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 16
+      "count": 14
     },
     {
       "company": "Samsung",
@@ -39,30 +39,26 @@
     },
     {
       "company": "Intel",
-      "count": 10
+      "count": 9
     },
     {
       "company": "Nvidia",
-      "count": 10
-    },
-    {
-      "company": "AMD",
       "count": 8
     },
     {
-      "company": "ASML",
-      "count": 5
+      "company": "AMD",
+      "count": 7
     },
     {
       "company": "Qualcomm",
-      "count": 3
+      "count": 4
+    },
+    {
+      "company": "ASML",
+      "count": 4
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Sep 10",
-      "score": 0.2
-    },
     {
       "week": "Sep 11",
       "score": 0.21
@@ -74,22 +70,26 @@
     {
       "week": "Sep 11",
       "score": 0.18
+    },
+    {
+      "week": "Sep 11",
+      "score": 0.16
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.25,
-      "count": 135
+      "score": 0.26,
+      "count": 137
     },
     {
       "category": "Chip Design",
-      "score": 0.11,
-      "count": 28
+      "score": 0.04,
+      "count": 26
     },
     {
       "category": "Supply Chain",
-      "score": -0.29,
+      "score": -0.38,
       "count": 24
     },
     {
@@ -99,7 +99,7 @@
     },
     {
       "category": "EDA",
-      "score": 0.75,
+      "score": 0.5,
       "count": 4
     },
     {
