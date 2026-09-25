@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-25T11:31:03.952770+00:00",
+  "generated_at": "2026-09-25T16:55:11.718997+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, AMD, Nvidia appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 141
+      "count": 137
     },
     {
       "category": "Chip Design",
-      "count": 23
+      "count": 27
     },
     {
       "category": "Policy",
@@ -21,11 +21,11 @@
     },
     {
       "category": "M&A",
-      "count": 9
+      "count": 8
     },
     {
       "category": "EDA",
-      "count": 4
+      "count": 5
     }
   ],
   "company_mentions": [
@@ -50,19 +50,15 @@
       "count": 2
     },
     {
-      "company": "Micron",
-      "count": 1
+      "company": "Applied Materials",
+      "count": 2
     },
     {
-      "company": "Applied Materials",
-      "count": 1
+      "company": "Synopsys",
+      "count": 2
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Sep 24",
-      "score": 0.1
-    },
     {
       "week": "Sep 24",
       "score": 0.12
@@ -74,38 +70,42 @@
     {
       "week": "Sep 25",
       "score": 0.16
+    },
+    {
+      "week": "Sep 25",
+      "score": 0.14
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
       "score": 0.2,
-      "count": 141
+      "count": 137
     },
     {
       "category": "Chip Design",
-      "score": 0.13,
-      "count": 23
+      "score": 0.07,
+      "count": 27
     },
     {
       "category": "Policy",
-      "score": 0.0,
+      "score": -0.15,
       "count": 13
     },
     {
       "category": "Supply Chain",
-      "score": -0.1,
+      "score": -0.2,
       "count": 10
     },
     {
       "category": "M&A",
-      "score": -0.11,
-      "count": 9
+      "score": -0.12,
+      "count": 8
     },
     {
       "category": "EDA",
-      "score": 0.75,
-      "count": 4
+      "score": 0.6,
+      "count": 5
     }
   ]
 }
