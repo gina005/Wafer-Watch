@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-02T04:56:33.355723+00:00",
+  "generated_at": "2026-10-02T12:11:43.116245+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with Synopsys, TSMC, Micron appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Synopsys, Micron appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 129
+      "count": 132
     },
     {
       "category": "Supply Chain",
-      "count": 24
+      "count": 25
     },
     {
       "category": "Chip Design",
-      "count": 20
-    },
-    {
-      "category": "EDA",
       "count": 19
     },
     {
+      "category": "EDA",
+      "count": 14
+    },
+    {
       "category": "M&A",
-      "count": 7
+      "count": 9
     },
     {
       "category": "Policy",
@@ -30,12 +30,12 @@
   ],
   "company_mentions": [
     {
-      "company": "Synopsys",
-      "count": 19
+      "company": "TSMC",
+      "count": 16
     },
     {
-      "company": "TSMC",
-      "count": 13
+      "company": "Synopsys",
+      "count": 14
     },
     {
       "company": "Micron",
@@ -54,15 +54,11 @@
       "count": 5
     },
     {
-      "company": "ASML",
+      "company": "Intel",
       "count": 4
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Oct 01",
-      "score": 0.17
-    },
     {
       "week": "Oct 01",
       "score": 0.15
@@ -74,33 +70,37 @@
     {
       "week": "Oct 02",
       "score": 0.12
+    },
+    {
+      "week": "Oct 02",
+      "score": 0.11
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.29,
-      "count": 129
+      "score": 0.22,
+      "count": 132
     },
     {
       "category": "Supply Chain",
-      "score": -0.54,
-      "count": 24
+      "score": -0.4,
+      "count": 25
     },
     {
       "category": "Chip Design",
-      "score": 0.05,
-      "count": 20
+      "score": 0.16,
+      "count": 19
     },
     {
       "category": "EDA",
       "score": 0.0,
-      "count": 19
+      "count": 14
     },
     {
       "category": "M&A",
-      "score": 0.29,
-      "count": 7
+      "score": 0.22,
+      "count": 9
     },
     {
       "category": "Policy",
