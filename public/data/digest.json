@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-03T04:39:52.313840+00:00",
+  "generated_at": "2026-10-03T11:21:55.725599+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Synopsys, Nvidia appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 120
+      "count": 121
     },
     {
       "category": "Supply Chain",
-      "count": 27
-    },
-    {
-      "category": "M&A",
-      "count": 18
+      "count": 25
     },
     {
       "category": "Chip Design",
+      "count": 19
+    },
+    {
+      "category": "M&A",
       "count": 17
     },
     {
@@ -31,7 +31,7 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 17
+      "count": 18
     },
     {
       "company": "Synopsys",
@@ -47,22 +47,18 @@
     },
     {
       "company": "Intel",
-      "count": 7
-    },
-    {
-      "company": "Micron",
-      "count": 6
+      "count": 8
     },
     {
       "company": "AMD",
+      "count": 5
+    },
+    {
+      "company": "Applied Materials",
       "count": 4
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Oct 02",
-      "score": 0.12
-    },
     {
       "week": "Oct 02",
       "score": 0.11
@@ -74,26 +70,30 @@
     {
       "week": "Oct 03",
       "score": 0.05
+    },
+    {
+      "week": "Oct 03",
+      "score": 0.04
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.13,
-      "count": 120
+      "score": 0.12,
+      "count": 121
     },
     {
       "category": "Supply Chain",
-      "score": -0.37,
-      "count": 27
-    },
-    {
-      "category": "M&A",
-      "score": 0.11,
-      "count": 18
+      "score": -0.4,
+      "count": 25
     },
     {
       "category": "Chip Design",
+      "score": 0.11,
+      "count": 19
+    },
+    {
+      "category": "M&A",
       "score": 0.06,
       "count": 17
     },
