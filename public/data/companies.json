@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T11:29:42.935049+00:00",
+  "generated_at": "2026-10-05T12:58:52.200915+00:00",
   "note": "priceHistory, change30d, and financials are refreshed by scripts/fetch_prices.py. sector, focus, segmentRevenue, rdSpendPctRevenue, capexTrend, and supplyChain are manually curated from each company's public filings/investor materials and preserved across pipeline runs.",
   "companies": [
     {
@@ -235,13 +235,13 @@
       ],
       "financials": {
         "marketCapUSD": 2452061159424,
-        "peRatio": 35.334827,
+        "peRatio": 34.359013,
         "week52Low": 266.82,
         "week52High": 479.0,
         "avgVolume": 11508442,
         "currentVolume": 9722477,
-        "beta": 1.247,
-        "dividendYield": 0.86
+        "beta": 1.239,
+        "dividendYield": 0.8
       }
     },
     {
@@ -477,8 +477,8 @@
         "week52Low": 164.27,
         "week52High": 237.88,
         "avgVolume": 122619076,
-        "currentVolume": 134470648,
-        "beta": 2.217,
+        "currentVolume": 135167817,
+        "beta": 2.216,
         "dividendYield": 0.43
       }
     },
@@ -706,12 +706,12 @@
       ],
       "financials": {
         "marketCapUSD": 717233782784,
-        "peRatio": 64.92733,
+        "peRatio": 60.607273,
         "week52Low": 935.41,
         "week52High": 1999.96,
         "avgVolume": 1496935,
-        "currentVolume": 1335151,
-        "beta": 1.363,
+        "currentVolume": 1345027,
+        "beta": 1.302,
         "dividendYield": 0.49
       }
     },
@@ -937,8 +937,9 @@
         "week52Low": 32.89,
         "week52High": 142.35,
         "avgVolume": 107791048,
-        "currentVolume": 94956744,
-        "beta": 2.231
+        "currentVolume": 95401476,
+        "beta": 2.23,
+        "dividendYield": 0.0
       }
     },
     {
@@ -1166,12 +1167,12 @@
       ],
       "financials": {
         "marketCapUSD": 428205604864,
-        "peRatio": 19.523952,
+        "peRatio": 14.05388,
         "week52Low": 40.5999,
         "week52High": 65.21,
         "avgVolume": 0,
         "currentVolume": 200,
-        "beta": 1.544
+        "beta": 1.545
       }
     },
     {
@@ -1398,12 +1399,13 @@
       ],
       "financials": {
         "marketCapUSD": 1034842210304,
-        "peRatio": 161.30025,
+        "peRatio": 161.71173,
         "week52Low": 188.22,
         "week52High": 645.46,
         "avgVolume": 23691812,
-        "currentVolume": 19323673,
-        "beta": 2.476
+        "currentVolume": 19865309,
+        "beta": 2.454,
+        "dividendYield": 0.0
       }
     },
     {
@@ -1629,12 +1631,12 @@
       ],
       "financials": {
         "marketCapUSD": 1213973397504,
-        "peRatio": 14.451332,
+        "peRatio": 14.461052,
         "week52Low": 179.61,
         "week52High": 1255.0,
         "avgVolume": 33807076,
-        "currentVolume": 26523742,
-        "beta": 2.222,
+        "currentVolume": 27337514,
+        "beta": 2.226,
         "dividendYield": 0.06
       }
     },
@@ -1856,12 +1858,12 @@
       ],
       "financials": {
         "marketCapUSD": 428574343168,
-        "peRatio": 46.51507,
+        "peRatio": 46.595337,
         "week52Low": 203.4,
         "week52High": 739.67,
         "avgVolume": 7293064,
-        "currentVolume": 5699753,
-        "beta": 1.597,
+        "currentVolume": 6080420,
+        "beta": 1.591,
         "dividendYield": 0.39
       }
     }
