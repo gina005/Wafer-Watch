@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:50:50.496420+00:00",
+  "generated_at": "2026-10-13T13:08:56.035728+00:00",
   "note": "priceHistory, change30d, and financials are refreshed by scripts/fetch_prices.py. sector, focus, segmentRevenue, rdSpendPctRevenue, capexTrend, and supplyChain are manually curated from each company's public filings/investor materials and preserved across pipeline runs.",
   "companies": [
     {
@@ -97,9 +97,9 @@
         472.2,
         457.99,
         453.31,
-        450.78
+        444.35
       ],
-      "change30d": 4.3,
+      "change30d": 2.8,
       "segmentRevenue": [
         {
           "segment": "HPC",
@@ -234,14 +234,14 @@
         "2026-10-12"
       ],
       "financials": {
-        "marketCapUSD": 2338996092928,
-        "peRatio": 32.774708,
+        "marketCapUSD": 2304609615872,
+        "peRatio": 32.292877,
         "week52Low": 266.82,
         "week52High": 487.47,
-        "avgVolume": 11337809,
-        "currentVolume": 1284078,
+        "avgVolume": 11252160,
+        "currentVolume": 8814597,
         "beta": 1.239,
-        "dividendYield": 0.83
+        "dividendYield": 0.85
       }
     },
     {
@@ -339,9 +339,9 @@
         237.47,
         230.48,
         229.28,
-        227.86
+        226.32
       ],
-      "change30d": 4.4,
+      "change30d": 3.7,
       "segmentRevenue": [
         {
           "segment": "Data Center",
@@ -472,12 +472,12 @@
         "2026-10-12"
       ],
       "financials": {
-        "marketCapUSD": 5502738628608,
-        "peRatio": 28.809734,
+        "marketCapUSD": 5464948998144,
+        "peRatio": 28.611885,
         "week52Low": 164.27,
         "week52High": 243.37,
-        "avgVolume": 120322753,
-        "currentVolume": 9847127,
+        "avgVolume": 119523590,
+        "currentVolume": 69908781,
         "beta": 2.216,
         "dividendYield": 0.44
       }
@@ -577,9 +577,9 @@
         1804.96,
         1769.79,
         1780.34,
-        1768.79
+        1750.24
       ],
-      "change30d": 4.2,
+      "change30d": 3.1,
       "segmentRevenue": [
         {
           "segment": "DUV Systems",
@@ -705,14 +705,14 @@
         "2026-10-12"
       ],
       "financials": {
-        "marketCapUSD": 679392247808,
-        "peRatio": 57.40961,
+        "marketCapUSD": 672267173888,
+        "peRatio": 56.80753,
         "week52Low": 946.11,
         "week52High": 1999.96,
-        "avgVolume": 1487470,
-        "currentVolume": 218023,
+        "avgVolume": 1482526,
+        "currentVolume": 1101141,
         "beta": 1.302,
-        "dividendYield": 0.51
+        "dividendYield": 0.52
       }
     },
     {
@@ -810,9 +810,9 @@
         113.12,
         107.08,
         104.7,
-        101.76
+        101.35
       ],
-      "change30d": -1.1,
+      "change30d": -1.5,
       "segmentRevenue": [
         {
           "segment": "Client Computing Group",
@@ -933,11 +933,11 @@
         "2026-10-12"
       ],
       "financials": {
-        "marketCapUSD": 537891831808,
+        "marketCapUSD": 535746740224,
         "week52Low": 32.89,
         "week52High": 142.35,
-        "avgVolume": 107139090,
-        "currentVolume": 12919989,
+        "avgVolume": 106717693,
+        "currentVolume": 73592416,
         "beta": 2.23,
         "dividendYield": 0.0
       }
@@ -964,6 +964,7 @@
         -308.79,
         -308.79,
         -308.79,
+        65.21,
         65.21,
         65.21,
         65.21,
@@ -1161,10 +1162,11 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08",
-        "2026-10-09"
+        "2026-10-09",
+        "2026-10-12"
       ],
       "financials": {
-        "marketCapUSD": 428205604864,
+        "marketCapUSD": 424642478080,
         "peRatio": 19.011662,
         "week52Low": 40.5999,
         "week52High": 65.21,
@@ -1268,9 +1270,9 @@
         645.86,
         620.68,
         608.1,
-        595.93
+        594.24
       ],
-      "change30d": 15.5,
+      "change30d": 15.1,
       "segmentRevenue": [
         {
           "segment": "Data Center",
@@ -1396,12 +1398,12 @@
         "2026-10-12"
       ],
       "financials": {
-        "marketCapUSD": 972849020928,
-        "peRatio": 152.02423,
+        "marketCapUSD": 970081959936,
+        "peRatio": 151.59183,
         "week52Low": 188.22,
         "week52High": 658.52,
-        "avgVolume": 23106220,
-        "currentVolume": 2665325,
+        "avgVolume": 22987614,
+        "currentVolume": 15252527,
         "beta": 2.454,
         "dividendYield": 0.0
       }
@@ -1501,7 +1503,7 @@
         1088.0,
         1035.84,
         1029.0,
-        989.08
+        989.04
       ],
       "change30d": 1.4,
       "segmentRevenue": [
@@ -1628,12 +1630,12 @@
         "2026-10-12"
       ],
       "financials": {
-        "marketCapUSD": 1119068094464,
-        "peRatio": 13.306605,
+        "marketCapUSD": 1119022743552,
+        "peRatio": 13.3060665,
         "week52Low": 186.25,
         "week52High": 1255.0,
-        "avgVolume": 32485792,
-        "currentVolume": 5338717,
+        "avgVolume": 32302068,
+        "currentVolume": 23566935,
         "beta": 2.226,
         "dividendYield": 0.06
       }
@@ -1733,9 +1735,9 @@
         520.65,
         509.57,
         507.03,
-        495.71
+        497.53
       ],
-      "change30d": 8.6,
+      "change30d": 9.0,
       "segmentRevenue": [
         {
           "segment": "Semiconductor Systems",
@@ -1855,14 +1857,14 @@
         "2026-10-12"
       ],
       "financials": {
-        "marketCapUSD": 393391013888,
-        "peRatio": 42.770145,
+        "marketCapUSD": 394838540288,
+        "peRatio": 42.927525,
         "week52Low": 203.4,
         "week52High": 739.67,
-        "avgVolume": 6886728,
-        "currentVolume": 504147,
+        "avgVolume": 6833729,
+        "currentVolume": 4155825,
         "beta": 1.591,
-        "dividendYield": 0.42
+        "dividendYield": 0.43
       }
     }
   ]
