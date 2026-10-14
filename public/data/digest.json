@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-14T11:31:33.298066+00:00",
+  "generated_at": "2026-10-14T16:53:11.751592+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Applied Materials, Nvidia appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with Nvidia, ASML, TSMC appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 139
+      "count": 125
     },
     {
       "category": "Chip Design",
-      "count": 26
+      "count": 39
     },
     {
       "category": "Supply Chain",
-      "count": 23
+      "count": 24
     },
     {
       "category": "Policy",
@@ -30,41 +30,37 @@
   ],
   "company_mentions": [
     {
-      "company": "TSMC",
-      "count": 10
-    },
-    {
-      "company": "Applied Materials",
-      "count": 10
-    },
-    {
       "company": "Nvidia",
-      "count": 7
-    },
-    {
-      "company": "Intel",
-      "count": 6
+      "count": 20
     },
     {
       "company": "ASML",
-      "count": 4
+      "count": 11
+    },
+    {
+      "company": "TSMC",
+      "count": 11
+    },
+    {
+      "company": "Intel",
+      "count": 7
     },
     {
       "company": "Samsung",
-      "count": 4
+      "count": 5
+    },
+    {
+      "company": "Applied Materials",
+      "count": 5
     },
     {
       "company": "AMD",
-      "count": 4
+      "count": 2
     }
   ],
   "sentiment_trend": [
     {
       "week": "Oct 13",
-      "score": 0.09
-    },
-    {
-      "week": "Oct 13",
       "score": 0.1
     },
     {
@@ -74,23 +70,27 @@
     {
       "week": "Oct 14",
       "score": 0.1
+    },
+    {
+      "week": "Oct 14",
+      "score": 0.07
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.11,
-      "count": 139
+      "score": 0.1,
+      "count": 125
     },
     {
       "category": "Chip Design",
-      "score": 0.19,
-      "count": 26
+      "score": 0.15,
+      "count": 39
     },
     {
       "category": "Supply Chain",
-      "score": -0.09,
-      "count": 23
+      "score": -0.21,
+      "count": 24
     },
     {
       "category": "Policy",
