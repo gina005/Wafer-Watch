@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-16T20:45:01.268000+00:00",
+  "generated_at": "2026-10-17T03:46:08.452194+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Intel, AMD appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, AMD, Intel appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 128
+      "count": 124
     },
     {
       "category": "Chip Design",
@@ -17,41 +17,41 @@
     },
     {
       "category": "Policy",
-      "count": 17
+      "count": 18
     },
     {
       "category": "M&A",
-      "count": 5
+      "count": 7
     },
     {
       "category": "EDA",
-      "count": 4
+      "count": 5
     }
   ],
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 39
-    },
-    {
-      "company": "Intel",
-      "count": 10
+      "count": 37
     },
     {
       "company": "AMD",
-      "count": 8
+      "count": 7
+    },
+    {
+      "company": "Intel",
+      "count": 7
     },
     {
       "company": "Nvidia",
-      "count": 8
+      "count": 7
     },
     {
       "company": "ASML",
-      "count": 5
+      "count": 4
     },
     {
       "company": "Arm",
-      "count": 4
+      "count": 3
     },
     {
       "company": "SK Hynix",
@@ -59,10 +59,6 @@
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Oct 16",
-      "score": 0.23
-    },
     {
       "week": "Oct 16",
       "score": 0.17
@@ -74,13 +70,17 @@
     {
       "week": "Oct 16",
       "score": 0.11
+    },
+    {
+      "week": "Oct 17",
+      "score": 0.08
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.13,
-      "count": 128
+      "score": 0.07,
+      "count": 124
     },
     {
       "category": "Chip Design",
@@ -95,17 +95,17 @@
     {
       "category": "Policy",
       "score": 0.06,
-      "count": 17
+      "count": 18
     },
     {
       "category": "M&A",
-      "score": 0.2,
-      "count": 5
+      "score": 0.43,
+      "count": 7
     },
     {
       "category": "EDA",
-      "score": 0.25,
-      "count": 4
+      "score": 0.2,
+      "count": 5
     }
   ]
 }
