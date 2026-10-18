@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-18T10:41:27.797974+00:00",
+  "generated_at": "2026-10-18T15:38:40.151839+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Intel appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Samsung appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 138
+      "count": 136
+    },
+    {
+      "category": "Policy",
+      "count": 20
     },
     {
       "category": "Chip Design",
       "count": 20
     },
     {
-      "category": "Policy",
-      "count": 19
-    },
-    {
       "category": "Supply Chain",
-      "count": 14
+      "count": 15
     },
     {
       "category": "M&A",
@@ -35,7 +35,11 @@
     },
     {
       "company": "Nvidia",
-      "count": 9
+      "count": 10
+    },
+    {
+      "company": "Samsung",
+      "count": 7
     },
     {
       "company": "Intel",
@@ -43,11 +47,7 @@
     },
     {
       "company": "AMD",
-      "count": 7
-    },
-    {
-      "company": "Samsung",
-      "count": 5
+      "count": 6
     },
     {
       "company": "ASML",
@@ -61,10 +61,6 @@
   "sentiment_trend": [
     {
       "week": "Oct 17",
-      "score": 0.07
-    },
-    {
-      "week": "Oct 17",
       "score": 0.08
     },
     {
@@ -74,13 +70,22 @@
     {
       "week": "Oct 18",
       "score": 0.1
+    },
+    {
+      "week": "Oct 18",
+      "score": 0.1
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.14,
-      "count": 138
+      "score": 0.15,
+      "count": 136
+    },
+    {
+      "category": "Policy",
+      "score": 0.05,
+      "count": 20
     },
     {
       "category": "Chip Design",
@@ -88,14 +93,9 @@
       "count": 20
     },
     {
-      "category": "Policy",
-      "score": 0.05,
-      "count": 19
-    },
-    {
       "category": "Supply Chain",
-      "score": -0.29,
-      "count": 14
+      "score": -0.33,
+      "count": 15
     },
     {
       "category": "M&A",
