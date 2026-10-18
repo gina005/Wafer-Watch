@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T03:52:32.665563+00:00",
+  "generated_at": "2026-10-18T10:41:27.797974+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Intel appearing most frequently across 200 tracked articles.",
   "category_counts": [
@@ -9,19 +9,19 @@
     },
     {
       "category": "Chip Design",
-      "count": 23
+      "count": 20
     },
     {
       "category": "Policy",
-      "count": 17
+      "count": 19
     },
     {
       "category": "Supply Chain",
-      "count": 12
+      "count": 14
     },
     {
       "category": "M&A",
-      "count": 9
+      "count": 8
     },
     {
       "category": "EDA",
@@ -31,7 +31,7 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 42
+      "count": 44
     },
     {
       "company": "Nvidia",
@@ -47,22 +47,18 @@
     },
     {
       "company": "Samsung",
-      "count": 4
+      "count": 5
     },
     {
       "company": "ASML",
       "count": 3
     },
     {
-      "company": "SK Hynix",
-      "count": 2
+      "company": "Cadence",
+      "count": 1
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Oct 17",
-      "score": 0.07
-    },
     {
       "week": "Oct 17",
       "score": 0.07
@@ -74,33 +70,37 @@
     {
       "week": "Oct 18",
       "score": 0.09
+    },
+    {
+      "week": "Oct 18",
+      "score": 0.1
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.12,
+      "score": 0.14,
       "count": 138
     },
     {
       "category": "Chip Design",
       "score": 0.0,
-      "count": 23
+      "count": 20
     },
     {
       "category": "Policy",
-      "score": 0.06,
-      "count": 17
+      "score": 0.05,
+      "count": 19
     },
     {
       "category": "Supply Chain",
-      "score": -0.33,
-      "count": 12
+      "score": -0.29,
+      "count": 14
     },
     {
       "category": "M&A",
-      "score": 0.56,
-      "count": 9
+      "score": 0.62,
+      "count": 8
     },
     {
       "category": "EDA",
