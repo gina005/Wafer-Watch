@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21T16:55:13.317323+00:00",
+  "generated_at": "2026-10-21T21:26:46.716703+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Cadence appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Intel appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
@@ -9,11 +9,11 @@
     },
     {
       "category": "Supply Chain",
-      "count": 24
+      "count": 26
     },
     {
       "category": "Chip Design",
-      "count": 21
+      "count": 19
     },
     {
       "category": "Policy",
@@ -31,38 +31,34 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 20
+      "count": 15
     },
     {
       "company": "Nvidia",
       "count": 11
     },
     {
+      "company": "Intel",
+      "count": 9
+    },
+    {
+      "company": "Micron",
+      "count": 7
+    },
+    {
       "company": "Cadence",
       "count": 7
     },
     {
-      "company": "Micron",
-      "count": 6
-    },
-    {
-      "company": "Intel",
-      "count": 6
+      "company": "ASML",
+      "count": 5
     },
     {
       "company": "Samsung",
-      "count": 6
-    },
-    {
-      "company": "ASML",
       "count": 5
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Oct 20",
-      "score": 0.11
-    },
     {
       "week": "Oct 21",
       "score": 0.1
@@ -74,6 +70,10 @@
     {
       "week": "Oct 21",
       "score": 0.15
+    },
+    {
+      "week": "Oct 21",
+      "score": 0.14
     }
   ],
   "sentiment_by_category": [
@@ -84,13 +84,13 @@
     },
     {
       "category": "Supply Chain",
-      "score": 0.08,
-      "count": 24
+      "score": 0.04,
+      "count": 26
     },
     {
       "category": "Chip Design",
-      "score": 0.14,
-      "count": 21
+      "score": 0.11,
+      "count": 19
     },
     {
       "category": "Policy",
