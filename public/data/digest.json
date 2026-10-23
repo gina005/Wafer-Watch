@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-23T16:46:48.471996+00:00",
+  "generated_at": "2026-10-23T21:13:01.352598+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Intel appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Intel, Nvidia appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 133
+      "count": 131
     },
     {
       "category": "Chip Design",
-      "count": 28
+      "count": 25
+    },
+    {
+      "category": "Policy",
+      "count": 22
     },
     {
       "category": "Supply Chain",
       "count": 18
-    },
-    {
-      "category": "Policy",
-      "count": 17
     },
     {
       "category": "EDA",
@@ -31,15 +31,15 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 17
-    },
-    {
-      "company": "Nvidia",
-      "count": 12
+      "count": 19
     },
     {
       "company": "Intel",
       "count": 9
+    },
+    {
+      "company": "Nvidia",
+      "count": 8
     },
     {
       "company": "Micron",
@@ -47,22 +47,18 @@
     },
     {
       "company": "ASML",
-      "count": 6
-    },
-    {
-      "company": "AMD",
-      "count": 6
+      "count": 5
     },
     {
       "company": "SK Hynix",
       "count": 4
+    },
+    {
+      "company": "AMD",
+      "count": 3
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Oct 22",
-      "score": 0.13
-    },
     {
       "week": "Oct 23",
       "score": 0.11
@@ -74,28 +70,32 @@
     {
       "week": "Oct 23",
       "score": 0.11
+    },
+    {
+      "week": "Oct 23",
+      "score": 0.1
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.15,
-      "count": 133
+      "score": 0.14,
+      "count": 131
     },
     {
       "category": "Chip Design",
-      "score": 0.14,
-      "count": 28
-    },
-    {
-      "category": "Supply Chain",
-      "score": -0.11,
-      "count": 18
+      "score": 0.16,
+      "count": 25
     },
     {
       "category": "Policy",
+      "score": -0.05,
+      "count": 22
+    },
+    {
+      "category": "Supply Chain",
       "score": -0.06,
-      "count": 17
+      "count": 18
     },
     {
       "category": "EDA",
