@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-23T21:13:01.352598+00:00",
+  "generated_at": "2026-10-24T03:59:57.690722+00:00",
   "note": "Live data from scripts/build_digest.py",
-  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Intel, Nvidia appearing most frequently across 200 tracked articles.",
+  "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Intel, Micron appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
@@ -31,10 +31,14 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 19
+      "count": 15
     },
     {
       "company": "Intel",
+      "count": 9
+    },
+    {
+      "company": "Micron",
       "count": 9
     },
     {
@@ -42,27 +46,19 @@
       "count": 8
     },
     {
-      "company": "Micron",
-      "count": 8
-    },
-    {
-      "company": "ASML",
-      "count": 5
-    },
-    {
       "company": "SK Hynix",
       "count": 4
     },
     {
-      "company": "AMD",
+      "company": "Arm",
+      "count": 3
+    },
+    {
+      "company": "Texas Instruments",
       "count": 3
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Oct 23",
-      "score": 0.11
-    },
     {
       "week": "Oct 23",
       "score": 0.09
@@ -74,17 +70,21 @@
     {
       "week": "Oct 23",
       "score": 0.1
+    },
+    {
+      "week": "Oct 24",
+      "score": 0.09
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.14,
+      "score": 0.12,
       "count": 131
     },
     {
       "category": "Chip Design",
-      "score": 0.16,
+      "score": 0.12,
       "count": 25
     },
     {
@@ -94,7 +94,7 @@
     },
     {
       "category": "Supply Chain",
-      "score": -0.06,
+      "score": -0.11,
       "count": 18
     },
     {
