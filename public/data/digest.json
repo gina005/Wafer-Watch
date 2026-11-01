@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-31T21:14:28.245467+00:00",
+  "generated_at": "2026-11-01T05:19:12.202105+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with Intel, TSMC, AMD appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 147
+      "count": 152
     },
     {
       "category": "Chip Design",
-      "count": 28
+      "count": 27
     },
     {
       "category": "Supply Chain",
-      "count": 13
+      "count": 14
     },
     {
       "category": "Policy",
-      "count": 8
+      "count": 4
     },
     {
       "category": "EDA",
-      "count": 3
+      "count": 2
     },
     {
       "category": "M&A",
@@ -31,11 +31,11 @@
   "company_mentions": [
     {
       "company": "Intel",
-      "count": 37
+      "count": 36
     },
     {
       "company": "TSMC",
-      "count": 10
+      "count": 11
     },
     {
       "company": "AMD",
@@ -43,26 +43,22 @@
     },
     {
       "company": "Nvidia",
-      "count": 5
+      "count": 4
     },
     {
       "company": "Applied Materials",
-      "count": 3
+      "count": 4
     },
     {
       "company": "Samsung",
-      "count": 3
+      "count": 4
     },
     {
-      "company": "Cadence",
+      "company": "SK Hynix",
       "count": 2
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Oct 31",
-      "score": -0.04
-    },
     {
       "week": "Oct 31",
       "score": -0.03
@@ -74,33 +70,37 @@
     {
       "week": "Oct 31",
       "score": 0.01
+    },
+    {
+      "week": "Nov 01",
+      "score": 0.01
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
       "score": -0.03,
-      "count": 147
+      "count": 152
     },
     {
       "category": "Chip Design",
-      "score": 0.32,
-      "count": 28
+      "score": 0.33,
+      "count": 27
     },
     {
       "category": "Supply Chain",
-      "score": -0.31,
-      "count": 13
+      "score": -0.29,
+      "count": 14
     },
     {
       "category": "Policy",
-      "score": -0.12,
-      "count": 8
+      "score": 0.0,
+      "count": 4
     },
     {
       "category": "EDA",
-      "score": 0.33,
-      "count": 3
+      "score": 0.0,
+      "count": 2
     },
     {
       "category": "M&A",
