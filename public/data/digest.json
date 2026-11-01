@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-01T05:19:12.202105+00:00",
+  "generated_at": "2026-11-01T12:56:40.011660+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with Intel, TSMC, AMD appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 152
+      "count": 151
     },
     {
       "category": "Chip Design",
@@ -17,7 +17,7 @@
     },
     {
       "category": "Policy",
-      "count": 4
+      "count": 5
     },
     {
       "category": "EDA",
@@ -35,22 +35,22 @@
     },
     {
       "company": "TSMC",
-      "count": 11
+      "count": 14
     },
     {
       "company": "AMD",
       "count": 7
     },
     {
-      "company": "Nvidia",
-      "count": 4
+      "company": "Samsung",
+      "count": 5
     },
     {
       "company": "Applied Materials",
-      "count": 4
+      "count": 5
     },
     {
-      "company": "Samsung",
+      "company": "Nvidia",
       "count": 4
     },
     {
@@ -59,10 +59,6 @@
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Oct 31",
-      "score": -0.03
-    },
     {
       "week": "Oct 31",
       "score": -0.04
@@ -74,28 +70,32 @@
     {
       "week": "Nov 01",
       "score": 0.01
+    },
+    {
+      "week": "Nov 01",
+      "score": -0.01
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": -0.03,
-      "count": 152
+      "score": -0.07,
+      "count": 151
     },
     {
       "category": "Chip Design",
-      "score": 0.33,
+      "score": 0.41,
       "count": 27
     },
     {
       "category": "Supply Chain",
-      "score": -0.29,
+      "score": -0.36,
       "count": 14
     },
     {
       "category": "Policy",
       "score": 0.0,
-      "count": 4
+      "count": 5
     },
     {
       "category": "EDA",
