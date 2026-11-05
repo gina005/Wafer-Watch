@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T13:27:42.817949+00:00",
+  "generated_at": "2026-11-05T13:41:52.491196+00:00",
   "note": "priceHistory, change30d, and financials are refreshed by scripts/fetch_prices.py. sector, focus, segmentRevenue, rdSpendPctRevenue, capexTrend, and supplyChain are manually curated from each company's public filings/investor materials and preserved across pipeline runs.",
   "companies": [
     {
@@ -8,7 +8,6 @@
       "sector": "Foundry",
       "focus": "Leading-edge logic foundry; 2nm ramp, US fab expansion",
       "priceHistory": [
-        453.88,
         476.29,
         443.04,
         433.0,
@@ -97,9 +96,10 @@
         431.81,
         406.13,
         398.63,
-        404.8
+        404.8,
+        395.75
       ],
-      "change30d": -16.7,
+      "change30d": -17.9,
       "segmentRevenue": [
         {
           "segment": "HPC",
@@ -142,7 +142,6 @@
       },
       "researchNote": "FY2025 full-year (calendar year, ended Dec 2025), from TSMC's 4Q25 management report: revenue $122.42B, up 35.9% YoY, with HPC (58%) and Automotive (both +34% YoY) leading growth. R&D% is FY2025 R&D expense ($7.91B) / FY2025 revenue ($122.42B) = 6.46%, rounded to 6.5%. Capex 'rising' reflects actual 2025 capex of $40.9B stepping up further to $52-56B guided for 2026 (a ~30% increase, raising capital intensity to ~36% of sales).",
       "priceDates": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -231,17 +230,18 @@
         "2026-10-29",
         "2026-10-30",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ],
       "financials": {
-        "marketCapUSD": 2099484557312,
-        "peRatio": 26.234606,
+        "marketCapUSD": 2052547018752,
+        "peRatio": 25.648088,
         "week52Low": 266.82,
         "week52High": 487.47,
-        "avgVolume": 10475817,
-        "currentVolume": 9280636,
+        "avgVolume": 10503185,
+        "currentVolume": 14353096,
         "beta": 1.233,
-        "dividendYield": 0.93
+        "dividendYield": 0.95
       }
     },
     {
@@ -250,7 +250,6 @@
       "sector": "Fabless / Accelerators",
       "focus": "AI GPUs, Rubin architecture, CoWoS packaging demand",
       "priceHistory": [
-        194.75,
         199.87,
         197.36,
         194.61,
@@ -339,9 +338,10 @@
         213.66,
         204.64,
         202.06,
-        206.69
+        206.69,
+        200.13
       ],
-      "change30d": -13.5,
+      "change30d": -16.3,
       "segmentRevenue": [
         {
           "segment": "Data Center",
@@ -380,7 +380,6 @@
       },
       "researchNote": "Nvidia's fiscal year ends in late January, so 'most recent full fiscal year' as of July 2026 is FY2026 (ended Jan 25, 2026), not FY2025 (ended Jan 2025) used previously. FY2026 full-year: Data Center $193.74B, Gaming $16.04B, Pro Vis $3.19B, Automotive $2.35B, OEM & Other $0.62B, of $215.9B total revenue (up 65% YoY). R&D% is FY2026 R&D expense ($18.497B) / revenue = 8.57%, rounded to 8.6%. 'Customers' means major buyers of Nvidia systems (hyperscalers), not a formal reported segment. Capex trend refers to Nvidia's own (comparatively small, since fabless) capital spending on infrastructure \u2014 flagged lower-confidence than the R&D/segment figures, not independently re-verified for this update.",
       "priceDates": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -469,17 +468,18 @@
         "2026-10-29",
         "2026-10-30",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ],
       "financials": {
-        "marketCapUSD": 4990943363072,
-        "peRatio": 26.130217,
+        "marketCapUSD": 4832539181056,
+        "peRatio": 25.300886,
         "week52Low": 164.27,
         "week52High": 243.37,
-        "avgVolume": 113306284,
-        "currentVolume": 90303192,
+        "avgVolume": 113170456,
+        "currentVolume": 147804408,
         "beta": 2.247,
-        "dividendYield": 0.48
+        "dividendYield": 0.5
       }
     },
     {
@@ -488,7 +488,6 @@
       "sector": "Equipment",
       "focus": "EUV and High-NA lithography systems",
       "priceHistory": [
-        1878.2,
         1984.25,
         1838.23,
         1764.71,
@@ -577,9 +576,10 @@
         1675.7,
         1565.9,
         1526.14,
-        1552.14
+        1552.14,
+        1496.3
       ],
-      "change30d": -16.4,
+      "change30d": -18.3,
       "segmentRevenue": [
         {
           "segment": "DUV Systems",
@@ -613,7 +613,6 @@
       },
       "researchNote": "FY2025 full-year (calendar year, ended Dec 2025): EUV system sales \u20ac11.6B (+39% YoY), DUV system sales \u20ac12.0B (-6% YoY), Installed Base Management \u20ac8.2B (+26% YoY), of \u20ac32.7B total net sales (+16% YoY). Note EUV overtook DUV in dollar terms for the first time in this dataset. R&D% is FY2025 R&D costs (\u20ac4.7B) / net sales = 14.4%. ASML doesn't disclose a single named component supplier the way this simplified list implies \u2014 Carl Zeiss SMT (optics) is the most publicly known one; the real supplier base is much broader. Capex trend not independently re-verified for this update \u2014 carried forward from prior research as still directionally 'rising' given continued High-NA capacity expansion.",
       "priceDates": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -702,17 +701,18 @@
         "2026-10-29",
         "2026-10-30",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ],
       "financials": {
-        "marketCapUSD": 598222307328,
-        "peRatio": 38.19242,
+        "marketCapUSD": 576700547072,
+        "peRatio": 36.81841,
         "week52Low": 946.11,
         "week52High": 1999.96,
-        "avgVolume": 1354812,
-        "currentVolume": 1189476,
+        "avgVolume": 1366592,
+        "currentVolume": 1974236,
         "beta": 1.325,
-        "dividendYield": 0.6
+        "dividendYield": 0.62
       }
     },
     {
@@ -721,7 +721,6 @@
       "sector": "IDM / Foundry",
       "focus": "18A process, Intel Foundry external customers",
       "priceHistory": [
-        131.72,
         139.63,
         127.02,
         120.35,
@@ -810,9 +809,10 @@
         92.07,
         65.76,
         59.97,
-        60.55
+        60.55,
+        58.27
       ],
-      "change30d": -47.9,
+      "change30d": -48.2,
       "segmentRevenue": [
         {
           "segment": "Client Computing Group",
@@ -841,7 +841,6 @@
       },
       "researchNote": "FY2025 full-year (calendar year, ended Dec 2025), from Intel's FY2025 10-K: CCG $32,228M (60.7%), DCAI $16,919M (31.9%), of $53.1B total revenue \u2014 both directly sourced line items. Intel actually simplified its segment reporting in Q1 2025, folding the old Network & Edge (NEX) segment into CCG/DCAI, so there's no separate NEX line anymore; the remaining ~7.4% is a residual covering Mobileye, Intel Foundry's external revenue, and consolidation eliminations \u2014 not individually broken out in the 10-K. One concrete data point worth surfacing: Intel Foundry's external (non-Intel) customer revenue was just $307M in 2025, underscoring how early-stage that business still is despite the 18A narrative. 'Customers' (Microsoft, Amazon) are Intel Foundry's publicly announced 18A design customers, still pre-volume. R&D% (26.7%) is FY2025 R&D expense ($14.191B) / revenue \u2014 down from FY2024's ~31% as Intel's 2024-2025 restructuring cut R&D headcount and spend. Capex: this reverses what I reported last time \u2014 Intel cut gross capex hard through 2024-2025 (down to an ~$18B guide), but on its Q2 2026 earnings call (~July 23, 2026, days before this data was compiled) raised 2026 guidance to over $20B, citing surging AI-driven demand and growing confidence in the 14A node \u2014 a genuine, recent reversal, not an inconsistency in this data.",
       "priceDates": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -930,14 +929,15 @@
         "2026-10-29",
         "2026-10-30",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ],
       "financials": {
-        "marketCapUSD": 321823244288,
+        "marketCapUSD": 309705048064,
         "week52Low": 32.89,
         "week52High": 142.35,
-        "avgVolume": 110128428,
-        "currentVolume": 145974178,
+        "avgVolume": 111770006,
+        "currentVolume": 188096167,
         "beta": 2.426,
         "dividendYield": 0.0
       }
@@ -1011,7 +1011,7 @@
         -4535.79,
         -4535.79,
         -4535.79,
-        -4535.79,
+        65.21,
         65.21,
         65.21,
         65.21,
@@ -1074,7 +1074,6 @@
       },
       "researchNote": "FLAGGED: divisional revenue percentages are as-reported in Samsung's FY2025 annual business report (DX 56.3%, DS 39%, SDC 8.9%, Harman 4.7%, of KRW 333.6 trillion total revenue) and sum to ~109% because Samsung doesn't eliminate intersegment sales (e.g. SDC selling displays to DX) in this disclosure \u2014 that's a genuine reporting quirk, not an error in this data. DS grew 17.2% YoY (memory/HBM-driven) versus DX's 7.5% YoY, hence DS's larger 2025 share vs 2024. Only the DS division is directly semiconductor-relevant to this tracker. R&D% (11.3%) is FY2025 company-wide R&D spend (KRW 37.7 trillion, a full-year record) / revenue (KRW 333.6 trillion). Capex 'rising' (HBM4 capacity, Taylor TX fab, 2nm GAA buildout) is well-supported by Samsung's own Q4 2025 commentary about record memory/HBM revenue, though a specific 2026 capex guidance figure wasn't independently verified \u2014 worth double-checking.",
       "priceDates": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -1163,10 +1162,11 @@
         "2026-10-29",
         "2026-10-30",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ],
       "financials": {
-        "marketCapUSD": 424642478080,
+        "marketCapUSD": 424642772992,
         "peRatio": 19.011662,
         "week52Low": 40.5999,
         "week52High": 65.21,
@@ -1181,7 +1181,6 @@
       "sector": "Fabless / Accelerators",
       "focus": "MI-series accelerators, chiplet packaging",
       "priceHistory": [
-        539.49,
         580.91,
         540.88,
         517.82,
@@ -1270,9 +1269,10 @@
         566.42,
         504.8,
         466.84,
-        483.9
+        483.9,
+        488.78
       ],
-      "change30d": -23.4,
+      "change30d": -24.7,
       "segmentRevenue": [
         {
           "segment": "Data Center",
@@ -1306,7 +1306,6 @@
       },
       "researchNote": "FY2025 full-year (calendar year, ended ~Dec 27, 2025), from AMD's FY2025 10-K: Data Center $16.6B, Client $10.6B, Gaming $3.9B, Embedded $3.5B, of $34.6B total revenue (up 34% YoY). AMD's own commentary groups Client+Gaming together ($14.6B combined), but I've kept them split to match the prior structure. R&D% is FY2025 R&D expense ($8.1B, up 25% YoY) / revenue = 23.4%. Capex 'rising' remains directional (AMD is fabless, so its own capex is small relative to revenue \u2014 mostly lab/test/IP infrastructure) rather than a specifically sourced guidance figure; flagged as lower confidence than the segment/R&D numbers.",
       "priceDates": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -1395,15 +1394,16 @@
         "2026-10-29",
         "2026-10-30",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ],
       "financials": {
-        "marketCapUSD": 789954625536,
-        "peRatio": 123.44387,
+        "marketCapUSD": 801641857024,
+        "peRatio": 104.44018,
         "week52Low": 188.22,
         "week52High": 658.52,
-        "avgVolume": 21279920,
-        "currentVolume": 32065405,
+        "avgVolume": 21315645,
+        "currentVolume": 50584612,
         "beta": 2.542,
         "dividendYield": 0.0
       }
@@ -1414,7 +1414,6 @@
       "sector": "Memory",
       "focus": "HBM, DDR5, capex expansion",
       "priceHistory": [
-        1144.92,
         1153.93,
         1031.96,
         975.26,
@@ -1503,9 +1502,10 @@
         934.27,
         884.74,
         833.59,
-        855.1
+        855.1,
+        795.23
       ],
-      "change30d": -19.6,
+      "change30d": -23.9,
       "segmentRevenue": [
         {
           "segment": "CMBU (Cloud Memory / HBM)",
@@ -1538,7 +1538,6 @@
       },
       "researchNote": "FY2025 = fiscal year ended August 28, 2025 (Micron's fiscal year ends in late August/early September, not December). Segment split ($13,524M / $11,859M / $7,229M / $4,753M of $37,378M total, up ~49% YoY) uses Micron's NEW business-unit structure (CMBU/CDBU/MCBU/AEBU), introduced in Q4 FY2025 \u2014 this replaces the old CNBU/MBU/SBU/EBU names used previously, and Micron retrospectively restated prior periods rather than keeping the old structure comparable. R&D% (10.2%) is ESTIMATED, not a directly confirmed dollar figure: I could only source an '+11% YoY' R&D growth commentary off FY2024's $3.43B base (\u2248$3.81B \u00f7 $37.4B) \u2014 flag this one for verification against the actual FY2025 10-K income statement. Capex 'rising' is emphatically confirmed and dramatic: FY2026 capex guidance has been raised twice this year, from ~$18B to $20B to ~$27B, specifically to fund HBM4 capacity \u2014 management says 2026 HBM supply is already fully booked.",
       "priceDates": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -1627,17 +1626,18 @@
         "2026-10-29",
         "2026-10-30",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ],
       "financials": {
-        "marketCapUSD": 967479984128,
-        "peRatio": 11.504103,
+        "marketCapUSD": 899741646848,
+        "peRatio": 10.698641,
         "week52Low": 192.59,
         "week52High": 1255.0,
-        "avgVolume": 26940115,
-        "currentVolume": 20688636,
+        "avgVolume": 26955489,
+        "currentVolume": 35210225,
         "beta": 2.398,
-        "dividendYield": 0.07
+        "dividendYield": 0.08
       }
     },
     {
@@ -1646,7 +1646,6 @@
       "sector": "Equipment",
       "focus": "Deposition/etch tools for GAA transition",
       "priceHistory": [
-        693.9,
         722.23,
         650.21,
         602.4,
@@ -1735,9 +1734,10 @@
         421.66,
         390.09,
         374.53,
-        381.92
+        381.92,
+        369.4
       ],
-      "change30d": -29.6,
+      "change30d": -30.3,
       "segmentRevenue": [
         {
           "segment": "Semiconductor Systems",
@@ -1765,7 +1765,6 @@
       },
       "researchNote": "FY2025 = fiscal year ended October 26, 2025 (Applied Materials' fiscal year ends in late October, not December). Segment split ($20.8B / $6.4B / $1.06B of $28.37B total, up 4% YoY) is confirmed from Applied Materials' FY2025 earnings release. R&D% (12.2%) is ESTIMATED, not a directly confirmed full-year dollar figure: I could only source a '10% YoY R&D growth' commentary from Q4 FY2025 earnings, applied to FY2024's $3.233B base (\u2248$3.56B \u00f7 $28.37B) \u2014 flag this one for verification against the actual FY2025 10-K income statement. Capex 'rising' remains directional (EPIC collaborative R&D facility expansion in Sunnyvale) rather than a specifically sourced guidance figure \u2014 flagged as lower confidence. Suppliers left empty: unlike the fabs/hyperscalers in this dataset, Applied Materials doesn't publicly concentrate its component supply chain into a small number of named suppliers.",
       "priceDates": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -1854,17 +1853,18 @@
         "2026-10-29",
         "2026-10-30",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ],
       "financials": {
-        "marketCapUSD": 303090728960,
-        "peRatio": 32.952545,
+        "marketCapUSD": 293154881536,
+        "peRatio": 31.872303,
         "week52Low": 203.4,
         "week52High": 739.67,
-        "avgVolume": 6893384,
-        "currentVolume": 5540476,
+        "avgVolume": 6933739,
+        "currentVolume": 7889003,
         "beta": 1.673,
-        "dividendYield": 0.56
+        "dividendYield": 0.57
       }
     }
   ]
