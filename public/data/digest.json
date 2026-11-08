@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-07T21:38:25.306154+00:00",
+  "generated_at": "2026-11-08T05:23:06.029586+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Intel appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 141
+      "count": 144
     },
     {
       "category": "Supply Chain",
-      "count": 23
-    },
-    {
-      "category": "Chip Design",
-      "count": 15
+      "count": 24
     },
     {
       "category": "M&A",
+      "count": 11
+    },
+    {
+      "category": "Chip Design",
       "count": 11
     },
     {
@@ -31,11 +31,11 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 15
+      "count": 16
     },
     {
       "company": "Nvidia",
-      "count": 9
+      "count": 12
     },
     {
       "company": "Intel",
@@ -46,11 +46,11 @@
       "count": 6
     },
     {
-      "company": "Synopsys",
-      "count": 2
+      "company": "Samsung",
+      "count": 3
     },
     {
-      "company": "Samsung",
+      "company": "Synopsys",
       "count": 2
     },
     {
@@ -59,10 +59,6 @@
     }
   ],
   "sentiment_trend": [
-    {
-      "week": "Nov 06",
-      "score": 0.12
-    },
     {
       "week": "Nov 07",
       "score": 0.11
@@ -74,27 +70,31 @@
     {
       "week": "Nov 07",
       "score": 0.14
+    },
+    {
+      "week": "Nov 08",
+      "score": 0.14
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
       "score": 0.14,
-      "count": 141
+      "count": 144
     },
     {
       "category": "Supply Chain",
       "score": 0.0,
-      "count": 23
-    },
-    {
-      "category": "Chip Design",
-      "score": 0.2,
-      "count": 15
+      "count": 24
     },
     {
       "category": "M&A",
       "score": 0.36,
+      "count": 11
+    },
+    {
+      "category": "Chip Design",
+      "score": 0.27,
       "count": 11
     },
     {
