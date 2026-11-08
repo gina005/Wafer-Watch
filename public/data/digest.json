@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-08T05:23:06.029586+00:00",
+  "generated_at": "2026-11-08T13:00:39.776888+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with TSMC, Nvidia, Intel appearing most frequently across 200 tracked articles.",
   "category_counts": [
     {
       "category": "Fabrication",
-      "count": 144
+      "count": 143
     },
     {
       "category": "Supply Chain",
-      "count": 24
+      "count": 23
     },
     {
       "category": "M&A",
-      "count": 11
+      "count": 12
     },
     {
       "category": "Chip Design",
-      "count": 11
+      "count": 12
     },
     {
       "category": "Policy",
@@ -31,7 +31,7 @@
   "company_mentions": [
     {
       "company": "TSMC",
-      "count": 16
+      "count": 22
     },
     {
       "company": "Nvidia",
@@ -39,7 +39,7 @@
     },
     {
       "company": "Intel",
-      "count": 6
+      "count": 7
     },
     {
       "company": "Analog Devices",
@@ -47,7 +47,7 @@
     },
     {
       "company": "Samsung",
-      "count": 3
+      "count": 5
     },
     {
       "company": "Synopsys",
@@ -61,10 +61,6 @@
   "sentiment_trend": [
     {
       "week": "Nov 07",
-      "score": 0.11
-    },
-    {
-      "week": "Nov 07",
       "score": 0.17
     },
     {
@@ -74,28 +70,32 @@
     {
       "week": "Nov 08",
       "score": 0.14
+    },
+    {
+      "week": "Nov 08",
+      "score": 0.1
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.14,
-      "count": 144
+      "score": 0.09,
+      "count": 143
     },
     {
       "category": "Supply Chain",
-      "score": 0.0,
-      "count": 24
+      "score": -0.09,
+      "count": 23
     },
     {
       "category": "M&A",
-      "score": 0.36,
-      "count": 11
+      "score": 0.33,
+      "count": 12
     },
     {
       "category": "Chip Design",
-      "score": 0.27,
-      "count": 11
+      "score": 0.25,
+      "count": 12
     },
     {
       "category": "Policy",
