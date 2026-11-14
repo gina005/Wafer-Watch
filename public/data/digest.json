@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T23:24:29.986836+00:00",
+  "generated_at": "2026-11-14T05:43:53.506947+00:00",
   "note": "Live data from scripts/build_digest.py",
   "weekly_summary": "This week's coverage skewed toward fabrication news, with Nvidia, SMIC, TSMC appearing most frequently across 200 tracked articles.",
   "category_counts": [
@@ -8,16 +8,16 @@
       "count": 127
     },
     {
+      "category": "Policy",
+      "count": 30
+    },
+    {
       "category": "Supply Chain",
       "count": 28
     },
     {
-      "category": "Policy",
-      "count": 27
-    },
-    {
       "category": "Chip Design",
-      "count": 16
+      "count": 13
     },
     {
       "category": "EDA",
@@ -27,19 +27,19 @@
   "company_mentions": [
     {
       "company": "Nvidia",
-      "count": 49
+      "count": 50
     },
     {
       "company": "SMIC",
-      "count": 14
+      "count": 15
     },
     {
       "company": "TSMC",
-      "count": 7
+      "count": 6
     },
     {
       "company": "Applied Materials",
-      "count": 6
+      "count": 4
     },
     {
       "company": "Intel",
@@ -56,10 +56,6 @@
   ],
   "sentiment_trend": [
     {
-      "week": "Nov 12",
-      "score": 0.01
-    },
-    {
       "week": "Nov 13",
       "score": 0.07
     },
@@ -70,13 +66,22 @@
     {
       "week": "Nov 13",
       "score": 0.1
+    },
+    {
+      "week": "Nov 14",
+      "score": 0.07
     }
   ],
   "sentiment_by_category": [
     {
       "category": "Fabrication",
-      "score": 0.2,
+      "score": 0.19,
       "count": 127
+    },
+    {
+      "category": "Policy",
+      "score": -0.1,
+      "count": 30
     },
     {
       "category": "Supply Chain",
@@ -84,14 +89,9 @@
       "count": 28
     },
     {
-      "category": "Policy",
-      "score": 0.0,
-      "count": 27
-    },
-    {
       "category": "Chip Design",
-      "score": -0.19,
-      "count": 16
+      "score": -0.31,
+      "count": 13
     },
     {
       "category": "EDA",
