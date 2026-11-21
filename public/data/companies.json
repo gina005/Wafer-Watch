@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:34:39.772577+00:00",
+  "generated_at": "2026-11-21T13:52:42.654373+00:00",
   "note": "priceHistory, change30d, and financials are refreshed by scripts/fetch_prices.py. sector, focus, segmentRevenue, rdSpendPctRevenue, capexTrend, and supplyChain are manually curated from each company's public filings/investor materials and preserved across pipeline runs.",
   "companies": [
     {
@@ -97,9 +97,9 @@
         359.69,
         362.62,
         352.09,
-        335.64
+        318.71
       ],
-      "change30d": -18.6,
+      "change30d": -22.7,
       "segmentRevenue": [
         {
           "segment": "HPC",
@@ -234,14 +234,14 @@
         "2026-11-20"
       ],
       "financials": {
-        "marketCapUSD": 1740761858048,
-        "peRatio": 21.752106,
-        "week52Low": 266.82,
+        "marketCapUSD": 1652980711424,
+        "peRatio": 20.655216,
+        "week52Low": 273.08,
         "week52High": 487.47,
-        "avgVolume": 12079557,
-        "currentVolume": 3383756,
+        "avgVolume": 12522364,
+        "currentVolume": 37156375,
         "beta": 1.233,
-        "dividendYield": 1.07
+        "dividendYield": 1.18
       }
     },
     {
@@ -339,9 +339,9 @@
         155.46,
         150.96,
         145.98,
-        140.82
+        125.53
       ],
-      "change30d": -33.6,
+      "change30d": -40.8,
       "segmentRevenue": [
         {
           "segment": "Data Center",
@@ -472,14 +472,14 @@
         "2026-11-20"
       ],
       "financials": {
-        "marketCapUSD": 3401273835520,
-        "peRatio": 15.129644,
-        "week52Low": 140.55,
+        "marketCapUSD": 3031172907008,
+        "peRatio": 13.483351,
+        "week52Low": 124.5,
         "week52High": 243.37,
-        "avgVolume": 162183131,
-        "currentVolume": 40351350,
+        "avgVolume": 170462129,
+        "currentVolume": 626274281,
         "beta": 2.247,
-        "dividendYield": 0.69
+        "dividendYield": 0.8
       }
     },
     {
@@ -577,9 +577,9 @@
         1383.11,
         1395.27,
         1356.2,
-        1311.32
+        1266.22
       ],
-      "change30d": -15.9,
+      "change30d": -18.8,
       "segmentRevenue": [
         {
           "segment": "DUV Systems",
@@ -705,14 +705,14 @@
         "2026-11-20"
       ],
       "financials": {
-        "marketCapUSD": 505405964288,
-        "peRatio": 32.26673,
-        "week52Low": 946.11,
+        "marketCapUSD": 488023621632,
+        "peRatio": 31.156988,
+        "week52Low": 973.74,
         "week52High": 1999.96,
-        "avgVolume": 1491121,
-        "currentVolume": 262572,
+        "avgVolume": 1527318,
+        "currentVolume": 3290837,
         "beta": 1.333,
-        "dividendYield": 0.69
+        "dividendYield": 0.74
       }
     },
     {
@@ -810,9 +810,9 @@
         55.17,
         54.67,
         55.72,
-        53.67
+        51.28
       ],
-      "change30d": -37.2,
+      "change30d": -40.0,
       "segmentRevenue": [
         {
           "segment": "Client Computing Group",
@@ -933,11 +933,11 @@
         "2026-11-20"
       ],
       "financials": {
-        "marketCapUSD": 285256024064,
-        "week52Low": 32.89,
+        "marketCapUSD": 272553181184,
+        "week52Low": 34.68,
         "week52High": 142.35,
-        "avgVolume": 115428757,
-        "currentVolume": 11672747,
+        "avgVolume": 117250864,
+        "currentVolume": 207749593,
         "beta": 2.426,
         "dividendYield": 0.0
       }
@@ -999,6 +999,7 @@
         -4535.79,
         -4535.79,
         -4535.79,
+        65.21,
         65.21,
         65.21,
         65.21,
@@ -1161,7 +1162,8 @@
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
-        "2026-11-19"
+        "2026-11-19",
+        "2026-11-20"
       ],
       "financials": {
         "marketCapUSD": 424642772992,
@@ -1268,9 +1270,9 @@
         503.41,
         530.14,
         489.19,
-        458.42
+        424.39
       ],
-      "change30d": -9.7,
+      "change30d": -16.4,
       "segmentRevenue": [
         {
           "segment": "Data Center",
@@ -1396,12 +1398,12 @@
         "2026-11-20"
       ],
       "financials": {
-        "marketCapUSD": 758648995840,
-        "peRatio": 97.94445,
+        "marketCapUSD": 702393286656,
+        "peRatio": 90.68163,
         "week52Low": 188.22,
         "week52High": 658.52,
-        "avgVolume": 26232070,
-        "currentVolume": 5793061,
+        "avgVolume": 27110325,
+        "currentVolume": 69985844,
         "beta": 2.542,
         "dividendYield": 0.0
       }
@@ -1501,9 +1503,9 @@
         712.42,
         705.27,
         690.44,
-        645.65
+        594.51
       ],
-      "change30d": -24.6,
+      "change30d": -30.6,
       "segmentRevenue": [
         {
           "segment": "CMBU (Cloud Memory / HBM)",
@@ -1628,14 +1630,14 @@
         "2026-11-20"
       ],
       "financials": {
-        "marketCapUSD": 730497875968,
-        "peRatio": 8.686197,
-        "week52Low": 192.59,
+        "marketCapUSD": 672642433024,
+        "peRatio": 7.998251,
+        "week52Low": 212.36,
         "week52High": 1255.0,
-        "avgVolume": 27696693,
-        "currentVolume": 4668089,
+        "avgVolume": 28285271,
+        "currentVolume": 59087700,
         "beta": 2.398,
-        "dividendYield": 0.09
+        "dividendYield": 0.1
       }
     },
     {
@@ -1733,9 +1735,9 @@
         348.7,
         351.77,
         338.93,
-        321.7
+        302.63
       ],
-      "change30d": -14.2,
+      "change30d": -19.3,
       "segmentRevenue": [
         {
           "segment": "Semiconductor Systems",
@@ -1855,14 +1857,14 @@
         "2026-11-20"
       ],
       "financials": {
-        "marketCapUSD": 255300304896,
-        "peRatio": 25.491285,
-        "week52Low": 215.5,
+        "marketCapUSD": 240166404096,
+        "peRatio": 23.98019,
+        "week52Low": 222.86,
         "week52High": 739.67,
-        "avgVolume": 7099107,
-        "currentVolume": 1563854,
+        "avgVolume": 7234401,
+        "currentVolume": 14169569,
         "beta": 1.673,
-        "dividendYield": 0.63
+        "dividendYield": 0.7
       }
     }
   ]
